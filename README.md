@@ -10,5 +10,5 @@ A set of FreeCAD files created with the GDML workbench - In Future will be used 
   * calcCenterOfMass.py
       - creates CofM and Moment of Inertia Calculations for selected World Volume
   * GDMLCOGcalcDirectory.py
-     - perform CofM and Moment of Inertia Calcs for all F C fikles in a directory 
+     - perform CofM and Moment of Inertia Calcs for all FC fikles in a directory 
     
