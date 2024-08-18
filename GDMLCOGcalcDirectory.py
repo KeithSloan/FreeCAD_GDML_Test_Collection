@@ -22,16 +22,19 @@
 # *   Acknowledgements :                                                   *
 #                                                                          *
 #     Select source and target directories
-#                      Opens any FC file in source directory
-#                      Selects any GDML root Part
-#                      Exports GDML to file in target directory
 #
-# ***************************************************************************
-
+#                       Opens any FC file in source directory
+#                       Selects any GDML root Part
+#                       Perform COG calcs 
+#                       file in target directory
+#
+#***************************************************************************
 import sys, os
+import glob
+
+import importlib.util
 
 from PySide import QtGui, QtCore, QtWidgets
-
 
 class directory(QtGui.QWidget):
     def __init__(self, label):
@@ -40,82 +43,96 @@ class directory(QtGui.QWidget):
         self.layout = QtGui.QHBoxLayout()
         self.label = QtGui.QLabel(label)
         self.layout.addWidget(self.label)
-        self.directoryPath = QtGui.QLineEdit("Path Not Set")
+        self.directoryPath =  QtGui.QLineEdit("Path Not Set")
         self.directoryPath.setReadOnly(True)
         self.layout.addWidget(self.directoryPath)
         self.selectButton = QtGui.QPushButton('Select')
         self.layout.addWidget(self.selectButton)
         self.setLayout(self.layout)
         self.selectButton.clicked.connect(self.onSelect)
-
+    
+            
     def onSelect(self):
         Path = QtWidgets.QFileDialog.getExistingDirectory(self, "Select Directory")
         print(f"Directory Path {Path}")
         self.directoryPath.setText(Path)
-
+    
+            
     def getPath(self):
-        return self.directoryPath.text()
-
+        return self.directoryPath.text()    
+    
 
 class importPrompt(QtGui.QDialog):
 
     def __init__(self, *args):
-        # from PySide2 import QtGui, QtCore, QtWidgets
+        #from PySide2 import QtGui, QtCore, QtWidgets
         super(importPrompt, self).__init__()
         self.initUI()
 
     def initUI(self):
-        print(f"Init Prompt")
+        print(f"Init Prompt")       
         mainLayout = QtGui.QVBoxLayout()
+        #mainLayout.addWidget(buttonBox)
         self.setLayout(mainLayout)
         self.setGeometry(650, 650, 600, 200)
-        self.setWindowTitle("Create GDML exports - Choose directories    ")
+        self.setWindowTitle("COG Calculations for directory of FC files    ")
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
-        self.sourcePath = directory("Source")
+        self.sourcePath=directory("Source")
         mainLayout.addWidget(self.sourcePath)
-        self.targetPath = directory("Target")
+        self.targetPath =directory("Target")
         mainLayout.addWidget(self.targetPath)
-        exportButton = QtGui.QPushButton('Perform Export of GDMLs')
-        exportButton.clicked.connect(self.onExport)
-        mainLayout.addWidget(exportButton)
+        cogButton = QtGui.QPushButton('Perform COG calculations')
+        cogButton.clicked.connect(self.onCOGcalc)
+        mainLayout.addWidget(cogButton)
         self.show()
 
     def join(self, path, name):
-        import os
         return(os.path.join(path, name))
 
-    def processFile(self,filePath, targetPath):
-        import freecad.gdml.exportGDML, FreeCADGui, os
+    def processFile(self, filePath, targetPath):
+        # from . import calcCenterOfMass
+        
+        macroDir = FreeCAD.getUserMacroDir(True)
+        spec = importlib.util.spec_from_file_location("calcCenterOfMass", macroDir+"/calcCenterOfMass.py")
+        foo = importlib.util.module_from_spec(spec)
+        sys.modules["calcCenterOfMass"] = foo
+        spec.loader.exec_module(foo)
+        
+        # from macroDir import calcCenterOfMass
+        # from importlib.machinery import SourceFileLoader
+        # macroPath = os.path.join(macroDir, 'calcCenterOfMass.py')
+        # Load your module using the module's path
+        # calcCenterOfMass = SourceFileLoader('calcCenterOfMass', macroPath).load_module()
+
+        # Now you can access the module's functions by using the dot operator
+        #my_module.my_function()
+        # Using os.path.splitext()
+        filePathNoExt = os.path.splitext(os.path.basename(filePath))[0]
         fileName = os.path.basename(filePath)
+        exportName = fileName[:-6] + '.dat'
+        exportPath = self.join(targetPath, exportName)
+        print(f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} ")
         FreeCAD.openDocument(filePath)
         print(f"RootObjects len(FreeCAD.ActiveDocument.RootObjects:")
         for obj in FreeCAD.ActiveDocument.RootObjects:
             if obj.TypeId == "App::Part":
                 print(f"Found Root Part : {obj.Label}")
-		# Add seelction for Munthers Export
+                # Add seelction for Munthers Export
                 FreeCADGui.Selection.addSelection(obj)
-                exportName = fileName[:-6] + f"-{obj.Label}" + '.gdml' 
-                exportPath = self.join(targetPath, exportName)
-                print(
-                    f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} exportPath {exportPath}")
-                if hasattr(freecad.gdml.exportGDML, "exportOptions"):
-                    options = freecad.gdml.exportGDML.exportOptions(exportPath)
-                    # pass list of selected obj
-                    freecad.gdml.exportGDML.export([obj], exportPath)
-                else:
-                    freecad.gdml.exportGDML.export([obj], exportPath)
+                sel = FreeCADGui.Selection.getSelection()
+                print(f" Number of Selections {len(sel)}")  # number of selections. 
+                foo.calcCenterOfMass(exportPath)
 
                 break
 
         FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
 
 
-    def onExport(self):
-        import os, glob
+    def onCOGcalc(self):
 
-        print(f"\nProcessing - creating GDML files for directory : {self.sourcePath.getPath()} to {self.targetPath.getPath()}")
+        print(f"\nProcessing - creating COG calculations for GDML files in directory : {self.sourcePath.getPath()} to {self.targetPath.getPath()}")
         # Assign directory
-        inputPath = self.sourcePath.getPath()
+        inputPath= self.sourcePath.getPath()
         targetPath = self.targetPath.getPath()
         # Iterate over files in directory
         for filepath in glob.glob(f"{inputPath}/*.FCStd"):
