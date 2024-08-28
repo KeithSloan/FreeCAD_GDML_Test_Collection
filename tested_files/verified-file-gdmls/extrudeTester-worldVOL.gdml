@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-Part0091" unit="mm" x="96.310204" y="-76.728928" z="5.0"/>
+    <position name="Extrude0051_pos" unit="mm" x="0.0" y="0.0" z="-0.09999999999999964"/>
+    <rotation name="Extrude0051_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="Extrude0052_pos" unit="mm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="Extrude0052_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="P-V-Extrude0052" unit="mm" x="-107.07661399999999" y="42.184921000000024" z="5.0"/>
+    <rotation name="R-V-Extrude0051" unit="deg" z="-89.99999999999999"/>
+    <position name="X3tubes1_pos" unit="mm" x="0.0" y="0.0" z="-0.09999999999999964"/>
+    <rotation name="X3tubes1_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="X3tubes2_pos" unit="mm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="X3tubes2_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="P-V-3tubes3" unit="mm" x="42.184921" y="107.076614" z="5.0"/>
+    <position name="P-Part0144" unit="mm" x="-73.759816" y="-5.455731999999998" z="10.0"/>
+    <rotation name="R-Part0142" unit="deg" z="30.00000000000003"/>
+    <position name="P-Part0155" unit="mm" x="120.0"/>
+    <position name="generalTree1_pos" unit="mm" x="-194.319077" y="-104.857025" z="-5.1"/>
+    <rotation name="generalTree1_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="generalTree3_pos" unit="mm" x="-5.21275399999999" y="-4.18030499999999" z="-0.09999999999999964"/>
+    <rotation name="generalTree3_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="generalTree2_pos" unit="mm" x="-68.76625899999999" y="-7.36780499999999" z="0.0"/>
+    <rotation name="generalTree2_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="generalTree4_pos" unit="mm" x="-72.115258" y="-4.018805999999998" z="-0.09999999999999964"/>
+    <rotation name="generalTree4_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="generalTree5_pos" unit="mm" x="-72.115258" y="-4.018805999999998" z="0.0"/>
+    <rotation name="generalTree5_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="generalTree6_pos" unit="mm" x="-65.26576299999999" y="-29.11471499999999" z="-0.09999999999999964"/>
+    <rotation name="generalTree6_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="P-Part0166" unit="mm" x="194.319077" y="104.857025" z="5.0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="500.0" y="500.0" z="500.0" lunit="mm"/>
+    <xtru name="TwoArcsSubtraction0" lunit="mm">
+      <twoDimVertex x="47.34703623232448" y="-126.06838456517559"/>
+      <twoDimVertex x="49.99704021303393" y="-110.54200319052904"/>
+      <twoDimVertex x="47.685517118618705" y="-94.9616341104099"/>
+      <twoDimVertex x="40.641854216182004" y="-80.87341731034665"/>
+      <twoDimVertex x="29.565039366796874" y="-69.67541693165455"/>
+      <twoDimVertex x="15.554295975432792" y="-62.4788823968875"/>
+      <twoDimVertex x="5.971700597434818e-14" y="-59.997972000000004"/>
+      <twoDimVertex x="-15.554295975432678" y="-62.47888239688746"/>
+      <twoDimVertex x="-29.565039366796814" y="-69.67541693165452"/>
+      <twoDimVertex x="-40.64185421618199" y="-80.87341731034662"/>
+      <twoDimVertex x="-47.685517118618705" y="-94.96163411040992"/>
+      <twoDimVertex x="-49.99704021303393" y="-110.5420031905291"/>
+      <twoDimVertex x="-47.34703623232444" y="-126.06838456517569"/>
+      <twoDimVertex x="-39.99848207359167" y="-139.99999579521366"/>
+      <twoDimVertex x="-44.21336181806564" y="-126.71245385420376"/>
+      <twoDimVertex x="-44.13212209334074" y="-112.77267687601656"/>
+      <twoDimVertex x="-39.762656792772155" y="-99.53516370013651"/>
+      <twoDimVertex x="-31.52953767873808" y="-88.28617566793568"/>
+      <twoDimVertex x="-20.232759636576155" y="-80.1187533107535"/>
+      <twoDimVertex x="-6.970006852480037" y="-75.82650789810272"/>
+      <twoDimVertex x="6.970006852479904" y="-75.8265078981027"/>
+      <twoDimVertex x="20.23275963657603" y="-80.11875331075345"/>
+      <twoDimVertex x="31.529537678737984" y="-88.28617566793557"/>
+      <twoDimVertex x="39.76265679277209" y="-99.5351637001364"/>
+      <twoDimVertex x="44.13212209334072" y="-112.77267687601643"/>
+      <twoDimVertex x="44.213361818065664" y="-126.71245385420362"/>
+      <twoDimVertex x="39.9984820735918" y="-139.99999579521344"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="cuttingArc0" lunit="mm">
+      <twoDimVertex x="-157.848862" y="-78.262001"/>
+      <twoDimVertex x="-142.128418" y="-88.864159"/>
+      <twoDimVertex x="-132.80581493361873" y="-76.79962733311191"/>
+      <twoDimVertex x="-134.83974206043902" y="-78.35820524517767"/>
+      <twoDimVertex x="-137.22785574993557" y="-79.28714963061412"/>
+      <twoDimVertex x="-139.7803418670324" y="-79.5126253215937"/>
+      <twoDimVertex x="-142.2943214840046" y="-79.016710862596"/>
+      <twoDimVertex x="-144.5699762803539" y="-77.83882295916581"/>
+      <twoDimVertex x="-146.4264306768311" y="-76.07258352494544"/>
+      <twoDimVertex x="-147.7161283459778" y="-73.8583783430817"/>
+      <twoDimVertex x="-148.33656041283746" y="-71.37219880097156"/>
+      <twoDimVertex x="-148.23841315475846" y="-68.81165358931716"/>
+      <twoDimVertex x="-147.42948759770712" y="-66.3802621958258"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TearDrop0" lunit="mm">
+      <twoDimVertex x="-153.110968" y="-50.067017"/>
+      <twoDimVertex x="-130.44733771536113" y="-43.66683244631721"/>
+      <twoDimVertex x="-127.31119823520879" y="-41.52126480793814"/>
+      <twoDimVertex x="-125.00392882896433" y="-38.50210280220906"/>
+      <twoDimVertex x="-123.75726468455012" y="-34.91258196498556"/>
+      <twoDimVertex x="-123.69641699273568" y="-31.11322295480627"/>
+      <twoDimVertex x="-124.82749711236755" y="-27.48562194411019"/>
+      <twoDimVertex x="-127.03690276389887" y="-24.394124249333238"/>
+      <twoDimVertex x="-130.10272790009097" y="-22.14923058500916"/>
+      <twoDimVertex x="-133.7170502808492" y="-20.97641130746477"/>
+      <twoDimVertex x="-137.51685825532334" y="-20.993460851517767"/>
+      <twoDimVertex x="-141.12051055845322" y="-22.198666812329584"/>
+      <twoDimVertex x="-144.16606720983924" y="-24.47098193418834"/>
+      <twoDimVertex x="-146.34764167493668" y="-27.582181732186598"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="ellipseSection0" lunit="mm">
+      <twoDimVertex x="149.35743399999998" y="2.2388280000000034"/>
+      <twoDimVertex x="146.7138976656894" y="3.840416388286359"/>
+      <twoDimVertex x="143.52168357920985" y="4.636739878558357"/>
+      <twoDimVertex x="139.83120567254755" y="4.546876642941767"/>
+      <twoDimVertex x="135.7479674749343" y="3.4654319046325757"/>
+      <twoDimVertex x="131.47052467808788" y="1.3206367958044645"/>
+      <twoDimVertex x="127.29213057848601" y="-1.8613077589833438"/>
+      <twoDimVertex x="124.44668299999998" y="-4.816759000000017"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="ArcSection0010" lunit="mm">
+      <twoDimVertex x="159.17064970732469" y="-100.8262505352122"/>
+      <twoDimVertex x="160.00678751376842" y="-105.3758639491449"/>
+      <twoDimVertex x="161.97482447367756" y="-109.56214382178032"/>
+      <twoDimVertex x="164.94478444911806" y="-113.10861338909405"/>
+      <twoDimVertex x="168.72052075418407" y="-115.7810512278861"/>
+      <twoDimVertex x="173.052670377516" y="-117.40296006893291"/>
+      <twoDimVertex x="177.65512279961473" y="-117.86722330236651"/>
+      <twoDimVertex x="182.22391574587078" y="-117.14317933834093"/>
+      <twoDimVertex x="186.45730993278914" y="-115.27864660712733"/>
+      <twoDimVertex x="190.07571700000003" y="-112.3967654604526"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="ArcSection0" lunit="mm">
+      <twoDimVertex x="183.60559000000003" y="-81.25031518209671"/>
+      <twoDimVertex x="191.57867007781905" y="-80.35325850626405"/>
+      <twoDimVertex x="198.863800806291" y="-76.99147521817952"/>
+      <twoDimVertex x="204.71994373418067" y="-71.50692358517445"/>
+      <twoDimVertex x="208.55141605945744" y="-64.45748840016785"/>
+      <twoDimVertex x="209.9684830712839" y="-56.56023332698174"/>
+      <twoDimVertex x="208.8270016948301" y="-48.618461681172484"/>
+      <twoDimVertex x="205.24308262499616" y="-41.44000497322674"/>
+      <twoDimVertex x="199.58127962695784" y="-35.75505084690569"/>
+      <twoDimVertex x="192.41750737970196" y="-32.141868897928134"/>
+      <twoDimVertex x="184.4804598338204" y="-30.967989491265712"/>
+      <twoDimVertex x="176.57748796762755" y="-32.352818827009"/>
+      <twoDimVertex x="169.5124766049044" y="-36.15549302440793"/>
+      <twoDimVertex x="164.00407380748055" y="-41.98920669824415"/>
+      <twoDimVertex x="160.6125904921978" y="-49.260558534672455"/>
+      <twoDimVertex x="159.68300599258063" y="-57.229911661811585"/>
+      <twoDimVertex x="161.30987699999997" y="-65.08662899999992"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <tube name="circle0" rmax="16.4" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <xtru name="TwoArcsUnion0" lunit="mm">
+      <twoDimVertex x="102.68177487161384" y="38.50028722650715"/>
+      <twoDimVertex x="99.41174585148687" y="46.141210065242134"/>
+      <twoDimVertex x="93.9356453848579" y="52.39333892662691"/>
+      <twoDimVertex x="86.79219044905047" y="56.641614247279136"/>
+      <twoDimVertex x="78.68412572052118" y="58.46810760285257"/>
+      <twoDimVertex x="70.40909034944913" y="57.69313584370228"/>
+      <twoDimVertex x="62.78114939353649" y="54.39293760827998"/>
+      <twoDimVertex x="56.550709336377466" y="48.892173269197414"/>
+      <twoDimVertex x="52.33069608308324" y="41.73198613742529"/>
+      <twoDimVertex x="50.53625774825359" y="33.61676693629043"/>
+      <twoDimVertex x="51.34392403612311" y="25.34485864452286"/>
+      <twoDimVertex x="54.67423995057938" y="17.730018690203828"/>
+      <twoDimVertex x="60.19958226157" y="11.521364732512932"/>
+      <twoDimVertex x="67.37638977503107" y="7.329679446771326"/>
+      <twoDimVertex x="69.50962706045544" y="0.5752037702373567"/>
+      <twoDimVertex x="73.57339747204054" y="-5.2264695248335205"/>
+      <twoDimVertex x="79.19231019704097" y="-9.539410837863569"/>
+      <twoDimVertex x="85.84731814348254" y="-11.96521219280021"/>
+      <twoDimVertex x="92.92366491796264" y="-12.279790176960303"/>
+      <twoDimVertex x="99.76767295066378" y="-10.45408564743334"/>
+      <twoDimVertex x="105.74712696423958" y="-6.65674806955783"/>
+      <twoDimVertex x="110.30967486332275" y="-1.2385565216901462"/>
+      <twoDimVertex x="113.0338512621857" y="5.299983523969213"/>
+      <twoDimVertex x="113.66801035192253" y="12.354874396953516"/>
+      <twoDimVertex x="112.15357168334555" y="19.274420516456722"/>
+      <twoDimVertex x="108.6304315362814" y="25.41942877397419"/>
+      <twoDimVertex x="103.42403999999996" y="30.22225400000002"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="triangle0" lunit="mm">
+      <twoDimVertex x="-70.0" y="-80.0"/>
+      <twoDimVertex x="-70.0" y="-50.0"/>
+      <twoDimVertex x="-100.0" y="-80.0"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <tube name="Extrude0050" rmax="30.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <tube name="Extrude0051" rmax="20.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <scaledSolid name="Extrude0051_s">
+      <solidref ref="Extrude0051"/>
+      <scale name="Extrude0051_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="Extrude0051_bool">
+      <first ref="Extrude0050"/>
+      <second ref="Extrude0051_s"/>
+      <positionref ref="Extrude0051_pos"/>
+      <rotationref ref="Extrude0051_rot"/>
+    </subtraction>
+    <tube name="Extrude0052" rmax="8.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <union name="Extrude0052_bool">
+      <first ref="Extrude0051_bool"/>
+      <second ref="Extrude0052"/>
+      <positionref ref="Extrude0052_pos"/>
+      <rotationref ref="Extrude0052_rot"/>
+    </union>
+    <tube name="X3tubes0" rmax="30.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <tube name="X3tubes1" rmax="20.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <scaledSolid name="X3tubes1_s">
+      <solidref ref="X3tubes1"/>
+      <scale name="X3tubes1_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="X3tubes1_bool">
+      <first ref="X3tubes0"/>
+      <second ref="X3tubes1_s"/>
+      <positionref ref="X3tubes1_pos"/>
+      <rotationref ref="X3tubes1_rot"/>
+    </subtraction>
+    <tube name="X3tubes2" rmax="8.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <union name="X3tubes2_bool">
+      <first ref="X3tubes1_bool"/>
+      <second ref="X3tubes2"/>
+      <positionref ref="X3tubes2_pos"/>
+      <rotationref ref="X3tubes2_rot"/>
+    </union>
+    <xtru name="EllipseSection0" lunit="mm">
+      <twoDimVertex x="106.06074900000002" y="-30.915227470210144"/>
+      <twoDimVertex x="99.49496543390941" y="-25.14966416012059"/>
+      <twoDimVertex x="92.01099599126599" y="-21.10260303205307"/>
+      <twoDimVertex x="84.3743017494596" y="-19.11321057490412"/>
+      <twoDimVertex x="77.28686305470833" y="-19.204239812489234"/>
+      <twoDimVertex x="71.24647914693861" y="-21.159343794128887"/>
+      <twoDimVertex x="66.52706397643189" y="-24.675835541495022"/>
+      <twoDimVertex x="63.27205952060012" y="-29.490216032191476"/>
+      <twoDimVertex x="61.61814127082145" y="-35.39612250714183"/>
+      <twoDimVertex x="61.74883952072144" y="-42.1588830486472"/>
+      <twoDimVertex x="63.388211999999996" y="-48.287247999999984"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <eltube name="ellipse0" dx="24.99999999999999" dy="18.75" dz="10.0" lunit="mm"/>
+    <xtru name="ellipseSection0010" lunit="mm">
+      <twoDimVertex x="-108.03546700000001" y="6.056332745842332"/>
+      <twoDimVertex x="-107.08758918479089" y="11.172729525173217"/>
+      <twoDimVertex x="-107.96975989703512" y="14.864247273559366"/>
+      <twoDimVertex x="-110.19202120386288" y="17.23936344168163"/>
+      <twoDimVertex x="-113.65979340345575" y="18.45758441443044"/>
+      <twoDimVertex x="-118.54550369526129" y="18.333979197236708"/>
+      <twoDimVertex x="-124.84083986015372" y="16.450781920330137"/>
+      <twoDimVertex x="-132.02758642877689" y="12.536260956239847"/>
+      <twoDimVertex x="-139.03573318043738" y="6.839746704928215"/>
+      <twoDimVertex x="-144.60588644451542" y="0.2388344365494781"/>
+      <twoDimVertex x="-147.094702" y="-4.13016633652593"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <tube name="generalTree0" rmax="19.765112" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <xtru name="generalTree1" lunit="mm">
+      <twoDimVertex x="197.006439" y="117.717773"/>
+      <twoDimVertex x="203.013947" y="111.04277"/>
+      <twoDimVertex x="192.333923" y="111.04277"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <scaledSolid name="generalTree1_s">
+      <solidref ref="generalTree1"/>
+      <scale name="generalTree1_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="generalTree1_bool">
+      <first ref="generalTree0"/>
+      <second ref="generalTree1_s"/>
+      <positionref ref="generalTree1_pos"/>
+      <rotationref ref="generalTree1_rot"/>
+    </subtraction>
+    <tube name="generalTree3" rmax="1.392138" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <scaledSolid name="generalTree3_s">
+      <solidref ref="generalTree3"/>
+      <scale name="generalTree3_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="generalTree3_bool">
+      <first ref="generalTree1_bool"/>
+      <second ref="generalTree3_s"/>
+      <positionref ref="generalTree3_pos"/>
+      <rotationref ref="generalTree3_rot"/>
+    </subtraction>
+    <tube name="generalTree2" rmax="35.948758" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <union name="generalTree2_bool">
+      <first ref="generalTree3_bool"/>
+      <second ref="generalTree2"/>
+      <positionref ref="generalTree2_pos"/>
+      <rotationref ref="generalTree2_rot"/>
+    </union>
+    <tube name="generalTree4" rmax="10.321112" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <scaledSolid name="generalTree4_s">
+      <solidref ref="generalTree4"/>
+      <scale name="generalTree4_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="generalTree4_bool">
+      <first ref="generalTree2_bool"/>
+      <second ref="generalTree4_s"/>
+      <positionref ref="generalTree4_pos"/>
+      <rotationref ref="generalTree4_rot"/>
+    </subtraction>
+    <tube name="generalTree5" rmax="3.611889" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <union name="generalTree5_bool">
+      <first ref="generalTree4_bool"/>
+      <second ref="generalTree5"/>
+      <positionref ref="generalTree5_pos"/>
+      <rotationref ref="generalTree5_rot"/>
+    </union>
+    <tube name="generalTree6" rmax="5.263356" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <scaledSolid name="generalTree6_s">
+      <solidref ref="generalTree6"/>
+      <scale name="generalTree6_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="generalTree6_bool">
+      <first ref="generalTree5_bool"/>
+      <second ref="generalTree6_s"/>
+      <positionref ref="generalTree6_pos"/>
+      <rotationref ref="generalTree6_rot"/>
+    </subtraction>
+    <xtru name="triangle0010" lunit="mm">
+      <twoDimVertex x="-70.0" y="-120.0"/>
+      <twoDimVertex x="-100.0" y="-120.0"/>
+      <twoDimVertex x="-70.0" y="-100.0"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+  </solids>
+  <structure>
+    <volume name="Part004">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="TwoArcsSubtraction0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="cuttingArc0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part005">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="TearDrop0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part006">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="ellipseSection0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part007">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="ArcSection0010"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part008">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="ArcSection0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part009">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="circle0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part010">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="TwoArcsUnion0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part011">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="triangle0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="V-Extrude005">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="Extrude0052_bool"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="V-3tubes">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="X3tubes2_bool"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <assembly name="Part012">
+      <physvol name="PV-Extrude005">
+        <volumeref ref="V-Extrude005"/>
+        <positionref ref="P-V-Extrude0052"/>
+        <rotationref ref="R-V-Extrude0051"/>
+      </physvol>
+      <physvol name="PV-3tubes">
+        <volumeref ref="V-3tubes"/>
+        <positionref ref="P-V-3tubes3"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="Part013">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="EllipseSection0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part014">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="ellipse0"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part015">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="ellipseSection0010"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part016">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="generalTree6_bool"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part017">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="triangle0010"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part004">
+        <volumeref ref="Part004"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part005">
+        <volumeref ref="Part005"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part006">
+        <volumeref ref="Part006"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part007">
+        <volumeref ref="Part007"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part008">
+        <volumeref ref="Part008"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part009">
+        <volumeref ref="Part009"/>
+        <positionref ref="P-Part0091"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part010">
+        <volumeref ref="Part010"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part011">
+        <volumeref ref="Part011"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part012">
+        <volumeref ref="Part012"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part013">
+        <volumeref ref="Part013"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part014">
+        <volumeref ref="Part014"/>
+        <positionref ref="P-Part0144"/>
+        <rotationref ref="R-Part0142"/>
+      </physvol>
+      <physvol name="PV-Part015">
+        <volumeref ref="Part015"/>
+        <positionref ref="P-Part0155"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part016">
+        <volumeref ref="Part016"/>
+        <positionref ref="P-Part0166"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part017">
+        <volumeref ref="Part017"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

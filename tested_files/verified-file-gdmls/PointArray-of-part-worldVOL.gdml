@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-V-Cone1" unit="mm" z="5.0"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <position name="P-LV_Box2" unit="mm" z="5.0"/>
+    <position name="P-LV_Box3" unit="mm" x="20.0" y="20.0" z="5.0"/>
+    <position name="P-LV_Box4" unit="mm" x="35.0" y="35.0" z="5.0"/>
+    <position name="P-LV_Box5" unit="mm" x="40.0" z="5.0"/>
+    <position name="P-LV_Box6" unit="mm" y="40.0" z="5.0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="119.60000000000001" y="117.0" z="31.200000000000003" lunit="mm"/>
+    <cone name="Cone" rmax1="0.0" rmax2="5.0" deltaphi="360.0" aunit="deg" z="10.0" lunit="mm"/>
+    <box name="Box" x="12.0" y="10.0" z="14.0" lunit="mm"/>
+    <cone name="Cone001" rmax1="0.0" rmax2="5.0" deltaphi="360.0" aunit="deg" z="10.0" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="V-Cone">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="Cone"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="Part001">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="Cone001"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="LV_Box">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="Box"/>
+      <auxiliary auxtype="Color" auxvalue="#0055ff00"/>
+      <physvol name="PV-Part001">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+    <assembly name="V-PointArray001">
+      <physvol name="LV_Box-0">
+        <volumeref ref="LV_Box"/>
+        <positionref ref="P-LV_Box2"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="LV_Box-1">
+        <volumeref ref="LV_Box"/>
+        <positionref ref="P-LV_Box3"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="LV_Box-2">
+        <volumeref ref="LV_Box"/>
+        <positionref ref="P-LV_Box4"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="LV_Box-3">
+        <volumeref ref="LV_Box"/>
+        <positionref ref="P-LV_Box5"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="LV_Box-4">
+        <volumeref ref="LV_Box"/>
+        <positionref ref="P-LV_Box6"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <assembly name="Part">
+      <physvol name="PV-Cone">
+        <volumeref ref="V-Cone"/>
+        <positionref ref="P-V-Cone1"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-PointArray001">
+        <volumeref ref="V-PointArray001"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

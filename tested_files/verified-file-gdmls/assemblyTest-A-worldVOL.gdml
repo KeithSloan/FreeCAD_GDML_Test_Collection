@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <constant name="HALFPI001" value="pi/2."/>
+    <constant name="PI001" value="1.*pi"/>
+    <constant name="TWOPI001" value="2.*pi"/>
+    <constant name="HALFPI001001" value="pi/2."/>
+    <constant name="PI001001" value="1.*pi"/>
+    <constant name="TWOPI001001" value="2.*pi"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-T_11" unit="mm" z="-34.00000000000001"/>
+    <rotation name="R-T_11" unit="deg" z="-50.000000000000064"/>
+    <position name="P-Detector2" unit="mm" z="34.0"/>
+    <rotation name="R-Detector2" unit="deg" z="-29.999999999999993"/>
+    <position name="P-Tube3" unit="mm" x="57.0"/>
+    <rotation name="R-Tube3" unit="deg" y="-90.0"/>
+    <position name="P-V-Cube4" unit="mm" x="25.0" y="10.0" z="10.0"/>
+    <position name="P-V-Cube0015" unit="mm" x="25.0" y="35.0" z="10.0"/>
+    <position name="P-V-Cube0026" unit="mm" x="25.0" y="-15.0" z="10.0"/>
+    <position name="P-shieldAssembly7" unit="mm" z="58.0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="200.0" y="200.0" z="200.0" lunit="mm"/>
+    <tube name="T_1" rmin="0.0" rmax="36.9" startphi="0.0" deltaphi="360.0" aunit="deg" z="68.0" lunit="mm"/>
+    <torus name="Torus" rmin="0.0" rmax="8.0" rtor="28.9" startphi="0.0" deltaphi="360.0" aunit="deg" lunit="mm"/>
+    <tube name="Tube" rmin="0.0" rmax="28.9" startphi="0.0" deltaphi="360.0" aunit="deg" z="16.0" lunit="mm"/>
+    <union name="Union">
+      <first ref="Torus"/>
+      <second ref="Tube"/>
+      <positionref ref="center"/>
+      <rotationref ref="identity"/>
+    </union>
+    <union name="U1">
+      <first ref="Union"/>
+      <second ref="T_1"/>
+      <positionref ref="P-T_11"/>
+      <rotationref ref="R-T_11"/>
+    </union>
+    <tube name="Tube002" rmin="5.0" rmax="8.0" startphi="0.0" deltaphi="360.0" aunit="deg" z="30.0" lunit="mm"/>
+    <box name="Cube" x="50.0" y="20.0" z="10.0" lunit="mm"/>
+    <box name="Cube001" x="50.0" y="20.0" z="10.0" lunit="mm"/>
+    <box name="Cube002" x="50.0" y="20.0" z="10.0" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="Detector">
+      <materialref ref="G4_Ge"/>
+      <solidref ref="U1"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="Tube">
+      <materialref ref="G4_NYLON-6-6"/>
+      <solidref ref="Tube002"/>
+      <auxiliary auxtype="Color" auxvalue="#ff85ff00"/>
+    </volume>
+    <assembly name="DetectorAssembly">
+      <physvol name="PV-Detector">
+        <volumeref ref="Detector"/>
+        <positionref ref="P-Detector2"/>
+        <rotationref ref="R-Detector2"/>
+      </physvol>
+      <physvol name="PV-Tube">
+        <volumeref ref="Tube"/>
+        <positionref ref="P-Tube3"/>
+        <rotationref ref="R-Tube3"/>
+      </physvol>
+    </assembly>
+    <volume name="V-Cube">
+      <materialref ref="G4_Pb"/>
+      <solidref ref="Cube"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="V-Cube001">
+      <materialref ref="G4_Pb"/>
+      <solidref ref="Cube001"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="V-Cube002">
+      <materialref ref="G4_Pb"/>
+      <solidref ref="Cube002"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <assembly name="shieldAssembly">
+      <physvol name="PV-Cube">
+        <volumeref ref="V-Cube"/>
+        <positionref ref="P-V-Cube4"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Cube001">
+        <volumeref ref="V-Cube001"/>
+        <positionref ref="P-V-Cube0015"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Cube002">
+        <volumeref ref="V-Cube002"/>
+        <positionref ref="P-V-Cube0026"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-DetectorAssembly">
+        <volumeref ref="DetectorAssembly"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-shieldAssembly">
+        <volumeref ref="shieldAssembly"/>
+        <positionref ref="P-shieldAssembly7"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

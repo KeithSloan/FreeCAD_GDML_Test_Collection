@@ -1,0 +1,37 @@
+hindi@dell:~/geant/KeithSloan/solids$ vol0                 Volume:  1000.00 mm^3 --> center of "mass": (   0.00,   0.00,   0.00) mm, moments of inetria: ( (  16.67,  -0.00,  -0.00), (  -0.00,  16.67,  -0.00), (  -0.00,  -0.00,  16.67) ) mm^2
+vol1                 Volume:   267.23 cm^3 --> center of "mass": ( -25.00,   0.00,   0.73) cm, moments of inetria: ( (  11.86,  -0.00,   0.00), (  -0.00,  11.86,   0.00), (   0.00,   0.00,   4.03) ) cm^3
+vol2                 Volume:  1000.00 mm^3 --> center of "mass": ( -12.50,   0.00,   0.00) cm, moments of inetria: ( (  17.36,  -6.01,  -4.17), (  -6.01,  21.53,  -2.41), (  -4.17,  -2.41,  22.22) ) mm^2
+GDMLSphere_s1 has not MatrixOfInertia
+vol3                 Volume:   122.02 cm^3 --> center of "mass": (  14.47,   1.97,  -0.00) cm, moments of inetria: ( (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00) ) mm^2
+vol4                 Volume:    10.00 cm^3 --> center of "mass": (  25.00,   0.00,  -0.00) cm, moments of inetria: ( (  27.17, -10.87,  -7.22), ( -10.87,  14.69, -12.50), (  -7.22, -12.50,  25.19) ) cm^3
+vol11                Volume:  4500.00 mm^3 --> center of "mass": ( -25.00,  12.50,   0.17) cm, moments of inetria: ( (  93.06,  -0.00,  -0.00), (  -0.00,  80.56,   0.00), (  -0.00,   0.00,  29.17) ) mm^2
+vol21                Volume:    31.42 cm^3 --> center of "mass": ( -12.50,  12.50,   0.00) cm, moments of inetria: ( ( 858.33,   0.00,  -0.00), (   0.00, 858.33,   0.00), (  -0.00,   0.00,  50.00) ) mm^2
+sub1 has not MatrixOfInertia
+vol31                Volume:   251.00 cm^3 --> center of "mass": (  12.52,  12.50,   0.00) cm, moments of inetria: ( ( 433.33,  -0.00,  -0.00), (  -0.00, 433.33,  -0.00), (  -0.00,  -0.00, 433.33) ) mm^2
+GDMLPolycone_testpoly has not MatrixOfInertia
+vol41                Volume:    90.85 cm^3 --> center of "mass": (  25.00,  12.50,   6.31) cm, moments of inetria: ( (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00) ) mm^2
+vol412               Volume:   523.60 mm^3 --> center of "mass": (  25.00,  22.50,   2.00) cm, moments of inetria: ( (  13.75,   0.00,   0.00), (   0.00,  13.75,  -0.00), (   0.00,  -0.00,   7.50) ) mm^2
+GDMLEllipsoid_testellipsoid has not MatrixOfInertia
+vol51                Volume:  1856.55 mm^3 --> center of "mass": (  55.00,  12.50,   0.20) cm, moments of inetria: ( (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00) ) mm^2
+vol61                Volume:  1333.33 mm^3 --> center of "mass": (  54.75, -12.75,   0.50) cm, moments of inetria: ( (  28.75,   6.25,  -2.50), (   6.25,  28.75,  -2.50), (  -2.50,  -2.50,  27.50) ) mm^2
+vol71                Volume:    27.00 cm^3 --> center of "mass": (  55.00,  -0.00,   0.00) cm, moments of inetria: ( ( 150.00,  -0.00,   0.00), (  -0.00, 150.00,  -0.00), (   0.00,  -0.00, 150.00) ) mm^2
+vol81                Volume:   468.33 mm^3 --> center of "mass": ( -55.00,  12.50,  -0.02) cm, moments of inetria: ( (  11.11,   0.12,  -0.00), (   0.12,  14.07,  -0.00), (  -0.00,  -0.00,   8.61) ) mm^2
+vol91                Volume:  1500.00 mm^3 --> center of "mass": ( -55.12, -12.55,   0.00) cm, moments of inetria: ( (  44.43, -18.48,   5.00), ( -18.48,  63.41, -10.93), (   5.00, -10.93,  91.17) ) mm^2
+vol101               Volume:  3926.99 mm^3 --> center of "mass": ( -54.23,   0.88,   0.00) cm, moments of inetria: ( ( 162.86,  -0.00,   0.00), (  -0.00, 136.26,   0.06), (   0.00,   0.06,  32.45) ) mm^2
+vol201               Volume:  2666.67 mm^3 --> center of "mass": (  75.00,   0.00,   0.50) cm, moments of inetria: ( (  35.00,  -0.00,   0.00), (  -0.00,  35.00,   0.00), (   0.00,   0.00,  40.00) ) mm^2
+vol301               Volume:   157.91 cm^3 --> center of "mass": (  75.00,  12.50,  -0.00) cm, moments of inetria: ( (  32.63,  -0.00,  -0.00), (  -0.00,  32.62,  -0.00), (  -0.00,  -0.00,  64.75) ) cm^3
+vol401               Volume:   523.60 cm^3 --> center of "mass": (  75.00, -12.50,   0.00) cm, moments of inetria: ( (  10.00,   0.00,  -0.00), (   0.00,  10.00,  -0.00), (  -0.00,  -0.00,  10.00) ) cm^3
+vol501               Volume:    23.25 cm^3 --> center of "mass": ( -73.96, -11.46,   7.31) cm, moments of inetria: ( ( 467.17,  11.76, -55.22), (  11.76, 467.17, -55.22), ( -55.22, -55.22,  88.07) ) mm^2
+vol502               Volume:   125.00 mm^3 --> center of "mass": ( -74.84, -22.34,   2.00) cm, moments of inetria: ( (  11.16,   0.14,  -0.00), (   0.14,  11.16,  -0.00), (  -0.00,  -0.00,   2.33) ) mm^2
+GDMLHype_testhype has not MatrixOfInertia
+vol601               Volume:   275.82 cm^3 --> center of "mass": ( -75.00,  12.50,   0.00) cm, moments of inetria: ( (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00) ) mm^2
+vol701               Volume:   380.24 cm^3 --> center of "mass": ( -74.98,   0.00,   0.00) cm, moments of inetria: ( (  11.94,  -0.00,  -0.00), (  -0.00,   7.46,  -0.00), (  -0.00,  -0.00,   8.78) ) cm^3
+GDMLElcone_testelcone has not MatrixOfInertia
+vol1001              Volume:    67.62 mm^3 --> center of "mass": (  95.00,   0.00,  -0.06) cm, moments of inetria: ( (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00), (   0.00,   0.00,   0.00) ) mm^2
+vol1002              Volume:   643.33 cm^3 --> center of "mass": (  95.00,  12.50,  -0.41) cm, moments of inetria: ( (  13.67,  -0.00,   0.00), (  -0.00,  13.67,  -0.00), (   0.00,  -0.00,  10.94) ) cm^3
+vol1003              Volume:   590.00 cm^3 --> center of "mass": (  94.92, -12.19,  -0.55) cm, moments of inetria: ( (  12.98,  -0.26,   0.19), (  -0.26,  13.73,  -0.41), (   0.19,  -0.41,  10.36) ) cm^3
+
+Center of Geometry =  (34.90, 1.30, 0.10)  cm
+Total Volume =  3412.65 cm^3
+moments of inetria: (143.67, -11.20, -7.59), (-11.20, 127.33, -13.62), (-7.59, -13.62, 144.05) cm^2 
+

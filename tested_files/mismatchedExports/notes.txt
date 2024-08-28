@@ -1,0 +1,3 @@
+-revolveTest-torus_Scaled.FCStd export gives a union instead of subtraction.
+Somehow the inside curve was not calculated to be inside the outer curve.
+A definite bug.

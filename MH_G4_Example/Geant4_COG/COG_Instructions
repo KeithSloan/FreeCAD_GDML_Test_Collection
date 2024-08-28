@@ -1,0 +1,36 @@
+load_gdml_color -help
+
+you should get a usage message that lists accepted command line arguments.
+
+I tested the time (and other things) by using the attached solids.gdml file that has all 27(?) types of solids we support. To run without CM calculations you just run as usual. Actually, to do the time comparison, I introduced an option
+
+load_gdml_color solids.gdml -m=batch.mac
+
+wit the attached batch.mac file. It is supposed to omit running the visulaization and the interactive session, so it just reads the geometry, runs the calcs, if any, then quits. Timing the command (with time load_gdml_color ...) gives
+
+real    0m7.478s
+user    0m1.879s
+sys     0m0.112s
+
+if you give the option -printCM with the default number of simulations (10^6 for each volume) the time is
+
+real    0m9.541s
+user    0m8.202s
+sys     0m0.664s
+
+No problem at all. One can change the default number of simulations with the option -logNsim=3|4|5|6|7|8, where the argument is the power of 10 of the number of simulations.
+
+The outputs from the geant side and python side (the attached calcCenterOfMass.py macro) have the same formatting. To compare the results I do the following:
+
+1- Collect the output from python macro. I run FreeCAD from the terminal, so the output goes to the terminal, in addition to the reportView. My terminal app allows saving  the terminal output to a file, so I used that to save the output. Alternately, one can save the output from the Report view to a file, but then one has to get rid of the time stamp at the beginning of each line.
+
+2- Collect the output from load_gdml_color by redirecting it to a file (> output.txt, say)
+
+3-Filter the output from load_gdml_color by running the attached awk file (filter_load_gdml_color.awk) on the load_gdml output
+
+4- cat both the FC and filtered geant files to the same file (cat file1 >temp.txt; cat file2 >>temp.txt)
+
+5- produce a sorted file with sort temp.txt > comparison.txt.
+
+The attached .txt files are the three files from the above steps.
+

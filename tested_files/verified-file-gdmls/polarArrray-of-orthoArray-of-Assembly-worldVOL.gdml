@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-LV_Tube1" unit="mm" x="17.0" y="-4.0"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-LV_Sphere2" unit="mm" x="15.0" y="-5.0"/>
+    <position name="P-Assembly3" unit="mm" x="20.0"/>
+    <position name="P-Assembly4" unit="mm" x="50.0"/>
+    <position name="P-Assembly5" unit="mm" x="20.0" y="30.0"/>
+    <position name="P-Assembly6" unit="mm" x="50.0" y="30.0"/>
+    <position name="P-V-Array0017" unit="mm" x="40.0"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="R-Part0011" unit="deg" z="-59.99999999999999"/>
+    <rotation name="R-Part0012" unit="deg" z="-119.99999999999999"/>
+    <rotation name="R-Part0013" unit="deg" z="-180.0"/>
+    <rotation name="R-Part0014" unit="deg" z="120.00000000000004"/>
+    <rotation name="R-Part0015" unit="deg" z="59.99999999999999"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="374.40000000000003" y="354.90000000000003" z="169.0" lunit="mm"/>
+    <tube name="GDMLTube" rmin="5.0" rmax="7.0" startphi="0.0" deltaphi="90.0" aunit="deg" z="7.0" lunit="mm"/>
+    <sphere name="GDMLSphere" rmin="0.0" rmax="2.0" startphi="0.0" deltaphi="360.0" starttheta="0.0" deltatheta="180.0" aunit="deg" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="LV_Tube">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="GDMLTube"/>
+      <auxiliary auxtype="Color" auxvalue="#aa000000"/>
+    </volume>
+    <volume name="LV_Sphere">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="GDMLSphere"/>
+      <auxiliary auxtype="Color" auxvalue="#00aa7f00"/>
+    </volume>
+    <assembly name="Assembly">
+      <physvol name="PV-LV_Tube">
+        <volumeref ref="LV_Tube"/>
+        <positionref ref="P-LV_Tube1"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-LV_Sphere">
+        <volumeref ref="LV_Sphere"/>
+        <positionref ref="P-LV_Sphere2"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <assembly name="V-Array001">
+      <physvol name="Assembly-0-0-0">
+        <volumeref ref="Assembly"/>
+        <positionref ref="P-Assembly3"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Assembly-1-0-0">
+        <volumeref ref="Assembly"/>
+        <positionref ref="P-Assembly4"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Assembly-0-1-0">
+        <volumeref ref="Assembly"/>
+        <positionref ref="P-Assembly5"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Assembly-1-1-0">
+        <volumeref ref="Assembly"/>
+        <positionref ref="P-Assembly6"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <assembly name="Part001">
+      <physvol name="PV-Array001">
+        <volumeref ref="V-Array001"/>
+        <positionref ref="P-V-Array0017"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <assembly name="V-Array">
+      <physvol name="Part001-0">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Part001-1">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="R-Part0011"/>
+      </physvol>
+      <physvol name="Part001-2">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="R-Part0012"/>
+      </physvol>
+      <physvol name="Part001-3">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="R-Part0013"/>
+      </physvol>
+      <physvol name="Part001-4">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="R-Part0014"/>
+      </physvol>
+      <physvol name="Part001-5">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="R-Part0015"/>
+      </physvol>
+    </assembly>
+    <assembly name="experiment">
+      <physvol name="PV-Array">
+        <volumeref ref="V-Array"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-experiment">
+        <volumeref ref="experiment"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>
