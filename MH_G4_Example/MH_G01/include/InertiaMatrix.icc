@@ -1,0 +1,56 @@
+#include "InertiaMatrix.hh"
+inline double InertiaMatrix::xx() const {
+   return Ixx;
+}
+
+inline double InertiaMatrix::xy() const {
+   return Ixy;
+}
+
+inline double InertiaMatrix::xz() const {
+   return Ixz;
+}
+
+inline double InertiaMatrix::yx() const {
+   return Iyx;
+}
+
+inline double InertiaMatrix::yy() const {
+   return Iyy;
+}
+
+inline double InertiaMatrix::yz() const {
+   return Iyz;
+}
+
+inline double InertiaMatrix::zx() const {
+   return Ixz;
+}
+
+inline double InertiaMatrix::zy() const {
+   return Iyz;
+}
+
+inline double InertiaMatrix::zz() const {
+   return Izz;
+}
+
+inline double InertiaMatrix::max() const
+{
+  double maxI = Ixx;
+  if(Iyy > maxI) {
+	maxI = Iyy;
+  }
+  if(Izz > maxI) {
+	maxI = Izz;
+  }
+  return maxI;
+}
+
+
+
+
+
+
+
+

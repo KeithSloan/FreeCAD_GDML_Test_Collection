@@ -1,0 +1,59 @@
+############ physics models set here #################
+#/control/execute physics.mac
+/process/optical/verbose 1
+
+#/process/optical/processActivation Scintillation true
+#/process/optical/processActivation OpAbsorption  true
+/process/optical/scintillation/setStackPhotons true
+/process/optical/cerenkov/setStackPhotons true
+#/process/optical/processActivation OpRayleigh    false
+#/process/optical/processActivation OpMieHG       false
+#/process/optical/processActivation OpWLS         false
+/process/optical/rayleigh/verbose 0
+/process/optical/absorption/verbose 1
+/process/optical/boundary/verbose 1
+/process/optical/scintillation/verbose 1
+
+#/geometry/material/add NaI Na-I 3.67
+# material definitions has to be done before /run/initilalize
+/run/verbose 2
+/run/initialize
+/run/setCut 0.01 um
+#/geometry/textInput/verbose 2
+#
+###############################
+# visuslization: None
+#
+
+
+######################################################
+# Gun
+# for gps examples look at
+# ~/geant4/examples/extended/eventgenerator/exgps/macros
+######################################################
+# Particle
+/gps/particle e+
+
+##### Position
+#/gps/pos/type Plane
+#/gps/pos/shape Square
+#/gps/pos/centre 0 -7 3.5 cm
+#/gps/pos/halfx 3.5 cm
+#/gps/pos/halfy 3.5 cm
+#/gps/pos/rot1 1 0 0
+#/gps/pos/rot2 0 0 1
+/gps/position 0 0 0 cm
+
+#
+##### direction for source ########
+# /gps/ang/type beam1d
+# /gps/direction 0 1 0
+/gps/ang/type iso
+
+#
+##### energy ########
+/gps/ene/type Gauss
+/gps/ene/mono 0.511 MeV
+/gps/ene/sigma 0 keV
+#/run/beamOn 1
+#/tracking/verbose 3
