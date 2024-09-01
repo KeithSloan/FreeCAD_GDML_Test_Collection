@@ -69,13 +69,13 @@ class importPrompt(QtGui.QDialog):
         mainLayout = QtGui.QVBoxLayout()
         self.setLayout(mainLayout)
         self.setGeometry(650, 650, 600, 200)
-        self.setWindowTitle("Create GDML exports - Choose directories    ")
+        self.setWindowTitle("Import all GDML files in a directory, save and export files - Choose directories    ")
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         self.sourcePath = directory("Source")
         mainLayout.addWidget(self.sourcePath)
         self.targetPath = directory("Target")
         mainLayout.addWidget(self.targetPath)
-        exportButton = QtGui.QPushButton('Perform Export of GDMLs')
+        exportButton = QtGui.QPushButton('Perform Import, Save  & Export of GDMLs')
         exportButton.clicked.connect(self.onExport)
         mainLayout.addWidget(exportButton)
         self.show()
@@ -84,28 +84,37 @@ class importPrompt(QtGui.QDialog):
         import os
         return(os.path.join(path, name))
 
+    def getStem(self, filePath):
+        from pathlib import Path
+        path = Path(filePath)
+        return path.stem
+
     def processFile(self,filePath, targetPath):
-        import freecad.gdml.exportGDML, FreeCADGui, os
+        import FreeCADGui, os
+        import freecad.gdml.exportGDML
+        from freecad.gdml.importGDML import processGDML
         fileName = os.path.basename(filePath)
-        FreeCAD.openDocument(filePath)
+        doc = FreeCAD.newDocument(self.getStem(filePath))
+        processGDML(doc, False, filePath, False, 1, 0)
+        return
         print(f"RootObjects len(FreeCAD.ActiveDocument.RootObjects:")
         for obj in FreeCAD.ActiveDocument.RootObjects:
-            if obj.TypeId == "App::Part":
-                print(f"Found Root Part : {obj.Label}")
-		# Add seelction for Munthers Export
-                FreeCADGui.Selection.addSelection(obj)
-                exportName = fileName[:-6] + f"-{obj.Label}" + '.gdml' 
-                exportPath = self.join(targetPath, exportName)
-                print(
-                    f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} exportPath {exportPath}")
-                if hasattr(freecad.gdml.exportGDML, "exportOptions"):
-                    options = freecad.gdml.exportGDML.exportOptions(exportPath)
-                    # pass list of selected obj
-                    freecad.gdml.exportGDML.export([obj], exportPath)
-                else:
-                    freecad.gdml.exportGDML.export([obj], exportPath)
+             if obj.TypeId == "App::Part":
+                 print(f"Found Root Part : {obj.Label}")
+	 	# Add seelction for Munthers Export
+                 FreeCADGui.Selection.addSelection(obj)
+                 exportName = fileName[:-6] + f"-{obj.Label}" + '.gdml' 
+                 exportPath = self.join(targetPath, exportName)
+                 print(
+                     f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} exportPath {exportPath}")
+                 if hasattr(freecad.gdml.exportGDML, "exportOptions"):
+                     options = freecad.gdml.exportGDML.exportOptions(exportPath)
+                     # pass list of selected obj
+                     freecad.gdml.exportGDML.export([obj], exportPath)
+                 else:
+                     freecad.gdml.exportGDML.export([obj], exportPath)
 
-                break
+             break
 
         FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
 
@@ -113,20 +122,20 @@ class importPrompt(QtGui.QDialog):
     def onExport(self):
         import os, glob
 
-        print(f"\nProcessing - creating GDML files for directory : {self.sourcePath.getPath()} to {self.targetPath.getPath()}")
+        print(f"\nProcessing - GDML files in directory : {self.sourcePath.getPath()} to {self.targetPath.getPath()}")
         # Assign directory
         inputPath = self.sourcePath.getPath()
         targetPath = self.targetPath.getPath()
         # Iterate over files in directory
-        for filepath in glob.glob(f"{inputPath}/*.FCStd"):
+        for filepath in glob.glob(f"{inputPath}/*.gdml"):
             print(f"Process FC file {filepath}")
             self.processFile(filepath, targetPath)
-        self.close()
 
 
 if FreeCAD.GuiUp:
     prompt = importPrompt()
     prompt.exec_()
+    prompt.close()
 else:
     print("No FreeCAD GUI") 
 
