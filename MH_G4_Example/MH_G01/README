@@ -40,10 +40,10 @@ HOW TO BUILD THE EXAMPLE ?
 
 - Execute the application.
   o For reading and visualize interactively a GDML file:
- 	      % load_gdml [GDML-file-in].gdml
+ 	      % load_gdml_color [GDML-file-in].gdml
 
   o For reading, writing and visualize interactively a GDML file:
  	      % load_gdml [GDML-file-in].gdml [GDML-file-out].gdml
 
   o For reading, writing a GDML file and running in batch a macro:
- 	      % load_gdml [GDML-file-in].gdml [GDML-file-out].gdml [macro].in
+ 	      % load_gdml [GDML-file-in].gdml -o=[GDML-file-out].gdml -m=[macro].in
