@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Setup the project
 cmake_minimum_required(VERSION 3.16...3.27)
-project(G01)
+project(MH_G01)
 
 #----------------------------------------------------------------------------
 # Find Geant4 package, activating all available Vis drivers by default
@@ -31,6 +31,7 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Geant4 libraries
 #
+#add_executable(load_gdml_color load_gdml_color.cc ${sources} ${headers})
 add_executable(load_gdml_color load_gdml_color.cc ${sources} ${headers})
 target_link_libraries(load_gdml_color ${Geant4_LIBRARIES} )
 
@@ -39,11 +40,11 @@ target_link_libraries(load_gdml_color ${Geant4_LIBRARIES} )
 # build G01. This is so that we can run the executable directly because it
 # relies on these scripts being in the current working directory.
 #
-set(G01_SCRIPTS
+set(MH_G01_SCRIPTS
     assembly.gdml auxiliary.gdml axes.gdml block.gdml divisionvol.gdml entity.gdml g01.in g01.out loop.gdml materials.xml mat_nist.gdml matricesandloops.gdml multiUnion.gdml opticalsurfaces.gdml parameterized.gdml pTube.gdml replicated.gdml scale.gdml scaledTube.gdml solids.gdml tess.gdml vis.mac
   )
 
-foreach(_script ${G01_SCRIPTS})
+foreach(_script ${MH_G01_SCRIPTS})
   configure_file(
     ${PROJECT_SOURCE_DIR}/${_script}
     ${PROJECT_BINARY_DIR}/${_script}
@@ -55,10 +56,10 @@ endforeach()
 # Add program to the project targets
 # (this avoids the need of typing the program name after make)
 #
-add_custom_target(G01 DEPENDS load_gdml_color)
+add_custom_target(MH_G01 DEPENDS load_gdml_color)
 
 #----------------------------------------------------------------------------
 # Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
 #
-install(TARGETS load_gdml_color DESTINATION bin)
+install(TARGETS load_gdml_color  DESTINATION bin)
 
