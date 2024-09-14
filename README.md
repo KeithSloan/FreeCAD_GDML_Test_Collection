@@ -15,6 +15,8 @@ The newsly exported gdml file can be checked against the original gdml file.
   * GDMLCOGcalcDirectory.py
      - Perform CofM and Moment of Inertia Calcs for all FC files in a directory 
 
+# Note: FreeCAD files should have been recomputed and saved
+
 # Run a test
 
   * create a branch
