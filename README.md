@@ -14,4 +14,34 @@ The newsly exported gdml file can be checked against the original gdml file.
       - Creates CofM and Moment of Inertia Calculations for selected World Volume
   * GDMLCOGcalcDirectory.py
      - Perform CofM and Moment of Inertia Calcs for all FC files in a directory 
-    
+
+# Run a test
+
+  * create a branch
+
+        git branch testDate
+        git checkout testDate
+
+  * run FC Macro
+
+        GDMLExportDirectory
+             Source : test_FC_files
+             Target : FC_exported_gdml
+
+  * run FC Macro
+
+        GDMLCOGcalcDirectory
+            Source : test_FC_files
+            Target : FC_COGs
+
+  * run script for Geant4 COG's
+
+            Source : FC_exported_gdml
+            Target : Geant4_COGs
+
+  * run comparison script
+
+            Sources : FC_COGs and Geant4_COGs
+                                
+
+
