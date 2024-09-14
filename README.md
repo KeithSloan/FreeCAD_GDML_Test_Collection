@@ -15,7 +15,15 @@ The newsly exported gdml file can be checked against the original gdml file.
   * GDMLCOGcalcDirectory.py
      - Perform CofM and Moment of Inertia Calcs for all FC files in a directory 
 
-# Note: FreeCAD files should have been recomputed and saved
+# Notes: 
+
+## FreeCAD files should have been recomputed and saved
+
+## For Geant4 COG
+
+  load_gdml_color -m batchFile.mac
+
+  ( batchFile.mac same as initInit.mac minus /control/execture vis.mac )
 
 # Run a test
 
