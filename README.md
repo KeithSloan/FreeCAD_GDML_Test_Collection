@@ -35,13 +35,13 @@ The newsly exported gdml file can be checked against the original gdml file.
   * run FC Macro
 
         GDMLExportDirectory
-             Source : test_FC_files
+             Source : FC_test_files
              Target : FC_exported_gdml
 
   * run FC Macro
 
         GDMLCOGcalcDirectory
-            Source : test_FC_files
+            Source : FC_test_files
             Target : FC_COGs
 
   * create outputs for Geant4 COG's 
