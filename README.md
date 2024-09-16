@@ -47,8 +47,10 @@ The newsly exported gdml file can be checked against the original gdml file.
   * create outputs for Geant4 COG's 
 
     cd  : FC_exported_gdml
-    for f in *.gdml; do load_gdml_color $f -m=batch.mac -printCM >${f}.out; done
+```
 
+    for f in *.gdml; do load_gdml_color $f -m=batch.mac -printCM >${f}.out; done
+```
   * TODO run comparison script
 
             Sources : FC_COGs and Geant4_COGs
