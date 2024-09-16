@@ -27,7 +27,7 @@ The newsly exported gdml file can be checked against the original gdml file.
 
 ## Source for load_gdml_color 
 
-see directory MH_G01  
+see directory MH_G4_Examples / MH_G01  
 
 # Run a test
 
