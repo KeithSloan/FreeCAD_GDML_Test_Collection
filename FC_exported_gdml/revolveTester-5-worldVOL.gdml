@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-Part1" unit="mm" z="-100.0"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+  </define>
+  <materials>
+    <element name="alactic"/>
+    <element name="H_element" Z="1" formula="H">
+      <atom value="1.008"/>
+    </element>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
+    <element name="Al_element" Z="13" formula="Al">
+      <atom value="26.9815384"/>
+    </element>
+    <material name="G4_WATER" formula="G4_WATER">
+      <D unit="g/cm3" value="1.0"/>
+      <composite n="2" ref="H_element"/>
+      <composite n="1" ref="O_element"/>
+    </material>
+    <material name="G4_Galactic" formula="G4_Galactic">
+      <D unit="g/cm3" value="0.0"/>
+      <composite n="1" ref="alactic"/>
+    </material>
+    <material name="G4_Al" formula="Al">
+      <D unit="g/cm3" value="2.699"/>
+      <composite n="1" ref="Al_element"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="WorldBox" x="500.0" y="500.0" z="1200.0" lunit="cm"/>
+    <genericPolycone name="Revolve0010" startphi="90.0" deltaphi="360.0" aunit="deg" lunit="mm">
+      <rzpoint r="30.0" z="20.0"/>
+      <rzpoint r="70.0" z="20.0"/>
+      <rzpoint r="70.0" z="-10.0"/>
+      <rzpoint r="50.0" z="-10.0"/>
+      <rzpoint r="50.0" z="-40.0"/>
+      <rzpoint r="30.0" z="-60.0"/>
+    </genericPolycone>
+    <genericPolycone name="Revolve0" startphi="90.0" deltaphi="360.0" aunit="deg" lunit="mm">
+      <rzpoint r="175.531298" z="1234.9646610000002"/>
+      <rzpoint r="175.531298" z="838.896223"/>
+      <rzpoint r="178.80997319859353" z="704.0247457902551"/>
+      <rzpoint r="180.30874611234088" z="591.1858718326426"/>
+      <rzpoint r="180.17773280423998" z="498.6515685246728"/>
+      <rzpoint r="178.69231393006214" z="422.2366200035107"/>
+      <rzpoint r="176.09105004440673" z="359.36499876623816"/>
+      <rzpoint r="172.59370311636258" z="308.0969515000679"/>
+      <rzpoint r="168.40515276819661" z="266.8021649946172"/>
+      <rzpoint r="163.70994292411245" z="234.0065050828018"/>
+      <rzpoint r="158.5693995788581" z="207.68549463448812"/>
+      <rzpoint r="152.90918934504148" z="185.74556299850832"/>
+      <rzpoint r="146.734845400055" z="167.21632185481536"/>
+      <rzpoint r="140.02421643948804" z="151.35068619099627"/>
+      <rzpoint r="132.72143180219163" z="137.5572284293854"/>
+      <rzpoint r="124.72730995328365" z="125.35354650552739"/>
+      <rzpoint r="115.88420740272414" z="114.33035922779709"/>
+      <rzpoint r="105.95034339403622" z="104.11806982083218"/>
+      <rzpoint r="94.55105480716412" z="94.34539166973997"/>
+      <rzpoint r="81.07221454876931" z="84.56875331943269"/>
+      <rzpoint r="64.37947446595679" z="74.10704313093231"/>
+      <rzpoint r="0.0" z="39.215012"/>
+      <rzpoint r="0.0" z="39.215012"/>
+      <rzpoint r="0.0" z="0.0"/>
+      <rzpoint r="1.7785890875053834" z="14.440570267908205"/>
+      <rzpoint r="5.704105713409876" z="25.993489192041974"/>
+      <rzpoint r="11.592994958978244" z="35.53941122305857"/>
+      <rzpoint r="19.64367887847563" z="43.794292056000025"/>
+      <rzpoint r="30.571622299040197" z="51.42704252728912"/>
+      <rzpoint r="46.26081819522667" z="59.507844457166065"/>
+      <rzpoint r="76.88607911511549" z="74.04660555453809"/>
+      <rzpoint r="93.75023066551181" z="84.6337325260691"/>
+      <rzpoint r="108.07202574862566" z="96.89919136623445"/>
+      <rzpoint r="121.24530463322691" z="111.83142663631428"/>
+      <rzpoint r="133.38996672250425" z="129.79858256707388"/>
+      <rzpoint r="144.53757970953347" z="151.26248114007268"/>
+      <rzpoint r="154.64407809630126" z="176.76974764611657"/>
+      <rzpoint r="163.6003844377732" z="206.94608607375227"/>
+      <rzpoint r="171.24106823832886" z="242.493545361334"/>
+      <rzpoint r="177.35505668965297" z="284.1747127213253"/>
+      <rzpoint r="182.14836620414556" z="334.9638683438284"/>
+      <rzpoint r="186.24034368395115" z="403.5408792649227"/>
+      <rzpoint r="191.05325350326893" z="513.3760197883216"/>
+      <rzpoint r="195.05881185226445" z="576.2896716523105"/>
+      <rzpoint r="199.63846509771074" z="615.209498350929"/>
+      <rzpoint r="205.20762000188637" z="641.7215633438361"/>
+      <rzpoint r="211.84095337704483" z="661.3375360249667"/>
+      <rzpoint r="219.76608726515266" z="677.087253561122"/>
+      <rzpoint r="229.77280963330088" z="691.5264858487325"/>
+      <rzpoint r="244.44012699985814" z="708.6315922088903"/>
+      <rzpoint r="261.06780655943334" z="727.4130884840796"/>
+      <rzpoint r="279.9424802259594" z="751.4026453961052"/>
+      <rzpoint r="294.8557168105371" z="774.5698125608327"/>
+      <rzpoint r="307.76581497360934" z="800.1000990931054"/>
+      <rzpoint r="318.96235860287015" z="828.8774097761553"/>
+      <rzpoint r="328.5952319504484" z="861.7621672289831"/>
+      <rzpoint r="336.66038352702805" z="899.6445569385266"/>
+      <rzpoint r="343.0133949496924" z="943.3402294663291"/>
+      <rzpoint r="347.43126231320616" z="993.654398698256"/>
+      <rzpoint r="349.6378825452526" z="1051.404154039528"/>
+      <rzpoint r="349.31711499145075" z="1117.427315256945"/>
+      <rzpoint r="345.1956158355438" z="1207.39"/>
+      <rzpoint r="345.1956158355438" z="1207.39"/>
+      <rzpoint r="345.1956158355438" z="4779.104137469593"/>
+      <rzpoint r="345.53809300728665" z="4786.948154316882"/>
+      <rzpoint r="346.56291806444506" z="4794.732473459617"/>
+      <rzpoint r="348.2622914695276" z="4802.39785152882"/>
+      <rzpoint r="350.623279964812" z="4809.885950368904"/>
+      <rzpoint r="353.62791500224523" z="4817.139781026256"/>
+      <rzpoint r="357.25332949494424" z="4824.104137469593"/>
+      <rzpoint r="361.4719318495344" z="4830.726016741188"/>
+      <rzpoint r="366.25161595483564" z="4836.955022341382"/>
+      <rzpoint r="371.5560055287544" z="4842.743747776382"/>
+      <rzpoint r="377.34473096375507" z="4848.048137350301"/>
+      <rzpoint r="383.57373656394947" z="4852.827821455602"/>
+      <rzpoint r="390.1956158355436" z="4857.046423810192"/>
+      <rzpoint r="397.1599722788806" z="4860.671838302892"/>
+      <rzpoint r="404.41380293623337" z="4863.676473340325"/>
+      <rzpoint r="411.90190177631666" z="4866.037461835609"/>
+      <rzpoint r="419.5672798455198" z="4867.736835240692"/>
+      <rzpoint r="427.3515989882543" z="4868.7616602978505"/>
+      <rzpoint r="435.1956158355435" z="4869.104137469593"/>
+      <rzpoint r="435.1956158355437" z="4869.104137469593"/>
+      <rzpoint r="445.1956158355438" z="4869.104137469593"/>
+      <rzpoint r="445.1956158355438" z="4896.42334"/>
+      <rzpoint r="910.486572" z="4896.42334"/>
+      <rzpoint r="910.486572" z="5006.42334"/>
+      <rzpoint r="318.538391" z="5006.42334"/>
+      <rzpoint r="318.538391" z="1234.9646610000002"/>
+    </genericPolycone>
+  </solids>
+  <structure>
+    <volume name="Part">
+      <materialref ref="G4_Al"/>
+      <solidref ref="Revolve0010"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="Part001">
+      <materialref ref="G4_WATER"/>
+      <solidref ref="Revolve0"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_Galactic"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="P-Part1"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part001">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

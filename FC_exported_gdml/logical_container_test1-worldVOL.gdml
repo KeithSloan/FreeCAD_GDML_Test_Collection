@@ -4,14 +4,10 @@
     <constant name="HALFPI" value="pi/2."/>
     <constant name="PI" value="1.*pi"/>
     <constant name="TWOPI" value="2.*pi"/>
-    <position name="P-LV_Box1" unit="mm" y="58.0"/>
-    <rotation name="R-LV_Box1" unit="deg" x="-29.999999999999993"/>
-    <position name="P-LV_Sphere2" unit="mm" x="30.0" y="23.382685902179848" z="-13.499999999999996"/>
-    <rotation name="R-LV_Sphere2" unit="deg" x="29.999999999999993"/>
-    <position name="P-LV_Box0013" unit="mm" y="-19.99038105676658" z="-4.624355652982144"/>
-    <rotation name="R-LV_Box0013" unit="deg" x="29.999999999999993"/>
-    <position name="P-LV_Tube4" unit="mm" x="-27.0" y="11.892304845413266" z="-3.4019237886466818"/>
-    <rotation name="R-LV_Tube4" unit="deg" x="3.999999999999988"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-LV_Sphere1" unit="mm" x="30.0"/>
+    <position name="P-LV_Tube2" unit="mm" x="-21.0"/>
   </define>
   <materials>
     <element name="H_element" Z="1" formula="H">
@@ -53,8 +49,8 @@
     </material>
   </materials>
   <solids>
-    <box name="WorldBox" x="169.0" y="299.1333024919771" z="169.0" lunit="mm"/>
-    <box name="Box" x="100.0" y="100.0" z="55.0" lunit="mm"/>
+    <box name="WorldBox" x="130.0" y="130.0" z="130.0" lunit="mm"/>
+    <box name="Box" x="100.0" y="100.0" z="100.0" lunit="mm"/>
     <sphere name="GDMLSphere" rmin="0.0" rmax="5.0" startphi="0.0" deltaphi="360.0" starttheta="0.0" deltatheta="180.0" aunit="deg" lunit="mm"/>
     <box name="Box001" x="10.0" y="10.0" z="10.0" lunit="mm"/>
     <tube name="GDMLTube" rmin="5.0" rmax="8.0" startphi="0.0" deltaphi="360.0" aunit="deg" z="20.0" lunit="mm"/>
@@ -81,18 +77,18 @@
       <auxiliary auxtype="Color" auxvalue="#80808000"/>
       <physvol name="PV-LV_Sphere">
         <volumeref ref="LV_Sphere"/>
-        <positionref ref="P-LV_Sphere2"/>
-        <rotationref ref="R-LV_Sphere2"/>
+        <positionref ref="P-LV_Sphere1"/>
+        <rotationref ref="identity"/>
       </physvol>
       <physvol name="PV-LV_Box001">
         <volumeref ref="LV_Box001"/>
-        <positionref ref="P-LV_Box0013"/>
-        <rotationref ref="R-LV_Box0013"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
       </physvol>
       <physvol name="PV-LV_Tube">
         <volumeref ref="LV_Tube"/>
-        <positionref ref="P-LV_Tube4"/>
-        <rotationref ref="R-LV_Tube4"/>
+        <positionref ref="P-LV_Tube2"/>
+        <rotationref ref="identity"/>
       </physvol>
     </volume>
     <volume name="worldVOL">
@@ -100,8 +96,8 @@
       <solidref ref="WorldBox"/>
       <physvol name="PV-LV_Box">
         <volumeref ref="LV_Box"/>
-        <positionref ref="P-LV_Box1"/>
-        <rotationref ref="R-LV_Box1"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
       </physvol>
     </volume>
   </structure>

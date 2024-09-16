@@ -109,7 +109,7 @@ class importPrompt(QtGui.QDialog):
         # Using os.path.splitext()
         filePathNoExt = os.path.splitext(os.path.basename(filePath))[0]
         fileName = os.path.basename(filePath)
-        exportName = fileName[:-6] + '.dat'
+        exportName = fileName[:-6] + '.txt'
         exportPath = self.join(targetPath, exportName)
         print(f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} ")
         FreeCAD.openDocument(filePath)

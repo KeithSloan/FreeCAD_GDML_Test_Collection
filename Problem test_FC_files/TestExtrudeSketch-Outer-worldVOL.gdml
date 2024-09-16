@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="100.0" y="100.0" z="20.0" lunit="mm"/>
+    <xtru name="Extrude00" lunit="mm">
+      <twoDimVertex x="-3.5" y="3.0"/>
+      <twoDimVertex x="3.1715729089730407" y="2.9999999999999996"/>
+      <twoDimVertex x="3.839135707704399" y="2.924783732904172"/>
+      <twoDimVertex x="4.473224119520655" y="2.7029065977905855"/>
+      <twoDimVertex x="5.042042303987264" y="2.345494440602297"/>
+      <twoDimVertex x="5.5170673423873176" y="1.8704693991793189"/>
+      <twoDimVertex x="5.874479495955809" y="1.3016512124382407"/>
+      <twoDimVertex x="6.096356627034238" y="0.6675627992100217"/>
+      <twoDimVertex x="6.171572889881886" y="8.42839385678954e-15"/>
+      <twoDimVertex x="6.288552191420696" y="-0.829573133335679"/>
+      <twoDimVertex x="6.630367302706968" y="-1.5944510126322609"/>
+      <twoDimVertex x="7.17036136436713" y="-2.2349837236725656"/>
+      <twoDimVertex x="7.86642229507725" y="-2.701218558578586"/>
+      <twoDimVertex x="8.664266952481357" y="-2.956795637348586"/>
+      <twoDimVertex x="9.501674468829219" y="-2.9817834764906794"/>
+      <twoDimVertex x="10.313338619601817" y="-2.7742333695490466"/>
+      <twoDimVertex x="11.035960807366482" y="-2.350331359302466"/>
+      <twoDimVertex x="11.613186478437818" y="-1.7431359499018921"/>
+      <twoDimVertex x="12.0" y="-0.9999999999724404"/>
+      <twoDimVertex x="11.999999999999998" y="-7.0"/>
+      <twoDimVertex x="4.0" y="-7.0"/>
+      <twoDimVertex x="-3.5" y="-3.0"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+  </solids>
+  <structure>
+    <volume name="V-WorldBox">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <auxiliary auxtype="Color" auxvalue="#ff9f0000"/>
+    </volume>
+    <volume name="V-Extrude">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="Extrude00"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <assembly name="worldVOL">
+      <physvol name="PV-GDMLBox_WorldBox">
+        <volumeref ref="V-WorldBox"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Extrude">
+        <volumeref ref="V-Extrude"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

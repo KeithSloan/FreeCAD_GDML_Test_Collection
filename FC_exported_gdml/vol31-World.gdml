@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-b5011" unit="mm" x="25.0"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-b5022" unit="mm" x="-25.0"/>
+    <position name="P-vol313" unit="mm" x="125.0" y="125.0"/>
+  </define>
+  <materials>
+    <element name="Hydrogen" Z="1" formula="H">
+      <atom value="1.01"/>
+    </element>
+    <element name="Oxygen" Z="8" formula="O">
+      <atom value="16.0"/>
+    </element>
+    <element name="Nitrogen" Z="7" formula="N">
+      <atom value="14.01"/>
+    </element>
+    <element name="Lead" Z="82" formula="Pb">
+      <atom value="207.2"/>
+    </element>
+    <material name="Al" Z="13.0">
+      <D value="2.7"/>
+      <atom value="26.98"/>
+    </material>
+    <material name="Water" formula="H20">
+      <D value="1.0"/>
+      <composite n="2" ref="Hydrogen"/>
+      <composite n="1" ref="Oxygen"/>
+    </material>
+    <material name="Air">
+      <D unit="mg/cm3" value="1.29"/>
+      <fraction n="0.7" ref="Nitrogen"/>
+      <fraction n="0.3" ref="Oxygen"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="WorldBox" x="10000.0" y="10000.0" z="10000.0" lunit="mm"/>
+    <box name="b502" x="10.0" y="10.0" z="10.0" lunit="mm"/>
+    <box name="b500" x="50.0" y="50.0" z="50.0" lunit="mm"/>
+    <box name="b501" x="10.0" y="10.0" z="10.0" lunit="mm"/>
+    <union name="u1">
+      <first ref="b500"/>
+      <second ref="b501"/>
+      <positionref ref="P-b5011"/>
+      <rotationref ref="identity"/>
+    </union>
+    <subtraction name="sub1">
+      <first ref="u1"/>
+      <second ref="b502"/>
+      <positionref ref="P-b5022"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+  </solids>
+  <structure>
+    <volume name="vol31">
+      <materialref ref="Water"/>
+      <solidref ref="sub1"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="World">
+      <materialref ref="Air"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-vol31">
+        <volumeref ref="vol31"/>
+        <positionref ref="P-vol313"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="World"/>
+  </setup>
+</gdml>

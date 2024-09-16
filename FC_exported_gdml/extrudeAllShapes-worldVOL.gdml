@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="Extrude2_bool1_pos" unit="mm" x="-9.189112" y="-31.044212" z="4.9"/>
+    <rotation name="Extrude2_bool1_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="Extrude2_bool2_pos" unit="mm" x="-34.232246" y="-6.266445" z="4.9"/>
+    <rotation name="Extrude2_bool2_rot" unit="deg" x="0" y="0" z="-48.67449556443735"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+  </define>
+  <materials>
+    <element name="Fe_element" Z="26" formula="Fe">
+      <atom value="55.845"/>
+    </element>
+    <element name="N_element" Z="7" formula="N">
+      <atom value="14.007"/>
+    </element>
+    <element name="C_element" Z="6" formula="C">
+      <atom value="12.011"/>
+    </element>
+    <element name="Cr_element" Z="24" formula="Cr">
+      <atom value="51.9961"/>
+    </element>
+    <element name="Ni_element" Z="28" formula="Ni">
+      <atom value="58.6934"/>
+    </element>
+    <element name="Ar_element" Z="18" formula="Ar">
+      <atom value="39.95"/>
+    </element>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
+    <material name="G4_STAINLESS-STEEL" formula="G4_STAINLESS-STEEL">
+      <D unit="g/cm3" value="8.0"/>
+      <composite n="74" ref="Fe_element"/>
+      <composite n="18" ref="Cr_element"/>
+      <composite n="8" ref="Ni_element"/>
+    </material>
+    <material name="G4_AIR" formula="G4_AIR">
+      <D unit="g/cm3" value="0.00120479"/>
+      <fraction n="0.000124" ref="C_element"/>
+      <fraction n="0.755268" ref="N_element"/>
+      <fraction n="0.231781" ref="O_element"/>
+      <fraction n="0.012827" ref="Ar_element"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="WorldBox" x="200.0" y="200.0" z="200.0" lunit="mm"/>
+    <xtru name="Extrude2_bool0" lunit="mm">
+      <twoDimVertex x="7.541575729025231" y="1.368168171161173"/>
+      <twoDimVertex x="11.588196541477686" y="-2.457064237843637"/>
+      <twoDimVertex x="14.500706778716369" y="-6.071361532323177"/>
+      <twoDimVertex x="16.4870165749731" y="-9.547816176146455"/>
+      <twoDimVertex x="17.6711542860091" y="-12.935671860381277"/>
+      <twoDimVertex x="18.12885103415551" y="-16.297255003688104"/>
+      <twoDimVertex x="17.879633793033825" y="-19.70225263655439"/>
+      <twoDimVertex x="16.884234783594252" y="-23.22142484403438"/>
+      <twoDimVertex x="15.047056658159349" y="-26.920398863079654"/>
+      <twoDimVertex x="12.222434802223068" y="-30.85576077793081"/>
+      <twoDimVertex x="6.504058270386521" y="-36.624081252589846"/>
+      <twoDimVertex x="7.430035452158901" y="-38.379373661726866"/>
+      <twoDimVertex x="7.953392749452597" y="-39.92541092863466"/>
+      <twoDimVertex x="8.129412012120538" y="-41.25178862185241"/>
+      <twoDimVertex x="8.015513074157" y="-42.36931309063967"/>
+      <twoDimVertex x="7.656281938903643" y="-43.30157051333521"/>
+      <twoDimVertex x="7.072643358278368" y="-44.07358965547801"/>
+      <twoDimVertex x="6.259138053481509" y="-44.69991584850946"/>
+      <twoDimVertex x="5.190349125189641" y="-45.17662640333314"/>
+      <twoDimVertex x="3.8326852715759614" y="-45.48017137900278"/>
+      <twoDimVertex x="2.157016430120791" y="-45.571899680409565"/>
+      <twoDimVertex x="0.15019461190912153" y="-45.40581194694674"/>
+      <twoDimVertex x="-2.1751916142984475" y="-44.937991910240584"/>
+      <twoDimVertex x="-4.773910145700123" y="-44.136718677952906"/>
+      <twoDimVertex x="-8.027509999989237" y="-42.77569999999466"/>
+      <twoDimVertex x="-13.98455975505846" y="-43.52286853152415"/>
+      <twoDimVertex x="-17.4781856532423" y="-43.4390548356553"/>
+      <twoDimVertex x="-19.39672642329934" y="-42.88397020343547"/>
+      <twoDimVertex x="-20.394181517292864" y="-42.067612496829376"/>
+      <twoDimVertex x="-20.90886799398411" y="-40.99906498861592"/>
+      <twoDimVertex x="-21.498324856012204" y="-39.3918185330309"/>
+      <twoDimVertex x="-22.361546352211302" y="-38.67128661617269"/>
+      <twoDimVertex x="-23.898803225837323" y="-38.08602218804165"/>
+      <twoDimVertex x="-25.710035449642486" y="-37.52225992882506"/>
+      <twoDimVertex x="-26.57237286270076" y="-36.909286696141194"/>
+      <twoDimVertex x="-26.787262809755596" y="-36.09417545011395"/>
+      <twoDimVertex x="-26.566831118679534" y="-34.690318837363314"/>
+      <twoDimVertex x="-26.287791370994825" y="-33.28516346381801"/>
+      <twoDimVertex x="-26.369896094883753" y="-31.952517659964066"/>
+      <twoDimVertex x="-27.02857714213798" y="-31.033509858760823"/>
+      <twoDimVertex x="-28.343607161843874" y="-30.321610399991407"/>
+      <twoDimVertex x="-30.949973244848053" y="-29.43907866108235"/>
+      <twoDimVertex x="-32.599175960422755" y="-28.753121330080937"/>
+      <twoDimVertex x="-33.39266180824899" y="-28.019091448388924"/>
+      <twoDimVertex x="-33.48340590627622" y="-27.19251445939211"/>
+      <twoDimVertex x="-33.25546930423104" y="-25.42274931684851"/>
+      <twoDimVertex x="-33.626567324524785" y="-23.981361752386785"/>
+      <twoDimVertex x="-34.79342854815879" y="-22.47557504000556"/>
+      <twoDimVertex x="-37.06824626989874" y="-20.79028351374849"/>
+      <twoDimVertex x="-41.714001" y="-18.503201"/>
+      <twoDimVertex x="-43.27336099999999" y="-9.679932999999991"/>
+      <twoDimVertex x="-46.70555287909838" y="-4.197580827940811"/>
+      <twoDimVertex x="-48.682581396870226" y="-0.48421056842500576"/>
+      <twoDimVertex x="-49.72057692611567" y="2.0968780514388925"/>
+      <twoDimVertex x="-50.13465192914079" y="3.9297472482427818"/>
+      <twoDimVertex x="-50.120862055816865" y="5.2637220078284646"/>
+      <twoDimVertex x="-49.791935411125365" y="6.256356324681219"/>
+      <twoDimVertex x="-49.191313646564865" y="7.0179484779821575"/>
+      <twoDimVertex x="-48.28134081183991" y="7.619680230145271"/>
+      <twoDimVertex x="-46.951203243352325" y="8.08063721400592"/>
+      <twoDimVertex x="-45.022101087189235" y="8.375982661719322"/>
+      <twoDimVertex x="-42.230981026037924" y="8.444964543780387"/>
+      <twoDimVertex x="-38.1839829850009" y="8.189534131754034"/>
+      <twoDimVertex x="-35.608246550736446" y="7.90793231371072"/>
+      <twoDimVertex x="-17.00703168206475" y="4.641449999999995"/>
+      <twoDimVertex x="-18.74234034538791" y="2.402066223108643"/>
+      <twoDimVertex x="-19.990519894102476" y="-0.14119618399355716"/>
+      <twoDimVertex x="-20.700307034828647" y="-2.883884294601168"/>
+      <twoDimVertex x="-20.842550491638427" y="-5.713354679002352"/>
+      <twoDimVertex x="-20.411408262020792" y="-8.513399720613096"/>
+      <twoDimVertex x="-19.424587550542647" y="-11.169020314863403"/>
+      <twoDimVertex x="-17.922617526022584" y="-13.571148933953518"/>
+      <twoDimVertex x="-15.967184770406243" y="-15.62112907909426"/>
+      <twoDimVertex x="-13.63859978320379" y="-17.234767147120635"/>
+      <twoDimVertex x="-11.032498593287599" y="-18.34579029950134"/>
+      <twoDimVertex x="-8.255914944331574" y="-18.908568317514295"/>
+      <twoDimVertex x="-5.422884370996247" y="-18.89998765577671"/>
+      <twoDimVertex x="-2.64976070842049" y="-18.320400725911167"/>
+      <twoDimVertex x="-0.0504373880737603" y="-17.1936114228424"/>
+      <twoDimVertex x="2.2683302165104404" y="-15.565897488166103"/>
+      <twoDimVertex x="4.211309280763077" y="-13.504109862564356"/>
+      <twoDimVertex x="5.698700783858838" y="-11.092927087715655"/>
+      <twoDimVertex x="6.669416890259679" y="-8.431377520643396"/>
+      <twoDimVertex x="7.0835898544940665" y="-5.62877219471792"/>
+      <twoDimVertex x="6.924209407328378" y="-2.8002153665333047"/>
+      <twoDimVertex x="6.197821375146708" y="-0.061877132510380406"/>
+      <twoDimVertex x="4.934258839928052" y="2.4737777290195453"/>
+      <twoDimVertex x="3.185416881201114" y="4.702608736656659"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <tube name="Extrude2_bool1" rmax="8.400336" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+    <scaledSolid name="Extrude2_bool1_s">
+      <solidref ref="Extrude2_bool1"/>
+      <scale name="Extrude2_bool1_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="Extrude2_bool1_bool">
+      <first ref="Extrude2_bool0"/>
+      <second ref="Extrude2_bool1_s"/>
+      <positionref ref="Extrude2_bool1_pos"/>
+      <rotationref ref="Extrude2_bool1_rot"/>
+    </subtraction>
+    <eltube name="Extrude2_bool2" dx="7.125275427846702" dy="4.840170453434155" dz="5.0" lunit="mm"/>
+    <scaledSolid name="Extrude2_bool2_s">
+      <solidref ref="Extrude2_bool2"/>
+      <scale name="Extrude2_bool2_ss" x="1" y="1" z="1.1"/>
+    </scaledSolid>
+    <subtraction name="Extrude2_bool2_bool">
+      <first ref="Extrude2_bool1_bool"/>
+      <second ref="Extrude2_bool2_s"/>
+      <positionref ref="Extrude2_bool2_pos"/>
+      <rotationref ref="Extrude2_bool2_rot"/>
+    </subtraction>
+  </solids>
+  <structure>
+    <volume name="Part">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="Extrude2_bool2_bool"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

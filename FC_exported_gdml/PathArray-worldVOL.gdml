@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-MultiUnion-PathArray_01" unit="mm" x="9.999999999999996" y="3.55e-15" z="1.0"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-MultiUnion-PathArray_12" unit="mm" x="9.199794440446885" y="3.9196660985572045" z="1.512820510065631"/>
+    <position name="P-MultiUnion-PathArray_23" unit="mm" x="6.927243529964564" y="7.212024462714619" z="2.025641027375526"/>
+    <position name="P-MultiUnion-PathArray_34" unit="mm" x="3.5460488676750286" y="9.350162431585881" z="2.538461539114335"/>
+    <position name="P-MultiUnion-PathArray_45" unit="mm" x="-0.4026593956374107" y="9.99189000305842" z="3.0512820491832744"/>
+    <position name="P-MultiUnion-PathArray_56" unit="mm" x="-4.286925598445798" y="9.034504308200583" z="3.5641025642442177"/>
+    <position name="P-MultiUnion-PathArray_67" unit="mm" x="-7.485107510989504" y="6.631226603847898" z="4.07692307965242"/>
+    <position name="P-MultiUnion-PathArray_78" unit="mm" x="-9.485364403218071" y="3.166679935896505" z="4.589743586691888"/>
+    <position name="P-MultiUnion-PathArray_89" unit="mm" x="-9.96757308396798" y="-0.8046656911143968" z="5.102564104938391"/>
+    <position name="P-MultiUnion-PathArray_910" unit="mm" x="-8.854560257838163" y="-4.647231723726991" z="5.615384611278289"/>
+    <position name="P-MultiUnion-PathArray_1011" unit="mm" x="-6.324453763342952" y="-7.746049625510458" z="6.128205134382316"/>
+    <position name="P-MultiUnion-PathArray_1112" unit="mm" x="-2.7821746432631578" y="-9.605181124774141" z="6.641025634425736"/>
+    <position name="P-MultiUnion-PathArray_1213" unit="mm" x="1.205366797591937" y="-9.927088717731433" z="7.153846158174389"/>
+    <position name="P-MultiUnion-PathArray_1314" unit="mm" x="5.000000014874017" y="-8.660254057166455" z="7.666666665198854"/>
+    <position name="P-MultiUnion-PathArray_1415" unit="mm" x="7.994427627526601" y="-6.007422646578053" z="8.179487178243523"/>
+    <position name="P-MultiUnion-PathArray_1516" unit="mm" x="9.709418150061577" y="-2.393156631008991" z="8.692307692861064"/>
+    <position name="P-MultiUnion-PathArray_1617" unit="mm" x="9.870502662990425" y="1.6041128142137842" z="9.205128207759618"/>
+    <position name="P-MultiUnion-PathArray_1718" unit="mm" x="8.451900833534026" y="5.344658246740885" z="9.717948713316952"/>
+    <position name="P-MultiUnion-PathArray_1819" unit="mm" x="5.6806474712712856" y="8.229838669279552" z="10.230769236757986"/>
+    <position name="P-MultiUnion-PathArray_1920" unit="mm" x="2.0002569371544254" y="9.797906529856117" z="10.743589734633677"/>
+    <position name="P-MultiUnion-PathArray_2021" unit="mm" x="-2.0002569371544903" y="9.797906529856109" z="11.256410265366434"/>
+    <position name="P-MultiUnion-PathArray_2122" unit="mm" x="-5.680647471271369" y="8.229838669279522" z="11.769230763242021"/>
+    <position name="P-MultiUnion-PathArray_2223" unit="mm" x="-8.451900833534072" y="5.344658246740819" z="12.282051286683064"/>
+    <position name="P-MultiUnion-PathArray_2324" unit="mm" x="-9.870502662990447" y="1.6041128142137069" z="12.79487179224039"/>
+    <position name="P-MultiUnion-PathArray_2425" unit="mm" x="-9.709418150061573" y="-2.3931566310090684" z="13.307692307138954"/>
+    <position name="P-MultiUnion-PathArray_2526" unit="mm" x="-7.994427627526565" y="-6.00742264657811" z="13.82051282175649"/>
+    <position name="P-MultiUnion-PathArray_2627" unit="mm" x="-5.000000014873955" y="-8.66025405716648" z="14.33333333480116"/>
+    <position name="P-MultiUnion-PathArray_2728" unit="mm" x="-1.2053667975918696" y="-9.92708871773144" z="14.84615384182562"/>
+    <position name="P-MultiUnion-PathArray_2829" unit="mm" x="2.7821746432632266" y="-9.605181124774099" z="15.358974365574298"/>
+    <position name="P-MultiUnion-PathArray_2930" unit="mm" x="6.324453763343038" y="-7.74604962551042" z="15.87179486561753"/>
+    <position name="P-MultiUnion-PathArray_3031" unit="mm" x="8.854560257838196" y="-4.64723172372697" z="16.384615388721706"/>
+    <position name="P-MultiUnion-PathArray_3132" unit="mm" x="9.967573083967974" y="-0.8046656911143595" z="16.89743589506161"/>
+    <position name="P-MultiUnion-PathArray_3233" unit="mm" x="9.485364403218062" y="3.16667993589655" z="17.410256413308126"/>
+    <position name="P-MultiUnion-PathArray_3334" unit="mm" x="7.48510751098948" y="6.63122660384793" z="17.92307692034758"/>
+    <position name="P-MultiUnion-PathArray_3435" unit="mm" x="4.286925598445761" y="9.034504308200596" z="18.435897435755777"/>
+    <position name="P-MultiUnion-PathArray_3536" unit="mm" x="0.40265939563737696" y="9.991890003058423" z="18.94871795081673"/>
+    <position name="P-MultiUnion-PathArray_3637" unit="mm" x="-3.546048867675063" y="9.350162431585876" z="19.46153846088567"/>
+    <position name="P-MultiUnion-PathArray_3738" unit="mm" x="-6.927243529964592" y="7.212024462714588" z="19.97435897262449"/>
+    <position name="P-MultiUnion-PathArray_3839" unit="mm" x="-9.199794440446894" y="3.9196660985571654" z="20.487179489934366"/>
+    <position name="P-MultiUnion-PathArray_3940" unit="mm" x="-9.999999999999996" y="3.88e-15" z="21.000000000000007"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+  </define>
+  <materials>
+    <element name="Fe_element" Z="26" formula="Fe">
+      <atom value="55.845"/>
+    </element>
+    <element name="N_element" Z="7" formula="N">
+      <atom value="14.007"/>
+    </element>
+    <element name="C_element" Z="6" formula="C">
+      <atom value="12.011"/>
+    </element>
+    <element name="Cr_element" Z="24" formula="Cr">
+      <atom value="51.9961"/>
+    </element>
+    <element name="Ni_element" Z="28" formula="Ni">
+      <atom value="58.6934"/>
+    </element>
+    <element name="Ar_element" Z="18" formula="Ar">
+      <atom value="39.95"/>
+    </element>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
+    <material name="G4_STAINLESS-STEEL" formula="G4_STAINLESS-STEEL">
+      <D unit="g/cm3" value="8.0"/>
+      <composite n="74" ref="Fe_element"/>
+      <composite n="18" ref="Cr_element"/>
+      <composite n="8" ref="Ni_element"/>
+    </material>
+    <material name="G4_AIR" formula="G4_AIR">
+      <D unit="g/cm3" value="0.00120479"/>
+      <fraction n="0.000124" ref="C_element"/>
+      <fraction n="0.755268" ref="N_element"/>
+      <fraction n="0.231781" ref="O_element"/>
+      <fraction n="0.012827" ref="Ar_element"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="WorldBox" x="26.0" y="26.0" z="31.199999999999996" lunit="mm"/>
+    <cone name="Cone" rmax1="0.0" rmax2="1.0" deltaphi="360.0" aunit="deg" z="2.0" lunit="mm"/>
+    <multiUnion name="MultiUnion-PathArray">
+      <multiUnionNode name="MultiUnion-PathArray_0">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_01"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_1">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_12"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_2">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_23"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_3">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_34"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_4">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_45"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_5">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_56"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_6">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_67"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_7">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_78"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_8">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_89"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_9">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_910"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_10">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1011"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_11">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1112"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_12">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1213"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_13">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1314"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_14">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1415"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_15">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1516"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_16">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1617"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_17">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1718"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_18">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1819"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_19">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_1920"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_20">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2021"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_21">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2122"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_22">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2223"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_23">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2324"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_24">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2425"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_25">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2526"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_26">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2627"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_27">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2728"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_28">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2829"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_29">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_2930"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_30">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3031"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_31">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3132"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_32">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3233"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_33">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3334"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_34">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3435"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_35">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3536"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_36">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3637"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_37">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3738"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_38">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3839"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-PathArray_39">
+        <solid ref="Cone"/>
+        <positionref ref="P-MultiUnion-PathArray_3940"/>
+        <rotationref ref="identity"/>
+      </multiUnionNode>
+    </multiUnion>
+  </solids>
+  <structure>
+    <volume name="Part">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="MultiUnion-PathArray"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

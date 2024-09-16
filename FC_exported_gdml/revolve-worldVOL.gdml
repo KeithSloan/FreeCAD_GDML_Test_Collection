@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="Revolve1_pos" unit="mm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="Revolve1_rot" unit="deg" x="0" y="0" z="0"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+  </define>
+  <materials>
+    <element name="H_element" Z="1" formula="H">
+      <atom value="1.008"/>
+    </element>
+    <element name="N_element" Z="7" formula="N">
+      <atom value="14.007"/>
+    </element>
+    <element name="C_element" Z="6" formula="C">
+      <atom value="12.011"/>
+    </element>
+    <element name="Ar_element" Z="18" formula="Ar">
+      <atom value="39.95"/>
+    </element>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
+    <material name="G4_ALANINE" formula="G4_ALANINE">
+      <D unit="g/cm3" value="1.42"/>
+      <composite n="3" ref="C_element"/>
+      <composite n="7" ref="H_element"/>
+      <composite n="1" ref="N_element"/>
+      <composite n="2" ref="O_element"/>
+    </material>
+    <material name="G4_AIR" formula="G4_AIR">
+      <D unit="g/cm3" value="0.00120479"/>
+      <fraction n="0.000124" ref="C_element"/>
+      <fraction n="0.755268" ref="N_element"/>
+      <fraction n="0.231781" ref="O_element"/>
+      <fraction n="0.012827" ref="Ar_element"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="WorldBox" x="200.0" y="200.0" z="200.0" lunit="mm"/>
+    <genericPolycone name="Revolve0" startphi="0.0" deltaphi="180.0" aunit="deg" lunit="mm">
+      <rzpoint r="46.58934" z="15.878902"/>
+      <rzpoint r="52.90885370302102" z="19.31223554545511"/>
+      <rzpoint r="58.13486320905438" z="21.653579855572637"/>
+      <rzpoint r="62.454138545281" z="23.110689804959303"/>
+      <rzpoint r="66.03482055487905" z="23.859318725850855"/>
+      <rzpoint r="69.02867927593286" z="24.041245490009636"/>
+      <rzpoint r="71.57406220026792" z="23.760799211319014"/>
+      <rzpoint r="73.80051966625444" z="23.07941354453829"/>
+      <rzpoint r="75.84026080392864" z="22.006421065664487"/>
+      <rzpoint r="77.867327244515" z="20.465697514084038"/>
+      <rzpoint r="79.77672465404618" z="18.465773409523017"/>
+      <rzpoint r="81.33180810528852" z="16.17143019932751"/>
+      <rzpoint r="82.53570095587655" z="13.573253775535127"/>
+      <rzpoint r="83.3751958752689" z="10.6622657487811"/>
+      <rzpoint r="83.82319513278158" z="7.440023828232359"/>
+      <rzpoint r="83.84000701380008" z="3.922807067874391"/>
+      <rzpoint r="83.38502011800148" z="0.22865731156412838"/>
+      <rzpoint r="82.43098735658047" z="-3.637629361176205"/>
+      <rzpoint r="80.94739324698999" z="-7.6656675359674376"/>
+      <rzpoint r="78.90540302625355" z="-11.825971771352586"/>
+      <rzpoint r="76.54640924452782" z="-15.55835890629138"/>
+      <rzpoint r="74.17204974356761" z="-18.431342748271145"/>
+      <rzpoint r="71.8702473100943" z="-20.480546338634227"/>
+      <rzpoint r="69.66823569433335" z="-21.808445049061596"/>
+      <rzpoint r="67.5589914093705" z="-22.518334562805737"/>
+      <rzpoint r="65.48432812958626" z="-22.72624056611052"/>
+      <rzpoint r="63.044627065494836" z="-22.526079105952896"/>
+      <rzpoint r="59.96531440924168" z="-21.85424650888461"/>
+      <rzpoint r="55.06887895813844" z="-20.513270677636147"/>
+      <rzpoint r="52.05858449805579" z="-19.986380480787798"/>
+      <rzpoint r="49.656413283536835" z="-20.00112432437654"/>
+      <rzpoint r="47.13768762155514" z="-20.447171454494185"/>
+      <rzpoint r="44.26397109035336" z="-21.367277202958718"/>
+      <rzpoint r="39.907605520705445" z="-22.99461411405778"/>
+      <rzpoint r="37.15858558781326" z="-23.613586002622792"/>
+      <rzpoint r="34.83656438884359" z="-23.657188630910444"/>
+      <rzpoint r="32.943230330751106" z="-23.220838299809767"/>
+      <rzpoint r="31.43899336819863" z="-22.38289521324061"/>
+      <rzpoint r="30.26770499244353" z="-21.172610466675298"/>
+      <rzpoint r="29.314443338592213" z="-19.499272525029134"/>
+      <rzpoint r="28.359753032099093" z="-16.913193516619753"/>
+      <rzpoint r="26.90904880953675" z="-11.865001034392648"/>
+      <rzpoint r="24.55882857734688" z="-4.615592865477227"/>
+      <rzpoint r="23.533832571347588" z="-0.503630759421462"/>
+      <rzpoint r="23.085354634606073" z="3.276014150158197"/>
+      <rzpoint r="23.1617095460238" z="7.007522042130384"/>
+      <rzpoint r="23.75564075135618" z="10.769491605109026"/>
+      <rzpoint r="24.800994958941665" z="14.28406721271595"/>
+      <rzpoint r="26.13336973387763" z="17.11082260795526"/>
+      <rzpoint r="27.654903030419234" z="19.23646158160256"/>
+      <rzpoint r="29.31746693353899" z="20.73755991403462"/>
+      <rzpoint r="31.10366611456158" z="21.690311012277316"/>
+      <rzpoint r="33.01632092138499" z="22.147883882569168"/>
+      <rzpoint r="35.10362795128724" z="22.13148517866271"/>
+      <rzpoint r="37.42733429189958" z="21.60723983559675"/>
+      <rzpoint r="40.05267710889774" z="20.493474086282923"/>
+      <rzpoint r="43.04335173610313" z="18.670852006255544"/>
+      <rzpoint r="44.77121567180415" z="17.38840413154672"/>
+      <rzpoint r="46.58934" z="15.878902"/>
+    </genericPolycone>
+    <genericPolycone name="Revolve1" startphi="0.0" deltaphi="180.0" aunit="deg" lunit="mm">
+      <rzpoint r="40.0" z="9.875468"/>
+      <rzpoint r="60.0" z="9.875468"/>
+      <rzpoint r="60.0" z="-10.124532"/>
+      <rzpoint r="40.0" z="-10.124532"/>
+    </genericPolycone>
+    <subtraction name="Revolve1_bool">
+      <first ref="Revolve0"/>
+      <second ref="Revolve1"/>
+      <positionref ref="Revolve1_pos"/>
+      <rotationref ref="Revolve1_rot"/>
+    </subtraction>
+  </solids>
+  <structure>
+    <volume name="Part">
+      <materialref ref="G4_ALANINE"/>
+      <solidref ref="Revolve1_bool"/>
+      <auxiliary auxtype="Color" auxvalue="#ff000000"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>
