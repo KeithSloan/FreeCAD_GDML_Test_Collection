@@ -25,6 +25,10 @@ The newsly exported gdml file can be checked against the original gdml file.
 
   ( batchFile.mac same as initInit.mac minus /control/execture vis.mac )
 
+## Source for load_gdml_color 
+
+see directory MH_G01  
+
 # Run a test
 
   * create a branch
