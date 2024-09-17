@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-V-Extrude1" unit="mm" z="5.0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm"/>
+    <tube name="Extrude00" rmax="2.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="V-WorldBox">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <auxiliary auxtype="Color" auxvalue="#ff9f0000"/>
+    </volume>
+    <volume name="V-Extrude">
+      <materialref ref="G4_STAINLESS_STEEL"/>
+      <solidref ref="Extrude00"/>
+      <auxiliary auxtype="Color" auxvalue="#cccce600"/>
+    </volume>
+    <assembly name="worldVOL">
+      <physvol name="PV-GDMLBox_WorldBox">
+        <volumeref ref="V-WorldBox"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Extrude">
+        <volumeref ref="V-Extrude"/>
+        <positionref ref="P-V-Extrude1"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

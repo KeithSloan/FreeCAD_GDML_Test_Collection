@@ -2,6 +2,11 @@
 #/control/execute physics.mac
 /process/optical/verbose 1
 
+# save the commands executed in this file to a history...mac file
+/control/maximumStoredHistory 10000
+/control/shell echo "/control/saveHistory history_`date +%F-%H-%M-%S`.mac" >temp.mac
+/control/execute temp.mac
+
 #/process/optical/processActivation Scintillation true
 #/process/optical/processActivation OpAbsorption  true
 /process/optical/scintillation/setStackPhotons true
@@ -18,6 +23,7 @@
 # material definitions has to be done before /run/initilalize
 /run/verbose 2
 /run/initialize
+
 /run/setCut 0.01 um
 #/geometry/textInput/verbose 2
 #
@@ -58,29 +64,29 @@
 # ~/geant4/examples/extended/eventgenerator/exgps/macros
 ######################################################
 # Particle
-/gps/particle e+
+/gps/particle e-
 
 ##### Position
-#/gps/pos/type Plane
 #/gps/pos/shape Square
-#/gps/pos/centre 0 -7 3.5 cm
-#/gps/pos/halfx 3.5 cm
-#/gps/pos/halfy 3.5 cm
+#/gps/pos/centre 0 0 0 mm
+#/gps/pos/halfx 20 mm
+#/gps/pos/halfy 5 mm
 #/gps/pos/rot1 1 0 0
 #/gps/pos/rot2 0 0 1
-/gps/position 0 0 0 cm
+/gps/position 0 0 30 mm
+#/gps/pos/type Plane
 
 #
 ##### direction for source ########
-# /gps/ang/type beam1d
-# /gps/direction 0 1 0
+#/gps/ang/type beam1d
+#/gps/direction 0 0 1
 /gps/ang/type iso
 
 #
 ##### energy ########
 /gps/ene/type Gauss
-/gps/ene/mono 0.511 MeV
+/gps/ene/mono 2.0 MeV
 /gps/ene/sigma 0 keV
 #/run/beamOn 1
 #/tracking/verbose 3
-/vis/scene/endOfEventAction accumulate 5000
+/vis/scene/endOfEventAction accumulate 200

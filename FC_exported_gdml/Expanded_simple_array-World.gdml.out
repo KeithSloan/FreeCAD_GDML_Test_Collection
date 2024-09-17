@@ -1,0 +1,31 @@
+G4GDML: Reading 'Expanded_simple_array-World.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+Checking overlaps for volume Det_PV:0 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume Det_PV:0 (G4Box) with its mother volume Obj (G4Box)
+          protrusion at mother local point (-0.678159,-0.652217,9.5) by 2 mm  (max of 808 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume Det001_PV:1 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume Det001_PV:1 (G4Box) with its mother volume Obj001 (G4Box)
+          protrusion at mother local point (0.0223961,0.795642,9.5) by 2 mm  (max of 807 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+

@@ -1,0 +1,5 @@
+Part001              Volume:    49.46 cm^3 --> center of "mass": (  -0.00,  -0.00,   0.00) mm, moments of inetria: ( 4.034,  7.431,  4.034) x10^2 cm^5
+Part                 Volume:    10.62 cm^3 --> center of "mass": (  -0.00,  -0.09,   0.00) mm, moments of inetria: ( 1.073,  2.015,  1.073) x10^2 cm^5
+LV_Sphere            Volume:   523.60 mm^3 --> center of "mass": (  -0.00,   0.00,  -0.00) mm, moments of inetria: ( 5.236,  5.236,  5.236) x10^3 mm^5
+
+Total                Volume:    60.60 cm^3 --> center of "mass": (  -0.00,  -0.02,   0.00) mm, moments of inetria: ( 5.107,  9.447,  5.107) x10^2 cm^5
