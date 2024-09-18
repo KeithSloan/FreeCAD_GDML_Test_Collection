@@ -2480,66 +2480,225 @@ Auxiliary Information is found for Logical Volume :  LV_Array_Item
 Global auxiliary info:
 
 
-** iprintCM= 3
-using 1000000 Simulations per volume for CM MC
+** iprintCM= -1
 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : UIMAN0123
-      issued by : G4UImanager::ApplyCommand
-Command aborted (400)
-Error code : 400
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld  1  0  0
+### ===  Ignore cuts flag:   0
 
-***** geometry moments ****
-World Logical Volume: worldVOL
-av_2_impr_1_V-Box_pv_0 Volume:    24.39 cm^3 --> center of "mass": (   0.01,  -0.00,  -0.02) mm, moments of inertia: ( 3.416, 3.418, 3.418) x10^1 cm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_0 Volume:   125.00 mm^3 --> center of "mass": ( -12.00, -12.00, -12.00) mm, moments of inertia: (0.3653,0.3652,0.3652) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_1 Volume:   125.00 mm^3 --> center of "mass": (  -6.00, -12.00, -12.00) mm, moments of inertia: (0.3652,0.2303,0.2302) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_2 Volume:   125.00 mm^3 --> center of "mass": (   0.00, -12.00, -12.00) mm, moments of inertia: (0.3652,0.1852,0.1852) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_3 Volume:   125.00 mm^3 --> center of "mass": (   6.00, -12.00, -12.00) mm, moments of inertia: (0.3652,0.2302,0.2302) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_4 Volume:   125.00 mm^3 --> center of "mass": (  12.00, -12.00, -12.00) mm, moments of inertia: (0.3651,0.3651,0.3651) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_5 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.3652,0.2303) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_6 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09516) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -6.00, -12.00) mm, moments of inertia: ( 1.446, 1.445,0.5813) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_7 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.1852,0.05022) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 1.157,0.2934) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_8 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09519) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_9 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.3651,0.2301) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_10 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -0.00, -12.00) mm, moments of inertia: (0.1853,0.3652,0.1852) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -0.00, -12.00) mm, moments of inertia: ( 1.157, 2.309, 1.157) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_11 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   0.00, -12.00) mm, moments of inertia: (0.1852,0.2302,0.05021) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -0.00, -12.00) mm, moments of inertia: ( 1.157, 1.445,0.2933) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_12 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -0.00, -12.00) mm, moments of inertia: (0.1852,0.1852,0.005213) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   0.00, -12.00) mm, moments of inertia: ( 1.157, 1.157,0.005334) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_13 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -0.00, -12.00) mm, moments of inertia: (0.1853,0.2303,0.05022) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -0.00, -12.00) mm, moments of inertia: ( 1.157, 1.445,0.2933) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_14 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -0.00, -12.00) mm, moments of inertia: (0.1852,0.3652,0.1852) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   0.00, -12.00) mm, moments of inertia: ( 1.157, 2.309, 1.157) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_15 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   6.00, -12.00) mm, moments of inertia: (0.2303,0.3652,0.2302) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_16 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09518) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_17 Volume:   125.00 mm^3 --> center of "mass": (   0.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.1852,0.05022) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 1.157,0.2933) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_18 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09522) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_19 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.3652,0.2302) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_20 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.3652,0.3651) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_21 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.2302,0.2302) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_22 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  12.00, -12.00) mm, moments of inertia: (0.3651,0.1852,0.1852) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_23 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.2301,0.2302) cm^5 Entity type: G4Box
-PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.446) x10^3 mm^5 Entity type: G4Box
-av_2_impr_2_LV_Array_Item_pv_24 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.3654,0.3652) cm^5 Entity type: G4Box
+==============================================================================
+--> G4TaskRunManager::ComputeNumberOfTasks() --> 0 tasks with 1 events/task...
+==============================================================================
+
+WARNING: G4VisManager::IsValidView(): Attempt to draw when no graphics system
+  has been instantiated.  Use "/vis/open" or "/vis/sceneHandler/create".
+  Alternatively, to avoid this message, suppress instantiation of vis
+  manager (G4VisExecutive) and ensure drawing code is executed only if
+  G4VVisManager::GetConcreteInstance() is non-zero.
+ERROR: No current scene.  Please create one.
+Graphics systems deleted.
+Visualization Manager deleting...
+G4WT4 > Destroying WorkerRunManager (0x7fb1bb842400)
+G4WT2 > Destroying WorkerRunManager (0x7fb1bbf45800)
+G4WT2 > G4 kernel has come to Quit state.
+G4WT2 > UserDetectorConstruction deleted.
+G4WT0 > Destroying WorkerRunManager (0x7fb1be21a580)
+G4WT0 > G4 kernel has come to Quit state.
+G4WT1 > Destroying WorkerRunManager (0x7fb1bba30c80)
+G4WT0 > UserDetectorConstruction deleted.
+G4WT0 > UserPhysicsList deleted.
+G4WT0 > UserActionInitialization deleted.
+G4WT0 > UserWorkerInitialization deleted.
+G4WT3 > Destroying WorkerRunManager (0x7fb1bafe6c30)
+G4WT3 > G4 kernel has come to Quit state.
+G4WT0 > UserWorkerThreadInitialization deleted.
+G4WT3 > UserDetectorConstruction deleted.
+G4WT4 > G4 kernel has come to Quit state.
+G4WT2 > UserPhysicsList deleted.
+G4WT2 > UserActionInitialization deleted.
+G4WT2 > UserWorkerInitialization deleted.
+G4WT2 > UserWorkerThreadInitialization deleted.
+G4WT2 > UserRunAction deleted.
+G4WT5 > Destroying WorkerRunManager (0x7fb1bb910400)
+G4WT5 > G4 kernel has come to Quit state.
+G4WT0 > UserRunAction deleted.
+G4WT2 > UserPrimaryGenerator deleted.
+G4WT5 > UserDetectorConstruction deleted.
+G4WT5 > UserPhysicsList deleted.
+G4WT4 > UserDetectorConstruction deleted.
+G4WT3 > UserPhysicsList deleted.
+G4WT3 > UserActionInitialization deleted.
+G4WT3 > UserWorkerInitialization deleted.
+G4WT3 > UserWorkerThreadInitialization deleted.
+G4WT3 > UserRunAction deleted.
+G4WT3 > UserPrimaryGenerator deleted.
+G4WT3 > RunManager is deleting RunManagerKernel.
+G4WT2 > RunManager is deleting RunManagerKernel.
+G4WT5 > UserActionInitialization deleted.
+G4WT3 > G4SDManager deleted.
+G4WT5 > UserWorkerInitialization deleted.
+G4WT4 > UserPhysicsList deleted.
+G4WT3 > EventManager deleted.
+G4WT3 > Units table cleared.
+G4WT5 > UserWorkerThreadInitialization deleted.
+G4WT1 > G4 kernel has come to Quit state.
+G4WT4 > UserActionInitialization deleted.
+G4WT4 > UserWorkerInitialization deleted.
+G4WT4 > UserWorkerThreadInitialization deleted.
+G4WT2 > G4SDManager deleted.
+G4WT5 > UserRunAction deleted.
+G4WT2 > EventManager deleted.
+G4WT0 > UserPrimaryGenerator deleted.
+G4WT0 > RunManager is deleting RunManagerKernel.
+G4WT4 > UserRunAction deleted.
+G4WT4 > UserPrimaryGenerator deleted.
+G4WT4 > RunManager is deleting RunManagerKernel.
+G4WT5 > UserPrimaryGenerator deleted.
+G4WT0 > G4SDManager deleted.
+G4WT3 > TransportationManager deleted.
+G4WT0 > EventManager deleted.
+G4WT2 > Units table cleared.
+G4WT1 > UserDetectorConstruction deleted.
+G4WT1 > UserPhysicsList deleted.
+G4WT1 > UserActionInitialization deleted.
+G4WT1 > UserWorkerInitialization deleted.
+G4WT3 > Total navigation history collections cleaned: 2
+G4WT0 > Units table cleared.
+G4WT3 > ================== Deleting memory pools ===================
+G4WT1 > UserWorkerThreadInitialization deleted.
+G4WT4 > G4SDManager deleted.
+G4WT4 > EventManager deleted.
+G4WT4 > Units table cleared.
+G4WT5 > RunManager is deleting RunManagerKernel.
+G4WT1 > UserRunAction deleted.
+G4WT0 > TransportationManager deleted.
+G4WT0 > Total navigation history collections cleaned: 2
+G4WT0 > ================== Deleting memory pools ===================
+G4WT4 > TransportationManager deleted.
+G4WT4 > Total navigation history collections cleaned: 2
+G4WT0 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT0 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT0 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT2 > TransportationManager deleted.
+G4WT4 > ================== Deleting memory pools ===================
+G4WT4 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT1 > UserPrimaryGenerator deleted.
+G4WT0 > Number of memory pools allocated: 3; of which, static: 0
+G4WT0 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT0 > ============================================================
+G4WT5 > G4SDManager deleted.
+G4WT3 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT1 > RunManager is deleting RunManagerKernel.
+G4WT4 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT4 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT4 > Number of memory pools allocated: 3; of which, static: 0
+G4WT4 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT2 > Total navigation history collections cleaned: 2
+G4WT2 > ================== Deleting memory pools ===================
+G4WT4 > ============================================================
+G4WT3 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT5 > EventManager deleted.
+G4WT1 > G4SDManager deleted.
+G4WT1 > EventManager deleted.
+G4WT0 > G4Allocator objects are deleted.
+G4WT4 > G4Allocator objects are deleted.
+G4WT3 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT5 > Units table cleared.
+G4WT3 > Number of memory pools allocated: 3; of which, static: 0
+G4WT1 > Units table cleared.
+G4WT0 > Thread-local UImanager is to be deleted.
+G4WT5 > TransportationManager deleted.
+G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT1 > TransportationManager deleted.
+G4WT4 > Thread-local UImanager is to be deleted.
+G4WT2 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT5 > Total navigation history collections cleaned: 2
+G4WT2 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT1 > Total navigation history collections cleaned: 2
+G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT3 > ============================================================
+G4WT2 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT1 > ================== Deleting memory pools ===================
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT5 > ================== Deleting memory pools ===================
+G4WT3 > G4Allocator objects are deleted.
+G4WT2 > Number of memory pools allocated: 3; of which, static: 0
+G4WT1 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT5 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT3 > Thread-local UImanager is to be deleted.
+G4WT2 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT1 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT5 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > ============================================================
+G4WT1 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT5 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT2 > G4Allocator objects are deleted.
+G4WT1 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > Number of memory pools allocated: 3; of which, static: 0
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT2 > Thread-local UImanager is to be deleted.
+G4WT1 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT5 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT2 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT1 > ============================================================
+G4WT5 > ============================================================
+G4WT1 > G4Allocator objects are deleted.
+G4WT5 > G4Allocator objects are deleted.
+G4WT1 > Thread-local UImanager is to be deleted.
+G4WT5 > Thread-local UImanager is to be deleted.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4 kernel has come to Quit state.
+UserDetectorConstruction deleted.
+UserPhysicsList deleted.
+UserActionInitialization deleted.
+UserWorkerInitialization deleted.
+UserWorkerThreadInitialization deleted.
+UserRunAction deleted.
+UserPrimaryGenerator deleted.
+RunManager is deleting RunManagerKernel.
+G4SDManager deleted.
+EventManager deleted.
+Units table cleared.
+TransportationManager deleted.
+Total navigation history collections cleaned: 3
+G4RNGHelper object is deleted.
+================== Deleting memory pools ===================
+Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+Pool ID '17G4DynamicParticle', size : 0.000961 MB
+Pool ID '16G4SmartVoxelNode', size : 0.0279 MB
+Pool ID '17G4SmartVoxelProxy', size : 0.0154 MB
+Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+Number of memory pools allocated: 6; of which, static: 0
+Dynamic pools deleted: 6 / Total memory freed: 0.049 MB
+============================================================
+G4Allocator objects are deleted.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.

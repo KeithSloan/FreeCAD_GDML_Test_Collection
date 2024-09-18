@@ -4,30 +4,101 @@
     <constant name="HALFPI" value="pi/2."/>
     <constant name="PI" value="1.*pi"/>
     <constant name="TWOPI" value="2.*pi"/>
+    <position name="Loft_0" unit="mm" x="-15.822786331176758" y="18.00920295715332" z="0.0"/>
+    <position name="Loft_1" unit="mm" x="-5.504430294036865" y="15.524202346801758" z="5.25"/>
+    <position name="Loft_2" unit="mm" x="17.89413070678711" y="18.00920295715332" z="0.0"/>
+    <position name="Loft_3" unit="mm" x="8.408231735229492" y="15.469511032104492" z="5.25"/>
+    <position name="Loft_4" unit="mm" x="1.868129014968872" y="12.98451042175293" z="10.5"/>
+    <position name="Loft_5" unit="mm" x="-2.3746886253356934" y="8.178579330444336" z="21.0"/>
+    <position name="Loft_6" unit="mm" x="-7.669808387756348" y="14.302209854125977" z="7.875"/>
+    <position name="Loft_7" unit="mm" x="-1.7261778116226196" y="10.55419921875" z="15.75"/>
+    <position name="Loft_8" unit="mm" x="10.989838600158691" y="14.179156303405762" z="7.875"/>
+    <position name="Loft_9" unit="mm" x="7.775859832763672" y="7.741055011749268" z="21.0"/>
+    <position name="Loft_10" unit="mm" x="6.294892311096191" y="10.390128135681152" z="15.75"/>
+    <position name="Loft_11" unit="mm" x="0.8554283976554871" y="9.26384449005127" z="18.375"/>
+    <position name="Loft_12" unit="mm" x="13.033246040344238" y="12.26693058013916" z="10.5"/>
+    <position name="Loft_13" unit="mm" x="17.89413070678711" y="15.610589027404785" z="0.0"/>
+    <position name="Loft_14" unit="mm" x="8.56886100769043" y="7.706873893737793" z="21.0"/>
+    <position name="Loft_15" unit="mm" x="10.454115867614746" y="10.151769638061523" z="15.75"/>
+    <position name="Loft_16" unit="mm" x="10.751490592956543" y="9.839125633239746" z="15.75"/>
+    <position name="Loft_17" unit="mm" x="15.449381828308105" y="7.433135032653809" z="5.25"/>
+    <position name="Loft_18" unit="mm" x="14.684879302978516" y="9.145918846130371" z="7.0"/>
+    <position name="Loft_19" unit="mm" x="12.777767181396484" y="1.9939429759979248" z="10.5"/>
+    <position name="Loft_20" unit="mm" x="11.273969650268555" y="5.115258693695068" z="14.0"/>
+    <position name="Loft_21" unit="mm" x="15.222517013549805" y="-4.969916343688965" z="5.25"/>
+    <position name="Loft_22" unit="mm" x="17.89413070678711" y="-14.672038078308105" z="0.0"/>
+    <position name="Loft_23" unit="mm" x="9.879289627075195" y="-0.7069864273071289" z="15.75"/>
+    <position name="Loft_24" unit="mm" x="6.753946781158447" y="-0.6696533560752869" z="21.0"/>
+    <position name="Loft_25" unit="mm" x="9.114787101745605" y="1.005797266960144" z="17.5"/>
+    <position name="Loft_26" unit="mm" x="9.871001243591309" y="7.019569396972656" z="17.5"/>
+    <position name="Loft_27" unit="mm" x="11.576456069946289" y="9.03489875793457" z="14.0"/>
+    <position name="Loft_28" unit="mm" x="13.8016357421875" y="-6.66266393661499" z="7.875"/>
+    <position name="Loft_29" unit="mm" x="12.762845993041992" y="-11.510970115661621" z="5.25"/>
+    <position name="Loft_30" unit="mm" x="5.773197650909424" y="-14.672038078308105" z="0.0"/>
+    <position name="Loft_31" unit="mm" x="8.532092094421387" y="-11.211788177490234" z="7.0"/>
+    <position name="Loft_32" unit="mm" x="12.768575668334961" y="-10.306379318237305" z="7.0"/>
+    <position name="Loft_33" unit="mm" x="8.999547958374023" y="-9.028958320617676" z="10.5"/>
+    <position name="Loft_34" unit="mm" x="8.8590087890625" y="-6.544326305389404" z="14.0"/>
+    <position name="Loft_35" unit="mm" x="6.44650936126709" y="-8.355142593383789" z="14.0"/>
+    <position name="Loft_36" unit="mm" x="5.576916217803955" y="-6.102104187011719" z="21.0"/>
+    <position name="Loft_37" unit="mm" x="7.2713847160339355" y="-6.956860542297363" z="15.166666984558105"/>
+    <position name="Loft_38" unit="mm" x="6.604238033294678" y="-7.226003170013428" z="15.75"/>
+    <position name="Loft_39" unit="mm" x="6.6099677085876465" y="-6.021412372589111" z="17.5"/>
+    <position name="Loft_40" unit="mm" x="-0.5343145132064819" y="-12.860501289367676" z="3.5"/>
+    <position name="Loft_41" unit="mm" x="-15.822786331176758" y="-14.672038078308105" z="0.0"/>
+    <position name="Loft_42" unit="mm" x="-4.994101047515869" y="-10.282535552978516" z="7.0"/>
+    <position name="Loft_43" unit="mm" x="1.3644767999649048" y="-12.098438262939453" z="5.25"/>
+    <position name="Loft_44" unit="mm" x="3.0323026180267334" y="-11.432178497314453" z="7.0"/>
+    <position name="Loft_45" unit="mm" x="-0.965552806854248" y="-8.662606239318848" z="10.5"/>
+    <position name="Loft_46" unit="mm" x="2.1391327381134033" y="-7.425891399383545" z="14.0"/>
+    <position name="Loft_47" unit="mm" x="-0.22653086483478546" y="-5.438216209411621" z="15.166666984558105"/>
+    <position name="Loft_48" unit="mm" x="-3.115682601928711" y="-5.126605033874512" z="14.0"/>
+    <position name="Loft_49" unit="mm" x="0.6104612350463867" y="0.7957545518875122" z="21.0"/>
+    <position name="Loft_50" unit="mm" x="-1.2168912887573242" y="-4.364542007446289" z="15.75"/>
+    <position name="Loft_51" unit="mm" x="0.45093435049057007" y="-3.6982827186584473" z="17.5"/>
+    <position name="Loft_52" unit="mm" x="-11.542875289916992" y="4.506678581237793" z="7.0"/>
+    <position name="Loft_53" unit="mm" x="-12.051365852355957" y="-5.123180389404297" z="5.25"/>
+    <position name="Loft_54" unit="mm" x="-8.953730583190918" y="1.8854869604110718" z="10.5"/>
+    <position name="Loft_55" unit="mm" x="-10.64449691772461" y="-6.010410785675049" z="7.0"/>
+    <position name="Loft_56" unit="mm" x="-6.065125942230225" y="0.3932691514492035" z="14.0"/>
+    <position name="Loft_57" unit="mm" x="-6.333369731903076" y="4.523867130279541" z="15.166666984558105"/>
+    <position name="Loft_58" unit="mm" x="-7.861883640289307" y="7.5234375" z="14.0"/>
+    <position name="Loft_59" unit="mm" x="-6.529878616333008" y="6.353963375091553" z="15.75"/>
+    <position name="Loft_60" unit="mm" x="-4.779810905456543" y="8.282249450683594" z="21.0"/>
+    <position name="Loft_61" unit="mm" x="-5.123009204864502" y="5.466732501983643" z="17.5"/>
+    <position name="Loft_62" unit="mm" x="-14.18974494934082" y="3.0538294315338135" z="2.625"/>
+    <position name="Loft_63" unit="mm" x="-15.822786331176758" y="13.135982513427734" z="0.0"/>
+    <position name="Loft_64" unit="mm" x="-5.166747570037842" y="-3.1718149185180664" z="14.0"/>
+    <position name="Loft_65" unit="mm" x="-2.8770623207092285" y="0.030025042593479156" z="17.5"/>
+    <position name="Loft_66" unit="mm" x="-11.992064476013184" y="9.765222549438477" z="7.0"/>
+    <position name="Loft_67" unit="mm" x="-2.406003713607788" y="2.5667567253112793" z="19.25"/>
+    <position name="Loft_68" unit="mm" x="-9.700017929077148" y="11.901503562927246" z="10.5"/>
+    <position name="Loft_69" unit="mm" x="-7.926331043243408" y="10.418591499328613" z="14.0"/>
+    <position name="Loft_70" unit="mm" x="-6.187673568725586" y="10.351097106933594" z="15.75"/>
     <position name="center" x="0" y="0" z="0" unit="mm"/>
     <rotation name="identity" x="0" y="0" z="0"/>
   </define>
   <materials>
-    <element name="Fe_element" Z="26" formula="Fe">
-      <atom value="55.845"/>
-    </element>
     <element name="N_element" Z="7" formula="N">
       <atom value="14.007"/>
     </element>
-    <element name="C_element" Z="6" formula="C">
-      <atom value="12.011"/>
+    <element name="Fe_element" Z="26" formula="Fe">
+      <atom value="55.845"/>
     </element>
     <element name="Cr_element" Z="24" formula="Cr">
       <atom value="51.9961"/>
     </element>
-    <element name="Ni_element" Z="28" formula="Ni">
-      <atom value="58.6934"/>
-    </element>
     <element name="Ar_element" Z="18" formula="Ar">
       <atom value="39.95"/>
     </element>
+    <element name="C_element" Z="6" formula="C">
+      <atom value="12.011"/>
+    </element>
     <element name="O_element" Z="8" formula="O">
       <atom value="15.999"/>
+    </element>
+    <element name="Ni_element" Z="28" formula="Ni">
+      <atom value="58.6934"/>
     </element>
     <material name="G4_STAINLESS-STEEL" formula="G4_STAINLESS-STEEL">
       <D unit="g/cm3" value="8.0"/>
@@ -45,6 +116,146 @@
   </materials>
   <solids>
     <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm"/>
+    <tessellated name="Loft">
+      <triangular vertex1="Loft_0" vertex2="Loft_1" vertex3="Loft_2" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_1" vertex2="Loft_3" vertex3="Loft_2" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_4" vertex2="Loft_3" vertex3="Loft_1" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_5" vertex2="Loft_6" vertex3="Loft_0" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_0" vertex2="Loft_6" vertex3="Loft_1" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_7" vertex2="Loft_6" vertex3="Loft_5" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_1" vertex2="Loft_6" vertex3="Loft_4" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_4" vertex2="Loft_6" vertex3="Loft_7" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_2" vertex2="Loft_8" vertex3="Loft_9" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_9" vertex2="Loft_8" vertex3="Loft_10" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_4" vertex2="Loft_8" vertex3="Loft_3" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_3" vertex2="Loft_8" vertex3="Loft_2" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_10" vertex2="Loft_8" vertex3="Loft_4" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_9" vertex2="Loft_11" vertex3="Loft_5" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_10" vertex2="Loft_11" vertex3="Loft_9" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_5" vertex2="Loft_11" vertex3="Loft_7" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_7" vertex2="Loft_11" vertex3="Loft_4" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_4" vertex2="Loft_11" vertex3="Loft_10" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_2" vertex2="Loft_12" vertex3="Loft_13" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_14" vertex2="Loft_15" vertex3="Loft_9" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_9" vertex2="Loft_15" vertex3="Loft_2" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_2" vertex2="Loft_15" vertex3="Loft_12" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_13" vertex2="Loft_16" vertex3="Loft_14" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_12" vertex2="Loft_16" vertex3="Loft_13" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_14" vertex2="Loft_16" vertex3="Loft_15" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_15" vertex2="Loft_16" vertex3="Loft_12" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_17" vertex2="Loft_18" vertex3="Loft_19" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_19" vertex2="Loft_18" vertex3="Loft_20" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_13" vertex2="Loft_18" vertex3="Loft_17" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_13" vertex2="Loft_21" vertex3="Loft_22" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_19" vertex2="Loft_21" vertex3="Loft_17" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_17" vertex2="Loft_21" vertex3="Loft_13" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_20" vertex2="Loft_23" vertex3="Loft_19" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_24" vertex2="Loft_25" vertex3="Loft_14" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_23" vertex2="Loft_25" vertex3="Loft_24" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_14" vertex2="Loft_25" vertex3="Loft_26" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_26" vertex2="Loft_25" vertex3="Loft_20" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_20" vertex2="Loft_25" vertex3="Loft_23" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_14" vertex2="Loft_27" vertex3="Loft_13" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_13" vertex2="Loft_27" vertex3="Loft_18" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_18" vertex2="Loft_27" vertex3="Loft_20" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_26" vertex2="Loft_27" vertex3="Loft_14" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_20" vertex2="Loft_27" vertex3="Loft_26" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_22" vertex2="Loft_28" vertex3="Loft_24" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_24" vertex2="Loft_28" vertex3="Loft_23" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_21" vertex2="Loft_28" vertex3="Loft_22" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_19" vertex2="Loft_28" vertex3="Loft_21" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_23" vertex2="Loft_28" vertex3="Loft_19" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_22" vertex2="Loft_29" vertex3="Loft_30" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_30" vertex2="Loft_29" vertex3="Loft_31" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_24" vertex2="Loft_32" vertex3="Loft_22" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_33" vertex2="Loft_32" vertex3="Loft_34" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_22" vertex2="Loft_32" vertex3="Loft_29" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_29" vertex2="Loft_32" vertex3="Loft_31" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_31" vertex2="Loft_32" vertex3="Loft_33" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_34" vertex2="Loft_32" vertex3="Loft_24" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_30" vertex2="Loft_35" vertex3="Loft_36" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_31" vertex2="Loft_35" vertex3="Loft_30" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_34" vertex2="Loft_35" vertex3="Loft_33" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_33" vertex2="Loft_35" vertex3="Loft_31" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_37" vertex2="Loft_35" vertex3="Loft_34" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_35" vertex2="Loft_38" vertex3="Loft_36" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_37" vertex2="Loft_38" vertex3="Loft_35" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_36" vertex2="Loft_39" vertex3="Loft_24" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_38" vertex2="Loft_39" vertex3="Loft_36" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_24" vertex2="Loft_39" vertex3="Loft_34" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_34" vertex2="Loft_39" vertex3="Loft_37" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_37" vertex2="Loft_39" vertex3="Loft_38" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_30" vertex2="Loft_40" vertex3="Loft_41" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_41" vertex2="Loft_40" vertex3="Loft_42" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_40" vertex2="Loft_43" vertex3="Loft_42" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_30" vertex2="Loft_43" vertex3="Loft_40" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_36" vertex2="Loft_44" vertex3="Loft_30" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_45" vertex2="Loft_44" vertex3="Loft_46" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_42" vertex2="Loft_44" vertex3="Loft_45" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_46" vertex2="Loft_44" vertex3="Loft_36" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_30" vertex2="Loft_44" vertex3="Loft_43" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_43" vertex2="Loft_44" vertex3="Loft_42" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_46" vertex2="Loft_47" vertex3="Loft_45" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_41" vertex2="Loft_48" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_42" vertex2="Loft_48" vertex3="Loft_41" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_45" vertex2="Loft_48" vertex3="Loft_42" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_47" vertex2="Loft_48" vertex3="Loft_45" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_48" vertex2="Loft_50" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_47" vertex2="Loft_50" vertex3="Loft_48" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_49" vertex2="Loft_51" vertex3="Loft_36" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_36" vertex2="Loft_51" vertex3="Loft_46" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_46" vertex2="Loft_51" vertex3="Loft_47" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_50" vertex2="Loft_51" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_47" vertex2="Loft_51" vertex3="Loft_50" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_52" vertex2="Loft_53" vertex3="Loft_54" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_54" vertex2="Loft_55" vertex3="Loft_56" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_41" vertex2="Loft_55" vertex3="Loft_53" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_53" vertex2="Loft_55" vertex3="Loft_54" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_56" vertex2="Loft_57" vertex3="Loft_54" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_54" vertex2="Loft_58" vertex3="Loft_52" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_57" vertex2="Loft_58" vertex3="Loft_54" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_58" vertex2="Loft_59" vertex3="Loft_60" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_57" vertex2="Loft_59" vertex3="Loft_58" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_59" vertex2="Loft_61" vertex3="Loft_60" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_57" vertex2="Loft_61" vertex3="Loft_59" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_41" vertex2="Loft_62" vertex3="Loft_63" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_52" vertex2="Loft_62" vertex3="Loft_53" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_53" vertex2="Loft_62" vertex3="Loft_41" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_49" vertex2="Loft_64" vertex3="Loft_41" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_41" vertex2="Loft_64" vertex3="Loft_55" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_55" vertex2="Loft_64" vertex3="Loft_56" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_65" vertex2="Loft_64" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_56" vertex2="Loft_64" vertex3="Loft_65" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_63" vertex2="Loft_66" vertex3="Loft_60" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_60" vertex2="Loft_66" vertex3="Loft_58" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_58" vertex2="Loft_66" vertex3="Loft_52" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_62" vertex2="Loft_66" vertex3="Loft_63" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_52" vertex2="Loft_66" vertex3="Loft_62" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_60" vertex2="Loft_67" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_61" vertex2="Loft_67" vertex3="Loft_60" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_49" vertex2="Loft_67" vertex3="Loft_65" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_65" vertex2="Loft_67" vertex3="Loft_56" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_56" vertex2="Loft_67" vertex3="Loft_57" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_57" vertex2="Loft_67" vertex3="Loft_61" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_63" vertex2="Loft_68" vertex3="Loft_0" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_60" vertex2="Loft_69" vertex3="Loft_63" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_63" vertex2="Loft_69" vertex3="Loft_68" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_0" vertex2="Loft_70" vertex3="Loft_5" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_5" vertex2="Loft_70" vertex3="Loft_60" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_68" vertex2="Loft_70" vertex3="Loft_0" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_60" vertex2="Loft_70" vertex3="Loft_69" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_69" vertex2="Loft_70" vertex3="Loft_68" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_63" vertex2="Loft_30" vertex3="Loft_41" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_0" vertex2="Loft_13" vertex3="Loft_63" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_30" vertex2="Loft_13" vertex3="Loft_22" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_63" vertex2="Loft_13" vertex3="Loft_30" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_0" vertex2="Loft_2" vertex3="Loft_13" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_49" vertex2="Loft_5" vertex3="Loft_60" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_9" vertex2="Loft_5" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_24" vertex2="Loft_14" vertex3="Loft_9" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_24" vertex2="Loft_9" vertex3="Loft_49" type="ABSOLUTE"/>
+      <triangular vertex1="Loft_36" vertex2="Loft_24" vertex3="Loft_49" type="ABSOLUTE"/>
+    </tessellated>
   </solids>
   <structure>
     <volume name="Part_Loft">

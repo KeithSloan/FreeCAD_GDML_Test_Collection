@@ -6,14 +6,14 @@
     <constant name="TWOPI" value="2.*pi"/>
   </define>
   <materials>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
     <element name="Ar_element" Z="18" formula="Ar">
       <atom value="39.95"/>
     </element>
     <element name="C_element" Z="6" formula="C">
       <atom value="12.011"/>
-    </element>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
     </element>
     <element name="N_element" Z="7" formula="N">
       <atom value="14.007"/>

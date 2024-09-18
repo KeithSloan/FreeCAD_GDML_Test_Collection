@@ -9,21 +9,16 @@
     <position name="center" x="0" y="0" z="0" unit="mm"/>
   </define>
   <materials>
-    <element name="alactic"/>
-    <element name="H_element" Z="1" formula="H">
-      <atom value="1.008"/>
+    <element name="Al_element" Z="13" formula="Al">
+      <atom value="26.9815384"/>
     </element>
     <element name="O_element" Z="8" formula="O">
       <atom value="15.999"/>
     </element>
-    <element name="Al_element" Z="13" formula="Al">
-      <atom value="26.9815384"/>
+    <element name="H_element" Z="1" formula="H">
+      <atom value="1.008"/>
     </element>
-    <material name="G4_WATER" formula="G4_WATER">
-      <D unit="g/cm3" value="1.0"/>
-      <composite n="2" ref="H_element"/>
-      <composite n="1" ref="O_element"/>
-    </material>
+    <element name="alactic"/>
     <material name="G4_Galactic" formula="G4_Galactic">
       <D unit="g/cm3" value="0.0"/>
       <composite n="1" ref="alactic"/>
@@ -31,6 +26,11 @@
     <material name="G4_Al" formula="Al">
       <D unit="g/cm3" value="2.699"/>
       <composite n="1" ref="Al_element"/>
+    </material>
+    <material name="G4_WATER" formula="G4_WATER">
+      <D unit="g/cm3" value="1.0"/>
+      <composite n="2" ref="H_element"/>
+      <composite n="1" ref="O_element"/>
     </material>
   </materials>
   <solids>

@@ -15,9 +15,6 @@ The newsly exported gdml file can be checked against the original gdml file.
   * GDMLCOGcalcDirectory.py
      - Perform CofM and Moment of Inertia Calcs for all FC files in a directory 
 
-# Notes: 
-
-## FreeCAD files should have been recomputed and saved
 
 ## For Geant4 COG
 
@@ -29,7 +26,19 @@ The newsly exported gdml file can be checked against the original gdml file.
 
 see directory MH_G4_Examples / MH_G01  
 
-# Run a test
+## Prerequisites
+
+### FreeCAD
+
+    * Some testfiles use Fasteners Workbench - install via addon_manager
+   
+    * File should have been recomputed and saved
+
+### MacOS
+
+    * Install gawk - brew install gawk
+
+# To Run a test
 
   * create a branch
 
@@ -50,11 +59,8 @@ see directory MH_G4_Examples / MH_G01
 
   * create outputs for Geant4 COG's 
 
-    cd  : FC_exported_gdml
-```
+        run script geant4COG.sh
 
-    for f in *.gdml; do load_gdml_color $f -m=batch.mac -printCM >${f}.out; done
-```
   * TODO run comparison script
 
             Sources : FC_COGs and Geant4_COGs
