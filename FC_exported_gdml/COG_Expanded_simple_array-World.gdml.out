@@ -1,0 +1,100 @@
+G4GDML: Reading 'COG_Expanded_simple_array-World.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+Checking overlaps for volume Det_PV:0 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume Det_PV:0 (G4Box) with its mother volume Obj (G4Box)
+          protrusion at mother local point (-0.678159,-0.652217,9.5) by 2 mm  (max of 808 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume Det001_PV:1 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume Det001_PV:1 (G4Box) with its mother volume Obj001 (G4Box)
+          protrusion at mother local point (0.0223961,0.795642,9.5) by 2 mm  (max of 807 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume av_3_impr_2_Obj_pv_0:1 (G4Box) ... OK! 
+Checking overlaps for volume av_3_impr_2_Obj_pv_1:2 (G4Box) ... OK! 
+Checking overlaps for volume av_3_impr_2_Obj_pv_2:3 (G4Box) ... OK! 
+Checking overlaps for volume av_3_impr_2_Obj_pv_3:4 (G4Box) ... OK! 
+Checking overlaps for volume av_3_impr_3_Obj001_pv_0:101 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume av_3_impr_3_Obj001_pv_0:101 (G4Box)
+          apparently fully encapsulating volume av_3_impr_2_Obj_pv_0:1 (G4Box) at the same level!
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume av_3_impr_3_Obj001_pv_1:102 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume av_3_impr_3_Obj001_pv_1:102 (G4Box)
+          apparently fully encapsulating volume av_3_impr_2_Obj_pv_0:1 (G4Box) at the same level!
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume av_3_impr_3_Obj001_pv_2:103 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume av_3_impr_3_Obj001_pv_2:103 (G4Box)
+          apparently fully encapsulating volume av_3_impr_2_Obj_pv_2:3 (G4Box) at the same level!
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume av_3_impr_3_Obj001_pv_3:104 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume av_3_impr_3_Obj001_pv_3:104 (G4Box)
+          apparently fully encapsulating volume av_3_impr_2_Obj_pv_1:2 (G4Box) at the same level!
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume av_3_impr_3_Obj001_pv_4:105 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume av_3_impr_3_Obj001_pv_4:105 (G4Box)
+          apparently fully encapsulating volume av_3_impr_2_Obj_pv_3:4 (G4Box) at the same level!
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+

@@ -2,7 +2,7 @@ Part                 Volume:   410.84 mm^3 --> center of "mass": (  14.78,  19.2
 Part001              Volume:   410.84 mm^3 --> center of "mass": (  17.98,  16.53,   0.96) cm, moments of inetria: ( 1.127,  1.332,  2.451) x10^2 cm^5
 Part002              Volume:   410.84 mm^3 --> center of "mass": (  11.27,   3.46,  11.65) cm, moments of inetria: (0.6078,  1.080, 0.5719) x10^2 cm^5
 Part003              Volume:   410.84 mm^3 --> center of "mass": (  11.04,  11.08,  14.96) cm, moments of inetria: ( 1.425,  1.422,  1.006) x10^2 cm^5
-Part004              Volume:   410.84 mm^3 --> center of "mass": (   0.21,  15.92,   4.80) cm, moments of inetria: ( 1.137, 0.09608,  1.043) x10^2 cm^5
+Part004              Volume:   410.84 mm^3 --> center of "mass": (   0.21,  15.92,   4.80) cm, moments of inetria: ( 1.137, 0.09609,  1.043) x10^2 cm^5
 Part005              Volume:   410.84 mm^3 --> center of "mass": (  14.47,  15.78,  16.32) cm, moments of inetria: ( 2.118,  1.956,  1.884) x10^2 cm^5
 Part006              Volume:   410.84 mm^3 --> center of "mass": (   8.83,   1.32,  13.63) cm, moments of inetria: (0.7716,  1.085, 0.3289) x10^2 cm^5
 Part007              Volume:   410.84 mm^3 --> center of "mass": (  59.40,   6.83,  74.32) mm, moments of inetria: ( 2.295,  3.730,  1.477) x10^1 cm^5
