@@ -117,8 +117,13 @@ class importPrompt(QtGui.QDialog):
         # Assign directory
         inputPath = self.sourcePath.getPath()
         targetPath = self.targetPath.getPath()
+        currentPath = self.join(targetPath, "currentFile")
         # Iterate over files in directory
         for filepath in glob.glob(f"{inputPath}/*.FCStd"):
+            # save current file as info if FC crashed
+            currentFile = open(currentPath,"w")
+            currentFile.write(filepath)
+            currentFile.close()		
             print(f"Process FC file {filepath}")
             self.processFile(filepath, targetPath)
         self.close()
