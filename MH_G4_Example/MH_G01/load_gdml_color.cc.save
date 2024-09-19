@@ -362,8 +362,6 @@ int main(int argc,char **argv)
    MomentsEstimator::nsim = nsim;
 
    int iBatchFile = findArg(argc, argv, "m");
-   G4String command ="/control/macroPath .";
-   UImanager->ApplyCommand(command);
    if (iBatchFile > 0) {// batch mode
      G4String command = "/control/execute ";
      G4String fileName = getArg(argv, iBatchFile);
