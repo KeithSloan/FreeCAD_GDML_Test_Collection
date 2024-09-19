@@ -173,7 +173,7 @@
     <volume name="vol31">
       <materialref ref="Water"/>
       <solidref ref="sub1"/>
-      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+      <auxiliary auxtype="Color" auxvalue="#ff00ff00"/>
     </volume>
     <volume name="vol41">
       <materialref ref="Water"/>

@@ -60,23 +60,23 @@
       <D unit="g/cm3" value="4.35"/>
       <fraction n="1.0" ref="G4_CESIUM_IODIDE"/>
     </material>
-    <element name="N_element" Z="7" formula="N">
-      <atom value="14.007"/>
-    </element>
-    <element name="Ca_element" Z="20" formula="Ca">
-      <atom value="40.078"/>
-    </element>
-    <element name="C_element" Z="6" formula="C">
-      <atom value="12.011"/>
-    </element>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
+    <element name="F_element" Z="9" formula="F">
+      <atom value="18.998403163"/>
     </element>
     <element name="H_element" Z="1" formula="H">
       <atom value="1.008"/>
     </element>
-    <element name="F_element" Z="9" formula="F">
-      <atom value="18.998403163"/>
+    <element name="C_element" Z="6" formula="C">
+      <atom value="12.011"/>
+    </element>
+    <element name="N_element" Z="7" formula="N">
+      <atom value="14.007"/>
+    </element>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
+    <element name="Ca_element" Z="20" formula="Ca">
+      <atom value="40.078"/>
     </element>
     <material name="G4_A-150_TISSUE" formula="G4_A-150_TISSUE">
       <D unit="g/cm3" value="1.127"/>

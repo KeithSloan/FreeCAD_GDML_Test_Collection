@@ -15,20 +15,20 @@
     <position name="P-T_11" unit="mm" z="-34.0"/>
     <rotation name="R-T_11" unit="deg" z="-50.000000000000064"/>
     <position name="P-Detector2" unit="mm" z="34.0"/>
-    <rotation name="R-Detector2" unit="deg" z="-29.999999999999993"/>
+    <rotation name="R-Detector2" unit="deg" z="-29.999999999999932"/>
   </define>
   <materials>
     <element name="Ar_element" Z="18" formula="Ar">
       <atom value="39.95"/>
+    </element>
+    <element name="C_element" Z="6" formula="C">
+      <atom value="12.011"/>
     </element>
     <element name="N_element" Z="7" formula="N">
       <atom value="14.007"/>
     </element>
     <element name="Ge_element" Z="32" formula="Ge">
       <atom value="72.63"/>
-    </element>
-    <element name="C_element" Z="6" formula="C">
-      <atom value="12.011"/>
     </element>
     <element name="O_element" Z="8" formula="O">
       <atom value="15.999"/>
@@ -67,7 +67,7 @@
     <volume name="Detector">
       <materialref ref="G4_Ge"/>
       <solidref ref="U1"/>
-      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
     </volume>
     <assembly name="DetectorAssembly">
       <physvol name="PV-Detector">

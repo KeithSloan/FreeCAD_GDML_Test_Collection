@@ -4,19 +4,19 @@
     <constant name="HALFPI" value="pi/2."/>
     <constant name="PI" value="1.*pi"/>
     <constant name="TWOPI" value="2.*pi"/>
-    <position name="P-Part1" unit="mm" x="10.000000000000002" y="17.320508075688778" z="5.0"/>
-    <rotation name="R-Part1" unit="deg" z="-29.999999999999993"/>
+    <position name="P-Part1" unit="mm" x="10.00000000000002" y="17.320508075688785" z="5.0"/>
+    <rotation name="R-Part1" unit="deg" z="-29.999999999999932"/>
   </define>
   <materials>
     <element name="Ar_element" Z="18" formula="Ar">
       <atom value="39.95"/>
     </element>
-    <element name="N_element" Z="7" formula="N">
-      <atom value="14.007"/>
-    </element>
     <element name="alactic"/>
     <element name="C_element" Z="6" formula="C">
       <atom value="12.011"/>
+    </element>
+    <element name="N_element" Z="7" formula="N">
+      <atom value="14.007"/>
     </element>
     <element name="O_element" Z="8" formula="O">
       <atom value="15.999"/>

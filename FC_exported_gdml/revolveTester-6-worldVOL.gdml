@@ -9,21 +9,21 @@
     <position name="center" x="0" y="0" z="0" unit="mm"/>
   </define>
   <materials>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
-    </element>
     <element name="H_element" Z="1" formula="H">
       <atom value="1.008"/>
     </element>
     <element name="alactic"/>
-    <material name="G4_Galactic" formula="G4_Galactic">
-      <D unit="g/cm3" value="0.0"/>
-      <composite n="1" ref="alactic"/>
-    </material>
+    <element name="O_element" Z="8" formula="O">
+      <atom value="15.999"/>
+    </element>
     <material name="G4_WATER" formula="G4_WATER">
       <D unit="g/cm3" value="1.0"/>
       <composite n="2" ref="H_element"/>
       <composite n="1" ref="O_element"/>
+    </material>
+    <material name="G4_Galactic" formula="G4_Galactic">
+      <D unit="g/cm3" value="0.0"/>
+      <composite n="1" ref="alactic"/>
     </material>
   </materials>
   <solids>
@@ -106,7 +106,7 @@
     <volume name="Bool_Cut">
       <materialref ref="G4_WATER"/>
       <solidref ref="Cut"/>
-      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
     </volume>
     <volume name="worldVOL">
       <materialref ref="G4_Galactic"/>
