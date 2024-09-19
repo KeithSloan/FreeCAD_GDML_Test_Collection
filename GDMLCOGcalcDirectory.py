@@ -107,12 +107,16 @@ class importPrompt(QtGui.QDialog):
         # Now you can access the module's functions by using the dot operator
         #my_module.my_function()
         # Using os.path.splitext()
+        # Record current file for info in case FreeCAD crashes
         filePathNoExt = os.path.splitext(os.path.basename(filePath))[0]
         fileName = os.path.basename(filePath)
-        exportName = fileName[:-6] + '.dat'
+        exportName = fileName[:-6] + '.txt'
         exportPath = self.join(targetPath, exportName)
+        currentPath = self.join(targetPath, "currentFile")
         print(f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} ")
         FreeCAD.openDocument(filePath)
+        currentFP = open(currentPath, "w")
+        currentFP.write(filePath)
         print(f"RootObjects len(FreeCAD.ActiveDocument.RootObjects:")
         for obj in FreeCAD.ActiveDocument.RootObjects:
             if obj.TypeId == "App::Part":
@@ -124,9 +128,9 @@ class importPrompt(QtGui.QDialog):
                 foo.calcCenterOfMass(exportPath)
 
                 break
-
+        currentFP.close()
         FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
-
+        
 
     def onCOGcalc(self):
 
@@ -138,6 +142,7 @@ class importPrompt(QtGui.QDialog):
         for filepath in glob.glob(f"{inputPath}/*.FCStd"):
             print(f"Process FC file {filepath}")
             self.processFile(filepath, targetPath)
+        self.close()
 
 
 if FreeCAD.GuiUp:
