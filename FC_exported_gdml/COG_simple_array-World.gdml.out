@@ -20,3 +20,15 @@ Checking overlaps for volume av_2_impr_2_Obj_pv_0:1 (G4Box) ... OK!
 Checking overlaps for volume av_2_impr_2_Obj_pv_1:2 (G4Box) ... OK! 
 Checking overlaps for volume av_2_impr_2_Obj_pv_2:3 (G4Box) ... OK! 
 Checking overlaps for volume av_2_impr_2_Obj_pv_3:4 (G4Box) ... OK! 
+
+-------- EEEE ------- G4Exception-START -------- EEEE -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : ReadError
+      issued by : G4GDMLReadStructure::GetPhysvol()
+Referenced physvol 'PV-Obj' was not found!
+*** Fatal Exception ***
+-------- EEEE ------- G4Exception-END -------- EEEE -------
+
+
+*** G4Exception: Aborting execution ***

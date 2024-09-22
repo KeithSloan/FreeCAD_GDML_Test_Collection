@@ -1,0 +1,24 @@
+World Logical Volume: worldVOL
+PV-Part              Volume:   412.22 mm^3 --> center of "mass": (  14.78,  19.29,  18.03) cm, moments of inertia: ( 2.876, 2.243, 2.436) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part001           Volume:   412.22 mm^3 --> center of "mass": (  17.98,  16.53,   0.96) cm, moments of inertia: ( 1.131, 1.337, 2.459) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part002           Volume:   412.22 mm^3 --> center of "mass": (  11.27,   3.46,  11.65) cm, moments of inertia: (0.6099, 1.084,0.5738) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part003           Volume:   412.22 mm^3 --> center of "mass": (  11.04,  11.08,  14.96) cm, moments of inertia: (  1.43, 1.427, 1.009) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part004           Volume:   412.22 mm^3 --> center of "mass": (   0.21,  15.92,   4.80) cm, moments of inertia: ( 1.141,0.09639, 1.046) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part005           Volume:   412.22 mm^3 --> center of "mass": (  14.47,  15.78,  16.32) cm, moments of inertia: ( 2.125, 1.962, 1.891) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part006           Volume:   412.22 mm^3 --> center of "mass": (   8.83,   1.32,  13.63) cm, moments of inertia: (0.7742, 1.089,  0.33) x10^2 cm^5 Entity type: G4TessellatedSolid
+PV-Part007           Volume:   412.22 mm^3 --> center of "mass": (  59.41,   6.83,  74.32) mm, moments of inertia: ( 2.303, 3.743, 1.482) x10^1 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut_pv_0 Volume:   368.85 mm^3 --> center of "mass": ( -17.96, -19.22, -12.33) cm, moments of inertia: ( 1.925, 1.751, 2.553) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut012_pv_1 Volume:   368.85 mm^3 --> center of "mass": (  -8.02,  -4.54, -19.80) cm, moments of inertia: ( 1.523, 1.684, 0.314) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut013_pv_2 Volume:   368.85 mm^3 --> center of "mass": (  -9.71,  -5.32, -15.06) cm, moments of inertia: (0.9422, 1.185,0.4528) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut014_pv_3 Volume:   368.85 mm^3 --> center of "mass": (  -0.22,  -8.05, -15.48) cm, moments of inertia: ( 1.123,0.8842,0.2395) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut015_pv_4 Volume:   368.85 mm^3 --> center of "mass": ( -12.08,  -1.35, -11.66) cm, moments of inertia: (0.5086,  1.04,0.5455) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut016_pv_5 Volume:   368.85 mm^3 --> center of "mass": ( -11.04,  -8.21,  -5.50) cm, moments of inertia: ( 3.605, 5.611, 6.981) x10^1 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut017_pv_6 Volume:   368.85 mm^3 --> center of "mass": (  -4.11, -13.24, -17.56) cm, moments of inertia: ( 1.785,   1.2,0.7094) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut018_pv_7 Volume:   368.85 mm^3 --> center of "mass": ( -12.64, -19.28,  -1.64) cm, moments of inertia: ( 1.381,0.5995, 1.961) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut019_pv_8 Volume:   368.85 mm^3 --> center of "mass": (  -7.99,  -4.59, -18.79) cm, moments of inertia: (  1.38, 1.537,0.3137) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut020_pv_9 Volume:   368.85 mm^3 --> center of "mass": (   0.02,  -4.98, -12.12) cm, moments of inertia: ( 6.339, 5.426,0.9187) x10^1 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut021_pv_10 Volume:   368.85 mm^3 --> center of "mass": ( -16.51, -16.81,  -0.21) cm, moments of inertia: ( 1.043, 1.006, 2.048) x10^2 cm^5 Entity type: G4TessellatedSolid
+av_1_impr_1_V-M6-Nut022_pv_11 Volume:   368.85 mm^3 --> center of "mass": (  -9.47,  -1.28, -18.15) cm, moments of inertia: ( 1.222, 1.547,0.3371) x10^2 cm^5 Entity type: G4TessellatedSolid
+
+Total                Volume:     7.72 cm^3 --> center of "mass": (  -7.29,  -6.17, -23.97) mm, moments of inertia: ( 2.414, 2.315, 2.016) x10^3 cm^5
+***** geometry moments ****

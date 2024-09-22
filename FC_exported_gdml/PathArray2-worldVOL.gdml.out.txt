@@ -1,0 +1,5 @@
+World Logical Volume: worldVOL
+PV-LV_Box001         Volume:     1.00 cm^3 --> center of "mass": (   0.00,  -0.00,  -0.01) mm, moments of inertia: (0.1665,0.1667,0.1667) cm^5 Entity type: G4Box
+
+Total                Volume:     1.00 cm^3 --> center of "mass": (   0.00,  -0.00,  -0.01) mm, moments of inertia: (0.1665,0.1667,0.1667) cm^5
+***** geometry moments ****

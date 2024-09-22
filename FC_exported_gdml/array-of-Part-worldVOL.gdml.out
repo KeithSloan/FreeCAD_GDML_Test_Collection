@@ -864,7 +864,8 @@ Auxiliary Information is found for Logical Volume :  LV_Box001
 Global auxiliary info:
 
 
-** iprintCM= -1
+** iprintCM= 2
+using 1000000 Simulations per volume for CM MC
 
 ### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
           DefaultRegionForTheWorld  1  0  0
@@ -880,175 +881,196 @@ WARNING: G4VisManager::IsValidView(): Attempt to draw when no graphics system
   manager (G4VisExecutive) and ensure drawing code is executed only if
   G4VVisManager::GetConcreteInstance() is non-zero.
 ERROR: No current scene.  Please create one.
+***** geometry moments ****
+World Logical Volume: worldVOL
+av_2_impr_2_LV_Box_pv_0 Volume:     4.00 cm^3 --> center of "mass": (  70.01,  30.00,  -0.01) mm, moments of inertia: (0.3766, 1.977, 2.347) x10^2 cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  70.86,  29.86,  -0.01) mm, moments of inertia: ( 1.187, 6.634,  7.81) cm^5 Entity type: G4Tubs
+PV-LV_Sphere         Volume:    33.51 mm^3 --> center of "mass": (  65.00,  25.00,  -0.00) mm, moments of inertia: (  0.21, 1.416, 1.626) cm^5 Entity type: G4Sphere
+av_2_impr_2_LV_Box_pv_1 Volume:     4.00 cm^3 --> center of "mass": (  58.28,  58.28,  -0.00) mm, moments of inertia: ( 1.375, 1.375, 2.744) x10^2 cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  55.29,  59.74,  -0.00) mm, moments of inertia: ( 4.715, 4.048, 8.752) cm^5 Entity type: G4Tubs
+PV-LV_Sphere         Volume:    33.51 mm^3 --> center of "mass": (  53.29,  53.29,   0.00) mm, moments of inertia: ( 0.952,0.9521, 1.904) cm^5 Entity type: G4Sphere
+av_2_impr_2_LV_Box_pv_2 Volume:     4.00 cm^3 --> center of "mass": (  30.00,  70.00,   0.00) mm, moments of inertia: ( 1.977,0.3768, 2.347) x10^2 cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  23.14,  69.85,   0.00) mm, moments of inertia: ( 6.449,0.7169, 7.155) cm^5 Entity type: G4Tubs
+PV-LV_Sphere         Volume:    33.51 mm^3 --> center of "mass": (  25.00,  65.00,  -0.00) mm, moments of inertia: ( 1.416,0.2099, 1.626) cm^5 Entity type: G4Sphere
+av_2_impr_2_LV_Box_pv_3 Volume:     4.00 cm^3 --> center of "mass": (   1.72,  58.27,   0.00) mm, moments of inertia: ( 1.375,0.01782, 1.386) x10^2 cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  -6.73,  54.28,   0.00) mm, moments of inertia: ( 3.902,0.06599, 3.958) cm^5 Entity type: G4Tubs
+PV-LV_Sphere         Volume:    33.51 mm^3 --> center of "mass": (  -3.29,  53.29,   0.00) mm, moments of inertia: ( 0.952,0.004154,0.9556) cm^5 Entity type: G4Sphere
+av_2_impr_2_LV_Box_pv_4 Volume:     4.00 cm^3 --> center of "mass": (  -9.99,  30.00,   0.00) mm, moments of inertia: ( 3.767,0.5663, 4.267) x10^1 cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": ( -16.86,  22.15,  -0.00) mm, moments of inertia: (0.6573,0.3851, 1.032) cm^5 Entity type: G4Tubs
+PV-LV_Sphere         Volume:    33.51 mm^3 --> center of "mass": ( -15.00,  25.00,   0.00) mm, moments of inertia: (  0.21,0.07595,0.2854) cm^5 Entity type: G4Sphere
+PV-LV_Box001         Volume:     1.00 cm^3 --> center of "mass": (  30.00,  30.00,   0.00) mm, moments of inertia: (0.9166,0.9165, 1.816) x10^1 cm^5 Entity type: G4Box
+
+Total                Volume:    21.83 cm^3 --> center of "mass": (  29.82,  48.32,  -0.00) mm, moments of inertia: ( 5.778,  4.04, 9.783) x10^2 cm^5
+***** geometry moments ****
 Graphics systems deleted.
 Visualization Manager deleting...
-G4WT4 > Destroying WorkerRunManager (0x7fb409035880)
-G4WT4 > G4 kernel has come to Quit state.
-G4WT0 > Destroying WorkerRunManager (0x7fb406327a80)
+G4WT2 > Destroying WorkerRunManager (0x7feca8410460)
+G4WT0 > Destroying WorkerRunManager (0x7feca5016d00)
 G4WT0 > G4 kernel has come to Quit state.
-G4WT4 > UserDetectorConstruction deleted.
-G4WT4 > UserPhysicsList deleted.
-G4WT4 > UserActionInitialization deleted.
-G4WT5 > Destroying WorkerRunManager (0x7fb409308080)
-G4WT5 > G4 kernel has come to Quit state.
-G4WT1 > Destroying WorkerRunManager (0x7fb4066e3d80)
+G4WT1 > Destroying WorkerRunManager (0x7feca831c600)
 G4WT1 > G4 kernel has come to Quit state.
-G4WT4 > UserWorkerInitialization deleted.
+G4WT5 > Destroying WorkerRunManager (0x7feca5528880)
+G4WT5 > G4 kernel has come to Quit state.
 G4WT1 > UserDetectorConstruction deleted.
-G4WT2 > Destroying WorkerRunManager (0x7fb4061c5580)
-G4WT2 > G4 kernel has come to Quit state.
-G4WT5 > UserDetectorConstruction deleted.
-G4WT5 > UserPhysicsList deleted.
-G4WT3 > Destroying WorkerRunManager (0x7fb406232220)
-G4WT3 > G4 kernel has come to Quit state.
 G4WT1 > UserPhysicsList deleted.
+G4WT1 > UserActionInitialization deleted.
+G4WT5 > UserDetectorConstruction deleted.
+G4WT4 > Destroying WorkerRunManager (0x7feca5671b60)
+G4WT4 > G4 kernel has come to Quit state.
+G4WT1 > UserWorkerInitialization deleted.
+G4WT1 > UserWorkerThreadInitialization deleted.
+G4WT1 > UserRunAction deleted.
+G4WT2 > G4 kernel has come to Quit state.
+G4WT1 > UserPrimaryGenerator deleted.
+G4WT4 > UserDetectorConstruction deleted.
+G4WT2 > UserDetectorConstruction deleted.
+G4WT4 > UserPhysicsList deleted.
+G4WT3 > Destroying WorkerRunManager (0x7feca511d400)
+G4WT3 > G4 kernel has come to Quit state.
+G4WT1 > RunManager is deleting RunManagerKernel.
+G4WT3 > UserDetectorConstruction deleted.
+G4WT4 > UserActionInitialization deleted.
+G4WT4 > UserWorkerInitialization deleted.
 G4WT4 > UserWorkerThreadInitialization deleted.
 G4WT4 > UserRunAction deleted.
-G4WT5 > UserActionInitialization deleted.
-G4WT5 > UserWorkerInitialization deleted.
+G4WT1 > G4SDManager deleted.
 G4WT0 > UserDetectorConstruction deleted.
+G4WT2 > UserPhysicsList deleted.
+G4WT1 > EventManager deleted.
+G4WT2 > UserActionInitialization deleted.
 G4WT4 > UserPrimaryGenerator deleted.
+G4WT4 > RunManager is deleting RunManagerKernel.
+G4WT3 > UserPhysicsList deleted.
+G4WT3 > UserActionInitialization deleted.
+G4WT1 > Units table cleared.
+G4WT5 > UserPhysicsList deleted.
 G4WT0 > UserPhysicsList deleted.
 G4WT0 > UserActionInitialization deleted.
 G4WT0 > UserWorkerInitialization deleted.
 G4WT0 > UserWorkerThreadInitialization deleted.
-G4WT4 > RunManager is deleting RunManagerKernel.
-G4WT5 > UserWorkerThreadInitialization deleted.
-G4WT5 > UserRunAction deleted.
-G4WT5 > UserPrimaryGenerator deleted.
-G4WT5 > RunManager is deleting RunManagerKernel.
-G4WT3 > UserDetectorConstruction deleted.
 G4WT4 > G4SDManager deleted.
-G4WT2 > UserDetectorConstruction deleted.
-G4WT2 > UserPhysicsList deleted.
-G4WT2 > UserActionInitialization deleted.
-G4WT2 > UserWorkerInitialization deleted.
-G4WT2 > UserWorkerThreadInitialization deleted.
-G4WT2 > UserRunAction deleted.
-G4WT5 > G4SDManager deleted.
-G4WT1 > UserActionInitialization deleted.
-G4WT1 > UserWorkerInitialization deleted.
-G4WT3 > UserPhysicsList deleted.
-G4WT3 > UserActionInitialization deleted.
+G4WT5 > UserActionInitialization deleted.
+G4WT4 > EventManager deleted.
+G4WT5 > UserWorkerInitialization deleted.
+G4WT4 > Units table cleared.
 G4WT0 > UserRunAction deleted.
 G4WT0 > UserPrimaryGenerator deleted.
-G4WT5 > EventManager deleted.
-G4WT2 > UserPrimaryGenerator deleted.
-G4WT2 > RunManager is deleting RunManagerKernel.
-G4WT3 > UserWorkerInitialization deleted.
-G4WT3 > UserWorkerThreadInitialization deleted.
-G4WT3 > UserRunAction deleted.
-G4WT1 > UserWorkerThreadInitialization deleted.
-G4WT4 > EventManager deleted.
 G4WT0 > RunManager is deleting RunManagerKernel.
-G4WT3 > UserPrimaryGenerator deleted.
-G4WT3 > RunManager is deleting RunManagerKernel.
-G4WT2 > G4SDManager deleted.
+G4WT1 > TransportationManager deleted.
+G4WT2 > UserWorkerInitialization deleted.
+G4WT5 > UserWorkerThreadInitialization deleted.
 G4WT0 > G4SDManager deleted.
-G4WT1 > UserRunAction deleted.
-G4WT5 > Units table cleared.
-G4WT2 > EventManager deleted.
-G4WT5 > TransportationManager deleted.
-G4WT2 > Units table cleared.
-G4WT5 > Total navigation history collections cleaned: 2
-G4WT5 > ================== Deleting memory pools ===================
 G4WT0 > EventManager deleted.
-G4WT2 > TransportationManager deleted.
 G4WT0 > Units table cleared.
-G4WT5 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT5 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT5 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT2 > UserWorkerThreadInitialization deleted.
 G4WT0 > TransportationManager deleted.
-G4WT2 > Total navigation history collections cleaned: 2
-G4WT2 > ================== Deleting memory pools ===================
-G4WT4 > Units table cleared.
-G4WT3 > G4SDManager deleted.
+G4WT2 > UserRunAction deleted.
+G4WT5 > UserRunAction deleted.
+G4WT3 > UserWorkerInitialization deleted.
 G4WT4 > TransportationManager deleted.
+G4WT1 > Total navigation history collections cleaned: 2
+G4WT5 > UserPrimaryGenerator deleted.
+G4WT5 > RunManager is deleting RunManagerKernel.
 G4WT4 > Total navigation history collections cleaned: 2
 G4WT4 > ================== Deleting memory pools ===================
+G4WT0 > Total navigation history collections cleaned: 2
+G4WT0 > ================== Deleting memory pools ===================
+G4WT3 > UserWorkerThreadInitialization deleted.
 G4WT4 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
 G4WT4 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
 G4WT4 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT5 > Number of memory pools allocated: 3; of which, static: 0
-G4WT2 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT1 > UserPrimaryGenerator deleted.
 G4WT4 > Number of memory pools allocated: 3; of which, static: 0
-G4WT0 > Total navigation history collections cleaned: 2
-G4WT3 > EventManager deleted.
-G4WT3 > Units table cleared.
-G4WT2 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT1 > RunManager is deleting RunManagerKernel.
-G4WT4 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT0 > ================== Deleting memory pools ===================
-G4WT5 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT2 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT3 > TransportationManager deleted.
-G4WT4 > ============================================================
+G4WT5 > G4SDManager deleted.
+G4WT3 > UserRunAction deleted.
+G4WT5 > EventManager deleted.
+G4WT3 > UserPrimaryGenerator deleted.
+G4WT5 > Units table cleared.
 G4WT0 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT5 > ============================================================
-G4WT0 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT1 > G4SDManager deleted.
-G4WT3 > Total navigation history collections cleaned: 2
-G4WT4 > G4Allocator objects are deleted.
-G4WT1 > EventManager deleted.
-G4WT5 > G4Allocator objects are deleted.
-G4WT0 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT3 > ================== Deleting memory pools ===================
-G4WT2 > Number of memory pools allocated: 3; of which, static: 0
-G4WT4 > Thread-local UImanager is to be deleted.
-G4WT1 > Units table cleared.
-G4WT5 > Thread-local UImanager is to be deleted.
-G4WT0 > Number of memory pools allocated: 3; of which, static: 0
-G4WT3 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT1 > TransportationManager deleted.
-G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT0 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT0 > ============================================================
-G4WT3 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT1 > Total navigation history collections cleaned: 2
-G4WT2 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-UImanager deleted.
-StateManager deleted.G4WT0 > G4Allocator objects are deleted.
-UImanager deleted.
-StateManager deleted.G4WT3 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-
+G4WT2 > UserPrimaryGenerator deleted.
 G4WT1 > ================== Deleting memory pools ===================
-
-RunManagerKernel is deleted. Good bye :)
-RunManager is deleted.G4WT2 > ============================================================
-
-G4WT0 > Thread-local UImanager is to be deleted.
-G4WT3 > Number of memory pools allocated: 3; of which, static: 0
-RunManagerKernel is deleted. Good bye :)G4WT1 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-
-G4WT2 > G4Allocator objects are deleted.
-G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
-RunManager is deleted.
-G4WT3 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT1 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT4 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT4 > ============================================================
+G4WT0 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT2 > RunManager is deleting RunManagerKernel.
 G4WT1 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT1 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT1 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > TransportationManager deleted.
+G4WT0 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT3 > RunManager is deleting RunManagerKernel.
+G4WT2 > G4SDManager deleted.
+G4WT4 > G4Allocator objects are deleted.
+G4WT5 > Total navigation history collections cleaned: 2
+G4WT2 > EventManager deleted.
+G4WT4 > Thread-local UImanager is to be deleted.
+G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > G4SDManager deleted.
+G4WT5 > ================== Deleting memory pools ===================
+G4WT2 > Units table cleared.
+G4WT1 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT1 > ============================================================
+G4WT0 > Number of memory pools allocated: 3; of which, static: 0
+G4WT2 > TransportationManager deleted.
+G4WT0 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT1 > G4Allocator objects are deleted.
+G4WT1 > Thread-local UImanager is to be deleted.
+G4WT5 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT2 > Total navigation history collections cleaned: 2
+G4WT0 > ============================================================
+G4WT3 > EventManager deleted.
+G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > Units table cleared.
+G4WT2 > ================== Deleting memory pools ===================
+G4WT0 > G4Allocator objects are deleted.
+G4WT0 > Thread-local UImanager is to be deleted.
+G4WT2 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT3 > TransportationManager deleted.
+G4WT3 > Total navigation history collections cleaned: 2
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT5 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT2 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > ================== Deleting memory pools ===================
+G4WT5 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT2 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT3 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT5 > Number of memory pools allocated: 3; of which, static: 0
+G4WT2 > Number of memory pools allocated: 3; of which, static: 0
+G4WT3 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT5 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT2 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT3 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT5 > ============================================================
+G4WT2 > ============================================================
+G4WT3 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > G4Allocator objects are deleted.
+G4WT2 > G4Allocator objects are deleted.
+G4WT3 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT5 > Thread-local UImanager is to be deleted.
 G4WT2 > Thread-local UImanager is to be deleted.
 G4WT3 > ============================================================
-G4WT1 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-UImanager deleted.
-StateManager deleted.
-RunManagerKernel is deleted. Good bye :)
-RunManager is deleted.
+G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
 G4WT2 > There should not be any thread-local G4cout/G4cerr hereafter.
 G4WT3 > G4Allocator objects are deleted.
-G4WT1 > Number of memory pools allocated: 3; of which, static: 0
 G4WT3 > Thread-local UImanager is to be deleted.
-G4WT1 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
 G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT1 > ============================================================
-G4WT1 > G4Allocator objects are deleted.
 UImanager deleted.
 StateManager deleted.
 RunManagerKernel is deleted. Good bye :)
 RunManager is deleted.
-G4WT1 > Thread-local UImanager is to be deleted.
 UImanager deleted.
-G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
 StateManager deleted.
 RunManagerKernel is deleted. Good bye :)
 RunManager is deleted.
@@ -1072,14 +1094,14 @@ TransportationManager deleted.
 Total navigation history collections cleaned: 3
 G4RNGHelper object is deleted.
 ================== Deleting memory pools ===================
-Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-Pool ID '17G4DynamicParticle', size : 0.000961 MB
-Pool ID '16G4SmartVoxelNode', size : 0.000961 MB
-Pool ID '17G4SmartVoxelProxy', size : 0.000961 MB
-Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+Pool ID '20G4NavigationLevelRep', size : 0.003 MB
+Pool ID '24G4ReferenceCountedHandleIvE', size : 0.001 MB
+Pool ID '17G4DynamicParticle', size : 0.001 MB
+Pool ID '16G4SmartVoxelNode', size : 0.001 MB
+Pool ID '17G4SmartVoxelProxy', size : 0.001 MB
+Pool ID '15G4CountedObjectIvE', size : 0.001 MB
 Number of memory pools allocated: 6; of which, static: 0
-Dynamic pools deleted: 6 / Total memory freed: 0.0077 MB
+Dynamic pools deleted: 6 / Total memory freed: 0.01 MB
 ============================================================
 G4Allocator objects are deleted.
 UImanager deleted.

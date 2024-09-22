@@ -1,0 +1,14 @@
+World Logical Volume: worldVOL
+av_2_impr_2_LV_Box_pv_0 Volume:     1.00 cm^3 --> center of "mass": (  20.00,  -0.00,  -0.01) mm, moments of inertia: (0.1665, 4.168, 4.168) cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  20.86,  -0.14,  -0.01) mm, moments of inertia: (0.01022,0.5841,0.5835) cm^5 Entity type: G4Tubs
+av_2_impr_2_LV_Box_pv_1 Volume:     1.00 cm^3 --> center of "mass": (  14.14,  14.14,   0.00) mm, moments of inertia: ( 2.167, 2.166, 4.167) cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  11.14,  15.60,   0.00) mm, moments of inertia: (0.3271,0.1781,0.4944) cm^5 Entity type: G4Tubs
+av_2_impr_2_LV_Box_pv_2 Volume:     1.00 cm^3 --> center of "mass": (   0.00,  20.01,  -0.00) mm, moments of inertia: ( 4.169,0.1667, 4.169) cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": (  -6.85,  19.86,  -0.00) mm, moments of inertia: (0.5305,0.07218,0.5919) cm^5 Entity type: G4Tubs
+av_2_impr_2_LV_Box_pv_3 Volume:     1.00 cm^3 --> center of "mass": ( -14.14,  14.14,   0.00) mm, moments of inertia: ( 2.167, 2.166, 4.166) cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": ( -22.59,  10.14,   0.00) mm, moments of inertia: (0.1499,0.6797,0.8189) cm^5 Entity type: G4Tubs
+av_2_impr_2_LV_Box_pv_4 Volume:     1.00 cm^3 --> center of "mass": ( -20.00,  -0.01,  -0.00) mm, moments of inertia: (0.1669, 4.165, 4.166) cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:   131.95 mm^3 --> center of "mass": ( -26.85,  -7.86,  -0.00) mm, moments of inertia: (0.09177,0.9614, 1.042) cm^5 Entity type: G4Tubs
+
+Total                Volume:     5.66 cm^3 --> center of "mass": (  -0.56,   9.41,  -0.00) mm, moments of inertia: (0.9946, 1.531, 2.437) x10^1 cm^5
+***** geometry moments ****

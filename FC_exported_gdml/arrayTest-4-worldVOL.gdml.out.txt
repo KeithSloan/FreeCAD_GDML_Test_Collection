@@ -1,0 +1,6 @@
+World Logical Volume: worldVOL
+av_1_impr_1_LV_Sphere_pv_0 Volume:     6.76 cm^3 --> center of "mass": (  36.02,   9.59,   4.54) mm, moments of inertia: ( 1.253, 9.521, 9.873) x10^1 cm^5 Entity type: G4Sphere
+av_1_impr_1_LV_Torus_pv_1 Volume:     4.93 cm^3 --> center of "mass": (   0.01,   0.01,  -0.01) mm, moments of inertia: ( 3.241, 3.238, 5.862) cm^5 Entity type: G4Torus
+
+Total                Volume:    11.69 cm^3 --> center of "mass": (  20.83,   5.55,   2.62) mm, moments of inertia: (0.1578,0.9845, 1.046) x10^2 cm^5
+***** geometry moments ****

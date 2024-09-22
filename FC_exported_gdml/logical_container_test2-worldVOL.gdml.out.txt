@@ -1,0 +1,8 @@
+World Logical Volume: worldVOL
+PV-LV_Box            Volume:   550.00 cm^3 --> center of "mass": (   0.03,  58.01,  -0.03) mm, moments of inertia: ( 2.447, 0.677, 2.687) x10^4 cm^5 Entity type: G4Box
+PV-LV_Sphere         Volume:   523.60 mm^3 --> center of "mass": (  30.00,  73.61,  15.49) mm, moments of inertia: ( 2.968,0.6023, 3.314) x10^1 cm^5 Entity type: G4Sphere
+PV-LV_Box001         Volume:     1.00 cm^3 --> center of "mass": (  -0.00,  30.24,  24.38) mm, moments of inertia: ( 1.525,0.6109,0.9312) x10^1 cm^5 Entity type: G4Box
+PV-LV_Tube           Volume:     2.45 cm^3 --> center of "mass": ( -27.01,  69.76,   0.64) mm, moments of inertia: ( 1.206,0.1919, 1.383) x10^2 cm^5 Entity type: G4Tubs
+
+Total                Volume:   553.97 cm^3 --> center of "mass": (  -0.06,  58.02,   0.03) mm, moments of inertia: ( 2.464,0.6801, 2.705) x10^4 cm^5
+***** geometry moments ****

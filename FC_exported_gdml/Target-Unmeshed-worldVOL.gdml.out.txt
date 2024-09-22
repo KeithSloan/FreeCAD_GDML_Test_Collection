@@ -1,0 +1,4 @@
+World Logical Volume: worldVOL
+
+Total                Volume:     0.00 mm^3 --> center of "mass": (    nan,    nan,    nan) mm, moments of inertia: (     0,     0,     0) mm^5
+***** geometry moments ****
