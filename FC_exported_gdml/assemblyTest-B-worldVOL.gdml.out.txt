@@ -1,5 +1,0 @@
-World Logical Volume: worldVOL
-av_1_impr_1_Detector_pv_0 Volume:   322.02 cm^3 --> center of "mass": (   0.02,  -0.03,   3.61) mm, moments of inertia: ( 2.653, 2.653, 2.175) x10^3 cm^5 Entity type: G4UnionSolid
-
-Total                Volume:   322.02 cm^3 --> center of "mass": (   0.02,  -0.03,   3.61) mm, moments of inertia: ( 2.653, 2.653, 2.175) x10^3 cm^5
-***** geometry moments ****

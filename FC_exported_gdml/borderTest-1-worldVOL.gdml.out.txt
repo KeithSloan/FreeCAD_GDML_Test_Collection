@@ -1,7 +1,0 @@
-World Logical Volume: worldVOL
-PV-Part001           Volume:    49.57 cm^3 --> center of "mass": (  -0.02,  -0.04,  -0.03) mm, moments of inertia: (  4.04, 7.446, 4.044) x10^2 cm^5 Entity type: G4MultiUnion
-PV-Part              Volume:    10.61 cm^3 --> center of "mass": (  -0.15,  -0.08,  -0.07) mm, moments of inertia: ( 1.074, 2.014, 1.071) x10^2 cm^5 Entity type: G4MultiUnion
-PV-LV_Sphere         Volume:   523.60 mm^3 --> center of "mass": (   0.00,  -0.00,  -0.00) mm, moments of inertia: ( 5.235, 5.238, 5.236) x10^3 mm^5 Entity type: G4Sphere
-
-Total                Volume:    60.70 cm^3 --> center of "mass": (  -0.04,  -0.05,  -0.04) mm, moments of inertia: ( 5.114,  9.46, 5.116) x10^2 cm^5
-***** geometry moments ****

@@ -1,5 +1,0 @@
-World Logical Volume: worldVOL
-PV-Part              Volume:    10.43 mm^3 --> center of "mass": (   2.59,   2.40,   1.50) mm, moments of inertia: ( 1.306, 1.493, 2.298) x10^2 mm^5 Entity type: G4MultiUnion
-
-Total                Volume:    10.43 mm^3 --> center of "mass": (   2.59,   2.40,   1.50) mm, moments of inertia: ( 1.306, 1.493, 2.298) x10^2 mm^5
-***** geometry moments ****
