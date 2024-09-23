@@ -61,11 +61,15 @@
         <rotationref ref="R-MultiUnion-Array_44"/>
       </multiUnionNode>
     </multiUnion>
+    <scaledSolid name="MultiUnion-Array_scaled">
+      <solidref ref="MultiUnion-Array"/>
+      <scale name="MultiUnion-Array_scale" x="1.5" y="1.0" z="1.0"/>
+    </scaledSolid>
   </solids>
   <structure>
     <volume name="Part">
-      <materialref ref="G4_Pb"/>
-      <solidref ref="MultiUnion-Array"/>
+      <materialref ref="G4_BGO"/>
+      <solidref ref="MultiUnion-Array_scaled"/>
       <auxiliary auxtype="Color" auxvalue="#00abff00"/>
     </volume>
     <volume name="worldVOL">

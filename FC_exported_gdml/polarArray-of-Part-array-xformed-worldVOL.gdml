@@ -4,132 +4,20 @@
     <constant name="HALFPI" value="pi/2."/>
     <constant name="PI" value="1.*pi"/>
     <constant name="TWOPI" value="2.*pi"/>
-    <position name="P-LV_Tube1" unit="mm" x="-3.0" y="-4.0"/>
+    <position name="P-experiment1" unit="mm" x="-20.0" y="-20.0"/>
     <rotation name="identity" x="0" y="0" z="0"/>
-    <position name="P-LV_Box2" unit="mm" x="17.320508075688767" y="-10.000000000000009"/>
-    <rotation name="R-LV_Box1" unit="deg" z="30.00000000000003"/>
-    <position name="P-LV_Box3" unit="mm" x="19.318516525781366" y="5.176380902050406"/>
-    <rotation name="R-LV_Box2" unit="deg" z="-14.99999999999997"/>
-    <position name="P-LV_Box4" unit="mm" x="10.000000000000012" y="17.320508075688764"/>
-    <rotation name="R-LV_Box3" unit="deg" z="-59.99999999999996"/>
-    <position name="P-LV_Box5" unit="mm" x="-5.1763809020504015" y="19.31851652578137"/>
-    <rotation name="R-LV_Box4" unit="deg" z="-104.99999999999997"/>
-    <position name="P-LV_Box6" unit="mm" x="-17.320508075688767" y="10.00000000000001"/>
-    <rotation name="R-LV_Box5" unit="deg" z="-149.99999999999997"/>
-    <position name="P-V-Array7" unit="mm" x="-20.0" y="-20.0"/>
-    <position name="center" x="0" y="0" z="0" unit="mm"/>
-    <position name="P-Part0018" unit="mm" x="-20.0" y="-20.0"/>
+    <position name="P-Part0012" unit="mm" x="-20.0" y="-20.0"/>
   </define>
-  <materials>
-    <element name="N_element" Z="7" formula="N">
-      <atom value="14.007"/>
-    </element>
-    <element name="Fe_element" Z="26" formula="Fe">
-      <atom value="55.845"/>
-    </element>
-    <element name="Cr_element" Z="24" formula="Cr">
-      <atom value="51.9961"/>
-    </element>
-    <element name="Ar_element" Z="18" formula="Ar">
-      <atom value="39.95"/>
-    </element>
-    <element name="Ca_element" Z="20" formula="Ca">
-      <atom value="40.078"/>
-    </element>
-    <element name="C_element" Z="6" formula="C">
-      <atom value="12.011"/>
-    </element>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
-    </element>
-    <element name="H_element" Z="1" formula="H">
-      <atom value="1.008"/>
-    </element>
-    <element name="Ni_element" Z="28" formula="Ni">
-      <atom value="58.6934"/>
-    </element>
-    <element name="F_element" Z="9" formula="F">
-      <atom value="18.998403163"/>
-    </element>
-    <material name="G4_STAINLESS-STEEL" formula="G4_STAINLESS-STEEL">
-      <D unit="g/cm3" value="8.0"/>
-      <composite n="74" ref="Fe_element"/>
-      <composite n="18" ref="Cr_element"/>
-      <composite n="8" ref="Ni_element"/>
-    </material>
-    <material name="G4_AIR" formula="G4_AIR">
-      <D unit="g/cm3" value="0.00120479"/>
-      <fraction n="0.000124" ref="C_element"/>
-      <fraction n="0.755268" ref="N_element"/>
-      <fraction n="0.231781" ref="O_element"/>
-      <fraction n="0.012827" ref="Ar_element"/>
-    </material>
-    <material name="G4_A-150_TISSUE" formula="G4_A-150_TISSUE">
-      <D unit="g/cm3" value="1.127"/>
-      <fraction n="0.101327" ref="H_element"/>
-      <fraction n="0.7755" ref="C_element"/>
-      <fraction n="0.035057" ref="N_element"/>
-      <fraction n="0.0523159" ref="O_element"/>
-      <fraction n="0.017422" ref="F_element"/>
-      <fraction n="0.018378" ref="Ca_element"/>
-    </material>
-  </materials>
+  <materials/>
   <solids>
     <box name="WorldBox" x="273.0" y="273.0" z="130.0" lunit="mm"/>
-    <box name="Box" x="10.0" y="10.0" z="10.0" lunit="mm"/>
-    <tube name="GDMLTube" rmin="5.0" rmax="7.0" startphi="0.0" deltaphi="90.0" aunit="deg" z="7.0" lunit="mm"/>
     <sphere name="Sphere" rmax="1.0" starttheta="0.0" deltatheta="180.0" deltaphi="360.0" aunit="deg" lunit="mm"/>
   </solids>
   <structure>
-    <volume name="LV_Tube">
-      <materialref ref="G4_A-150_TISSUE"/>
-      <solidref ref="GDMLTube"/>
-      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+    <volume name="experiment">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="MultiUnion-Array"/>
     </volume>
-    <volume name="LV_Box">
-      <materialref ref="G4_A-150_TISSUE"/>
-      <solidref ref="Box"/>
-      <auxiliary auxtype="Color" auxvalue="#80808000"/>
-      <physvol name="PV-LV_Tube">
-        <volumeref ref="LV_Tube"/>
-        <positionref ref="P-LV_Tube1"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </volume>
-    <assembly name="V-Array">
-      <physvol name="LV_Box-0">
-        <volumeref ref="LV_Box"/>
-        <positionref ref="P-LV_Box2"/>
-        <rotationref ref="R-LV_Box1"/>
-      </physvol>
-      <physvol name="LV_Box-1">
-        <volumeref ref="LV_Box"/>
-        <positionref ref="P-LV_Box3"/>
-        <rotationref ref="R-LV_Box2"/>
-      </physvol>
-      <physvol name="LV_Box-2">
-        <volumeref ref="LV_Box"/>
-        <positionref ref="P-LV_Box4"/>
-        <rotationref ref="R-LV_Box3"/>
-      </physvol>
-      <physvol name="LV_Box-3">
-        <volumeref ref="LV_Box"/>
-        <positionref ref="P-LV_Box5"/>
-        <rotationref ref="R-LV_Box4"/>
-      </physvol>
-      <physvol name="LV_Box-4">
-        <volumeref ref="LV_Box"/>
-        <positionref ref="P-LV_Box6"/>
-        <rotationref ref="R-LV_Box5"/>
-      </physvol>
-    </assembly>
-    <assembly name="experiment">
-      <physvol name="PV-Array">
-        <volumeref ref="V-Array"/>
-        <positionref ref="P-V-Array7"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </assembly>
     <volume name="Part001">
       <materialref ref="G4_STAINLESS-STEEL"/>
       <solidref ref="Sphere"/>
@@ -140,12 +28,12 @@
       <solidref ref="WorldBox"/>
       <physvol name="PV-experiment">
         <volumeref ref="experiment"/>
-        <positionref ref="center"/>
+        <positionref ref="P-experiment1"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol name="PV-Part001">
         <volumeref ref="Part001"/>
-        <positionref ref="P-Part0018"/>
+        <positionref ref="P-Part0012"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>

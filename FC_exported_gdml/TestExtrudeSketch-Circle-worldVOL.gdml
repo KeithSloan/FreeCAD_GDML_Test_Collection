@@ -10,19 +10,19 @@
   </define>
   <materials/>
   <solids>
-    <box name="WorldBox" x="100.0" y="100.0" z="20.0" lunit="mm"/>
+    <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm"/>
     <tube name="Extrude00" rmax="2.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
   </solids>
   <structure>
     <volume name="V-WorldBox">
       <materialref ref="G4_AIR"/>
       <solidref ref="WorldBox"/>
-      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+      <auxiliary auxtype="Color" auxvalue="#ff9f0000"/>
     </volume>
     <volume name="V-Extrude">
       <materialref ref="G4_STAINLESS-STEEL"/>
       <solidref ref="Extrude00"/>
-      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+      <auxiliary auxtype="Color" auxvalue="#cccce600"/>
     </volume>
     <assembly name="worldVOL">
       <physvol name="PV-GDMLBox_WorldBox">

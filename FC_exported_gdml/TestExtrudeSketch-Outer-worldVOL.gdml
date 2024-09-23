@@ -9,7 +9,7 @@
   </define>
   <materials/>
   <solids>
-    <box name="WorldBox" x="100.0" y="100.0" z="20.0" lunit="mm"/>
+    <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm"/>
     <xtru name="Extrude00" lunit="mm">
       <twoDimVertex x="-3.5" y="3.0"/>
       <twoDimVertex x="3.1715729089730407" y="2.9999999999999996"/>

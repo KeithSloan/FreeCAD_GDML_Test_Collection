@@ -7,32 +7,7 @@
     <position name="P-Part1" unit="mm" x="10.000000000000002" y="17.320508075688778" z="5.0"/>
     <rotation name="R-Part1" unit="deg" z="-29.999999999999993"/>
   </define>
-  <materials>
-    <element name="Ar_element" Z="18" formula="Ar">
-      <atom value="39.95"/>
-    </element>
-    <element name="N_element" Z="7" formula="N">
-      <atom value="14.007"/>
-    </element>
-    <element name="alactic"/>
-    <element name="C_element" Z="6" formula="C">
-      <atom value="12.011"/>
-    </element>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
-    </element>
-    <material name="G4_AIR" formula="G4_AIR">
-      <D unit="g/cm3" value="0.00120479"/>
-      <fraction n="0.000124" ref="C_element"/>
-      <fraction n="0.755268" ref="N_element"/>
-      <fraction n="0.231781" ref="O_element"/>
-      <fraction n="0.012827" ref="Ar_element"/>
-    </material>
-    <material name="G4_Galactic" formula="G4_Galactic">
-      <D unit="g/cm3" value="0.0"/>
-      <composite n="1" ref="alactic"/>
-    </material>
-  </materials>
+  <materials/>
   <solids>
     <box name="WorldBox" x="200.0" y="200.0" z="200.0" lunit="mm"/>
     <tube name="Extrude00" rmax="10.0" z="10.0" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
