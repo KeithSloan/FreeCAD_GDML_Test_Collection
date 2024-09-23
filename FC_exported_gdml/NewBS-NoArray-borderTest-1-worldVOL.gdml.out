@@ -1,0 +1,2125 @@
+G4GDML: Reading 'NewBS-NoArray-borderTest-1-worldVOL.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_0:1 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_1:2 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_2:3 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_3:4 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_4:5 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_5:6 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_6:7 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_V-Box004_pv_7:8 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_0:9 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_1:10 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_2:11 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_3:12 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_4:13 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_5:14 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_6:15 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_7:16 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_8:17 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_9:18 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_10:19 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_11:20 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_12:21 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_13:22 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_14:23 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_15:24 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_16:25 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_17:26 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_18:27 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_19:28 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_20:29 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_21:30 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_22:31 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_23:32 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_24:33 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_25:34 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_26:35 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_27:36 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_28:37 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_29:38 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_30:39 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_31:40 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_32:41 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_33:42 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_34:43 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_35:44 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_36:45 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_37:46 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_38:47 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_39:48 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_40:49 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_41:50 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_42:51 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_43:52 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_44:53 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_45:54 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_46:55 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_47:56 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_48:57 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_49:58 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_50:59 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_51:60 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_52:61 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_53:62 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_54:63 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_55:64 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_56:65 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_57:66 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_58:67 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_59:68 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_60:69 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_61:70 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_62:71 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_3_V-Box005_pv_63:72 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_0:101 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_1:102 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_2:103 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_3:104 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_4:105 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_5:106 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_6:107 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_7:108 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_8:109 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_9:110 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_10:111 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_11:112 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_12:113 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_13:114 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_14:115 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_15:116 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_16:117 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_17:118 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_18:119 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_19:120 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_20:121 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_21:122 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_22:123 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_23:124 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_24:125 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_25:126 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_26:127 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_27:128 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_28:129 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_29:130 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_30:131 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_31:132 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_32:133 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_33:134 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_34:135 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_35:136 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_36:137 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_37:138 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_38:139 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_39:140 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_40:141 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_41:142 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_42:143 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_43:144 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_44:145 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_45:146 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_46:147 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_47:148 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_48:149 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_49:150 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_50:151 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_51:152 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_52:153 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_53:154 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_54:155 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_55:156 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_56:157 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_57:158 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_58:159 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_59:160 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_60:161 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_61:162 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_62:163 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_4_V-Box005_pv_63:164 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_0:201 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_1:202 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_2:203 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_3:204 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_4:205 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_5:206 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_6:207 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_7:208 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_8:209 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_9:210 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_10:211 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_11:212 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_12:213 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_13:214 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_14:215 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_15:216 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_16:217 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_17:218 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_18:219 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_19:220 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_20:221 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_21:222 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_22:223 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_23:224 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_24:225 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_25:226 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_26:227 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_27:228 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_28:229 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_29:230 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_30:231 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_31:232 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_32:233 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_33:234 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_34:235 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_35:236 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_36:237 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_37:238 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_38:239 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_39:240 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_40:241 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_41:242 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_42:243 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_43:244 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_44:245 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_45:246 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_46:247 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_47:248 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_48:249 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_49:250 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_50:251 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_51:252 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_52:253 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_53:254 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_54:255 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_55:256 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_56:257 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_57:258 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_58:259 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_59:260 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_60:261 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_61:262 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_62:263 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_5_V-Box005_pv_63:264 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_0:301 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_1:302 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_2:303 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_3:304 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_4:305 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_5:306 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_6:307 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_7:308 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_8:309 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_9:310 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_10:311 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_11:312 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_12:313 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_13:314 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_14:315 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_15:316 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_16:317 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_17:318 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_18:319 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_19:320 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_20:321 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_21:322 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_22:323 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_23:324 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_24:325 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_25:326 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_26:327 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_27:328 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_28:329 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_29:330 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_30:331 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_31:332 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_32:333 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_33:334 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_34:335 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_35:336 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_36:337 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_37:338 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_38:339 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_39:340 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_40:341 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_41:342 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_42:343 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_43:344 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_44:345 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_45:346 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_46:347 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_47:348 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_48:349 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_49:350 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_50:351 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_51:352 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_52:353 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_53:354 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_54:355 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_55:356 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_56:357 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_57:358 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_58:359 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_59:360 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_60:361 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_61:362 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_62:363 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_6_V-Box005_pv_63:364 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_0:401 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_1:402 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_2:403 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_3:404 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_4:405 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_5:406 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_6:407 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_7:408 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_8:409 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_9:410 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_10:411 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_11:412 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_12:413 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_13:414 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_14:415 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_15:416 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_16:417 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_17:418 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_18:419 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_19:420 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_20:421 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_21:422 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_22:423 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_23:424 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_24:425 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_25:426 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_26:427 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_27:428 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_28:429 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_29:430 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_30:431 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_31:432 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_32:433 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_33:434 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_34:435 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_35:436 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_36:437 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_37:438 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_38:439 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_39:440 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_40:441 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_41:442 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_42:443 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_43:444 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_44:445 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_45:446 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_46:447 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_47:448 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_48:449 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_49:450 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_50:451 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_51:452 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_52:453 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_53:454 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_54:455 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_55:456 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_56:457 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_57:458 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_58:459 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_59:460 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_60:461 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_61:462 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_62:463 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_7_V-Box005_pv_63:464 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_0:501 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_1:502 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_2:503 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_3:504 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_4:505 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_5:506 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_6:507 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_7:508 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_8:509 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_9:510 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_10:511 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_11:512 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_12:513 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_13:514 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_14:515 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_15:516 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_16:517 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_17:518 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_18:519 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_19:520 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_20:521 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_21:522 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_22:523 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_23:524 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_24:525 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_25:526 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_26:527 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_27:528 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_28:529 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_29:530 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_30:531 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_31:532 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_32:533 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_33:534 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_34:535 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_35:536 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_36:537 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_37:538 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_38:539 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_39:540 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_40:541 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_41:542 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_42:543 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_43:544 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_44:545 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_45:546 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_46:547 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_47:548 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_48:549 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_49:550 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_50:551 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_51:552 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_52:553 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_53:554 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_54:555 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_55:556 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_56:557 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_57:558 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_58:559 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_59:560 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_60:561 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_61:562 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_62:563 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_8_V-Box005_pv_63:564 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_0:601 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_1:602 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_2:603 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_3:604 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_4:605 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_5:606 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_6:607 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_7:608 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_8:609 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_9:610 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_10:611 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_11:612 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_12:613 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_13:614 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_14:615 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_15:616 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_16:617 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_17:618 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_18:619 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_19:620 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_20:621 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_21:622 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_22:623 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_23:624 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_24:625 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_25:626 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_26:627 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_27:628 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_28:629 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_29:630 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_30:631 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_31:632 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_32:633 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_33:634 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_34:635 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_35:636 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_36:637 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_37:638 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_38:639 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_39:640 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_40:641 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_41:642 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_42:643 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_43:644 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_44:645 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_45:646 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_46:647 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_47:648 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_48:649 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_49:650 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_50:651 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_51:652 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_52:653 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_53:654 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_54:655 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_55:656 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_56:657 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_57:658 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_58:659 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_59:660 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_60:661 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_61:662 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_62:663 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_9_V-Box005_pv_63:664 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_0:701 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_1:702 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_2:703 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_3:704 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_4:705 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_5:706 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_6:707 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_7:708 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_8:709 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_9:710 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_10:711 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_11:712 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_12:713 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_13:714 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_14:715 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_15:716 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_16:717 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_17:718 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_18:719 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_19:720 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_20:721 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_21:722 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_22:723 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_23:724 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_24:725 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_25:726 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_26:727 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_27:728 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_28:729 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_29:730 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_30:731 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_31:732 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_32:733 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_33:734 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_34:735 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_35:736 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_36:737 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_37:738 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_38:739 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_39:740 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_40:741 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_41:742 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_42:743 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_43:744 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_44:745 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_45:746 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_46:747 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_47:748 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_48:749 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_49:750 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_50:751 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_51:752 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_52:753 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_53:754 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_54:755 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_55:756 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_56:757 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_57:758 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_58:759 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_59:760 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_60:761 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_61:762 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_62:763 (G4Box) ... OK! 
+Checking overlaps for volume av_5_impr_10_V-Box005_pv_63:764 (G4Box) ... OK! 
+Checking overlaps for volume LV_Sphere_PV:0 (G4Sphere) ... OK! 
+G4GDML: Reading setup...
+G4GDML: Reading 'NewBS-NoArray-borderTest-1-worldVOL.gdml' done!
+Stripping off GDML names of materials, solids and volumes ...
+
+**************************************************************
+ Geant4 version Name: geant4-11-02-patch-02 [MT]   (21-June-2024)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Geant4 Physics List simulation engine: FTFP_BERT
+
+G4VModularPhysicsList::ReplacePhysics: G4EmStandard with type : 2 is replaced with G4EmStandard_opt4
+
+ hInelastic FTFP_BERT : threshold between BERT and FTFP is over the interval 
+ for pions :   3 to 6 GeV
+ for kaons :   3 to 6 GeV
+ for proton :  3 to 6 GeV
+ for neutron : 3 to 6 GeV
+
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+### Birks coefficients used in run time
+=======================================================================
+======                 Electromagnetic Physics Parameters      ========
+=======================================================================
+LPM effect enabled                                 1
+Enable creation and use of sampling tables         0
+Apply cuts on all EM processes                     0
+Use combined TransportationWithMsc                 Disabled
+Use general process                                1
+Enable linear polarisation for gamma               0
+Enable photoeffect sampling below K-shell          1
+Enable sampling of quantum entanglement            0
+X-section factor for integral approach             0.8
+Min kinetic energy for tables                      100 eV 
+Max kinetic energy for tables                      100 TeV
+Number of bins per decade of a table               20
+Verbose level                                      1
+Verbose level for worker thread                    0
+Bremsstrahlung energy threshold above which 
+  primary e+- is added to the list of secondary    100 TeV
+Bremsstrahlung energy threshold above which primary
+  muon/hadron is added to the list of secondary    100 TeV
+Lowest triplet kinetic energy                      1 MeV
+Enable sampling of gamma linear polarisation       0
+5D gamma conversion model type                     0
+5D gamma conversion model on isolated ion          0
+Livermore data directory                           epics_2017
+=======================================================================
+======                 Ionisation Parameters                   ========
+=======================================================================
+Step function for e+-                              (0.2, 0.01 mm)
+Step function for muons/hadrons                    (0.1, 0.05 mm)
+Step function for light ions                       (0.1, 0.02 mm)
+Step function for general ions                     (0.1, 0.001 mm)
+Lowest e+e- kinetic energy                         100 eV 
+Lowest muon/hadron kinetic energy                  1 keV
+Use ICRU90 data                                    1
+Fluctuations of dE/dx are enabled                  1
+Type of fluctuation model for leptons and hadrons  Urban
+Use built-in Birks satuaration                     1
+Build CSDA range enabled                           0
+Use cut as a final range enabled                   0
+Enable angular generator interface                 1
+Max kinetic energy for CSDA tables                 1 GeV
+Max kinetic energy for NIEL computation            1 MeV
+Linear loss limit                                  0.01
+Read data from file for e+e- pair production by mu 0
+=======================================================================
+======                 Multiple Scattering Parameters          ========
+=======================================================================
+Type of msc step limit algorithm for e+-           2
+Type of msc step limit algorithm for muons/hadrons 0
+Msc lateral displacement for e+- enabled           1
+Msc lateral displacement for muons and hadrons     1
+Urban msc model lateral displacement alg96         1
+Range factor for msc step limit for e+-            0.08
+Range factor for msc step limit for muons/hadrons  0.2
+Geometry factor for msc step limitation of e+-     2.5
+Safety factor for msc step limit for e+-           0.6
+Skin parameter for msc step limitation of e+-      3
+Lambda limit for msc step limit for e+-            1 mm
+Use Mott correction for e- scattering              1
+Factor used for dynamic computation of angular 
+  limit between single and multiple scattering     1
+Fixed angular limit between single 
+  and multiple scattering                          3.1416 rad
+Upper energy limit for e+- multiple scattering     100 MeV
+Type of electron single scattering model           0
+Type of nuclear form-factor                        1
+Screening factor                                   1
+=======================================================================
+======                 Atomic Deexcitation Parameters          ========
+=======================================================================
+Fluorescence enabled                               1
+Directory in G4LEDATA for fluorescence data files  fluor
+Auger electron cascade enabled                     0
+PIXE atomic de-excitation enabled                  0
+De-excitation module ignores cuts                  0
+Type of PIXE cross section for hadrons             Empirical
+Type of PIXE cross section for e+-                 Livermore
+=======================================================================
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld  1  0  0
+### ===  Ignore cuts flag:   0
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 174 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 20 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 160 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LowEPComptonModel : Emin=    0 eV  Emax=   20 MeV Fluo
+        KleinNishina : Emin=   20 MeV Emax=  100 TeV Fluo
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+      BetheHeitler5D : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 150 keV, 20 bins/decade, spline: 0
+      LambdaPrime table from 150 keV to 100 TeV in 176 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=120 100 MeV - 100 TeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+eIoni:  for e-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.2, 0.01 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             PenIoni : Emin=    0 eV  Emax=  100 keV
+        MollerBhabha : Emin=  100 keV Emax=  100 TeV  deltaVI
+
+eBrem:  for e-  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  AngularGen2BS
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  AngularGen2BS
+
+ePairProd:  for e-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 0
+      Sampling table 25x1001; from 0.1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           ePairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for e- XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=120 100 MeV - 100 TeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+eIoni:  for e+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.2, 0.01 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             PenIoni : Emin=    0 eV  Emax=  100 keV
+        MollerBhabha : Emin=  100 keV Emax=  100 TeV  deltaVI
+
+eBrem:  for e+  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  AngularGen2BS
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  AngularGen2BS
+
+ePairProd:  for e+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 0
+      Sampling table 25x1001; from 0.1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           ePairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+annihil:  for e+ XStype:2 SubType=5 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV  deltaVI
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV  deltaVI
+
+hBrems:  for proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+nuclearStopping:  for proton SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+ionIoni:  for GenericIon  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.001 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LindhardSorensen : Emin=    0 eV  Emax=  100 TeV  deltaVI
+
+nuclearStopping:  for GenericIon SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+ionIoni:  for alpha  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.02 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV  deltaVI
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV  deltaVI
+
+nuclearStopping:  for alpha SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for anti_proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV  deltaVI
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV  deltaVI
+
+hBrems:  for anti_proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for anti_proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for anti_proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for kaon+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV  deltaVI
+
+hBrems:  for kaon+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for kaon-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV  deltaVI
+
+hBrems:  for kaon-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+muIoni:  for mu+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV  deltaVI
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV  deltaVI
+
+muBrems:  for mu+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 21x1001; from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+muIoni:  for mu-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV  deltaVI
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV  deltaVI
+
+muBrems:  for mu-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 21x1001; from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for pi+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV  deltaVI
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV  deltaVI
+
+hBrems:  for pi+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for pi-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV  deltaVI
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV  deltaVI
+
+hBrems:  for pi-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+-----------------------------------------------------------------------
+                           Hadronic Processes for neutron
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+  Process: neutronInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+  Process: nKiller
+-----------------------------------------------------------------------
+                           Hadronic Processes for B-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: B-Inelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for D-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: D-Inelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for GenericIon
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-------------------------------------------------------------------------
+                           Hadronic Processes for anti_hypertriton
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: anti_lambdaInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_neutron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_proton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e-
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for gamma
+  Process: photonNuclear
+        Model:               GammaNPreco: 0 eV  ---> 200 MeV
+        Model:            BertiniCascade: 199 MeV ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            GammaNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: lambdaInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu-
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+  Process: muMinusCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi-
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for proton
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: protonInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for sigma-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: sigma-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+=======================================================================
+======       Geant4 Native Pre-compound Model Parameters       ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy                  100 keV
+Pre-compound excitation high energy                 30 MeV
+Angular generator for pre-compound model            1
+Use NeverGoBack option for pre-compound model       0
+Use SoftCutOff option for pre-compound model        0
+Use CEM transitions for pre-compound model          1
+Use GNASH transitions for pre-compound model        0
+Use HETC submodel for pre-compound model            0
+=======================================================================
+======       Nuclear De-excitation Module Parameters           ========
+=======================================================================
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy                               10 eV 
+Min energy per nucleon for multifragmentation       200 GeV
+Limit excitation energy for Fermi BreakUp           20 MeV
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      1
+Time limit for long lived isomeres                  1 ns 
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+
+=========================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Initializing workers...
+=========================================================================
+
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Registered graphics systems are:
+  ASCIITree (ATree)
+  DAWNFILE (DAWNFILE)
+  G4HepRepFile (HepRepFile)
+  RayTracer (RayTracer)
+  VRML2FILE (VRML2FILE)
+  gMocrenFile (gMocrenFile)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN, TSG_FILE)
+  OpenGLImmediateQt (OGLIQt, OGLI)
+  OpenGLStoredQt (OGLSQt, OGL, OGLS)
+  OpenGLImmediateX (OGLIX, OGLIQt_FALLBACK)
+  OpenGLStoredX (OGLSX, OGLSQt_FALLBACK)
+  TOOLSSG_X11_GLES (TSG_X11_GLES, TSGX11, TSG_QT_GLES_FALLBACK)
+  TOOLSSG_QT_GLES (TSG_QT_GLES, TSGQt, TSG)
+  TOOLSSG_QT_ZB (TSG_QT_ZB, TSGQtZB)
+Default graphics system is: TSG_OFFSCREEN (based on batch session).
+Default window size hint is: 600x600-0+0 (based on G4VisManager initialisation).
+Note: Parameters specified on the command line will override these defaults.
+      Use "vis/open" without parameters to get these defaults.
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered models:
+  None
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+Registered filters:
+  None
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+
+Auxiliary Information is found for Logical Volume :  V-Box004
+/vis/geometry/set/colour V-Box004 0.500000 0.500000 0.500000 1.000000
+|Color : #80808000 
+Auxiliary Information is found for Logical Volume :  V-Box005
+/vis/geometry/set/colour V-Box005 0.992188 0.636719 0.000000 1.000000
+|Color : #fea30000 
+Auxiliary Information is found for Logical Volume :  LV_Sphere
+/vis/geometry/set/colour LV_Sphere 0.609375 0.996094 0.000000 1.000000
+|Color : #9cff0000 
+
+Global auxiliary info:
+
+
+** iprintCM= 2
+using 1000000 Simulations per volume for CM MC
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld  1  0  0
+### ===  Ignore cuts flag:   0
+
+==============================================================================
+--> G4TaskRunManager::ComputeNumberOfTasks() --> 0 tasks with 1 events/task...
+==============================================================================
+
+WARNING: G4VisManager::IsValidView(): Attempt to draw when no graphics system
+  has been instantiated.  Use "/vis/open" or "/vis/sceneHandler/create".
+  Alternatively, to avoid this message, suppress instantiation of vis
+  manager (G4VisExecutive) and ensure drawing code is executed only if
+  G4VVisManager::GetConcreteInstance() is non-zero.
+ERROR: No current scene.  Please create one.
+***** geometry moments ****
+World Logical Volume: worldVOL
+av_2_impr_2_V-Box004_pv_0 Volume:     6.18 cm^3 --> center of "mass": (   0.01,  -0.00,  37.85) mm, moments of inertia: ( 9.286, 9.287,0.7963) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_1 Volume:     6.18 cm^3 --> center of "mass": (  26.77,   0.00,  26.76) mm, moments of inertia: (  5.04, 9.287, 5.043) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_2 Volume:     6.18 cm^3 --> center of "mass": (  37.85,   0.00,   0.00) mm, moments of inertia: (0.7962, 9.289, 9.289) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_3 Volume:     6.18 cm^3 --> center of "mass": (  26.77,   0.00, -26.76) mm, moments of inertia: (  5.04, 9.288, 5.044) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_4 Volume:     6.18 cm^3 --> center of "mass": (  -0.01,  -0.01, -37.85) mm, moments of inertia: ( 9.288, 9.288,0.7966) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_5 Volume:     6.18 cm^3 --> center of "mass": ( -26.78,  -0.00, -26.75) mm, moments of inertia: ( 5.037, 9.289, 5.049) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_6 Volume:     6.18 cm^3 --> center of "mass": ( -37.85,  -0.01,  -0.00) mm, moments of inertia: (0.7965, 9.289, 9.289) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_7 Volume:     6.18 cm^3 --> center of "mass": ( -26.77,   0.00,  26.76) mm, moments of inertia: ( 5.042, 9.288, 5.043) x10^1 cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -11.99, -11.99,  42.85) mm, moments of inertia: (0.4108,0.4108,0.05997) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.4108,0.04547) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.4108,0.03575) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.4108,0.03084) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,   1.61,  42.85) mm, moments of inertia: (0.3815,0.4108,0.03071) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,   5.01,  42.85) mm, moments of inertia: (0.3862,0.4108,0.03538) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,   8.41,  42.85) mm, moments of inertia: (0.3956,0.4108,0.04483) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  11.81,  42.85) mm, moments of inertia: (0.4099,0.4108,0.0591) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  -8.59, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3963,0.04548) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3963,0.03097) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3963,0.02124) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3963,0.01633) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3963,0.0162) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3963,0.02086) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3963,0.03032) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3963,0.04459) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  -5.19, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3866,0.03576) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3866,0.02125) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3866,0.01153) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3866,0.006609) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3866,0.006484) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3866,0.01115) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3866,0.02062) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3866,0.03487) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  -1.79, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3817,0.03083) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3817,0.01633) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3817,0.006611) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3817,0.001686) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3817,0.001561) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3817,0.006229) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3817,0.0157) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3817,0.02995) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (   1.61, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3815,0.0307) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3815,0.0162) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3815,0.006484) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3815,0.00156) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (   1.61,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3815,0.001434) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (   1.61,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3815,0.006099) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (   1.61,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3815,0.01556) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  11.81,  42.85) mm, moments of inertia: (  0.41,0.3816,0.02983) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (   5.01, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3862,0.03537) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3862,0.02087) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3862,0.01115) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  -1.79,  42.85) mm, moments of inertia: (0.3816,0.3862,0.00623) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (   5.01,   1.61,  42.85) mm, moments of inertia: (0.3816,0.3862,0.006103) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (   5.01,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3862,0.01076) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (   5.01,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3862,0.02023) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3862,0.03449) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (   8.41, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3957,0.04484) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3957,0.03032) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3957,0.02061) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3957,0.01569) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (   8.41,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3957,0.01556) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (   8.41,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3957,0.02023) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (   8.41,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3957,0.02969) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3957,0.04395) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  11.81, -11.99,  42.85) mm, moments of inertia: (0.4108,0.4099,0.0591) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.4099,0.04458) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.4099,0.03486) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.4099,0.02995) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  11.81,   1.61,  42.85) mm, moments of inertia: (0.3815,0.4099,0.02982) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  11.81,   5.01,  42.85) mm, moments of inertia: (0.3862,0.4099,0.03448) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  11.81,   8.41,  42.85) mm, moments of inertia: (0.3956,0.4099,0.04394) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  11.81,  42.85) mm, moments of inertia: (0.4099,0.4099,0.05822) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  21.82, -11.99,  38.78) mm, moments of inertia: (0.3419,0.4108,0.1289) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  -8.59,  38.78) mm, moments of inertia: (0.3274,0.4108,0.1144) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  -5.19,  38.78) mm, moments of inertia: (0.3177,0.4108,0.1046) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  -1.79,  38.78) mm, moments of inertia: (0.3128,0.4108,0.09972) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  21.82,   1.61,  38.78) mm, moments of inertia: (0.3127,0.4108,0.09958) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  21.82,   5.01,  38.78) mm, moments of inertia: (0.3173,0.4108,0.1043) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  21.82,   8.41,  38.78) mm, moments of inertia: (0.3268,0.4108,0.1137) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  11.81,  38.78) mm, moments of inertia: (0.3411,0.4108, 0.128) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  24.23, -11.99,  36.37) mm, moments of inertia: (0.3045,0.3963,0.1518) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  24.22,  -8.59,  36.37) mm, moments of inertia: (  0.29,0.3963,0.1373) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  24.23,  -5.19,  36.37) mm, moments of inertia: (0.2802,0.3963,0.1276) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  24.22,  -1.79,  36.37) mm, moments of inertia: (0.2753,0.3963,0.1227) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  24.22,   1.61,  36.37) mm, moments of inertia: (0.2752,0.3963,0.1225) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  24.23,   5.01,  36.37) mm, moments of inertia: (0.2799,0.3963,0.1272) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  24.22,   8.41,  36.37) mm, moments of inertia: (0.2893,0.3963,0.1367) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  24.23,  11.81,  36.37) mm, moments of inertia: (0.3036,0.3963,0.1509) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  26.63, -11.99,  33.97) mm, moments of inertia: (0.2694,0.3866,0.1772) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  -8.59,  33.97) mm, moments of inertia: (0.2549,0.3866,0.1627) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  -5.19,  33.97) mm, moments of inertia: (0.2452,0.3866, 0.153) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  -1.79,  33.97) mm, moments of inertia: (0.2403,0.3866, 0.148) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  26.63,   1.61,  33.97) mm, moments of inertia: (0.2401,0.3866,0.1479) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  26.63,   5.01,  33.97) mm, moments of inertia: (0.2448,0.3866,0.1526) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  26.63,   8.41,  33.97) mm, moments of inertia: (0.2542,0.3866, 0.162) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  11.81,  33.97) mm, moments of inertia: (0.2685,0.3866,0.1763) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  29.03, -11.99,  31.57) mm, moments of inertia: (0.2367,0.3817,0.2049) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  -8.59,  31.57) mm, moments of inertia: (0.2222,0.3817,0.1904) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  -5.19,  31.57) mm, moments of inertia: (0.2125,0.3817,0.1807) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  -1.79,  31.57) mm, moments of inertia: (0.2076,0.3817,0.1758) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  29.03,   1.61,  31.57) mm, moments of inertia: (0.2075,0.3817,0.1756) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  29.03,   5.01,  31.56) mm, moments of inertia: (0.2121,0.3817,0.1803) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  29.03,   8.41,  31.57) mm, moments of inertia: (0.2216,0.3817,0.1898) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  11.81,  31.57) mm, moments of inertia: (0.2359,0.3817, 0.204) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  31.44, -11.99,  29.16) mm, moments of inertia: (0.2065,0.3815,0.2351) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  -8.59,  29.16) mm, moments of inertia: ( 0.192,0.3816,0.2206) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  -5.19,  29.16) mm, moments of inertia: (0.1822,0.3815,0.2108) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  -1.79,  29.16) mm, moments of inertia: (0.1773,0.3815,0.2059) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  31.44,   1.61,  29.16) mm, moments of inertia: (0.1772,0.3815,0.2058) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  31.44,   5.01,  29.16) mm, moments of inertia: (0.1819,0.3816,0.2105) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  31.44,   8.41,  29.16) mm, moments of inertia: (0.1913,0.3815,0.2199) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  11.81,  29.16) mm, moments of inertia: (0.2055,0.3815,0.2342) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  33.84, -11.99,  26.76) mm, moments of inertia: (0.1786,0.3862,0.2676) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  -8.59,  26.75) mm, moments of inertia: ( 0.164,0.3862,0.2531) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  -5.19,  26.76) mm, moments of inertia: (0.1543,0.3862,0.2434) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  -1.79,  26.76) mm, moments of inertia: (0.1494,0.3862,0.2385) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  33.84,   1.61,  26.76) mm, moments of inertia: (0.1493,0.3862,0.2383) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  33.84,   5.01,  26.76) mm, moments of inertia: ( 0.154,0.3862, 0.243) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  33.84,   8.41,  26.76) mm, moments of inertia: (0.1634,0.3862,0.2525) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  11.81,  26.76) mm, moments of inertia: (0.1777,0.3862,0.2667) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  36.25, -11.99,  24.35) mm, moments of inertia: (0.1531,0.3957,0.3026) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  -8.59,  24.35) mm, moments of inertia: (0.1386,0.3957,0.2881) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  -5.19,  24.35) mm, moments of inertia: (0.1289,0.3956,0.2783) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  -1.79,  24.35) mm, moments of inertia: (0.1239,0.3956,0.2734) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  36.25,   1.61,  24.35) mm, moments of inertia: (0.1238,0.3957,0.2733) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  36.25,   5.01,  24.35) mm, moments of inertia: (0.1285,0.3957,0.2779) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  36.25,   8.41,  24.35) mm, moments of inertia: (0.1379,0.3957,0.2874) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  11.81,  24.35) mm, moments of inertia: (0.1522,0.3957,0.3017) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  38.65, -11.99,  21.95) mm, moments of inertia: (  0.13,0.4099,0.3399) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  -8.59,  21.95) mm, moments of inertia: (0.1155,0.4099,0.3254) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  -5.19,  21.95) mm, moments of inertia: (0.1058,0.4099,0.3157) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  -1.79,  21.95) mm, moments of inertia: (0.1009,0.4099,0.3107) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  38.65,   1.61,  21.95) mm, moments of inertia: (0.1007,0.4099,0.3106) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  38.65,   5.01,  21.95) mm, moments of inertia: (0.1054,0.4099,0.3153) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  38.65,   8.41,  21.95) mm, moments of inertia: (0.1149,0.4099,0.3248) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  11.81,  21.95) mm, moments of inertia: (0.1291,0.4099, 0.339) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  11.99) mm, moments of inertia: (0.05998,0.4108,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  11.99) mm, moments of inertia: (0.04547,0.4108,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  11.99) mm, moments of inertia: (0.03576,0.4108,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  11.99) mm, moments of inertia: (0.03084,0.4108,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  11.99) mm, moments of inertia: (0.0307,0.4108,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  11.99) mm, moments of inertia: (0.03538,0.4108,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  11.99) mm, moments of inertia: (0.04484,0.4108,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  11.99) mm, moments of inertia: (0.05907,0.4108,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,   8.59) mm, moments of inertia: (0.04547,0.3963,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,   8.59) mm, moments of inertia: (0.03096,0.3963,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,   8.59) mm, moments of inertia: (0.02125,0.3963,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,   8.59) mm, moments of inertia: (0.01632,0.3963,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,   8.59) mm, moments of inertia: (0.0162,0.3963,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,   8.59) mm, moments of inertia: (0.02086,0.3963,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,   8.59) mm, moments of inertia: (0.03032,0.3963,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,   8.59) mm, moments of inertia: (0.04459,0.3963,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,   5.19) mm, moments of inertia: (0.03576,0.3866,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,   5.19) mm, moments of inertia: (0.02124,0.3866,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,   5.19) mm, moments of inertia: (0.01153,0.3866,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,   5.19) mm, moments of inertia: (0.006607,0.3866,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,   5.19) mm, moments of inertia: (0.006481,0.3866,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,   5.19) mm, moments of inertia: (0.01115,0.3866,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,   5.19) mm, moments of inertia: (0.02061,0.3866,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,   5.19) mm, moments of inertia: (0.03487,0.3866,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,   1.79) mm, moments of inertia: (0.03084,0.3817,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,   1.79) mm, moments of inertia: (0.01632,0.3817,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,   1.79) mm, moments of inertia: (0.006609,0.3817,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,   1.79) mm, moments of inertia: (0.001689,0.3817,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,   1.79) mm, moments of inertia: (0.001561,0.3817,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,   1.79) mm, moments of inertia: (0.006226,0.3817,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,   1.79) mm, moments of inertia: (0.01569,0.3817,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,   1.79) mm, moments of inertia: (0.02995,0.3817,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  -1.61) mm, moments of inertia: (0.03071,0.3815,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  -1.61) mm, moments of inertia: (0.0162,0.3815,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  -1.61) mm, moments of inertia: (0.006482,0.3815,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  -1.61) mm, moments of inertia: (0.00156,0.3815,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  -1.61) mm, moments of inertia: (0.001433,0.3815,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  -1.61) mm, moments of inertia: (0.006099,0.3815,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  -1.61) mm, moments of inertia: (0.01556,0.3815,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  -1.61) mm, moments of inertia: (0.02982,0.3815,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  -5.01) mm, moments of inertia: (0.03538,0.3862,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  -5.01) mm, moments of inertia: (0.02087,0.3862,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  -5.01) mm, moments of inertia: (0.01115,0.3862,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  -5.01) mm, moments of inertia: (0.006229,0.3862,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  -5.01) mm, moments of inertia: (0.006095,0.3862,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  -5.01) mm, moments of inertia: (0.01077,0.3862,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  -5.01) mm, moments of inertia: (0.02022,0.3862,0.3956) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  -5.01) mm, moments of inertia: (0.03449,0.3862,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  -8.41) mm, moments of inertia: (0.04485,0.3957,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  -8.41) mm, moments of inertia: (0.03033,0.3957,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  -8.41) mm, moments of inertia: (0.02061,0.3957,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  -8.41) mm, moments of inertia: (0.01568,0.3956,0.3816) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  -8.41) mm, moments of inertia: (0.01557,0.3957,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  -8.41) mm, moments of inertia: (0.02023,0.3957,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  -8.41) mm, moments of inertia: (0.02969,0.3957,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  -8.41) mm, moments of inertia: (0.04395,0.3957,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99, -11.81) mm, moments of inertia: (0.05909,0.4099,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59, -11.81) mm, moments of inertia: (0.04458,0.4099,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19, -11.81) mm, moments of inertia: (0.03488,0.4099,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79, -11.81) mm, moments of inertia: (0.02994,0.4099,0.3816) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61, -11.81) mm, moments of inertia: (0.02982,0.4099,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01, -11.81) mm, moments of inertia: (0.03448,0.4099,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41, -11.81) mm, moments of inertia: (0.04395,0.4099,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81, -11.81) mm, moments of inertia: (0.0582,0.4099,0.4099) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  38.78, -11.99, -21.82) mm, moments of inertia: (0.1289,0.4108,0.3419) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  -8.59, -21.82) mm, moments of inertia: (0.1143,0.4108,0.3274) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  -5.19, -21.82) mm, moments of inertia: (0.1046,0.4108,0.3177) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  -1.79, -21.82) mm, moments of inertia: (0.09969,0.4108,0.3128) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  38.78,   1.61, -21.82) mm, moments of inertia: (0.09959,0.4108,0.3126) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  38.78,   5.01, -21.82) mm, moments of inertia: (0.1043,0.4108,0.3173) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  38.78,   8.41, -21.82) mm, moments of inertia: (0.1137,0.4108,0.3268) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  11.81, -21.82) mm, moments of inertia: ( 0.128,0.4108, 0.341) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  36.37, -11.99, -24.23) mm, moments of inertia: (0.1518,0.3963,0.3045) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  36.37,  -8.59, -24.23) mm, moments of inertia: (0.1373,0.3963,  0.29) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  36.37,  -5.19, -24.23) mm, moments of inertia: (0.1276,0.3963,0.2802) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  36.37,  -1.79, -24.23) mm, moments of inertia: (0.1227,0.3963,0.2753) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  36.37,   1.61, -24.23) mm, moments of inertia: (0.1225,0.3963,0.2752) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  36.37,   5.01, -24.23) mm, moments of inertia: (0.1272,0.3963,0.2799) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  36.37,   8.41, -24.23) mm, moments of inertia: (0.1367,0.3963,0.2893) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  36.38,  11.81, -24.22) mm, moments of inertia: (0.1509,0.3963,0.3036) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  33.97, -11.99, -26.63) mm, moments of inertia: (0.1772,0.3866,0.2694) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  -8.59, -26.63) mm, moments of inertia: (0.1626,0.3866,0.2549) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  -5.19, -26.63) mm, moments of inertia: (0.1529,0.3866,0.2452) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  -1.79, -26.63) mm, moments of inertia: ( 0.148,0.3866,0.2403) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  33.97,   1.61, -26.63) mm, moments of inertia: (0.1479,0.3866,0.2401) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  33.97,   5.01, -26.63) mm, moments of inertia: (0.1525,0.3866,0.2448) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  33.97,   8.41, -26.63) mm, moments of inertia: ( 0.162,0.3866,0.2542) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  11.81, -26.63) mm, moments of inertia: (0.1763,0.3866,0.2685) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  31.57, -11.99, -29.03) mm, moments of inertia: (0.2049,0.3817,0.2367) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  -8.59, -29.03) mm, moments of inertia: (0.1904,0.3817,0.2222) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  -5.19, -29.03) mm, moments of inertia: (0.1807,0.3817,0.2125) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  -1.79, -29.03) mm, moments of inertia: (0.1758,0.3817,0.2076) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  31.57,   1.61, -29.03) mm, moments of inertia: (0.1756,0.3817,0.2075) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  31.57,   5.01, -29.03) mm, moments of inertia: (0.1803,0.3817,0.2121) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  31.56,   8.41, -29.03) mm, moments of inertia: (0.1898,0.3817,0.2216) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  11.81, -29.03) mm, moments of inertia: ( 0.204,0.3817,0.2358) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  29.16, -11.99, -31.44) mm, moments of inertia: (0.2351,0.3815,0.2065) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  -8.59, -31.44) mm, moments of inertia: (0.2205,0.3815,0.1919) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  -5.19, -31.44) mm, moments of inertia: (0.2108,0.3815,0.1822) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  -1.79, -31.44) mm, moments of inertia: (0.2059,0.3815,0.1773) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  29.16,   1.61, -31.44) mm, moments of inertia: (0.2058,0.3816,0.1772) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  29.16,   5.01, -31.44) mm, moments of inertia: (0.2105,0.3815,0.1818) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  29.16,   8.41, -31.44) mm, moments of inertia: (0.2199,0.3815,0.1913) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  11.81, -31.44) mm, moments of inertia: (0.2342,0.3815,0.2056) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  26.76, -11.99, -33.84) mm, moments of inertia: (0.2676,0.3862,0.1786) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  -8.59, -33.84) mm, moments of inertia: (0.2531,0.3862,0.1641) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  -5.19, -33.84) mm, moments of inertia: (0.2434,0.3862,0.1544) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  -1.79, -33.84) mm, moments of inertia: (0.2385,0.3862,0.1494) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  26.76,   1.61, -33.84) mm, moments of inertia: (0.2383,0.3862,0.1493) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  26.76,   5.01, -33.84) mm, moments of inertia: ( 0.243,0.3862, 0.154) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  26.76,   8.41, -33.84) mm, moments of inertia: (0.2525,0.3862,0.1634) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  11.81, -33.84) mm, moments of inertia: (0.2667,0.3862,0.1777) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  24.35, -11.99, -36.25) mm, moments of inertia: (0.3026,0.3957,0.1531) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  -8.59, -36.25) mm, moments of inertia: ( 0.288,0.3957,0.1386) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  -5.19, -36.25) mm, moments of inertia: (0.2783,0.3956,0.1289) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  -1.79, -36.25) mm, moments of inertia: (0.2734,0.3957,0.1239) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  24.35,   1.61, -36.25) mm, moments of inertia: (0.2733,0.3957,0.1238) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  24.35,   5.01, -36.25) mm, moments of inertia: (0.2779,0.3957,0.1285) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  24.35,   8.41, -36.25) mm, moments of inertia: (0.2874,0.3957,0.1379) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  11.81, -36.25) mm, moments of inertia: (0.3017,0.3957,0.1522) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  21.95, -11.99, -38.65) mm, moments of inertia: (0.3399,0.4099,  0.13) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  -8.59, -38.65) mm, moments of inertia: (0.3254,0.4099,0.1155) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  -5.19, -38.65) mm, moments of inertia: (0.3157,0.4099,0.1058) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  -1.79, -38.65) mm, moments of inertia: (0.3107,0.4099,0.1009) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  21.95,   1.61, -38.65) mm, moments of inertia: (0.3106,0.4099,0.1007) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  21.95,   5.01, -38.65) mm, moments of inertia: (0.3153,0.4099,0.1054) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  21.95,   8.41, -38.65) mm, moments of inertia: (0.3248,0.4099,0.1149) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  11.81, -38.65) mm, moments of inertia: ( 0.339,0.4099,0.1291) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  11.99, -11.99, -42.85) mm, moments of inertia: (0.4108,0.4108,0.05997) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.4108,0.04547) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.4108,0.03575) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.4108,0.03084) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  11.99,   1.61, -42.85) mm, moments of inertia: (0.3815,0.4108,0.03071) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  11.99,   5.01, -42.85) mm, moments of inertia: (0.3862,0.4108,0.03538) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  11.99,   8.41, -42.85) mm, moments of inertia: (0.3957,0.4108,0.04484) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  11.81, -42.85) mm, moments of inertia: (0.4099,0.4108,0.05909) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (   8.59, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3963,0.04547) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3963,0.03096) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3963,0.02125) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3963,0.01632) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (   8.59,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3963,0.0162) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (   8.59,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3963,0.02087) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (   8.59,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3963,0.03033) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3963,0.04458) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (   5.19, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3866,0.03576) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3866,0.02125) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3866,0.01153) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  -1.79, -42.85) mm, moments of inertia: (0.3816,0.3866,0.006604) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (   5.19,   1.61, -42.85) mm, moments of inertia: (0.3816,0.3866,0.006483) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (   5.19,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3866,0.01115) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (   5.19,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3866,0.02061) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3866,0.03487) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (   1.79, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3817,0.03084) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3817,0.01632) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3817,0.006609) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3817,0.001689) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (   1.79,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3817,0.001561) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (   1.79,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3817,0.006228) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (   1.79,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3817,0.01569) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3817,0.02995) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  -1.61, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3815,0.03071) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3815,0.0162) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3815,0.00648) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3815,0.001559) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3815,0.001433) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3815,0.006098) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3816,0.01557) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3815,0.02982) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  -5.01, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3862,0.03538) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3862,0.02087) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3862,0.01115) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3862,0.006228) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3862,0.006103) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3862,0.01076) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3862,0.02022) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3862,0.03449) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  -8.41, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3957,0.04484) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3957,0.03032) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3957,0.02061) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  -1.79, -42.85) mm, moments of inertia: (0.3816,0.3956,0.01568) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3957,0.01557) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3957,0.02023) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3957,0.02968) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3957,0.04395) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -11.81, -11.99, -42.85) mm, moments of inertia: (0.4108,0.4099,0.05909) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.4099,0.04459) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.4099,0.03486) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  -1.79, -42.85) mm, moments of inertia: (0.3816,0.4099,0.02994) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,   1.61, -42.85) mm, moments of inertia: (0.3815,0.4099,0.02981) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,   5.01, -42.85) mm, moments of inertia: (0.3862,0.4099,0.03449) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,   8.41, -42.85) mm, moments of inertia: (0.3957,0.4099,0.04395) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  11.81, -42.85) mm, moments of inertia: (0.4099,0.4099,0.0582) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -21.82, -11.99, -38.78) mm, moments of inertia: (0.3419,0.4108,0.1289) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  -8.59, -38.78) mm, moments of inertia: (0.3274,0.4108,0.1143) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  -5.19, -38.78) mm, moments of inertia: (0.3177,0.4108,0.1046) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  -1.79, -38.78) mm, moments of inertia: (0.3128,0.4108,0.09971) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,   1.61, -38.78) mm, moments of inertia: (0.3127,0.4108,0.09957) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,   5.01, -38.78) mm, moments of inertia: (0.3173,0.4108,0.1043) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,   8.41, -38.78) mm, moments of inertia: (0.3268,0.4108,0.1137) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  11.81, -38.78) mm, moments of inertia: (0.3411,0.4108, 0.128) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": ( -24.23, -11.99, -36.37) mm, moments of inertia: (0.3045,0.3963,0.1518) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": ( -24.22,  -8.59, -36.37) mm, moments of inertia: (  0.29,0.3963,0.1373) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,  -5.19, -36.37) mm, moments of inertia: (0.2802,0.3963,0.1276) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,  -1.79, -36.37) mm, moments of inertia: (0.2753,0.3963,0.1227) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": ( -24.22,   1.61, -36.37) mm, moments of inertia: (0.2752,0.3963,0.1225) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,   5.01, -36.37) mm, moments of inertia: (0.2799,0.3963,0.1272) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,   8.41, -36.37) mm, moments of inertia: (0.2893,0.3963,0.1367) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,  11.81, -36.37) mm, moments of inertia: (0.3036,0.3963,0.1509) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": ( -26.63, -11.99, -33.97) mm, moments of inertia: (0.2694,0.3866,0.1772) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  -8.59, -33.97) mm, moments of inertia: (0.2549,0.3866,0.1626) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  -5.19, -33.97) mm, moments of inertia: (0.2452,0.3866,0.1529) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  -1.79, -33.97) mm, moments of inertia: (0.2402,0.3866, 0.148) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,   1.61, -33.97) mm, moments of inertia: (0.2401,0.3866,0.1479) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,   5.01, -33.97) mm, moments of inertia: (0.2448,0.3866,0.1526) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,   8.41, -33.97) mm, moments of inertia: (0.2542,0.3866, 0.162) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  11.81, -33.97) mm, moments of inertia: (0.2685,0.3866,0.1763) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": ( -29.03, -11.99, -31.57) mm, moments of inertia: (0.2367,0.3817,0.2049) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  -8.59, -31.56) mm, moments of inertia: (0.2222,0.3817,0.1904) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  -5.19, -31.56) mm, moments of inertia: (0.2125,0.3817,0.1807) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  -1.79, -31.57) mm, moments of inertia: (0.2076,0.3817,0.1758) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": ( -29.04,   1.61, -31.56) mm, moments of inertia: (0.2075,0.3817,0.1757) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,   5.01, -31.56) mm, moments of inertia: (0.2121,0.3817,0.1803) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,   8.41, -31.57) mm, moments of inertia: (0.2216,0.3817,0.1898) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  11.81, -31.57) mm, moments of inertia: (0.2359,0.3817, 0.204) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": ( -31.44, -11.99, -29.16) mm, moments of inertia: (0.2064,0.3815,0.2351) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  -8.59, -29.16) mm, moments of inertia: (0.1919,0.3815,0.2206) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  -5.19, -29.16) mm, moments of inertia: (0.1822,0.3815,0.2108) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  -1.79, -29.16) mm, moments of inertia: (0.1773,0.3815,0.2059) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,   1.61, -29.16) mm, moments of inertia: (0.1772,0.3815,0.2058) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,   5.01, -29.16) mm, moments of inertia: (0.1818,0.3815,0.2105) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,   8.41, -29.16) mm, moments of inertia: (0.1913,0.3815,0.2199) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  11.81, -29.16) mm, moments of inertia: (0.2056,0.3815,0.2342) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": ( -33.84, -11.99, -26.76) mm, moments of inertia: (0.1786,0.3862,0.2676) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  -8.59, -26.76) mm, moments of inertia: (0.1641,0.3862,0.2531) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  -5.19, -26.76) mm, moments of inertia: (0.1543,0.3862,0.2434) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  -1.79, -26.76) mm, moments of inertia: (0.1494,0.3862,0.2385) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,   1.61, -26.76) mm, moments of inertia: (0.1493,0.3862,0.2383) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,   5.01, -26.76) mm, moments of inertia: ( 0.154,0.3862, 0.243) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,   8.41, -26.76) mm, moments of inertia: (0.1634,0.3862,0.2525) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  11.81, -26.76) mm, moments of inertia: (0.1777,0.3862,0.2667) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": ( -36.25, -11.99, -24.35) mm, moments of inertia: (0.1531,0.3957,0.3025) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  -8.59, -24.35) mm, moments of inertia: (0.1386,0.3957,0.2881) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  -5.19, -24.35) mm, moments of inertia: (0.1289,0.3957,0.2783) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  -1.79, -24.35) mm, moments of inertia: (0.1239,0.3957,0.2734) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,   1.61, -24.35) mm, moments of inertia: (0.1238,0.3957,0.2733) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,   5.01, -24.35) mm, moments of inertia: (0.1285,0.3957, 0.278) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,   8.41, -24.35) mm, moments of inertia: ( 0.138,0.3957,0.2874) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  11.81, -24.35) mm, moments of inertia: (0.1522,0.3957,0.3017) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -38.65, -11.99, -21.95) mm, moments of inertia: (  0.13,0.4099,0.3399) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  -8.59, -21.95) mm, moments of inertia: (0.1155,0.4099,0.3254) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  -5.19, -21.95) mm, moments of inertia: (0.1058,0.4099,0.3157) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  -1.79, -21.95) mm, moments of inertia: (0.1009,0.4099,0.3108) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,   1.61, -21.95) mm, moments of inertia: (0.1007,0.4099,0.3106) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,   5.01, -21.95) mm, moments of inertia: (0.1054,0.4099,0.3153) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,   8.41, -21.95) mm, moments of inertia: (0.1149,0.4099,0.3248) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  11.81, -21.95) mm, moments of inertia: (0.1291,0.4099, 0.339) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99, -11.99) mm, moments of inertia: (0.05997,0.4108,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59, -11.99) mm, moments of inertia: (0.04547,0.4108,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19, -11.99) mm, moments of inertia: (0.03575,0.4108,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79, -11.99) mm, moments of inertia: (0.03083,0.4108,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61, -11.99) mm, moments of inertia: (0.0307,0.4108,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01, -11.99) mm, moments of inertia: (0.03537,0.4108,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41, -11.99) mm, moments of inertia: (0.04484,0.4108,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81, -11.99) mm, moments of inertia: (0.05909,0.4108,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  -8.59) mm, moments of inertia: (0.04546,0.3963,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  -8.59) mm, moments of inertia: (0.03096,0.3963,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  -8.59) mm, moments of inertia: (0.02125,0.3963,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  -8.59) mm, moments of inertia: (0.01632,0.3963,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  -8.59) mm, moments of inertia: (0.01619,0.3963,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  -8.59) mm, moments of inertia: (0.02086,0.3963,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  -8.59) mm, moments of inertia: (0.03033,0.3963,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  -8.59) mm, moments of inertia: (0.04459,0.3963,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  -5.19) mm, moments of inertia: (0.03576,0.3866,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  -5.19) mm, moments of inertia: (0.02124,0.3866,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  -5.19) mm, moments of inertia: (0.01153,0.3866,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  -5.19) mm, moments of inertia: (0.006612,0.3866,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  -5.19) mm, moments of inertia: (0.006482,0.3866,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  -5.19) mm, moments of inertia: (0.01115,0.3866,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  -5.19) mm, moments of inertia: (0.02061,0.3866,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  -5.19) mm, moments of inertia: (0.03487,0.3866,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  -1.79) mm, moments of inertia: (0.03082,0.3817,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  -1.79) mm, moments of inertia: (0.01633,0.3817,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  -1.79) mm, moments of inertia: (0.006607,0.3817,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  -1.79) mm, moments of inertia: (0.001687,0.3817,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  -1.79) mm, moments of inertia: (0.001561,0.3816,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  -1.79) mm, moments of inertia: (0.006227,0.3817,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  -1.79) mm, moments of inertia: (0.01569,0.3817,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  -1.79) mm, moments of inertia: (0.02995,0.3817,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,   1.61) mm, moments of inertia: (0.0307,0.3815,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,   1.61) mm, moments of inertia: (0.0162,0.3815,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,   1.61) mm, moments of inertia: (0.006487,0.3816,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,   1.61) mm, moments of inertia: (0.001561,0.3815,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,   1.61) mm, moments of inertia: (0.001433,0.3815,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,   1.61) mm, moments of inertia: (0.006103,0.3815,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,   1.61) mm, moments of inertia: (0.01556,0.3815,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,   1.61) mm, moments of inertia: (0.02982,0.3815,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,   5.01) mm, moments of inertia: (0.03538,0.3862,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,   5.01) mm, moments of inertia: (0.02087,0.3862,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,   5.01) mm, moments of inertia: (0.01115,0.3862,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,   5.01) mm, moments of inertia: (0.006228,0.3862,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,   5.01) mm, moments of inertia: (0.006101,0.3862,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,   5.01) mm, moments of inertia: (0.01077,0.3862,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,   5.01) mm, moments of inertia: (0.02023,0.3862,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,   5.01) mm, moments of inertia: (0.03449,0.3862,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,   8.41) mm, moments of inertia: (0.04483,0.3957,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,   8.41) mm, moments of inertia: (0.03032,0.3957,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,   8.41) mm, moments of inertia: (0.02061,0.3957,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,   8.41) mm, moments of inertia: (0.01569,0.3957,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,   8.41) mm, moments of inertia: (0.01557,0.3957,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,   8.41) mm, moments of inertia: (0.02023,0.3957,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,   8.41) mm, moments of inertia: (0.02969,0.3957,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,   8.41) mm, moments of inertia: (0.04395,0.3957,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  11.81) mm, moments of inertia: (0.0591,0.4099,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  11.81) mm, moments of inertia: (0.04457,0.4099,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  11.81) mm, moments of inertia: (0.03486,0.4099,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  11.81) mm, moments of inertia: (0.02995,0.4099,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  11.81) mm, moments of inertia: (0.02982,0.4099,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  11.81) mm, moments of inertia: (0.03449,0.4099,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  11.81) mm, moments of inertia: (0.04394,0.4099,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  11.81) mm, moments of inertia: (0.05821,0.4099,0.4099) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -38.78, -11.99,  21.82) mm, moments of inertia: (0.1288,0.4108,0.3419) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  -8.59,  21.82) mm, moments of inertia: (0.1143,0.4108,0.3274) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  -5.19,  21.82) mm, moments of inertia: (0.1046,0.4108,0.3177) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  -1.79,  21.82) mm, moments of inertia: (0.09972,0.4108,0.3128) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,   1.61,  21.82) mm, moments of inertia: (0.09959,0.4108,0.3127) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,   5.01,  21.82) mm, moments of inertia: (0.1042,0.4108,0.3173) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,   8.41,  21.82) mm, moments of inertia: (0.1137,0.4108,0.3268) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  11.81,  21.82) mm, moments of inertia: ( 0.128,0.4108, 0.341) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": ( -36.37, -11.99,  24.23) mm, moments of inertia: (0.1518,0.3963,0.3045) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  -8.59,  24.22) mm, moments of inertia: (0.1373,0.3963,  0.29) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  -5.19,  24.23) mm, moments of inertia: (0.1276,0.3963,0.2802) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  -1.79,  24.23) mm, moments of inertia: (0.1227,0.3963,0.2753) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,   1.61,  24.23) mm, moments of inertia: (0.1225,0.3963,0.2752) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,   5.01,  24.23) mm, moments of inertia: (0.1272,0.3963,0.2799) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,   8.41,  24.22) mm, moments of inertia: (0.1367,0.3963,0.2893) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  11.81,  24.22) mm, moments of inertia: (0.1509,0.3963,0.3036) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": ( -33.97, -11.99,  26.63) mm, moments of inertia: (0.1772,0.3866,0.2694) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  -8.59,  26.63) mm, moments of inertia: (0.1627,0.3866,0.2549) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  -5.19,  26.63) mm, moments of inertia: (0.1529,0.3866,0.2452) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  -1.79,  26.63) mm, moments of inertia: ( 0.148,0.3866,0.2402) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,   1.61,  26.63) mm, moments of inertia: (0.1479,0.3866,0.2401) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,   5.01,  26.63) mm, moments of inertia: (0.1526,0.3866,0.2448) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,   8.41,  26.63) mm, moments of inertia: ( 0.162,0.3866,0.2543) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  11.81,  26.63) mm, moments of inertia: (0.1763,0.3866,0.2685) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": ( -31.56, -11.99,  29.03) mm, moments of inertia: (0.2049,0.3817,0.2367) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,  -8.59,  29.03) mm, moments of inertia: (0.1904,0.3817,0.2222) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": ( -31.56,  -5.19,  29.03) mm, moments of inertia: (0.1807,0.3817,0.2125) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,  -1.79,  29.03) mm, moments of inertia: (0.1758,0.3816,0.2076) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,   1.61,  29.04) mm, moments of inertia: (0.1757,0.3817,0.2075) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,   5.01,  29.03) mm, moments of inertia: (0.1803,0.3817,0.2121) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,   8.41,  29.03) mm, moments of inertia: (0.1898,0.3817,0.2216) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,  11.81,  29.03) mm, moments of inertia: ( 0.204,0.3817,0.2358) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": ( -29.16, -11.99,  31.44) mm, moments of inertia: (0.2351,0.3816,0.2065) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  -8.59,  31.44) mm, moments of inertia: (0.2205,0.3815, 0.192) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  -5.19,  31.44) mm, moments of inertia: (0.2108,0.3815,0.1822) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  -1.79,  31.44) mm, moments of inertia: (0.2059,0.3815,0.1773) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,   1.61,  31.44) mm, moments of inertia: (0.2058,0.3815,0.1772) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,   5.01,  31.44) mm, moments of inertia: (0.2105,0.3815,0.1819) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,   8.41,  31.44) mm, moments of inertia: (0.2199,0.3816,0.1913) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  11.81,  31.44) mm, moments of inertia: (0.2342,0.3815,0.2055) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": ( -26.76, -11.99,  33.84) mm, moments of inertia: (0.2676,0.3862,0.1786) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  -8.59,  33.84) mm, moments of inertia: (0.2531,0.3862,0.1641) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  -5.19,  33.84) mm, moments of inertia: (0.2434,0.3862,0.1544) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  -1.79,  33.84) mm, moments of inertia: (0.2385,0.3862,0.1494) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,   1.61,  33.84) mm, moments of inertia: (0.2383,0.3862,0.1493) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": ( -26.75,   5.01,  33.84) mm, moments of inertia: ( 0.243,0.3862,0.1539) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,   8.41,  33.84) mm, moments of inertia: (0.2525,0.3862,0.1634) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  11.81,  33.84) mm, moments of inertia: (0.2667,0.3862,0.1777) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": ( -24.35, -11.99,  36.25) mm, moments of inertia: (0.3026,0.3957,0.1531) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  -8.59,  36.25) mm, moments of inertia: (0.2881,0.3957,0.1386) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  -5.19,  36.24) mm, moments of inertia: (0.2783,0.3957,0.1289) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  -1.79,  36.25) mm, moments of inertia: (0.2734,0.3957,0.1239) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,   1.61,  36.25) mm, moments of inertia: (0.2733,0.3957,0.1238) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,   5.01,  36.24) mm, moments of inertia: (0.2779,0.3957,0.1285) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,   8.41,  36.25) mm, moments of inertia: (0.2874,0.3957,0.1379) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  11.81,  36.25) mm, moments of inertia: (0.3017,0.3957,0.1522) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -21.95, -11.99,  38.65) mm, moments of inertia: (0.3399,0.4099,  0.13) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  -8.59,  38.65) mm, moments of inertia: (0.3254,0.4099,0.1155) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  -5.19,  38.65) mm, moments of inertia: (0.3156,0.4099,0.1058) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  -1.79,  38.65) mm, moments of inertia: (0.3108,0.4099,0.1009) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,   1.61,  38.65) mm, moments of inertia: (0.3106,0.4099,0.1007) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,   5.01,  38.65) mm, moments of inertia: (0.3153,0.4099,0.1054) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,   8.41,  38.65) mm, moments of inertia: (0.3248,0.4099,0.1149) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  11.81,  38.65) mm, moments of inertia: ( 0.339,0.4099,0.1291) cm^5 Entity type: G4Box
+PV-LV_Sphere         Volume:   523.60 mm^3 --> center of "mass": (  -0.00,   0.00,   0.00) mm, moments of inertia: ( 5.229, 5.234, 5.242) x10^3 mm^5 Entity type: G4Sphere
+
+Total                Volume:    60.60 cm^3 --> center of "mass": (  -0.00,  -0.02,   0.00) mm, moments of inertia: ( 5.106, 9.446, 5.108) x10^2 cm^5
+***** geometry moments ****
+Graphics systems deleted.
+Visualization Manager deleting...
+G4WT3 > Destroying WorkerRunManager (0x7fdb34448400)
+G4WT1 > Destroying WorkerRunManager (0x7fdb3286e680)
+G4WT1 > G4 kernel has come to Quit state.
+G4WT0 > Destroying WorkerRunManager (0x7fdb32966500)
+G4WT2 > Destroying WorkerRunManager (0x7fdb32c10a00)
+G4WT2 > G4 kernel has come to Quit state.
+G4WT4 > Destroying WorkerRunManager (0x7fdb32a21580)
+G4WT4 > G4 kernel has come to Quit state.
+G4WT0 > G4 kernel has come to Quit state.
+G4WT4 > UserDetectorConstruction deleted.
+G4WT1 > UserDetectorConstruction deleted.
+G4WT0 > UserDetectorConstruction deleted.
+G4WT0 > UserPhysicsList deleted.
+G4WT0 > UserActionInitialization deleted.
+G4WT0 > UserWorkerInitialization deleted.
+G4WT4 > UserPhysicsList deleted.
+G4WT1 > UserPhysicsList deleted.
+G4WT1 > UserActionInitialization deleted.
+G4WT1 > UserWorkerInitialization deleted.
+G4WT1 > UserWorkerThreadInitialization deleted.
+G4WT5 > Destroying WorkerRunManager (0x7fdb342bdf00)
+G4WT4 > UserActionInitialization deleted.
+G4WT4 > UserWorkerInitialization deleted.
+G4WT4 > UserWorkerThreadInitialization deleted.
+G4WT4 > UserRunAction deleted.
+G4WT0 > UserWorkerThreadInitialization deleted.
+G4WT0 > UserRunAction deleted.
+G4WT5 > G4 kernel has come to Quit state.
+G4WT4 > UserPrimaryGenerator deleted.
+G4WT4 > RunManager is deleting RunManagerKernel.
+G4WT5 > UserDetectorConstruction deleted.
+G4WT5 > UserPhysicsList deleted.
+G4WT5 > UserActionInitialization deleted.
+G4WT5 > UserWorkerInitialization deleted.
+G4WT3 > G4 kernel has come to Quit state.
+G4WT0 > UserPrimaryGenerator deleted.
+G4WT3 > UserDetectorConstruction deleted.
+G4WT5 > UserWorkerThreadInitialization deleted.
+G4WT5 > UserRunAction deleted.
+G4WT5 > UserPrimaryGenerator deleted.
+G4WT5 > RunManager is deleting RunManagerKernel.
+G4WT1 > UserRunAction deleted.
+G4WT3 > UserPhysicsList deleted.
+G4WT3 > UserActionInitialization deleted.
+G4WT2 > UserDetectorConstruction deleted.
+G4WT0 > RunManager is deleting RunManagerKernel.
+G4WT1 > UserPrimaryGenerator deleted.
+G4WT1 > RunManager is deleting RunManagerKernel.
+G4WT4 > G4SDManager deleted.
+G4WT1 > G4SDManager deleted.
+G4WT4 > EventManager deleted.
+G4WT2 > UserPhysicsList deleted.
+G4WT2 > UserActionInitialization deleted.
+G4WT2 > UserWorkerInitialization deleted.
+G4WT3 > UserWorkerInitialization deleted.
+G4WT3 > UserWorkerThreadInitialization deleted.
+G4WT3 > UserRunAction deleted.
+G4WT3 > UserPrimaryGenerator deleted.
+G4WT3 > RunManager is deleting RunManagerKernel.
+G4WT2 > UserWorkerThreadInitialization deleted.
+G4WT2 > UserRunAction deleted.
+G4WT2 > UserPrimaryGenerator deleted.
+G4WT2 > RunManager is deleting RunManagerKernel.
+G4WT3 > G4SDManager deleted.
+G4WT3 > EventManager deleted.
+G4WT1 > EventManager deleted.
+G4WT0 > G4SDManager deleted.
+G4WT5 > G4SDManager deleted.
+G4WT0 > EventManager deleted.
+G4WT3 > Units table cleared.
+G4WT2 > G4SDManager deleted.
+G4WT1 > Units table cleared.
+G4WT3 > TransportationManager deleted.
+G4WT3 > Total navigation history collections cleaned: 2
+G4WT5 > EventManager deleted.
+G4WT5 > Units table cleared.
+G4WT3 > ================== Deleting memory pools ===================
+G4WT4 > Units table cleared.
+G4WT3 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT1 > TransportationManager deleted.
+G4WT4 > TransportationManager deleted.
+G4WT5 > TransportationManager deleted.
+G4WT0 > Units table cleared.
+G4WT3 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT1 > Total navigation history collections cleaned: 2
+G4WT3 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT4 > Total navigation history collections cleaned: 2
+G4WT5 > Total navigation history collections cleaned: 2
+G4WT0 > TransportationManager deleted.
+G4WT2 > EventManager deleted.
+G4WT1 > ================== Deleting memory pools ===================
+G4WT1 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT3 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > ================== Deleting memory pools ===================
+G4WT0 > Total navigation history collections cleaned: 2
+G4WT2 > Units table cleared.
+G4WT4 > ================== Deleting memory pools ===================
+G4WT1 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT3 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT3 > ============================================================
+G4WT0 > ================== Deleting memory pools ===================
+G4WT4 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT1 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT2 > TransportationManager deleted.
+G4WT5 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT3 > G4Allocator objects are deleted.
+G4WT0 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT4 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT1 > Number of memory pools allocated: 3; of which, static: 0
+G4WT2 > Total navigation history collections cleaned: 2
+G4WT5 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT3 > Thread-local UImanager is to be deleted.
+G4WT0 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT4 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT1 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT2 > ================== Deleting memory pools ===================
+G4WT5 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT0 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT4 > Number of memory pools allocated: 3; of which, static: 0
+G4WT1 > ============================================================
+G4WT2 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT5 > Number of memory pools allocated: 3; of which, static: 0
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT0 > Number of memory pools allocated: 3; of which, static: 0
+G4WT4 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT1 > G4Allocator objects are deleted.
+G4WT2 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT5 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT0 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT4 > ============================================================
+G4WT1 > Thread-local UImanager is to be deleted.
+G4WT2 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT5 > ============================================================
+G4WT0 > ============================================================
+G4WT4 > G4Allocator objects are deleted.
+G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > G4Allocator objects are deleted.
+G4WT0 > G4Allocator objects are deleted.
+G4WT4 > Thread-local UImanager is to be deleted.
+G4WT2 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT5 > Thread-local UImanager is to be deleted.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4WT0 > Thread-local UImanager is to be deleted.
+G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > ============================================================
+G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > G4Allocator objects are deleted.
+G4WT2 > Thread-local UImanager is to be deleted.
+G4WT2 > There should not be any thread-local G4cout/G4cerr hereafter.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.UImanager deleted.UImanager deleted.
+
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.
+G4 kernel has come to Quit state.
+UserDetectorConstruction deleted.
+UserPhysicsList deleted.
+UserActionInitialization deleted.
+UserWorkerInitialization deleted.
+UserWorkerThreadInitialization deleted.
+UserRunAction deleted.
+UserPrimaryGenerator deleted.
+RunManager is deleting RunManagerKernel.
+G4SDManager deleted.
+EventManager deleted.
+Units table cleared.
+TransportationManager deleted.
+Total navigation history collections cleaned: 3
+G4RNGHelper object is deleted.
+================== Deleting memory pools ===================
+Pool ID '20G4NavigationLevelRep', size : 0.003 MB
+Pool ID '24G4ReferenceCountedHandleIvE', size : 0.001 MB
+Pool ID '17G4DynamicParticle', size : 0.001 MB
+Pool ID '16G4SmartVoxelNode', size : 0.066 MB
+Pool ID '17G4SmartVoxelProxy', size : 0.037 MB
+Pool ID '15G4CountedObjectIvE', size : 0.001 MB
+Number of memory pools allocated: 6; of which, static: 0
+Dynamic pools deleted: 6 / Total memory freed: 0.11 MB
+============================================================
+G4Allocator objects are deleted.
+UImanager deleted.
+StateManager deleted.
+RunManagerKernel is deleted. Good bye :)
+RunManager is deleted.

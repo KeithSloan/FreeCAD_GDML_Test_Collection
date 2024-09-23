@@ -1,0 +1,9 @@
+World Logical Volume: worldVOL
+PV-Bolt              Volume:     2.38 cm^3 --> center of "mass": (  -0.00,  -0.01, -25.19) mm, moments of inertia: ( 2.581, 2.581,0.0169) x10^1 cm^5 Entity type: G4TessellatedSolid
+PV-Bolt001           Volume:     2.38 cm^3 --> center of "mass": (  15.01,   6.54, -24.41) mm, moments of inertia: ( 2.588, 2.951,0.7245) x10^1 cm^5 Entity type: G4TessellatedSolid
+PV-Bolt002           Volume:     2.38 cm^3 --> center of "mass": (   0.00,  -0.00, -25.15) mm, moments of inertia: ( 2.579, 2.579,0.01691) x10^1 cm^5 Entity type: G4TessellatedSolid
+PV-Bolt003           Volume:     2.38 cm^3 --> center of "mass": (  30.00,  12.60, -21.81) mm, moments of inertia: ( 2.581, 4.077, 2.796) x10^1 cm^5 Entity type: G4TessellatedSolid
+PV-Bolt004           Volume:     2.38 cm^3 --> center of "mass": (  45.00,  17.78, -17.79) mm, moments of inertia: ( 2.575, 6.107, 6.107) x10^1 cm^5 Entity type: G4TessellatedSolid
+
+Total                Volume:    11.88 cm^3 --> center of "mass": (  18.00,   7.38, -22.87) mm, moments of inertia: (  1.29, 1.829,0.9661) x10^2 cm^5
+***** geometry moments ****

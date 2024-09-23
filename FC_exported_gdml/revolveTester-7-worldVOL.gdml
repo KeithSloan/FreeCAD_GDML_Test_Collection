@@ -19,39 +19,7 @@
     <rotation name="R-MultiUnion-Array_55" unit="deg" z="-59.999999999999986"/>
     <position name="center" x="0" y="0" z="0" unit="mm"/>
   </define>
-  <materials>
-    <element name="Ni_element" Z="28" formula="Ni">
-      <atom value="58.6934"/>
-    </element>
-    <element name="H_element" Z="1" formula="H">
-      <atom value="1.008"/>
-    </element>
-    <element name="Cr_element" Z="24" formula="Cr">
-      <atom value="51.9961"/>
-    </element>
-    <element name="alactic"/>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
-    </element>
-    <element name="Fe_element" Z="26" formula="Fe">
-      <atom value="55.845"/>
-    </element>
-    <material name="G4_WATER" formula="G4_WATER">
-      <D unit="g/cm3" value="1.0"/>
-      <composite n="2" ref="H_element"/>
-      <composite n="1" ref="O_element"/>
-    </material>
-    <material name="G4_STAINLESS-STEEL" formula="G4_STAINLESS-STEEL">
-      <D unit="g/cm3" value="8.0"/>
-      <composite n="74" ref="Fe_element"/>
-      <composite n="18" ref="Cr_element"/>
-      <composite n="8" ref="Ni_element"/>
-    </material>
-    <material name="G4_Galactic" formula="G4_Galactic">
-      <D unit="g/cm3" value="0.0"/>
-      <composite n="1" ref="alactic"/>
-    </material>
-  </materials>
+  <materials/>
   <solids>
     <box name="WorldBox" x="500.0" y="500.0" z="1200.0" lunit="cm"/>
     <tube name="Cylinder" rmax="60.0" deltaphi="360.0" aunit="deg" z="200.0" lunit="mm"/>

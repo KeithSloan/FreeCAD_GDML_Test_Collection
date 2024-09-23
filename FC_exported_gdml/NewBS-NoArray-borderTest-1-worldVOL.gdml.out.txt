@@ -1,0 +1,525 @@
+World Logical Volume: worldVOL
+av_2_impr_2_V-Box004_pv_0 Volume:     6.18 cm^3 --> center of "mass": (   0.01,  -0.00,  37.85) mm, moments of inertia: ( 9.286, 9.287,0.7963) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_1 Volume:     6.18 cm^3 --> center of "mass": (  26.77,   0.00,  26.76) mm, moments of inertia: (  5.04, 9.287, 5.043) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_2 Volume:     6.18 cm^3 --> center of "mass": (  37.85,   0.00,   0.00) mm, moments of inertia: (0.7962, 9.289, 9.289) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_3 Volume:     6.18 cm^3 --> center of "mass": (  26.77,   0.00, -26.76) mm, moments of inertia: (  5.04, 9.288, 5.044) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_4 Volume:     6.18 cm^3 --> center of "mass": (  -0.01,  -0.01, -37.85) mm, moments of inertia: ( 9.288, 9.288,0.7966) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_5 Volume:     6.18 cm^3 --> center of "mass": ( -26.78,  -0.00, -26.75) mm, moments of inertia: ( 5.037, 9.289, 5.049) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_6 Volume:     6.18 cm^3 --> center of "mass": ( -37.85,  -0.01,  -0.00) mm, moments of inertia: (0.7965, 9.289, 9.289) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_V-Box004_pv_7 Volume:     6.18 cm^3 --> center of "mass": ( -26.77,   0.00,  26.76) mm, moments of inertia: ( 5.042, 9.288, 5.043) x10^1 cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -11.99, -11.99,  42.85) mm, moments of inertia: (0.4108,0.4108,0.05997) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.4108,0.04547) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.4108,0.03575) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.4108,0.03084) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,   1.61,  42.85) mm, moments of inertia: (0.3815,0.4108,0.03071) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,   5.01,  42.85) mm, moments of inertia: (0.3862,0.4108,0.03538) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,   8.41,  42.85) mm, moments of inertia: (0.3956,0.4108,0.04483) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -11.99,  11.81,  42.85) mm, moments of inertia: (0.4099,0.4108,0.0591) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  -8.59, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3963,0.04548) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3963,0.03097) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3963,0.02124) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3963,0.01633) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3963,0.0162) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3963,0.02086) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3963,0.03032) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  -8.59,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3963,0.04459) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  -5.19, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3866,0.03576) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3866,0.02125) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3866,0.01153) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3866,0.006609) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3866,0.006484) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3866,0.01115) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3866,0.02062) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  -5.19,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3866,0.03487) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  -1.79, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3817,0.03083) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3817,0.01633) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3817,0.006611) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3817,0.001686) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3817,0.001561) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3817,0.006229) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3817,0.0157) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  -1.79,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3817,0.02995) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (   1.61, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3815,0.0307) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3815,0.0162) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3815,0.006484) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3815,0.00156) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (   1.61,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3815,0.001434) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (   1.61,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3815,0.006099) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (   1.61,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3815,0.01556) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (   1.61,  11.81,  42.85) mm, moments of inertia: (  0.41,0.3816,0.02983) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (   5.01, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3862,0.03537) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3862,0.02087) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3862,0.01115) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  -1.79,  42.85) mm, moments of inertia: (0.3816,0.3862,0.00623) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (   5.01,   1.61,  42.85) mm, moments of inertia: (0.3816,0.3862,0.006103) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (   5.01,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3862,0.01076) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (   5.01,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3862,0.02023) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (   5.01,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3862,0.03449) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (   8.41, -11.99,  42.85) mm, moments of inertia: (0.4108,0.3957,0.04484) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.3957,0.03032) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.3957,0.02061) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.3957,0.01569) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (   8.41,   1.61,  42.85) mm, moments of inertia: (0.3815,0.3957,0.01556) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (   8.41,   5.01,  42.85) mm, moments of inertia: (0.3862,0.3957,0.02023) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (   8.41,   8.41,  42.85) mm, moments of inertia: (0.3957,0.3957,0.02969) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (   8.41,  11.81,  42.85) mm, moments of inertia: (0.4099,0.3957,0.04395) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  11.81, -11.99,  42.85) mm, moments of inertia: (0.4108,0.4099,0.0591) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  -8.59,  42.85) mm, moments of inertia: (0.3963,0.4099,0.04458) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  -5.19,  42.85) mm, moments of inertia: (0.3866,0.4099,0.03486) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  -1.79,  42.85) mm, moments of inertia: (0.3817,0.4099,0.02995) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  11.81,   1.61,  42.85) mm, moments of inertia: (0.3815,0.4099,0.02982) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  11.81,   5.01,  42.85) mm, moments of inertia: (0.3862,0.4099,0.03448) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  11.81,   8.41,  42.85) mm, moments of inertia: (0.3956,0.4099,0.04394) cm^5 Entity type: G4Box
+av_5_impr_3_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  11.81,  11.81,  42.85) mm, moments of inertia: (0.4099,0.4099,0.05822) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  21.82, -11.99,  38.78) mm, moments of inertia: (0.3419,0.4108,0.1289) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  -8.59,  38.78) mm, moments of inertia: (0.3274,0.4108,0.1144) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  -5.19,  38.78) mm, moments of inertia: (0.3177,0.4108,0.1046) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  -1.79,  38.78) mm, moments of inertia: (0.3128,0.4108,0.09972) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  21.82,   1.61,  38.78) mm, moments of inertia: (0.3127,0.4108,0.09958) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  21.82,   5.01,  38.78) mm, moments of inertia: (0.3173,0.4108,0.1043) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  21.82,   8.41,  38.78) mm, moments of inertia: (0.3268,0.4108,0.1137) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  21.82,  11.81,  38.78) mm, moments of inertia: (0.3411,0.4108, 0.128) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  24.23, -11.99,  36.37) mm, moments of inertia: (0.3045,0.3963,0.1518) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  24.22,  -8.59,  36.37) mm, moments of inertia: (  0.29,0.3963,0.1373) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  24.23,  -5.19,  36.37) mm, moments of inertia: (0.2802,0.3963,0.1276) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  24.22,  -1.79,  36.37) mm, moments of inertia: (0.2753,0.3963,0.1227) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  24.22,   1.61,  36.37) mm, moments of inertia: (0.2752,0.3963,0.1225) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  24.23,   5.01,  36.37) mm, moments of inertia: (0.2799,0.3963,0.1272) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  24.22,   8.41,  36.37) mm, moments of inertia: (0.2893,0.3963,0.1367) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  24.23,  11.81,  36.37) mm, moments of inertia: (0.3036,0.3963,0.1509) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  26.63, -11.99,  33.97) mm, moments of inertia: (0.2694,0.3866,0.1772) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  -8.59,  33.97) mm, moments of inertia: (0.2549,0.3866,0.1627) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  -5.19,  33.97) mm, moments of inertia: (0.2452,0.3866, 0.153) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  -1.79,  33.97) mm, moments of inertia: (0.2403,0.3866, 0.148) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  26.63,   1.61,  33.97) mm, moments of inertia: (0.2401,0.3866,0.1479) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  26.63,   5.01,  33.97) mm, moments of inertia: (0.2448,0.3866,0.1526) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  26.63,   8.41,  33.97) mm, moments of inertia: (0.2542,0.3866, 0.162) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  26.63,  11.81,  33.97) mm, moments of inertia: (0.2685,0.3866,0.1763) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  29.03, -11.99,  31.57) mm, moments of inertia: (0.2367,0.3817,0.2049) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  -8.59,  31.57) mm, moments of inertia: (0.2222,0.3817,0.1904) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  -5.19,  31.57) mm, moments of inertia: (0.2125,0.3817,0.1807) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  -1.79,  31.57) mm, moments of inertia: (0.2076,0.3817,0.1758) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  29.03,   1.61,  31.57) mm, moments of inertia: (0.2075,0.3817,0.1756) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  29.03,   5.01,  31.56) mm, moments of inertia: (0.2121,0.3817,0.1803) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  29.03,   8.41,  31.57) mm, moments of inertia: (0.2216,0.3817,0.1898) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  29.03,  11.81,  31.57) mm, moments of inertia: (0.2359,0.3817, 0.204) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  31.44, -11.99,  29.16) mm, moments of inertia: (0.2065,0.3815,0.2351) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  -8.59,  29.16) mm, moments of inertia: ( 0.192,0.3816,0.2206) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  -5.19,  29.16) mm, moments of inertia: (0.1822,0.3815,0.2108) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  -1.79,  29.16) mm, moments of inertia: (0.1773,0.3815,0.2059) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  31.44,   1.61,  29.16) mm, moments of inertia: (0.1772,0.3815,0.2058) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  31.44,   5.01,  29.16) mm, moments of inertia: (0.1819,0.3816,0.2105) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  31.44,   8.41,  29.16) mm, moments of inertia: (0.1913,0.3815,0.2199) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  31.44,  11.81,  29.16) mm, moments of inertia: (0.2055,0.3815,0.2342) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  33.84, -11.99,  26.76) mm, moments of inertia: (0.1786,0.3862,0.2676) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  -8.59,  26.75) mm, moments of inertia: ( 0.164,0.3862,0.2531) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  -5.19,  26.76) mm, moments of inertia: (0.1543,0.3862,0.2434) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  -1.79,  26.76) mm, moments of inertia: (0.1494,0.3862,0.2385) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  33.84,   1.61,  26.76) mm, moments of inertia: (0.1493,0.3862,0.2383) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  33.84,   5.01,  26.76) mm, moments of inertia: ( 0.154,0.3862, 0.243) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  33.84,   8.41,  26.76) mm, moments of inertia: (0.1634,0.3862,0.2525) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  33.84,  11.81,  26.76) mm, moments of inertia: (0.1777,0.3862,0.2667) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  36.25, -11.99,  24.35) mm, moments of inertia: (0.1531,0.3957,0.3026) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  -8.59,  24.35) mm, moments of inertia: (0.1386,0.3957,0.2881) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  -5.19,  24.35) mm, moments of inertia: (0.1289,0.3956,0.2783) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  -1.79,  24.35) mm, moments of inertia: (0.1239,0.3956,0.2734) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  36.25,   1.61,  24.35) mm, moments of inertia: (0.1238,0.3957,0.2733) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  36.25,   5.01,  24.35) mm, moments of inertia: (0.1285,0.3957,0.2779) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  36.25,   8.41,  24.35) mm, moments of inertia: (0.1379,0.3957,0.2874) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  36.25,  11.81,  24.35) mm, moments of inertia: (0.1522,0.3957,0.3017) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  38.65, -11.99,  21.95) mm, moments of inertia: (  0.13,0.4099,0.3399) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  -8.59,  21.95) mm, moments of inertia: (0.1155,0.4099,0.3254) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  -5.19,  21.95) mm, moments of inertia: (0.1058,0.4099,0.3157) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  -1.79,  21.95) mm, moments of inertia: (0.1009,0.4099,0.3107) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  38.65,   1.61,  21.95) mm, moments of inertia: (0.1007,0.4099,0.3106) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  38.65,   5.01,  21.95) mm, moments of inertia: (0.1054,0.4099,0.3153) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  38.65,   8.41,  21.95) mm, moments of inertia: (0.1149,0.4099,0.3248) cm^5 Entity type: G4Box
+av_5_impr_4_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  38.65,  11.81,  21.95) mm, moments of inertia: (0.1291,0.4099, 0.339) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  11.99) mm, moments of inertia: (0.05998,0.4108,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  11.99) mm, moments of inertia: (0.04547,0.4108,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  11.99) mm, moments of inertia: (0.03576,0.4108,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  11.99) mm, moments of inertia: (0.03084,0.4108,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  11.99) mm, moments of inertia: (0.0307,0.4108,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  11.99) mm, moments of inertia: (0.03538,0.4108,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  11.99) mm, moments of inertia: (0.04484,0.4108,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  11.99) mm, moments of inertia: (0.05907,0.4108,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,   8.59) mm, moments of inertia: (0.04547,0.3963,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,   8.59) mm, moments of inertia: (0.03096,0.3963,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,   8.59) mm, moments of inertia: (0.02125,0.3963,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,   8.59) mm, moments of inertia: (0.01632,0.3963,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,   8.59) mm, moments of inertia: (0.0162,0.3963,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,   8.59) mm, moments of inertia: (0.02086,0.3963,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,   8.59) mm, moments of inertia: (0.03032,0.3963,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,   8.59) mm, moments of inertia: (0.04459,0.3963,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,   5.19) mm, moments of inertia: (0.03576,0.3866,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,   5.19) mm, moments of inertia: (0.02124,0.3866,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,   5.19) mm, moments of inertia: (0.01153,0.3866,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,   5.19) mm, moments of inertia: (0.006607,0.3866,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,   5.19) mm, moments of inertia: (0.006481,0.3866,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,   5.19) mm, moments of inertia: (0.01115,0.3866,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,   5.19) mm, moments of inertia: (0.02061,0.3866,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,   5.19) mm, moments of inertia: (0.03487,0.3866,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,   1.79) mm, moments of inertia: (0.03084,0.3817,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,   1.79) mm, moments of inertia: (0.01632,0.3817,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,   1.79) mm, moments of inertia: (0.006609,0.3817,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,   1.79) mm, moments of inertia: (0.001689,0.3817,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,   1.79) mm, moments of inertia: (0.001561,0.3817,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,   1.79) mm, moments of inertia: (0.006226,0.3817,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,   1.79) mm, moments of inertia: (0.01569,0.3817,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,   1.79) mm, moments of inertia: (0.02995,0.3817,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  -1.61) mm, moments of inertia: (0.03071,0.3815,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  -1.61) mm, moments of inertia: (0.0162,0.3815,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  -1.61) mm, moments of inertia: (0.006482,0.3815,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  -1.61) mm, moments of inertia: (0.00156,0.3815,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  -1.61) mm, moments of inertia: (0.001433,0.3815,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  -1.61) mm, moments of inertia: (0.006099,0.3815,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  -1.61) mm, moments of inertia: (0.01556,0.3815,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  -1.61) mm, moments of inertia: (0.02982,0.3815,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  -5.01) mm, moments of inertia: (0.03538,0.3862,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  -5.01) mm, moments of inertia: (0.02087,0.3862,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  -5.01) mm, moments of inertia: (0.01115,0.3862,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  -5.01) mm, moments of inertia: (0.006229,0.3862,0.3817) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  -5.01) mm, moments of inertia: (0.006095,0.3862,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  -5.01) mm, moments of inertia: (0.01077,0.3862,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  -5.01) mm, moments of inertia: (0.02022,0.3862,0.3956) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  -5.01) mm, moments of inertia: (0.03449,0.3862,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99,  -8.41) mm, moments of inertia: (0.04485,0.3957,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59,  -8.41) mm, moments of inertia: (0.03033,0.3957,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19,  -8.41) mm, moments of inertia: (0.02061,0.3957,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79,  -8.41) mm, moments of inertia: (0.01568,0.3956,0.3816) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61,  -8.41) mm, moments of inertia: (0.01557,0.3957,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01,  -8.41) mm, moments of inertia: (0.02023,0.3957,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41,  -8.41) mm, moments of inertia: (0.02969,0.3957,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81,  -8.41) mm, moments of inertia: (0.04395,0.3957,0.4099) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  42.85, -11.99, -11.81) mm, moments of inertia: (0.05909,0.4099,0.4108) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -8.59, -11.81) mm, moments of inertia: (0.04458,0.4099,0.3963) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -5.19, -11.81) mm, moments of inertia: (0.03488,0.4099,0.3866) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  -1.79, -11.81) mm, moments of inertia: (0.02994,0.4099,0.3816) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   1.61, -11.81) mm, moments of inertia: (0.02982,0.4099,0.3815) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   5.01, -11.81) mm, moments of inertia: (0.03448,0.4099,0.3862) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  42.85,   8.41, -11.81) mm, moments of inertia: (0.04395,0.4099,0.3957) cm^5 Entity type: G4Box
+av_5_impr_5_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  42.85,  11.81, -11.81) mm, moments of inertia: (0.0582,0.4099,0.4099) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  38.78, -11.99, -21.82) mm, moments of inertia: (0.1289,0.4108,0.3419) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  -8.59, -21.82) mm, moments of inertia: (0.1143,0.4108,0.3274) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  -5.19, -21.82) mm, moments of inertia: (0.1046,0.4108,0.3177) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  -1.79, -21.82) mm, moments of inertia: (0.09969,0.4108,0.3128) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  38.78,   1.61, -21.82) mm, moments of inertia: (0.09959,0.4108,0.3126) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  38.78,   5.01, -21.82) mm, moments of inertia: (0.1043,0.4108,0.3173) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  38.78,   8.41, -21.82) mm, moments of inertia: (0.1137,0.4108,0.3268) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  38.78,  11.81, -21.82) mm, moments of inertia: ( 0.128,0.4108, 0.341) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (  36.37, -11.99, -24.23) mm, moments of inertia: (0.1518,0.3963,0.3045) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (  36.37,  -8.59, -24.23) mm, moments of inertia: (0.1373,0.3963,  0.29) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (  36.37,  -5.19, -24.23) mm, moments of inertia: (0.1276,0.3963,0.2802) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (  36.37,  -1.79, -24.23) mm, moments of inertia: (0.1227,0.3963,0.2753) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (  36.37,   1.61, -24.23) mm, moments of inertia: (0.1225,0.3963,0.2752) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (  36.37,   5.01, -24.23) mm, moments of inertia: (0.1272,0.3963,0.2799) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (  36.37,   8.41, -24.23) mm, moments of inertia: (0.1367,0.3963,0.2893) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (  36.38,  11.81, -24.22) mm, moments of inertia: (0.1509,0.3963,0.3036) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (  33.97, -11.99, -26.63) mm, moments of inertia: (0.1772,0.3866,0.2694) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  -8.59, -26.63) mm, moments of inertia: (0.1626,0.3866,0.2549) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  -5.19, -26.63) mm, moments of inertia: (0.1529,0.3866,0.2452) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  -1.79, -26.63) mm, moments of inertia: ( 0.148,0.3866,0.2403) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (  33.97,   1.61, -26.63) mm, moments of inertia: (0.1479,0.3866,0.2401) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (  33.97,   5.01, -26.63) mm, moments of inertia: (0.1525,0.3866,0.2448) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (  33.97,   8.41, -26.63) mm, moments of inertia: ( 0.162,0.3866,0.2542) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (  33.97,  11.81, -26.63) mm, moments of inertia: (0.1763,0.3866,0.2685) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (  31.57, -11.99, -29.03) mm, moments of inertia: (0.2049,0.3817,0.2367) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  -8.59, -29.03) mm, moments of inertia: (0.1904,0.3817,0.2222) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  -5.19, -29.03) mm, moments of inertia: (0.1807,0.3817,0.2125) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  -1.79, -29.03) mm, moments of inertia: (0.1758,0.3817,0.2076) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (  31.57,   1.61, -29.03) mm, moments of inertia: (0.1756,0.3817,0.2075) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (  31.57,   5.01, -29.03) mm, moments of inertia: (0.1803,0.3817,0.2121) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (  31.56,   8.41, -29.03) mm, moments of inertia: (0.1898,0.3817,0.2216) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (  31.57,  11.81, -29.03) mm, moments of inertia: ( 0.204,0.3817,0.2358) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  29.16, -11.99, -31.44) mm, moments of inertia: (0.2351,0.3815,0.2065) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  -8.59, -31.44) mm, moments of inertia: (0.2205,0.3815,0.1919) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  -5.19, -31.44) mm, moments of inertia: (0.2108,0.3815,0.1822) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  -1.79, -31.44) mm, moments of inertia: (0.2059,0.3815,0.1773) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  29.16,   1.61, -31.44) mm, moments of inertia: (0.2058,0.3816,0.1772) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  29.16,   5.01, -31.44) mm, moments of inertia: (0.2105,0.3815,0.1818) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  29.16,   8.41, -31.44) mm, moments of inertia: (0.2199,0.3815,0.1913) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  29.16,  11.81, -31.44) mm, moments of inertia: (0.2342,0.3815,0.2056) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  26.76, -11.99, -33.84) mm, moments of inertia: (0.2676,0.3862,0.1786) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  -8.59, -33.84) mm, moments of inertia: (0.2531,0.3862,0.1641) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  -5.19, -33.84) mm, moments of inertia: (0.2434,0.3862,0.1544) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  -1.79, -33.84) mm, moments of inertia: (0.2385,0.3862,0.1494) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  26.76,   1.61, -33.84) mm, moments of inertia: (0.2383,0.3862,0.1493) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  26.76,   5.01, -33.84) mm, moments of inertia: ( 0.243,0.3862, 0.154) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  26.76,   8.41, -33.84) mm, moments of inertia: (0.2525,0.3862,0.1634) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  26.76,  11.81, -33.84) mm, moments of inertia: (0.2667,0.3862,0.1777) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  24.35, -11.99, -36.25) mm, moments of inertia: (0.3026,0.3957,0.1531) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  -8.59, -36.25) mm, moments of inertia: ( 0.288,0.3957,0.1386) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  -5.19, -36.25) mm, moments of inertia: (0.2783,0.3956,0.1289) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  -1.79, -36.25) mm, moments of inertia: (0.2734,0.3957,0.1239) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  24.35,   1.61, -36.25) mm, moments of inertia: (0.2733,0.3957,0.1238) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  24.35,   5.01, -36.25) mm, moments of inertia: (0.2779,0.3957,0.1285) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  24.35,   8.41, -36.25) mm, moments of inertia: (0.2874,0.3957,0.1379) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  24.35,  11.81, -36.25) mm, moments of inertia: (0.3017,0.3957,0.1522) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": (  21.95, -11.99, -38.65) mm, moments of inertia: (0.3399,0.4099,  0.13) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  -8.59, -38.65) mm, moments of inertia: (0.3254,0.4099,0.1155) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  -5.19, -38.65) mm, moments of inertia: (0.3157,0.4099,0.1058) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  -1.79, -38.65) mm, moments of inertia: (0.3107,0.4099,0.1009) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": (  21.95,   1.61, -38.65) mm, moments of inertia: (0.3106,0.4099,0.1007) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": (  21.95,   5.01, -38.65) mm, moments of inertia: (0.3153,0.4099,0.1054) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": (  21.95,   8.41, -38.65) mm, moments of inertia: (0.3248,0.4099,0.1149) cm^5 Entity type: G4Box
+av_5_impr_6_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": (  21.95,  11.81, -38.65) mm, moments of inertia: ( 0.339,0.4099,0.1291) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": (  11.99, -11.99, -42.85) mm, moments of inertia: (0.4108,0.4108,0.05997) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.4108,0.04547) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.4108,0.03575) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.4108,0.03084) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": (  11.99,   1.61, -42.85) mm, moments of inertia: (0.3815,0.4108,0.03071) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": (  11.99,   5.01, -42.85) mm, moments of inertia: (0.3862,0.4108,0.03538) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": (  11.99,   8.41, -42.85) mm, moments of inertia: (0.3957,0.4108,0.04484) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": (  11.99,  11.81, -42.85) mm, moments of inertia: (0.4099,0.4108,0.05909) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": (   8.59, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3963,0.04547) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3963,0.03096) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3963,0.02125) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3963,0.01632) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": (   8.59,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3963,0.0162) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": (   8.59,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3963,0.02087) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": (   8.59,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3963,0.03033) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": (   8.59,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3963,0.04458) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": (   5.19, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3866,0.03576) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3866,0.02125) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3866,0.01153) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  -1.79, -42.85) mm, moments of inertia: (0.3816,0.3866,0.006604) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": (   5.19,   1.61, -42.85) mm, moments of inertia: (0.3816,0.3866,0.006483) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": (   5.19,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3866,0.01115) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": (   5.19,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3866,0.02061) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": (   5.19,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3866,0.03487) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": (   1.79, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3817,0.03084) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3817,0.01632) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3817,0.006609) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3817,0.001689) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": (   1.79,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3817,0.001561) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": (   1.79,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3817,0.006228) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": (   1.79,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3817,0.01569) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": (   1.79,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3817,0.02995) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": (  -1.61, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3815,0.03071) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3815,0.0162) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3815,0.00648) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3815,0.001559) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3815,0.001433) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3815,0.006098) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3816,0.01557) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": (  -1.61,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3815,0.02982) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": (  -5.01, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3862,0.03538) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3862,0.02087) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3862,0.01115) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  -1.79, -42.85) mm, moments of inertia: (0.3817,0.3862,0.006228) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3862,0.006103) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3862,0.01076) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3862,0.02022) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": (  -5.01,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3862,0.03449) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": (  -8.41, -11.99, -42.85) mm, moments of inertia: (0.4108,0.3957,0.04484) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.3957,0.03032) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.3957,0.02061) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  -1.79, -42.85) mm, moments of inertia: (0.3816,0.3956,0.01568) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,   1.61, -42.85) mm, moments of inertia: (0.3815,0.3957,0.01557) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,   5.01, -42.85) mm, moments of inertia: (0.3862,0.3957,0.02023) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,   8.41, -42.85) mm, moments of inertia: (0.3957,0.3957,0.02968) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": (  -8.41,  11.81, -42.85) mm, moments of inertia: (0.4099,0.3957,0.04395) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -11.81, -11.99, -42.85) mm, moments of inertia: (0.4108,0.4099,0.05909) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  -8.59, -42.85) mm, moments of inertia: (0.3963,0.4099,0.04459) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  -5.19, -42.85) mm, moments of inertia: (0.3866,0.4099,0.03486) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  -1.79, -42.85) mm, moments of inertia: (0.3816,0.4099,0.02994) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,   1.61, -42.85) mm, moments of inertia: (0.3815,0.4099,0.02981) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,   5.01, -42.85) mm, moments of inertia: (0.3862,0.4099,0.03449) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,   8.41, -42.85) mm, moments of inertia: (0.3957,0.4099,0.04395) cm^5 Entity type: G4Box
+av_5_impr_7_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -11.81,  11.81, -42.85) mm, moments of inertia: (0.4099,0.4099,0.0582) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -21.82, -11.99, -38.78) mm, moments of inertia: (0.3419,0.4108,0.1289) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  -8.59, -38.78) mm, moments of inertia: (0.3274,0.4108,0.1143) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  -5.19, -38.78) mm, moments of inertia: (0.3177,0.4108,0.1046) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  -1.79, -38.78) mm, moments of inertia: (0.3128,0.4108,0.09971) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,   1.61, -38.78) mm, moments of inertia: (0.3127,0.4108,0.09957) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,   5.01, -38.78) mm, moments of inertia: (0.3173,0.4108,0.1043) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,   8.41, -38.78) mm, moments of inertia: (0.3268,0.4108,0.1137) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -21.82,  11.81, -38.78) mm, moments of inertia: (0.3411,0.4108, 0.128) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": ( -24.23, -11.99, -36.37) mm, moments of inertia: (0.3045,0.3963,0.1518) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": ( -24.22,  -8.59, -36.37) mm, moments of inertia: (  0.29,0.3963,0.1373) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,  -5.19, -36.37) mm, moments of inertia: (0.2802,0.3963,0.1276) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,  -1.79, -36.37) mm, moments of inertia: (0.2753,0.3963,0.1227) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": ( -24.22,   1.61, -36.37) mm, moments of inertia: (0.2752,0.3963,0.1225) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,   5.01, -36.37) mm, moments of inertia: (0.2799,0.3963,0.1272) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,   8.41, -36.37) mm, moments of inertia: (0.2893,0.3963,0.1367) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": ( -24.23,  11.81, -36.37) mm, moments of inertia: (0.3036,0.3963,0.1509) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": ( -26.63, -11.99, -33.97) mm, moments of inertia: (0.2694,0.3866,0.1772) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  -8.59, -33.97) mm, moments of inertia: (0.2549,0.3866,0.1626) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  -5.19, -33.97) mm, moments of inertia: (0.2452,0.3866,0.1529) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  -1.79, -33.97) mm, moments of inertia: (0.2402,0.3866, 0.148) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,   1.61, -33.97) mm, moments of inertia: (0.2401,0.3866,0.1479) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,   5.01, -33.97) mm, moments of inertia: (0.2448,0.3866,0.1526) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,   8.41, -33.97) mm, moments of inertia: (0.2542,0.3866, 0.162) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": ( -26.63,  11.81, -33.97) mm, moments of inertia: (0.2685,0.3866,0.1763) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": ( -29.03, -11.99, -31.57) mm, moments of inertia: (0.2367,0.3817,0.2049) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  -8.59, -31.56) mm, moments of inertia: (0.2222,0.3817,0.1904) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  -5.19, -31.56) mm, moments of inertia: (0.2125,0.3817,0.1807) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  -1.79, -31.57) mm, moments of inertia: (0.2076,0.3817,0.1758) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": ( -29.04,   1.61, -31.56) mm, moments of inertia: (0.2075,0.3817,0.1757) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,   5.01, -31.56) mm, moments of inertia: (0.2121,0.3817,0.1803) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,   8.41, -31.57) mm, moments of inertia: (0.2216,0.3817,0.1898) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": ( -29.03,  11.81, -31.57) mm, moments of inertia: (0.2359,0.3817, 0.204) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": ( -31.44, -11.99, -29.16) mm, moments of inertia: (0.2064,0.3815,0.2351) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  -8.59, -29.16) mm, moments of inertia: (0.1919,0.3815,0.2206) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  -5.19, -29.16) mm, moments of inertia: (0.1822,0.3815,0.2108) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  -1.79, -29.16) mm, moments of inertia: (0.1773,0.3815,0.2059) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,   1.61, -29.16) mm, moments of inertia: (0.1772,0.3815,0.2058) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,   5.01, -29.16) mm, moments of inertia: (0.1818,0.3815,0.2105) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,   8.41, -29.16) mm, moments of inertia: (0.1913,0.3815,0.2199) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": ( -31.44,  11.81, -29.16) mm, moments of inertia: (0.2056,0.3815,0.2342) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": ( -33.84, -11.99, -26.76) mm, moments of inertia: (0.1786,0.3862,0.2676) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  -8.59, -26.76) mm, moments of inertia: (0.1641,0.3862,0.2531) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  -5.19, -26.76) mm, moments of inertia: (0.1543,0.3862,0.2434) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  -1.79, -26.76) mm, moments of inertia: (0.1494,0.3862,0.2385) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,   1.61, -26.76) mm, moments of inertia: (0.1493,0.3862,0.2383) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,   5.01, -26.76) mm, moments of inertia: ( 0.154,0.3862, 0.243) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,   8.41, -26.76) mm, moments of inertia: (0.1634,0.3862,0.2525) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": ( -33.84,  11.81, -26.76) mm, moments of inertia: (0.1777,0.3862,0.2667) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": ( -36.25, -11.99, -24.35) mm, moments of inertia: (0.1531,0.3957,0.3025) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  -8.59, -24.35) mm, moments of inertia: (0.1386,0.3957,0.2881) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  -5.19, -24.35) mm, moments of inertia: (0.1289,0.3957,0.2783) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  -1.79, -24.35) mm, moments of inertia: (0.1239,0.3957,0.2734) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,   1.61, -24.35) mm, moments of inertia: (0.1238,0.3957,0.2733) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,   5.01, -24.35) mm, moments of inertia: (0.1285,0.3957, 0.278) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,   8.41, -24.35) mm, moments of inertia: ( 0.138,0.3957,0.2874) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": ( -36.25,  11.81, -24.35) mm, moments of inertia: (0.1522,0.3957,0.3017) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -38.65, -11.99, -21.95) mm, moments of inertia: (  0.13,0.4099,0.3399) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  -8.59, -21.95) mm, moments of inertia: (0.1155,0.4099,0.3254) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  -5.19, -21.95) mm, moments of inertia: (0.1058,0.4099,0.3157) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  -1.79, -21.95) mm, moments of inertia: (0.1009,0.4099,0.3108) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,   1.61, -21.95) mm, moments of inertia: (0.1007,0.4099,0.3106) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,   5.01, -21.95) mm, moments of inertia: (0.1054,0.4099,0.3153) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,   8.41, -21.95) mm, moments of inertia: (0.1149,0.4099,0.3248) cm^5 Entity type: G4Box
+av_5_impr_8_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -38.65,  11.81, -21.95) mm, moments of inertia: (0.1291,0.4099, 0.339) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99, -11.99) mm, moments of inertia: (0.05997,0.4108,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59, -11.99) mm, moments of inertia: (0.04547,0.4108,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19, -11.99) mm, moments of inertia: (0.03575,0.4108,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79, -11.99) mm, moments of inertia: (0.03083,0.4108,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61, -11.99) mm, moments of inertia: (0.0307,0.4108,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01, -11.99) mm, moments of inertia: (0.03537,0.4108,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41, -11.99) mm, moments of inertia: (0.04484,0.4108,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81, -11.99) mm, moments of inertia: (0.05909,0.4108,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  -8.59) mm, moments of inertia: (0.04546,0.3963,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  -8.59) mm, moments of inertia: (0.03096,0.3963,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  -8.59) mm, moments of inertia: (0.02125,0.3963,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  -8.59) mm, moments of inertia: (0.01632,0.3963,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  -8.59) mm, moments of inertia: (0.01619,0.3963,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  -8.59) mm, moments of inertia: (0.02086,0.3963,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  -8.59) mm, moments of inertia: (0.03033,0.3963,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  -8.59) mm, moments of inertia: (0.04459,0.3963,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  -5.19) mm, moments of inertia: (0.03576,0.3866,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  -5.19) mm, moments of inertia: (0.02124,0.3866,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  -5.19) mm, moments of inertia: (0.01153,0.3866,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  -5.19) mm, moments of inertia: (0.006612,0.3866,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  -5.19) mm, moments of inertia: (0.006482,0.3866,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  -5.19) mm, moments of inertia: (0.01115,0.3866,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  -5.19) mm, moments of inertia: (0.02061,0.3866,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  -5.19) mm, moments of inertia: (0.03487,0.3866,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  -1.79) mm, moments of inertia: (0.03082,0.3817,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  -1.79) mm, moments of inertia: (0.01633,0.3817,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  -1.79) mm, moments of inertia: (0.006607,0.3817,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  -1.79) mm, moments of inertia: (0.001687,0.3817,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  -1.79) mm, moments of inertia: (0.001561,0.3816,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  -1.79) mm, moments of inertia: (0.006227,0.3817,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  -1.79) mm, moments of inertia: (0.01569,0.3817,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  -1.79) mm, moments of inertia: (0.02995,0.3817,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,   1.61) mm, moments of inertia: (0.0307,0.3815,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,   1.61) mm, moments of inertia: (0.0162,0.3815,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,   1.61) mm, moments of inertia: (0.006487,0.3816,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,   1.61) mm, moments of inertia: (0.001561,0.3815,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,   1.61) mm, moments of inertia: (0.001433,0.3815,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,   1.61) mm, moments of inertia: (0.006103,0.3815,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,   1.61) mm, moments of inertia: (0.01556,0.3815,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,   1.61) mm, moments of inertia: (0.02982,0.3815,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,   5.01) mm, moments of inertia: (0.03538,0.3862,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,   5.01) mm, moments of inertia: (0.02087,0.3862,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,   5.01) mm, moments of inertia: (0.01115,0.3862,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,   5.01) mm, moments of inertia: (0.006228,0.3862,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,   5.01) mm, moments of inertia: (0.006101,0.3862,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,   5.01) mm, moments of inertia: (0.01077,0.3862,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,   5.01) mm, moments of inertia: (0.02023,0.3862,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,   5.01) mm, moments of inertia: (0.03449,0.3862,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,   8.41) mm, moments of inertia: (0.04483,0.3957,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,   8.41) mm, moments of inertia: (0.03032,0.3957,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,   8.41) mm, moments of inertia: (0.02061,0.3957,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,   8.41) mm, moments of inertia: (0.01569,0.3957,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,   8.41) mm, moments of inertia: (0.01557,0.3957,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,   8.41) mm, moments of inertia: (0.02023,0.3957,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,   8.41) mm, moments of inertia: (0.02969,0.3957,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,   8.41) mm, moments of inertia: (0.04395,0.3957,0.4099) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -42.85, -11.99,  11.81) mm, moments of inertia: (0.0591,0.4099,0.4108) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -8.59,  11.81) mm, moments of inertia: (0.04457,0.4099,0.3963) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -5.19,  11.81) mm, moments of inertia: (0.03486,0.4099,0.3866) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  -1.79,  11.81) mm, moments of inertia: (0.02995,0.4099,0.3817) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   1.61,  11.81) mm, moments of inertia: (0.02982,0.4099,0.3815) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   5.01,  11.81) mm, moments of inertia: (0.03449,0.4099,0.3862) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,   8.41,  11.81) mm, moments of inertia: (0.04394,0.4099,0.3957) cm^5 Entity type: G4Box
+av_5_impr_9_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -42.85,  11.81,  11.81) mm, moments of inertia: (0.05821,0.4099,0.4099) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_0 Volume:    20.74 mm^3 --> center of "mass": ( -38.78, -11.99,  21.82) mm, moments of inertia: (0.1288,0.4108,0.3419) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_1 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  -8.59,  21.82) mm, moments of inertia: (0.1143,0.4108,0.3274) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_2 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  -5.19,  21.82) mm, moments of inertia: (0.1046,0.4108,0.3177) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_3 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  -1.79,  21.82) mm, moments of inertia: (0.09972,0.4108,0.3128) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_4 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,   1.61,  21.82) mm, moments of inertia: (0.09959,0.4108,0.3127) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_5 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,   5.01,  21.82) mm, moments of inertia: (0.1042,0.4108,0.3173) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_6 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,   8.41,  21.82) mm, moments of inertia: (0.1137,0.4108,0.3268) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_7 Volume:    20.74 mm^3 --> center of "mass": ( -38.78,  11.81,  21.82) mm, moments of inertia: ( 0.128,0.4108, 0.341) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_8 Volume:    20.74 mm^3 --> center of "mass": ( -36.37, -11.99,  24.23) mm, moments of inertia: (0.1518,0.3963,0.3045) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_9 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  -8.59,  24.22) mm, moments of inertia: (0.1373,0.3963,  0.29) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_10 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  -5.19,  24.23) mm, moments of inertia: (0.1276,0.3963,0.2802) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_11 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  -1.79,  24.23) mm, moments of inertia: (0.1227,0.3963,0.2753) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_12 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,   1.61,  24.23) mm, moments of inertia: (0.1225,0.3963,0.2752) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_13 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,   5.01,  24.23) mm, moments of inertia: (0.1272,0.3963,0.2799) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_14 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,   8.41,  24.22) mm, moments of inertia: (0.1367,0.3963,0.2893) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_15 Volume:    20.74 mm^3 --> center of "mass": ( -36.37,  11.81,  24.22) mm, moments of inertia: (0.1509,0.3963,0.3036) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_16 Volume:    20.74 mm^3 --> center of "mass": ( -33.97, -11.99,  26.63) mm, moments of inertia: (0.1772,0.3866,0.2694) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_17 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  -8.59,  26.63) mm, moments of inertia: (0.1627,0.3866,0.2549) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_18 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  -5.19,  26.63) mm, moments of inertia: (0.1529,0.3866,0.2452) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_19 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  -1.79,  26.63) mm, moments of inertia: ( 0.148,0.3866,0.2402) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_20 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,   1.61,  26.63) mm, moments of inertia: (0.1479,0.3866,0.2401) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_21 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,   5.01,  26.63) mm, moments of inertia: (0.1526,0.3866,0.2448) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_22 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,   8.41,  26.63) mm, moments of inertia: ( 0.162,0.3866,0.2543) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_23 Volume:    20.74 mm^3 --> center of "mass": ( -33.97,  11.81,  26.63) mm, moments of inertia: (0.1763,0.3866,0.2685) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_24 Volume:    20.74 mm^3 --> center of "mass": ( -31.56, -11.99,  29.03) mm, moments of inertia: (0.2049,0.3817,0.2367) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_25 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,  -8.59,  29.03) mm, moments of inertia: (0.1904,0.3817,0.2222) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_26 Volume:    20.74 mm^3 --> center of "mass": ( -31.56,  -5.19,  29.03) mm, moments of inertia: (0.1807,0.3817,0.2125) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_27 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,  -1.79,  29.03) mm, moments of inertia: (0.1758,0.3816,0.2076) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_28 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,   1.61,  29.04) mm, moments of inertia: (0.1757,0.3817,0.2075) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_29 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,   5.01,  29.03) mm, moments of inertia: (0.1803,0.3817,0.2121) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_30 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,   8.41,  29.03) mm, moments of inertia: (0.1898,0.3817,0.2216) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_31 Volume:    20.74 mm^3 --> center of "mass": ( -31.57,  11.81,  29.03) mm, moments of inertia: ( 0.204,0.3817,0.2358) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_32 Volume:    20.74 mm^3 --> center of "mass": ( -29.16, -11.99,  31.44) mm, moments of inertia: (0.2351,0.3816,0.2065) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_33 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  -8.59,  31.44) mm, moments of inertia: (0.2205,0.3815, 0.192) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_34 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  -5.19,  31.44) mm, moments of inertia: (0.2108,0.3815,0.1822) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_35 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  -1.79,  31.44) mm, moments of inertia: (0.2059,0.3815,0.1773) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_36 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,   1.61,  31.44) mm, moments of inertia: (0.2058,0.3815,0.1772) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_37 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,   5.01,  31.44) mm, moments of inertia: (0.2105,0.3815,0.1819) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_38 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,   8.41,  31.44) mm, moments of inertia: (0.2199,0.3816,0.1913) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_39 Volume:    20.74 mm^3 --> center of "mass": ( -29.16,  11.81,  31.44) mm, moments of inertia: (0.2342,0.3815,0.2055) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_40 Volume:    20.74 mm^3 --> center of "mass": ( -26.76, -11.99,  33.84) mm, moments of inertia: (0.2676,0.3862,0.1786) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_41 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  -8.59,  33.84) mm, moments of inertia: (0.2531,0.3862,0.1641) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_42 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  -5.19,  33.84) mm, moments of inertia: (0.2434,0.3862,0.1544) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_43 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  -1.79,  33.84) mm, moments of inertia: (0.2385,0.3862,0.1494) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_44 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,   1.61,  33.84) mm, moments of inertia: (0.2383,0.3862,0.1493) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_45 Volume:    20.74 mm^3 --> center of "mass": ( -26.75,   5.01,  33.84) mm, moments of inertia: ( 0.243,0.3862,0.1539) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_46 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,   8.41,  33.84) mm, moments of inertia: (0.2525,0.3862,0.1634) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_47 Volume:    20.74 mm^3 --> center of "mass": ( -26.76,  11.81,  33.84) mm, moments of inertia: (0.2667,0.3862,0.1777) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_48 Volume:    20.74 mm^3 --> center of "mass": ( -24.35, -11.99,  36.25) mm, moments of inertia: (0.3026,0.3957,0.1531) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_49 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  -8.59,  36.25) mm, moments of inertia: (0.2881,0.3957,0.1386) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_50 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  -5.19,  36.24) mm, moments of inertia: (0.2783,0.3957,0.1289) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_51 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  -1.79,  36.25) mm, moments of inertia: (0.2734,0.3957,0.1239) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_52 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,   1.61,  36.25) mm, moments of inertia: (0.2733,0.3957,0.1238) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_53 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,   5.01,  36.24) mm, moments of inertia: (0.2779,0.3957,0.1285) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_54 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,   8.41,  36.25) mm, moments of inertia: (0.2874,0.3957,0.1379) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_55 Volume:    20.74 mm^3 --> center of "mass": ( -24.35,  11.81,  36.25) mm, moments of inertia: (0.3017,0.3957,0.1522) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_56 Volume:    20.74 mm^3 --> center of "mass": ( -21.95, -11.99,  38.65) mm, moments of inertia: (0.3399,0.4099,  0.13) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_57 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  -8.59,  38.65) mm, moments of inertia: (0.3254,0.4099,0.1155) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_58 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  -5.19,  38.65) mm, moments of inertia: (0.3156,0.4099,0.1058) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_59 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  -1.79,  38.65) mm, moments of inertia: (0.3108,0.4099,0.1009) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_60 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,   1.61,  38.65) mm, moments of inertia: (0.3106,0.4099,0.1007) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_61 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,   5.01,  38.65) mm, moments of inertia: (0.3153,0.4099,0.1054) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_62 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,   8.41,  38.65) mm, moments of inertia: (0.3248,0.4099,0.1149) cm^5 Entity type: G4Box
+av_5_impr_10_V-Box005_pv_63 Volume:    20.74 mm^3 --> center of "mass": ( -21.95,  11.81,  38.65) mm, moments of inertia: ( 0.339,0.4099,0.1291) cm^5 Entity type: G4Box
+PV-LV_Sphere         Volume:   523.60 mm^3 --> center of "mass": (  -0.00,   0.00,   0.00) mm, moments of inertia: ( 5.229, 5.234, 5.242) x10^3 mm^5 Entity type: G4Sphere
+
+Total                Volume:    60.60 cm^3 --> center of "mass": (  -0.00,  -0.02,   0.00) mm, moments of inertia: ( 5.106, 9.446, 5.108) x10^2 cm^5
+***** geometry moments ****

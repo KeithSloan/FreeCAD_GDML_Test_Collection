@@ -98,3 +98,15 @@ NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
 *** This is just a warning message. ***
 -------- WWWW ------- G4Exception-END -------- WWWW -------
 
+
+-------- EEEE ------- G4Exception-START -------- EEEE -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : ReadError
+      issued by : G4GDMLReadStructure::GetPhysvol()
+Referenced physvol 'PV-Obj' was not found!
+*** Fatal Exception ***
+-------- EEEE ------- G4Exception-END -------- EEEE -------
+
+
+*** G4Exception: Aborting execution ***

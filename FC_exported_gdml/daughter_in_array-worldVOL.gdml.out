@@ -2480,7 +2480,8 @@ Auxiliary Information is found for Logical Volume :  LV_Array_Item
 Global auxiliary info:
 
 
-** iprintCM= -1
+** iprintCM= 2
+using 1000000 Simulations per volume for CM MC
 
 ### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
           DefaultRegionForTheWorld  1  0  0
@@ -2496,170 +2497,426 @@ WARNING: G4VisManager::IsValidView(): Attempt to draw when no graphics system
   manager (G4VisExecutive) and ensure drawing code is executed only if
   G4VVisManager::GetConcreteInstance() is non-zero.
 ERROR: No current scene.  Please create one.
+***** geometry moments ****
+World Logical Volume: worldVOL
+av_2_impr_1_V-Box_pv_0 Volume:    24.39 cm^3 --> center of "mass": (   0.01,  -0.00,  -0.02) mm, moments of inertia: ( 3.416, 3.418, 3.418) x10^1 cm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_0 Volume:   125.00 mm^3 --> center of "mass": ( -12.00, -12.00, -12.00) mm, moments of inertia: (0.3653,0.3652,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_1 Volume:   125.00 mm^3 --> center of "mass": (  -6.00, -12.00, -12.00) mm, moments of inertia: (0.3652,0.2303,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_2 Volume:   125.00 mm^3 --> center of "mass": (   0.00, -12.00, -12.00) mm, moments of inertia: (0.3652,0.1852,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_3 Volume:   125.00 mm^3 --> center of "mass": (   6.00, -12.00, -12.00) mm, moments of inertia: (0.3652,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_4 Volume:   125.00 mm^3 --> center of "mass": (  12.00, -12.00, -12.00) mm, moments of inertia: (0.3651,0.3651,0.3651) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00, -12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_5 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.3652,0.2303) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_6 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09516) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -6.00, -12.00) mm, moments of inertia: ( 1.446, 1.445,0.5813) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_7 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.1852,0.05022) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 1.157,0.2934) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_8 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09519) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_9 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -6.00, -12.00) mm, moments of inertia: (0.2302,0.3651,0.2301) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_10 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -0.00, -12.00) mm, moments of inertia: (0.1853,0.3652,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -0.00, -12.00) mm, moments of inertia: ( 1.157, 2.309, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_11 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   0.00, -12.00) mm, moments of inertia: (0.1852,0.2302,0.05021) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -0.00, -12.00) mm, moments of inertia: ( 1.157, 1.445,0.2933) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_12 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -0.00, -12.00) mm, moments of inertia: (0.1852,0.1852,0.005213) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   0.00, -12.00) mm, moments of inertia: ( 1.157, 1.157,0.005334) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_13 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -0.00, -12.00) mm, moments of inertia: (0.1853,0.2303,0.05022) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -0.00, -12.00) mm, moments of inertia: ( 1.157, 1.445,0.2933) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_14 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -0.00, -12.00) mm, moments of inertia: (0.1852,0.3652,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   0.00, -12.00) mm, moments of inertia: ( 1.157, 2.309, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_15 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   6.00, -12.00) mm, moments of inertia: (0.2303,0.3652,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_16 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09518) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_17 Volume:   125.00 mm^3 --> center of "mass": (   0.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.1852,0.05022) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 1.157,0.2933) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_18 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.2302,0.09522) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_19 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   6.00, -12.00) mm, moments of inertia: (0.2302,0.3652,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   6.00, -12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_20 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.3652,0.3651) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_21 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_22 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  12.00, -12.00) mm, moments of inertia: (0.3651,0.1852,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_23 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.2301,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 1.445, 1.446) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_24 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  12.00, -12.00) mm, moments of inertia: (0.3652,0.3654,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  12.00, -12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_25 Volume:   125.00 mm^3 --> center of "mass": ( -12.00, -12.00,  -6.00) mm, moments of inertia: (0.2302,0.2302,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00, -12.00,  -6.00) mm, moments of inertia: ( 1.445, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_26 Volume:   125.00 mm^3 --> center of "mass": (  -6.00, -12.00,  -6.00) mm, moments of inertia: (0.2304,0.09523,0.2304) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00, -12.00,  -6.00) mm, moments of inertia: ( 1.445,0.5812, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_27 Volume:   125.00 mm^3 --> center of "mass": (  -0.00, -12.00,  -6.00) mm, moments of inertia: (0.2302,0.05023,0.1851) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00, -12.00,  -6.00) mm, moments of inertia: ( 1.445,0.2933, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_28 Volume:   125.00 mm^3 --> center of "mass": (   6.00, -12.00,  -6.00) mm, moments of inertia: (0.2302,0.09519,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00, -12.00,  -6.00) mm, moments of inertia: ( 1.445,0.5814, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_29 Volume:   125.00 mm^3 --> center of "mass": (  12.00, -12.00,  -6.00) mm, moments of inertia: (0.2303,0.2302,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00, -12.00,  -6.00) mm, moments of inertia: ( 1.445, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_30 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -6.00,  -6.00) mm, moments of inertia: (0.09517,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -6.00,  -6.00) mm, moments of inertia: (0.5814, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_31 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -6.00,  -6.00) mm, moments of inertia: ( 9.518, 9.519, 9.518) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -6.00,  -6.00) mm, moments of inertia: ( 5.815, 5.814, 5.814) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_32 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -6.00,  -6.00) mm, moments of inertia: ( 9.516, 5.019, 5.018) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  -6.00,  -6.00) mm, moments of inertia: ( 5.814, 2.934, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_33 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -6.00,  -6.00) mm, moments of inertia: ( 9.528, 9.523, 9.526) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -6.00,  -6.00) mm, moments of inertia: ( 5.813, 5.814, 5.814) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_34 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -6.00,  -6.00) mm, moments of inertia: (0.09526,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -6.00,  -6.00) mm, moments of inertia: (0.5815, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_35 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   0.00,  -6.00) mm, moments of inertia: (0.05021,0.2301,0.1851) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   0.00,  -6.00) mm, moments of inertia: (0.2933, 1.445, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_36 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   0.00,  -6.00) mm, moments of inertia: ( 5.018, 9.517, 5.021) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -0.00,  -6.00) mm, moments of inertia: ( 2.934, 5.814, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_37 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  -0.00,  -6.00) mm, moments of inertia: ( 5.019, 5.019,0.5207) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  -0.00,  -6.00) mm, moments of inertia: ( 2.933, 2.933,0.05332) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_38 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -0.00,  -6.00) mm, moments of inertia: ( 5.019,  9.52, 5.022) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   0.00,  -6.00) mm, moments of inertia: ( 2.933, 5.813, 2.934) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_39 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   0.00,  -6.00) mm, moments of inertia: (0.05019,0.2301,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -0.00,  -6.00) mm, moments of inertia: (0.2934, 1.446, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_40 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   6.00,  -6.00) mm, moments of inertia: (0.09525,0.2303,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   6.00,  -6.00) mm, moments of inertia: (0.5812, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_41 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   6.00,  -6.00) mm, moments of inertia: ( 9.527, 9.526, 9.524) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   6.00,  -6.00) mm, moments of inertia: ( 5.814, 5.815, 5.813) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_42 Volume:   125.00 mm^3 --> center of "mass": (   0.00,   6.00,  -6.00) mm, moments of inertia: ( 9.521, 5.019, 5.022) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   6.00,  -6.00) mm, moments of inertia: ( 5.814, 2.934, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_43 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   6.00,  -6.00) mm, moments of inertia: ( 9.517, 9.517, 9.519) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   6.00,  -6.00) mm, moments of inertia: ( 5.813, 5.814, 5.813) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_44 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   6.00,  -6.00) mm, moments of inertia: (0.09521,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   6.00,  -6.00) mm, moments of inertia: (0.5813, 1.445, 1.446) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_45 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  12.00,  -6.00) mm, moments of inertia: (0.2302,0.2303,0.3653) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  12.00,  -6.00) mm, moments of inertia: ( 1.445, 1.446,  2.31) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_46 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  12.00,  -6.00) mm, moments of inertia: (0.2302,0.09518,0.2303) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  12.00,  -6.00) mm, moments of inertia: ( 1.445,0.5813, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_47 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  12.00,  -6.00) mm, moments of inertia: (0.2302,0.0502,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  12.00,  -6.00) mm, moments of inertia: ( 1.445,0.2933, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_48 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  12.00,  -6.00) mm, moments of inertia: (0.2301,0.09514,0.2301) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  12.00,  -6.00) mm, moments of inertia: ( 1.445,0.5813, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_49 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  12.00,  -6.00) mm, moments of inertia: (0.2302,0.2302,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  12.00,  -6.00) mm, moments of inertia: ( 1.445, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_50 Volume:   125.00 mm^3 --> center of "mass": ( -12.00, -12.00,  -0.00) mm, moments of inertia: (0.1852,0.1852,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00, -12.00,   0.00) mm, moments of inertia: ( 1.157, 1.157, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_51 Volume:   125.00 mm^3 --> center of "mass": (  -6.00, -12.00,   0.00) mm, moments of inertia: (0.1852,0.05021,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00, -12.00,  -0.00) mm, moments of inertia: ( 1.157,0.2934, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_52 Volume:   125.00 mm^3 --> center of "mass": (  -0.00, -12.00,   0.00) mm, moments of inertia: (0.1852,0.005209,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   0.00, -12.00,   0.00) mm, moments of inertia: ( 1.157,0.005328, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_53 Volume:   125.00 mm^3 --> center of "mass": (   6.00, -12.00,  -0.00) mm, moments of inertia: (0.1852,0.0502,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00, -12.00,   0.00) mm, moments of inertia: ( 1.157,0.2932, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_54 Volume:   125.00 mm^3 --> center of "mass": (  12.00, -12.00,   0.00) mm, moments of inertia: (0.1853,0.1851,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00, -12.00,   0.00) mm, moments of inertia: ( 1.157, 1.157, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_55 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -6.00,  -0.00) mm, moments of inertia: (0.05023,0.1852,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -6.00,   0.00) mm, moments of inertia: (0.2933, 1.157, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_56 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -6.00,   0.00) mm, moments of inertia: ( 5.021, 5.014, 9.514) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -6.00,  -0.00) mm, moments of inertia: ( 2.934, 2.933, 5.813) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_57 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  -6.00,   0.00) mm, moments of inertia: ( 5.023,0.5208, 5.024) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   0.00,  -6.00,  -0.00) mm, moments of inertia: ( 2.934,0.05335, 2.934) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_58 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -6.00,  -0.00) mm, moments of inertia: ( 5.024, 5.021, 9.524) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -6.00,   0.00) mm, moments of inertia: ( 2.933, 2.933, 5.813) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_59 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -6.00,  -0.00) mm, moments of inertia: (0.05022,0.1852,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -6.00,  -0.00) mm, moments of inertia: (0.2933, 1.158, 1.446) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_60 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -0.00,   0.00) mm, moments of inertia: (0.00521,0.1852,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   0.00,  -0.00) mm, moments of inertia: (0.005336, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_61 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -0.00,  -0.00) mm, moments of inertia: (0.5208,  5.02,  5.02) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   0.00,  -0.00) mm, moments of inertia: (0.05331, 2.933, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_62 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  -0.00,   0.00) mm, moments of inertia: ( 5.206, 5.212, 5.209) x10^2 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   0.00,  -0.00,  -0.00) mm, moments of inertia: ( 5.331, 5.334,  5.33) mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_63 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -0.00,   0.00) mm, moments of inertia: (0.5207, 5.022, 5.021) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   0.00,  -0.00) mm, moments of inertia: (0.05332, 2.934, 2.934) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_64 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   0.00,  -0.00) mm, moments of inertia: (0.005207,0.1852,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -0.00,   0.00) mm, moments of inertia: (0.005335, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_65 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   6.00,  -0.00) mm, moments of inertia: (0.05019,0.1852,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   6.00,  -0.00) mm, moments of inertia: (0.2934, 1.157, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_66 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   6.00,   0.00) mm, moments of inertia: ( 5.025, 5.024, 9.528) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   6.00,   0.00) mm, moments of inertia: ( 2.933, 2.933, 5.813) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_67 Volume:   125.00 mm^3 --> center of "mass": (   0.00,   6.00,   0.00) mm, moments of inertia: ( 5.022,0.5208, 5.022) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   6.00,  -0.00) mm, moments of inertia: ( 2.933,0.05329, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_68 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   6.00,   0.00) mm, moments of inertia: ( 5.021, 5.019,  9.52) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   6.00,  -0.00) mm, moments of inertia: ( 2.934, 2.933, 5.814) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_69 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   6.00,   0.00) mm, moments of inertia: (0.0502,0.1852,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   6.00,  -0.00) mm, moments of inertia: (0.2934, 1.157, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_70 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  12.00,   0.00) mm, moments of inertia: (0.1853,0.1852,0.3653) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  12.00,   0.00) mm, moments of inertia: ( 1.157, 1.157, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_71 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  12.00,   0.00) mm, moments of inertia: (0.1851,0.05018,0.2301) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  12.00,   0.00) mm, moments of inertia: ( 1.157,0.2934, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_72 Volume:   125.00 mm^3 --> center of "mass": (   0.00,  12.00,   0.00) mm, moments of inertia: (0.1852,0.005207,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  12.00,   0.00) mm, moments of inertia: ( 1.157,0.005337, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_73 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  12.00,  -0.00) mm, moments of inertia: (0.1852,0.05023,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  12.00,   0.00) mm, moments of inertia: ( 1.157,0.2933, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_74 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  12.00,   0.00) mm, moments of inertia: (0.1851,0.1852,0.3651) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  12.00,   0.00) mm, moments of inertia: ( 1.157, 1.157, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_75 Volume:   125.00 mm^3 --> center of "mass": ( -12.00, -12.00,   6.00) mm, moments of inertia: (0.2303,0.2303,0.3653) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00, -12.00,   6.00) mm, moments of inertia: ( 1.445, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_76 Volume:   125.00 mm^3 --> center of "mass": (  -6.00, -12.00,   6.00) mm, moments of inertia: (0.2301,0.09525,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00, -12.00,   6.00) mm, moments of inertia: ( 1.445,0.5813, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_77 Volume:   125.00 mm^3 --> center of "mass": (   0.00, -12.00,   6.00) mm, moments of inertia: (0.2302,0.05023,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00, -12.00,   6.00) mm, moments of inertia: ( 1.445,0.2933, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_78 Volume:   125.00 mm^3 --> center of "mass": (   6.00, -12.00,   6.00) mm, moments of inertia: (0.2302,0.09518,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00, -12.00,   6.00) mm, moments of inertia: ( 1.445,0.5813, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_79 Volume:   125.00 mm^3 --> center of "mass": (  12.00, -12.00,   6.00) mm, moments of inertia: (0.2302,0.2302,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00, -12.00,   6.00) mm, moments of inertia: ( 1.445, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_80 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -6.00,   6.00) mm, moments of inertia: (0.09519,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -6.00,   6.00) mm, moments of inertia: (0.5814, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_81 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -6.00,   6.00) mm, moments of inertia: ( 9.526, 9.528, 9.526) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -6.00,   6.00) mm, moments of inertia: ( 5.813, 5.813, 5.814) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_82 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -6.00,   6.00) mm, moments of inertia: ( 9.527, 5.024, 5.024) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   0.00,  -6.00,   6.00) mm, moments of inertia: ( 5.814, 2.934, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_83 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -6.00,   6.00) mm, moments of inertia: (  9.52, 9.518, 9.517) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -6.00,   6.00) mm, moments of inertia: ( 5.813, 5.813, 5.815) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_84 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -6.00,   6.00) mm, moments of inertia: (0.09521,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -6.00,   6.00) mm, moments of inertia: (0.5813, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_85 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -0.00,   6.00) mm, moments of inertia: (0.05021,0.2302,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -0.00,   6.00) mm, moments of inertia: (0.2933, 1.445, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_86 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -0.00,   6.00) mm, moments of inertia: ( 5.021, 9.521, 5.021) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -0.00,   6.00) mm, moments of inertia: ( 2.933, 5.813, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_87 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,   0.00,   6.00) mm, moments of inertia: ( 5.022, 5.022,0.5208) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  -0.00,   6.00) mm, moments of inertia: ( 2.933, 2.933,0.05335) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_88 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -0.00,   6.00) mm, moments of inertia: ( 5.024, 9.527, 5.024) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -0.00,   6.00) mm, moments of inertia: ( 2.934, 5.814, 2.933) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_89 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -0.00,   6.00) mm, moments of inertia: (0.05022,0.2302,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -0.00,   6.00) mm, moments of inertia: (0.2933, 1.445, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_90 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   6.00,   6.00) mm, moments of inertia: (0.09527,0.2302,0.2301) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   6.00,   6.00) mm, moments of inertia: (0.5811, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_91 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   6.00,   6.00) mm, moments of inertia: ( 9.525, 9.523, 9.519) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   6.00,   6.00) mm, moments of inertia: ( 5.813, 5.812, 5.811) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_92 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,   6.00,   6.00) mm, moments of inertia: ( 9.524, 5.024, 5.019) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   6.00,   6.00) mm, moments of inertia: ( 5.813, 2.933, 2.934) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_93 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   6.00,   6.00) mm, moments of inertia: ( 9.518, 9.512, 9.521) x10^3 mm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   6.00,   6.00) mm, moments of inertia: ( 5.814, 5.814, 5.815) x10^2 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_94 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   6.00,   6.00) mm, moments of inertia: (0.0952,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   6.00,   6.00) mm, moments of inertia: (0.5813, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_95 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  12.00,   6.00) mm, moments of inertia: (0.2302,0.2302,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  12.00,   6.00) mm, moments of inertia: ( 1.446, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_96 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  12.00,   6.00) mm, moments of inertia: (0.2301,0.0952,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  12.00,   6.00) mm, moments of inertia: ( 1.445,0.5813, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_97 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  12.00,   6.00) mm, moments of inertia: (0.2301,0.05016,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   0.00,  12.00,   6.00) mm, moments of inertia: ( 1.445,0.2933, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_98 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  12.00,   6.00) mm, moments of inertia: (0.2303,0.09523,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  12.00,   6.00) mm, moments of inertia: ( 1.445,0.5813, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_99 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  12.00,   6.00) mm, moments of inertia: (0.2302,0.2301,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  12.00,   6.00) mm, moments of inertia: ( 1.445, 1.445, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_100 Volume:   125.00 mm^3 --> center of "mass": ( -12.00, -12.00,  12.00) mm, moments of inertia: (0.3651,0.3652,0.3651) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00, -12.00,  12.00) mm, moments of inertia: (  2.31,  2.31, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_101 Volume:   125.00 mm^3 --> center of "mass": (  -6.00, -12.00,  12.00) mm, moments of inertia: (0.3651,0.2302,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00, -12.00,  12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_102 Volume:   125.00 mm^3 --> center of "mass": (   0.00, -12.00,  12.00) mm, moments of inertia: (0.3653,0.1853,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00, -12.00,  12.00) mm, moments of inertia: ( 2.309, 1.157, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_103 Volume:   125.00 mm^3 --> center of "mass": (   6.00, -12.00,  12.00) mm, moments of inertia: (0.3652,0.2303,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00, -12.00,  12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_104 Volume:   125.00 mm^3 --> center of "mass": (  12.00, -12.00,  12.00) mm, moments of inertia: (0.3652,0.3653,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00, -12.00,  12.00) mm, moments of inertia: ( 2.309,  2.31, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_105 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -6.00,  12.00) mm, moments of inertia: (0.2302,0.3652,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -6.00,  12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_106 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -6.00,  12.00) mm, moments of inertia: (0.2303,0.2302,0.09521) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  -6.00,  12.00) mm, moments of inertia: ( 1.445, 1.445,0.5813) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_107 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  -6.00,  12.00) mm, moments of inertia: (0.2302,0.1852,0.05018) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  -6.00,  12.00) mm, moments of inertia: ( 1.445, 1.157,0.2934) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_108 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  -6.00,  12.00) mm, moments of inertia: (0.2302,0.2302,0.09518) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  -6.00,  12.00) mm, moments of inertia: ( 1.445, 1.445,0.5812) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_109 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -6.00,  12.00) mm, moments of inertia: (0.2302,0.3652,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -6.00,  12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_110 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  -0.00,  12.00) mm, moments of inertia: (0.1851,0.3652,0.1853) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  -0.00,  12.00) mm, moments of inertia: ( 1.157, 2.309, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_111 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  -0.00,  12.00) mm, moments of inertia: (0.1852,0.2302,0.05021) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   0.00,  12.00) mm, moments of inertia: ( 1.157, 1.445,0.2934) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_112 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,   0.00,  12.00) mm, moments of inertia: (0.1852,0.1852,0.005212) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   0.00,  12.00) mm, moments of inertia: ( 1.157, 1.157,0.005329) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_113 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   0.00,  12.00) mm, moments of inertia: (0.1852,0.2302,0.05016) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   0.00,  12.00) mm, moments of inertia: ( 1.157, 1.445,0.2933) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_114 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  -0.00,  12.00) mm, moments of inertia: (0.1853,0.3652,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  -0.00,  12.00) mm, moments of inertia: ( 1.157, 2.309, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_115 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,   6.00,  12.00) mm, moments of inertia: (0.2302,0.3652,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,   6.00,  12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_116 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,   6.00,  12.00) mm, moments of inertia: (0.2302,0.2302,0.09523) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,   6.00,  12.00) mm, moments of inertia: ( 1.445, 1.445,0.5814) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_117 Volume:   125.00 mm^3 --> center of "mass": (   0.00,   6.00,  12.00) mm, moments of inertia: (0.2302,0.1852,0.05021) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,   6.00,  12.00) mm, moments of inertia: ( 1.445, 1.158,0.2933) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_118 Volume:   125.00 mm^3 --> center of "mass": (   6.00,   6.00,  12.00) mm, moments of inertia: (0.2302,0.2303,0.0952) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,   6.00,  12.00) mm, moments of inertia: ( 1.445, 1.445,0.5813) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_119 Volume:   125.00 mm^3 --> center of "mass": (  12.00,   6.00,  12.00) mm, moments of inertia: (0.2303,0.3653,0.2303) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,   6.00,  12.00) mm, moments of inertia: ( 1.445, 2.309, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_120 Volume:   125.00 mm^3 --> center of "mass": ( -12.00,  12.00,  12.00) mm, moments of inertia: (0.3652,0.3652,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": ( -12.00,  12.00,  12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_121 Volume:   125.00 mm^3 --> center of "mass": (  -6.00,  12.00,  12.00) mm, moments of inertia: (0.3652,0.2301,0.2302) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -6.00,  12.00,  12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_122 Volume:   125.00 mm^3 --> center of "mass": (  -0.00,  12.00,  12.00) mm, moments of inertia: (0.3652,0.1852,0.1852) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  -0.00,  12.00,  12.00) mm, moments of inertia: (  2.31, 1.158, 1.157) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_123 Volume:   125.00 mm^3 --> center of "mass": (   6.00,  12.00,  12.00) mm, moments of inertia: (0.3653,0.2302,0.2303) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (   6.00,  12.00,  12.00) mm, moments of inertia: ( 2.309, 1.445, 1.445) x10^3 mm^5 Entity type: G4Box
+av_2_impr_2_LV_Array_Item_pv_124 Volume:   125.00 mm^3 --> center of "mass": (  12.00,  12.00,  12.00) mm, moments of inertia: (0.3653,0.3652,0.3652) cm^5 Entity type: G4Box
+PV-Daughter_Item     Volume:     8.00 mm^3 --> center of "mass": (  12.00,  12.00,  12.00) mm, moments of inertia: ( 2.309, 2.309, 2.309) x10^3 mm^5 Entity type: G4Box
+
+Total                Volume:    41.01 cm^3 --> center of "mass": (   0.00,  -0.00,  -0.01) mm, moments of inertia: ( 5.876, 5.878, 5.878) x10^1 cm^5
+***** geometry moments ****
 Graphics systems deleted.
 Visualization Manager deleting...
-G4WT1 > Destroying WorkerRunManager (0x7facd521fe80)
-G4WT4 > Destroying WorkerRunManager (0x7facd576f780)
-G4WT1 > G4 kernel has come to Quit state.
-G4WT1 > UserDetectorConstruction deleted.
-G4WT2 > Destroying WorkerRunManager (0x7facd8019400)
-G4WT2 > G4 kernel has come to Quit state.
-G4WT5 > Destroying WorkerRunManager (0x7facd8273d80)
-G4WT2 > UserDetectorConstruction deleted.
+G4WT4 > Destroying WorkerRunManager (0x7fc643a32a00)
+G4WT0 > Destroying WorkerRunManager (0x7fc64387eb80)
+G4WT0 > G4 kernel has come to Quit state.
+G4WT5 > Destroying WorkerRunManager (0x7fc640a11880)
 G4WT5 > G4 kernel has come to Quit state.
+G4WT4 > G4 kernel has come to Quit state.
+G4WT1 > Destroying WorkerRunManager (0x7fc640841400)
+G4WT4 > UserDetectorConstruction deleted.
+G4WT2 > Destroying WorkerRunManager (0x7fc640ea6380)
+G4WT2 > G4 kernel has come to Quit state.
+G4WT3 > Destroying WorkerRunManager (0x7fc643b32f80)
+G4WT1 > G4 kernel has come to Quit state.
+G4WT4 > UserPhysicsList deleted.
+G4WT4 > UserActionInitialization deleted.
+G4WT0 > UserDetectorConstruction deleted.
+G4WT0 > UserPhysicsList deleted.
+G4WT3 > G4 kernel has come to Quit state.
+G4WT1 > UserDetectorConstruction deleted.
+G4WT3 > UserDetectorConstruction deleted.
+G4WT4 > UserWorkerInitialization deleted.
+G4WT4 > UserWorkerThreadInitialization deleted.
+G4WT2 > UserDetectorConstruction deleted.
+G4WT2 > UserPhysicsList deleted.
 G4WT1 > UserPhysicsList deleted.
-G4WT1 > UserActionInitialization deleted.
-G4WT1 > UserWorkerInitialization deleted.
 G4WT5 > UserDetectorConstruction deleted.
 G4WT5 > UserPhysicsList deleted.
-G4WT3 > Destroying WorkerRunManager (0x7facd47eac80)
-G4WT3 > G4 kernel has come to Quit state.
-G4WT4 > G4 kernel has come to Quit state.
-G4WT2 > UserPhysicsList deleted.
-G4WT0 > Destroying WorkerRunManager (0x7facd5015600)
-G4WT0 > G4 kernel has come to Quit state.
 G4WT5 > UserActionInitialization deleted.
 G4WT5 > UserWorkerInitialization deleted.
 G4WT5 > UserWorkerThreadInitialization deleted.
-G4WT3 > UserDetectorConstruction deleted.
-G4WT1 > UserWorkerThreadInitialization deleted.
-G4WT1 > UserRunAction deleted.
-G4WT0 > UserDetectorConstruction deleted.
-G4WT2 > UserActionInitialization deleted.
-G4WT2 > UserWorkerInitialization deleted.
+G4WT5 > UserRunAction deleted.
+G4WT0 > UserActionInitialization deleted.
+G4WT4 > UserRunAction deleted.
 G4WT3 > UserPhysicsList deleted.
 G4WT3 > UserActionInitialization deleted.
-G4WT3 > UserWorkerInitialization deleted.
-G4WT5 > UserRunAction deleted.
-G4WT5 > UserPrimaryGenerator deleted.
-G4WT5 > RunManager is deleting RunManagerKernel.
-G4WT2 > UserWorkerThreadInitialization deleted.
-G4WT0 > UserPhysicsList deleted.
-G4WT0 > UserActionInitialization deleted.
-G4WT0 > UserWorkerInitialization deleted.
+G4WT1 > UserActionInitialization deleted.
+G4WT1 > UserWorkerInitialization deleted.
+G4WT1 > UserWorkerThreadInitialization deleted.
+G4WT1 > UserRunAction deleted.
 G4WT1 > UserPrimaryGenerator deleted.
 G4WT1 > RunManager is deleting RunManagerKernel.
-G4WT5 > G4SDManager deleted.
-G4WT1 > G4SDManager deleted.
-G4WT4 > UserDetectorConstruction deleted.
-G4WT4 > UserPhysicsList deleted.
-G4WT3 > UserWorkerThreadInitialization deleted.
-G4WT3 > UserRunAction deleted.
-G4WT5 > EventManager deleted.
-G4WT1 > EventManager deleted.
-G4WT1 > Units table cleared.
-G4WT4 > UserActionInitialization deleted.
+G4WT0 > UserWorkerInitialization deleted.
 G4WT0 > UserWorkerThreadInitialization deleted.
 G4WT0 > UserRunAction deleted.
 G4WT0 > UserPrimaryGenerator deleted.
-G4WT5 > Units table cleared.
-G4WT4 > UserWorkerInitialization deleted.
-G4WT4 > UserWorkerThreadInitialization deleted.
-G4WT4 > UserRunAction deleted.
+G4WT0 > RunManager is deleting RunManagerKernel.
+G4WT1 > G4SDManager deleted.
+G4WT5 > UserPrimaryGenerator deleted.
+G4WT3 > UserWorkerInitialization deleted.
+G4WT3 > UserWorkerThreadInitialization deleted.
+G4WT3 > UserRunAction deleted.
+G4WT3 > UserPrimaryGenerator deleted.
 G4WT4 > UserPrimaryGenerator deleted.
 G4WT4 > RunManager is deleting RunManagerKernel.
-G4WT0 > RunManager is deleting RunManagerKernel.
-G4WT1 > TransportationManager deleted.
-G4WT3 > UserPrimaryGenerator deleted.
-G4WT4 > G4SDManager deleted.
 G4WT3 > RunManager is deleting RunManagerKernel.
-G4WT0 > G4SDManager deleted.
-G4WT4 > EventManager deleted.
-G4WT4 > Units table cleared.
-G4WT0 > EventManager deleted.
-G4WT1 > Total navigation history collections cleaned: 2
-G4WT0 > Units table cleared.
-G4WT1 > ================== Deleting memory pools ===================
-G4WT5 > TransportationManager deleted.
-G4WT0 > TransportationManager deleted.
-G4WT2 > UserRunAction deleted.
-G4WT2 > UserPrimaryGenerator deleted.
-G4WT2 > RunManager is deleting RunManagerKernel.
+G4WT2 > UserActionInitialization deleted.
+G4WT2 > UserWorkerInitialization deleted.
+G4WT1 > EventManager deleted.
 G4WT3 > G4SDManager deleted.
-G4WT5 > Total navigation history collections cleaned: 2
-G4WT5 > ================== Deleting memory pools ===================
-G4WT0 > Total navigation history collections cleaned: 2
-G4WT0 > ================== Deleting memory pools ===================
+G4WT1 > Units table cleared.
 G4WT3 > EventManager deleted.
-G4WT4 > TransportationManager deleted.
-G4WT5 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT5 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT1 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT0 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT2 > UserWorkerThreadInitialization deleted.
+G4WT1 > TransportationManager deleted.
+G4WT2 > UserRunAction deleted.
+G4WT4 > G4SDManager deleted.
+G4WT5 > RunManager is deleting RunManagerKernel.
+G4WT0 > G4SDManager deleted.
+G4WT1 > Total navigation history collections cleaned: 2
+G4WT0 > EventManager deleted.
+G4WT1 > ================== Deleting memory pools ===================
+G4WT2 > UserPrimaryGenerator deleted.
+G4WT0 > Units table cleared.
 G4WT3 > Units table cleared.
-G4WT4 > Total navigation history collections cleaned: 2
-G4WT4 > ================== Deleting memory pools ===================
+G4WT0 > TransportationManager deleted.
+G4WT0 > Total navigation history collections cleaned: 2
+G4WT3 > TransportationManager deleted.
+G4WT3 > Total navigation history collections cleaned: 2
+G4WT3 > ================== Deleting memory pools ===================
+G4WT2 > RunManager is deleting RunManagerKernel.
+G4WT5 > G4SDManager deleted.
+G4WT0 > ================== Deleting memory pools ===================
+G4WT3 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT5 > EventManager deleted.
 G4WT2 > G4SDManager deleted.
-G4WT1 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT0 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT1 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT3 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
 G4WT2 > EventManager deleted.
-G4WT0 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT3 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT0 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT0 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT1 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT5 > Units table cleared.
 G4WT2 > Units table cleared.
+G4WT3 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > TransportationManager deleted.
+G4WT0 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
 G4WT1 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT2 > TransportationManager deleted.
+G4WT3 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT5 > Total navigation history collections cleaned: 2
+G4WT0 > Number of memory pools allocated: 3; of which, static: 0
+G4WT4 > EventManager deleted.
 G4WT1 > Number of memory pools allocated: 3; of which, static: 0
 G4WT1 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT3 > TransportationManager deleted.
-G4WT0 > Number of memory pools allocated: 3; of which, static: 0
-G4WT0 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT4 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT5 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT4 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT3 > Total navigation history collections cleaned: 2
-G4WT0 > ============================================================
-G4WT2 > TransportationManager deleted.
-G4WT1 > ============================================================
-G4WT5 > Number of memory pools allocated: 3; of which, static: 0
-G4WT5 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT5 > ============================================================
-G4WT5 > G4Allocator objects are deleted.
-G4WT0 > G4Allocator objects are deleted.
-G4WT1 > G4Allocator objects are deleted.
-G4WT3 > ================== Deleting memory pools ===================
-G4WT3 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-G4WT4 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT3 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT0 > Thread-local UImanager is to be deleted.
-G4WT1 > Thread-local UImanager is to be deleted.
 G4WT2 > Total navigation history collections cleaned: 2
-G4WT5 > Thread-local UImanager is to be deleted.
-G4WT4 > Number of memory pools allocated: 3; of which, static: 0
-G4WT3 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT5 > ================== Deleting memory pools ===================
+G4WT0 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT4 > Units table cleared.
+G4WT1 > ============================================================
+G4WT3 > ============================================================
 G4WT2 > ================== Deleting memory pools ===================
-G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT4 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT3 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
+G4WT0 > ============================================================
+G4WT1 > G4Allocator objects are deleted.
+G4WT3 > G4Allocator objects are deleted.
 G4WT2 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-UImanager deleted.G4WT4 > ============================================================
+G4WT4 > TransportationManager deleted.
+G4WT5 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT0 > G4Allocator objects are deleted.
+G4WT1 > Thread-local UImanager is to be deleted.
+G4WT3 > Thread-local UImanager is to be deleted.
+G4WT2 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT4 > Total navigation history collections cleaned: 2
+G4WT5 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT0 > Thread-local UImanager is to be deleted.
+G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT4 > ================== Deleting memory pools ===================
+G4WT5 > Number of memory pools allocated: 3; of which, static: 0
+G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > Number of memory pools allocated: 3; of which, static: 0
+G4WT4 > Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
 UImanager deleted.
 StateManager deleted.
-G4WT3 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT5 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+RunManagerKernel is deleted. Good bye :)UImanager deleted.
 
-G4WT2 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-G4WT4 > G4Allocator objects are deleted.
-RunManagerKernel is deleted. Good bye :)G4WT3 > ============================================================
-
-RunManager is deleted.StateManager deleted.UImanager deleted.
+UImanager deleted.StateManager deleted.
 RunManagerKernel is deleted. Good bye :)
-
 RunManager is deleted.
+RunManager is deleted.
+
 StateManager deleted.
-
 RunManagerKernel is deleted. Good bye :)
 RunManager is deleted.
-G4WT2 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
-G4WT4 > Thread-local UImanager is to be deleted.
-G4WT3 > G4Allocator objects are deleted.
-G4WT2 > Number of memory pools allocated: 3; of which, static: 0
-G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT3 > Thread-local UImanager is to be deleted.
 G4WT2 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
-G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT4 > Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
+G4WT5 > ============================================================
 G4WT2 > ============================================================
+G4WT4 > Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+G4WT5 > G4Allocator objects are deleted.
 G4WT2 > G4Allocator objects are deleted.
+G4WT4 > Number of memory pools allocated: 3; of which, static: 0
+G4WT5 > Thread-local UImanager is to be deleted.
 G4WT2 > Thread-local UImanager is to be deleted.
+G4WT4 > Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
 G4WT2 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT4 > ============================================================
+G4WT4 > G4Allocator objects are deleted.
+G4WT4 > Thread-local UImanager is to be deleted.
+G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
 UImanager deleted.
 StateManager deleted.
 RunManagerKernel is deleted. Good bye :)
@@ -2688,14 +2945,14 @@ TransportationManager deleted.
 Total navigation history collections cleaned: 3
 G4RNGHelper object is deleted.
 ================== Deleting memory pools ===================
-Pool ID '20G4NavigationLevelRep', size : 0.00288 MB
-Pool ID '24G4ReferenceCountedHandleIvE', size : 0.000961 MB
-Pool ID '17G4DynamicParticle', size : 0.000961 MB
-Pool ID '16G4SmartVoxelNode', size : 0.0279 MB
-Pool ID '17G4SmartVoxelProxy', size : 0.0154 MB
-Pool ID '15G4CountedObjectIvE', size : 0.000961 MB
+Pool ID '20G4NavigationLevelRep', size : 0.003 MB
+Pool ID '24G4ReferenceCountedHandleIvE', size : 0.001 MB
+Pool ID '17G4DynamicParticle', size : 0.001 MB
+Pool ID '16G4SmartVoxelNode', size : 0.028 MB
+Pool ID '17G4SmartVoxelProxy', size : 0.015 MB
+Pool ID '15G4CountedObjectIvE', size : 0.001 MB
 Number of memory pools allocated: 6; of which, static: 0
-Dynamic pools deleted: 6 / Total memory freed: 0.049 MB
+Dynamic pools deleted: 6 / Total memory freed: 0.05 MB
 ============================================================
 G4Allocator objects are deleted.
 UImanager deleted.
