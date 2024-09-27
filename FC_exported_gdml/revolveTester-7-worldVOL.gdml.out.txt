@@ -1,6 +1,0 @@
-World Logical Volume: worldVOL
-av_1_impr_1_V-Cylinder_pv_0 Volume:  2261.95 cm^3 --> center of "mass": (   0.47,  -0.00,   4.95)  m, moments of inertia: ( 5.543, 5.594,0.05123) x10^8 cm^5 Entity type: G4Tubs
-av_1_impr_1_V-Cut_pv_1 Volume: 594864.18 cm^3 --> center of "mass": (  -0.00,   0.00,   3.34)  m, moments of inertia: ( 8.422, 8.421,0.1468) x10^10 cm^5 Entity type: G4SubtractionSolid
-
-Total                Volume: 597126.13 cm^3 --> center of "mass": (   0.00,   0.00,   3.35)  m, moments of inertia: ( 8.477, 8.477,0.1474) x10^10 cm^5
-***** geometry moments ****

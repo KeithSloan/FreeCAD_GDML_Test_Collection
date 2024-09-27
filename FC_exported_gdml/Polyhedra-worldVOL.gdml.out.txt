@@ -1,8 +1,0 @@
-World Logical Volume: worldVOL
-av_1_impr_1_V-IcosahedronTruncated_pv_0 Volume:   666.98 mm^3 --> center of "mass": ( -11.00,  -0.00,  -0.01) mm, moments of inertia: (0.07849,0.8857,0.8857) cm^5 Entity type: G4TessellatedSolid
-av_1_impr_1_V-GeodesicSphere_pv_1 Volume:   457.34 mm^3 --> center of "mass": (   0.00, -17.00,  -0.01) mm, moments of inertia: ( 1.364,0.04182, 1.364) cm^5 Entity type: G4TessellatedSolid
-av_1_impr_1_V-GeodesicSphere001_pv_2 Volume:   457.34 mm^3 --> center of "mass": (   0.00,  11.00,  -0.00) mm, moments of inertia: (0.5951,0.04188,0.5952) cm^5 Entity type: G4TessellatedSolid
-av_1_impr_1_V-IcosahedronTruncated001_pv_3 Volume:   666.98 mm^3 --> center of "mass": (  14.00,   0.01,  -0.00) mm, moments of inertia: (0.07849, 1.385, 1.385) cm^5 Entity type: G4TessellatedSolid
-
-Total                Volume:     2.25 cm^3 --> center of "mass": (   0.89,  -1.22,  -0.00) mm, moments of inertia: ( 2.116, 2.355,  4.23) cm^5
-***** geometry moments ****

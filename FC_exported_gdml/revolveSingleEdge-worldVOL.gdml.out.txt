@@ -1,5 +1,0 @@
-World Logical Volume: worldVOL
-PV-Part              Volume:    71.99 cm^3 --> center of "mass": (   0.00,  -0.01,   7.68) mm, moments of inertia: ( 4.645, 4.643, 8.061) x10^2 cm^5 Entity type: G4GenericPolycone
-
-Total                Volume:    71.99 cm^3 --> center of "mass": (   0.00,  -0.01,   7.68) mm, moments of inertia: ( 4.645, 4.643, 8.061) x10^2 cm^5
-***** geometry moments ****

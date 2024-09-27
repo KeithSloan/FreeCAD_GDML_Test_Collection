@@ -1,7 +1,0 @@
-World Logical Volume: worldVOL
-PV-Part              Volume:     3.19 cm^3 --> center of "mass": (  10.96,  10.95, -11.01) mm, moments of inertia: ( 9.349, 9.355, 9.742) cm^5 Entity type: G4SubtractionSolid
-PV-Part001           Volume:     1.63 cm^3 --> center of "mass": (  16.37,  -5.00,  12.86) mm, moments of inertia: ( 3.533, 7.595, 5.144) cm^5 Entity type: G4SubtractionSolid
-PV-Part002           Volume:     1.06 cm^3 --> center of "mass": (  -6.24, -16.03,   6.23) mm, moments of inertia: ( 3.342, 1.061, 3.343) cm^5 Entity type: G4GenericPolycone
-
-Total                Volume:     5.88 cm^3 --> center of "mass": (   9.35,   1.67,  -1.29) mm, moments of inertia: ( 1.622, 1.801, 1.823) x10^1 cm^5
-***** geometry moments ****

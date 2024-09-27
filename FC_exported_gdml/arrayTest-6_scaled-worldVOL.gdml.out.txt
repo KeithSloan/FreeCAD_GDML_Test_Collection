@@ -1,5 +1,0 @@
-World Logical Volume: worldVOL
-PV-Part              Volume:   119.60 cm^3 --> center of "mass": (  84.79,  10.29,   2.65) mm, moments of inertia: (0.3188, 2.859, 3.168) x10^4 cm^5 Entity type: G4ScaledSolid
-
-Total                Volume:   119.60 cm^3 --> center of "mass": (  84.79,  10.29,   2.65) mm, moments of inertia: (0.3188, 2.859, 3.168) x10^4 cm^5
-***** geometry moments ****
