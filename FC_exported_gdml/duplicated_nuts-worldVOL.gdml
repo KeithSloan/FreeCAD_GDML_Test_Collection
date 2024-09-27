@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-Part1" unit="mm" x="147.84316204863376" y="194.78337556549516" z="179.58344813282213"/>
+    <rotation name="R-Part1" unit="deg" x="-68.01926772111929"/>
+    <position name="P-Part0012" unit="mm" x="179.7756278383088" y="166.2361565761305" z="7.838865369210302"/>
+    <rotation name="R-Part0012" unit="deg" x="-28.614027936528473"/>
+    <position name="P-Part0023" unit="mm" x="112.657882464956" y="35.26129717159681" z="118.42335517880187"/>
+    <rotation name="R-Part0023" unit="deg" x="-161.3894399767222"/>
+    <position name="P-Part0034" unit="mm" x="110.41705420802595" y="112.60281352136619" z="150.47409336823637"/>
+    <rotation name="R-Part0034" unit="deg" x="-114.82732869287669"/>
+    <position name="P-Part0045" unit="mm" x="2.0674159210056553" y="161.14183528470187" z="47.37986987492271"/>
+    <rotation name="R-Part0045" unit="deg" x="-71.40529918179026"/>
+    <position name="P-Part0056" unit="mm" x="144.6889255248109" y="158.48975440251246" z="165.10833620910606"/>
+    <rotation name="R-Part0056" unit="deg" x="-159.3569178196882"/>
+    <position name="P-Part0067" unit="mm" x="88.32404000533816" y="13.603340211083804" z="134.38184040040548"/>
+    <rotation name="R-Part0067" unit="deg" x="-10.686468565183775"/>
+    <position name="P-Part0078" unit="mm" x="59.40209694235359" y="8.564035139127357" z="73.3289452952499"/>
+    <rotation name="R-Part0078" unit="deg" x="-60.19489879959235"/>
+    <position name="P-V-M6-Nut9" unit="mm" x="-182.36055690750754" y="-192.24473858795704" z="-123.94309526040779"/>
+    <rotation name="R-V-M6-Nut9" unit="deg" y="-78.0277394744184"/>
+    <position name="P-V-M6-Nut01210" unit="mm" x="-82.85677913196045" y="-45.43729768252711" z="-196.90875393780445"/>
+    <rotation name="R-V-M6-Nut01210" unit="deg" x="180.0" y="-66.83202274701264" z="-180.0"/>
+    <position name="P-V-M6-Nut01311" unit="mm" x="-99.79511323709416" y="-53.219437105892965" z="-149.66953567465958"/>
+    <rotation name="R-V-M6-Nut01311" unit="deg" x="180.0" y="-69.97705574585191" z="-180.0"/>
+    <position name="P-V-M6-Nut01412" unit="mm" x="-4.990322820775894" y="-80.4856812412797" z="-155.31254958836774"/>
+    <rotation name="R-V-M6-Nut01412" unit="deg" y="-79.05904755002095"/>
+    <position name="P-V-M6-Nut01513" unit="mm" x="-123.30346956408617" y="-13.495467692494056" z="-115.18310294613725"/>
+    <rotation name="R-V-M6-Nut01513" unit="deg" x="180.0" y="-60.564423271732196" z="-180.0"/>
+    <position name="P-V-M6-Nut01614" unit="mm" x="-112.55893170896046" y="-82.07866538426435" z="-56.79117039161194"/>
+    <rotation name="R-V-M6-Nut01614" unit="deg" y="-50.54078598436032"/>
+    <position name="P-V-M6-Nut01715" unit="mm" x="-43.579509517054426" y="-132.38477691547322" z="-174.1278763221337"/>
+    <rotation name="R-V-M6-Nut01715" unit="deg" x="180.0" y="-58.54312974176803" z="-180.0"/>
+    <position name="P-V-M6-Nut01816" unit="mm" x="-127.4750247903816" y="-192.79179469433353" z="-13.741316061227327"/>
+    <rotation name="R-V-M6-Nut01816" unit="deg" x="180.0" y="-22.183553528280207" z="-180.0"/>
+    <position name="P-V-M6-Nut01917" unit="mm" x="-80.48163496792016" y="-45.913966521431206" z="-190.65148729475453"/>
+    <rotation name="R-V-M6-Nut01917" unit="deg" y="-12.366655358100818"/>
+    <position name="P-V-M6-Nut02018" unit="mm" x="-1.354699229831779" y="-49.74882589389311" z="-123.64379408137182"/>
+    <rotation name="R-V-M6-Nut02018" unit="deg" y="-32.82164219111477"/>
+    <position name="P-V-M6-Nut02119" unit="mm" x="-167.55139104287983" y="-168.1091851183148" z="-3.618351936703745"/>
+    <rotation name="R-V-M6-Nut02119" unit="deg" y="-58.52559407235483"/>
+    <position name="P-V-M6-Nut02220" unit="mm" x="-97.13594103694267" y="-12.82811676132194" z="-180.08880111179187"/>
+    <rotation name="R-V-M6-Nut02220" unit="deg" x="180.0" y="-59.40928592777228" z="-180.0"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="486.9310714782122" y="512.762358151855" z="486.4811660231301" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="Part">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#4a6bad00"/>
+    </volume>
+    <volume name="Part001">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#12b3ab00"/>
+    </volume>
+    <volume name="Part002">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#7078c200"/>
+    </volume>
+    <volume name="Part003">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#6352b500"/>
+    </volume>
+    <volume name="Part004">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#850de800"/>
+    </volume>
+    <volume name="Part005">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#3808ba00"/>
+    </volume>
+    <volume name="Part006">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#17f5a300"/>
+    </volume>
+    <volume name="Part007">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M8x1-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#4d7d8200"/>
+    </volume>
+    <volume name="V-M6-Nut">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut012">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut013">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut014">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut015">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut016">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut017">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut018">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut019">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut020">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut021">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-M6-Nut022">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="M6-Nut"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <assembly name="Part008">
+      <physvol name="PV-M6-Nut">
+        <volumeref ref="V-M6-Nut"/>
+        <positionref ref="P-V-M6-Nut9"/>
+        <rotationref ref="R-V-M6-Nut9"/>
+      </physvol>
+      <physvol name="PV-M6-Nut012">
+        <volumeref ref="V-M6-Nut012"/>
+        <positionref ref="P-V-M6-Nut01210"/>
+        <rotationref ref="R-V-M6-Nut01210"/>
+      </physvol>
+      <physvol name="PV-M6-Nut013">
+        <volumeref ref="V-M6-Nut013"/>
+        <positionref ref="P-V-M6-Nut01311"/>
+        <rotationref ref="R-V-M6-Nut01311"/>
+      </physvol>
+      <physvol name="PV-M6-Nut014">
+        <volumeref ref="V-M6-Nut014"/>
+        <positionref ref="P-V-M6-Nut01412"/>
+        <rotationref ref="R-V-M6-Nut01412"/>
+      </physvol>
+      <physvol name="PV-M6-Nut015">
+        <volumeref ref="V-M6-Nut015"/>
+        <positionref ref="P-V-M6-Nut01513"/>
+        <rotationref ref="R-V-M6-Nut01513"/>
+      </physvol>
+      <physvol name="PV-M6-Nut016">
+        <volumeref ref="V-M6-Nut016"/>
+        <positionref ref="P-V-M6-Nut01614"/>
+        <rotationref ref="R-V-M6-Nut01614"/>
+      </physvol>
+      <physvol name="PV-M6-Nut017">
+        <volumeref ref="V-M6-Nut017"/>
+        <positionref ref="P-V-M6-Nut01715"/>
+        <rotationref ref="R-V-M6-Nut01715"/>
+      </physvol>
+      <physvol name="PV-M6-Nut018">
+        <volumeref ref="V-M6-Nut018"/>
+        <positionref ref="P-V-M6-Nut01816"/>
+        <rotationref ref="R-V-M6-Nut01816"/>
+      </physvol>
+      <physvol name="PV-M6-Nut019">
+        <volumeref ref="V-M6-Nut019"/>
+        <positionref ref="P-V-M6-Nut01917"/>
+        <rotationref ref="R-V-M6-Nut01917"/>
+      </physvol>
+      <physvol name="PV-M6-Nut020">
+        <volumeref ref="V-M6-Nut020"/>
+        <positionref ref="P-V-M6-Nut02018"/>
+        <rotationref ref="R-V-M6-Nut02018"/>
+      </physvol>
+      <physvol name="PV-M6-Nut021">
+        <volumeref ref="V-M6-Nut021"/>
+        <positionref ref="P-V-M6-Nut02119"/>
+        <rotationref ref="R-V-M6-Nut02119"/>
+      </physvol>
+      <physvol name="PV-M6-Nut022">
+        <volumeref ref="V-M6-Nut022"/>
+        <positionref ref="P-V-M6-Nut02220"/>
+        <rotationref ref="R-V-M6-Nut02220"/>
+      </physvol>
+    </assembly>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="P-Part1"/>
+        <rotationref ref="R-Part1"/>
+      </physvol>
+      <physvol name="PV-Part001">
+        <volumeref ref="Part001"/>
+        <positionref ref="P-Part0012"/>
+        <rotationref ref="R-Part0012"/>
+      </physvol>
+      <physvol name="PV-Part002">
+        <volumeref ref="Part002"/>
+        <positionref ref="P-Part0023"/>
+        <rotationref ref="R-Part0023"/>
+      </physvol>
+      <physvol name="PV-Part003">
+        <volumeref ref="Part003"/>
+        <positionref ref="P-Part0034"/>
+        <rotationref ref="R-Part0034"/>
+      </physvol>
+      <physvol name="PV-Part004">
+        <volumeref ref="Part004"/>
+        <positionref ref="P-Part0045"/>
+        <rotationref ref="R-Part0045"/>
+      </physvol>
+      <physvol name="PV-Part005">
+        <volumeref ref="Part005"/>
+        <positionref ref="P-Part0056"/>
+        <rotationref ref="R-Part0056"/>
+      </physvol>
+      <physvol name="PV-Part006">
+        <volumeref ref="Part006"/>
+        <positionref ref="P-Part0067"/>
+        <rotationref ref="R-Part0067"/>
+      </physvol>
+      <physvol name="PV-Part007">
+        <volumeref ref="Part007"/>
+        <positionref ref="P-Part0078"/>
+        <rotationref ref="R-Part0078"/>
+      </physvol>
+      <physvol name="PV-Part008">
+        <volumeref ref="Part008"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

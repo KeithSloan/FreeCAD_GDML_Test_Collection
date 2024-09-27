@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-GDMLBox_Box1" unit="mm" x="15.0"/>
+    <position name="P-GDMLBox_Box2" unit="mm" y="15.0"/>
+    <position name="P-GDMLBox_Box3" unit="mm" x="15.0" y="15.0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="52.0" y="52.0" z="13.0" lunit="mm"/>
+    <box name="Box" x="10.0" y="10.0" z="10.0" lunit="mm"/>
+    <sphere name="GDMLSphere" rmin="0.0" rmax="3.0" startphi="0.0" deltaphi="360.0" starttheta="0.0" deltatheta="180.0" aunit="deg" lunit="mm"/>
+    <multiUnion name="MultiUnion-Array001">
+      <multiUnionNode name="MultiUnion-Array001_0_0_0">
+        <solid ref="GDMLSphere"/>
+        <position name="MultiUnion-Array001_pos_0_0_0" x="0.0" y="0.0" z="0.0" unit="mm"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-Array001_1_0_0">
+        <solid ref="GDMLSphere"/>
+        <position name="MultiUnion-Array001_pos_1_0_0" x="15.0" y="0.0" z="0.0" unit="mm"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-Array001_0_1_0">
+        <solid ref="GDMLSphere"/>
+        <position name="MultiUnion-Array001_pos_0_1_0" x="0.0" y="15.0" z="0.0" unit="mm"/>
+      </multiUnionNode>
+      <multiUnionNode name="MultiUnion-Array001_1_1_0">
+        <solid ref="GDMLSphere"/>
+        <position name="MultiUnion-Array001_pos_1_1_0" x="15.0" y="15.0" z="0.0" unit="mm"/>
+      </multiUnionNode>
+    </multiUnion>
+  </solids>
+  <structure>
+    <volume name="V-Box">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="Box"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+    </volume>
+    <assembly name="V-Array">
+      <physvol name="GDMLBox_Box-0-0-0">
+        <volumeref ref="GDMLBox_Box"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="GDMLBox_Box-1-0-0">
+        <volumeref ref="GDMLBox_Box"/>
+        <positionref ref="P-GDMLBox_Box1"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="GDMLBox_Box-0-1-0">
+        <volumeref ref="GDMLBox_Box"/>
+        <positionref ref="P-GDMLBox_Box2"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="GDMLBox_Box-1-1-0">
+        <volumeref ref="GDMLBox_Box"/>
+        <positionref ref="P-GDMLBox_Box3"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="Part001">
+      <materialref ref="G4_PbWO4"/>
+      <solidref ref="MultiUnion-Array001"/>
+    </volume>
+    <assembly name="Part">
+      <physvol name="PV-Array">
+        <volumeref ref="V-Array"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-Part001">
+        <volumeref ref="Part001"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

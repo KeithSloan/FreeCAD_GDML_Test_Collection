@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="200.0" y="200.0" z="200.0" lunit="mm"/>
+    <xtru name="Extrude00" lunit="mm">
+      <twoDimVertex x="16.902846999999984" y="-27.007455999999994"/>
+      <twoDimVertex x="6.257726003960382" y="-15.2957310653624"/>
+      <twoDimVertex x="0.6384001214663186" y="-7.981172971865591"/>
+      <twoDimVertex x="-2.260270987065198" y="-2.9061478825005436"/>
+      <twoDimVertex x="-3.5197144446199076" y="0.9789563178584499"/>
+      <twoDimVertex x="-3.6525755927356194" y="4.220010235675957"/>
+      <twoDimVertex x="-2.867036863366451" y="7.2033487034898815"/>
+      <twoDimVertex x="-1.0900146392190777" y="10.27292104495362"/>
+      <twoDimVertex x="2.0419286398826166" y="13.770401405429645"/>
+      <twoDimVertex x="7.263670633506344" y="18.14329092205848"/>
+      <twoDimVertex x="15.959885201992673" y="24.139919660859576"/>
+      <twoDimVertex x="23.342170363588448" y="28.738601999999997"/>
+      <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+  </solids>
+  <structure>
+    <volume name="Part">
+      <materialref ref="G4_STAINLESS-STEEL"/>
+      <solidref ref="Extrude00"/>
+      <auxiliary auxtype="Color" auxvalue="#ffdca800"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

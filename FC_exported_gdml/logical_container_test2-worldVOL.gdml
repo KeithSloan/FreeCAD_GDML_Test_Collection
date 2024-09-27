@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-LV_Box1" unit="mm" y="58.0"/>
+    <rotation name="R-LV_Box1" unit="deg" x="-29.999999999999993"/>
+    <position name="P-LV_Sphere2" unit="mm" x="30.0" y="23.382685902179848" z="-13.499999999999996"/>
+    <rotation name="R-LV_Sphere2" unit="deg" x="29.999999999999993"/>
+    <position name="P-LV_Box0013" unit="mm" y="-19.99038105676658" z="-4.624355652982144"/>
+    <rotation name="R-LV_Box0013" unit="deg" x="29.999999999999993"/>
+    <position name="P-LV_Tube4" unit="mm" x="-27.0" y="11.892304845413266" z="-3.4019237886466818"/>
+    <rotation name="R-LV_Tube4" unit="deg" x="3.999999999999988"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="169.0" y="299.1333024919771" z="169.0" lunit="mm"/>
+    <box name="Box" x="100.0" y="100.0" z="55.0" lunit="mm"/>
+    <sphere name="GDMLSphere" rmin="0.0" rmax="5.0" startphi="0.0" deltaphi="360.0" starttheta="0.0" deltatheta="180.0" aunit="deg" lunit="mm"/>
+    <box name="Box001" x="10.0" y="10.0" z="10.0" lunit="mm"/>
+    <tube name="GDMLTube" rmin="5.0" rmax="8.0" startphi="0.0" deltaphi="360.0" aunit="deg" z="20.0" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="LV_Sphere">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="GDMLSphere"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+    </volume>
+    <volume name="LV_Box001">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="Box001"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+    </volume>
+    <volume name="LV_Tube">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="GDMLTube"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+    </volume>
+    <volume name="LV_Box">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="Box"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+      <physvol name="PV-LV_Sphere">
+        <volumeref ref="LV_Sphere"/>
+        <positionref ref="P-LV_Sphere2"/>
+        <rotationref ref="R-LV_Sphere2"/>
+      </physvol>
+      <physvol name="PV-LV_Box001">
+        <volumeref ref="LV_Box001"/>
+        <positionref ref="P-LV_Box0013"/>
+        <rotationref ref="R-LV_Box0013"/>
+      </physvol>
+      <physvol name="PV-LV_Tube">
+        <volumeref ref="LV_Tube"/>
+        <positionref ref="P-LV_Tube4"/>
+        <rotationref ref="R-LV_Tube4"/>
+      </physvol>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-LV_Box">
+        <volumeref ref="LV_Box"/>
+        <positionref ref="P-LV_Box1"/>
+        <rotationref ref="R-LV_Box1"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>

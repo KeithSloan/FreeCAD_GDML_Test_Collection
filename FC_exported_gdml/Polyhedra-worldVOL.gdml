@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+    <constant name="PI" value="1.*pi"/>
+    <constant name="TWOPI" value="2.*pi"/>
+    <position name="P-V-IcosahedronTruncated1" unit="mm" x="-11.0"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+    <position name="P-V-GeodesicSphere2" unit="mm" y="-17.0"/>
+    <position name="P-V-GeodesicSphere0013" unit="mm" y="11.0"/>
+    <position name="P-V-IcosahedronTruncated0014" unit="mm" x="14.0"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm"/>
+  </solids>
+  <structure>
+    <volume name="V-IcosahedronTruncated">
+      <materialref ref="G4_KEVLAR"/>
+      <solidref ref="IcosahedronTruncated"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-GeodesicSphere">
+      <materialref ref="G4_CYTOSINE"/>
+      <solidref ref="GeodesicSphere"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-GeodesicSphere001">
+      <materialref ref="G4_Pb"/>
+      <solidref ref="GeodesicSphere"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <volume name="V-IcosahedronTruncated001">
+      <materialref ref="G4_Al"/>
+      <solidref ref="IcosahedronTruncated"/>
+      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+    </volume>
+    <assembly name="Part">
+      <physvol name="PV-IcosahedronTruncated">
+        <volumeref ref="V-IcosahedronTruncated"/>
+        <positionref ref="P-V-IcosahedronTruncated1"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-GeodesicSphere">
+        <volumeref ref="V-GeodesicSphere"/>
+        <positionref ref="P-V-GeodesicSphere2"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-GeodesicSphere001">
+        <volumeref ref="V-GeodesicSphere001"/>
+        <positionref ref="P-V-GeodesicSphere0013"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="PV-IcosahedronTruncated001">
+        <volumeref ref="V-IcosahedronTruncated001"/>
+        <positionref ref="P-V-IcosahedronTruncated0014"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </assembly>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="worldVOL"/>
+  </setup>
+</gdml>
