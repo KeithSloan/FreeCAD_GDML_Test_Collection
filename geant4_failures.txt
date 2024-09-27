@@ -1,3 +1,5 @@
+*.gdml Failed  134
+*.gdml Failed  134
 AssemblyTest-worldVOL.gdml Failed  134
 COG_Expanded_simple_array-World.gdml Failed  134
 COG_simple_array-World.gdml Failed  134
@@ -7,11 +9,6 @@ array-of-Part-worldVOL.gdml Failed  134
 array-of-mother-daughter-vols-correct-worldVOL.gdml Failed  134
 arrayTest-1-worldVOL.gdml Failed  134
 arrayTest-5-worldVOL.gdml Failed  134
-mirrorTest-1b-worldVOL.gdml Failed  134
-mirrorTest-1c-worldVOL.gdml Failed  134
-mirrorTest-3-worldVOL.gdml Failed  134
-mirrorTest-3b-worldVOL.gdml Failed  134
-mirrorTest-3c-worldVOL.gdml Failed  134
 orthoArray-of-Container-worldVOL.gdml Failed  134
 orthoArray-of-polarArray-of-Part-worldVOL.gdml Failed  134
 pathArray-of-part-worldVOL.gdml Failed  134
@@ -22,4 +19,14 @@ polarArray-of-Part-worldVOL.gdml Failed  134
 polarArray-worldVOL.gdml Failed  134
 polarArrray-of-orthoArray-of-Assembly-worldVOL.gdml Failed  134
 simple_array-World.gdml Failed  134
-simple_array_expanded-World.gdml Failed  134
+AssemblyTest-worldVOL.gdml Failed  134
+COG_Expanded_simple_array-World.gdml Failed  134
+COG_simple_array-World.gdml Failed  134
+AssemblyTest-worldVOL.gdml Failed  134
+COG_Expanded_simple_array-World.gdml Failed  134
+COG_simple_array-World.gdml Failed  134
+TestExtrudeSketch-Circle-worldVOL.gdml Failed  134
+TestExtrudeSketch-Outer-worldVOL.gdml Failed  134
+array-of-mother-daughter-vols-correct-worldVOL.gdml Failed  134
+arrayTest-1-worldVOL.gdml Failed  134
+simple_array-World.gdml Failed  134
