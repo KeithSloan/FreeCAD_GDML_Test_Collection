@@ -1,0 +1,5 @@
+World Logical Volume: worldVOL
+PV-Part              Volume:   125.66 mm^3 --> center of "mass": (   0.00,  -0.00,   4.99) mm, moments of inertia: ( 4.304, 4.305,0.2512) x10^3 mm^5 Entity type: G4Tubs
+
+Total                Volume:   125.66 mm^3 --> center of "mass": (   0.00,  -0.00,   4.99) mm, moments of inertia: ( 4.304, 4.305,0.2512) x10^3 mm^5
+***** geometry moments ****

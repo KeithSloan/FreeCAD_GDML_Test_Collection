@@ -1,0 +1,5 @@
+World Logical Volume: worldVOL
+PV-LV_Sphere         Volume:     6.76 cm^3 --> center of "mass": (  66.02,   9.59,   4.54) mm, moments of inertia: (0.1253, 3.022, 3.057) x10^2 cm^5 Entity type: G4Sphere
+
+Total                Volume:     6.76 cm^3 --> center of "mass": (  66.02,   9.59,   4.54) mm, moments of inertia: (0.1253, 3.022, 3.057) x10^2 cm^5
+***** geometry moments ****

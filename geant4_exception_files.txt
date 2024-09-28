@@ -1,0 +1,8 @@
+AssemblyTest-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+COG_Expanded_simple_array-World.gdml.out:*** G4Exception: Aborting execution ***
+COG_simple_array-World.gdml.out:*** G4Exception: Aborting execution ***
+TestExtrudeSketch-Circle-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+TestExtrudeSketch-Outer-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+array-of-mother-daughter-vols-correct-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+arrayTest-1-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+simple_array-World.gdml.out:*** G4Exception: Aborting execution ***
