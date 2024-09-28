@@ -3,6 +3,7 @@
 # printCM is needed for awk script
 cd FC_exported_gdml
 LOGFILE="../geant4_failures.txt"
+ABORTFILE="../geant4_exception_files.txt"
 #cp ../vis.mac vis.mac
 #cp ../initInit.mac initInit.mac
 cp ../batch.mac batch.mac
@@ -16,5 +17,7 @@ done
 for f in *.out; do 
     gawk -f ../filter_load_gdml_CM.awk "$f" >"${f%}.txt"
 done
+echo "Checking for Aborts"
+grep Aborting *.out > $ABORTFILE
 exit
     
