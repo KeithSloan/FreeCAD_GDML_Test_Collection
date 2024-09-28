@@ -1,15 +1,12 @@
 <?xml version='1.0' encoding='ASCII'?>
 <gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
   <define>
-    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <position name="P-Det1" unit="mm" z="8.5"/>
     <rotation name="identity" x="0" y="0" z="0"/>
-    <position name="P-Det0011" unit="mm" z="8.5"/>
-    <position name="P-Obj0010012" unit="mm" y="3.0"/>
-    <position name="P-Det0010013" unit="mm" z="8.5"/>
-    <position name="P-Obj0010024" unit="mm" x="3.0"/>
-    <position name="P-Det0010025" unit="mm" z="8.5"/>
-    <position name="P-Obj0010036" unit="mm" x="3.0" y="3.0"/>
-    <position name="P-Det0010037" unit="mm" z="8.5"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <position name="P-Obj2" unit="mm" x="3.0"/>
+    <position name="P-Obj3" unit="mm" y="3.0"/>
+    <position name="P-Obj4" unit="mm" x="3.0" y="3.0"/>
     <matrix name="SY" coldim="1" values="100000"/>
     <matrix name="RS" coldim="1" values="1.0"/>
     <matrix name="FTC" coldim="1" values="21.5*ns"/>
@@ -58,141 +55,73 @@
   </materials>
   <solids>
     <box name="World" x="50.0" y="50.0" z="50.0" lunit="mm"/>
-    <box name="Obj001" x="2.0" y="2.0" z="15.0" lunit="mm"/>
-    <box name="GlassPlate001" x="2.0" y="2.0" z="2.0" lunit="mm"/>
-    <box name="Obj001" x="2.0" y="2.0" z="15.0" lunit="mm"/>
-    <box name="Obj001" x="2.0" y="2.0" z="15.0" lunit="mm"/>
-    <box name="Obj001" x="2.0" y="2.0" z="15.0" lunit="mm"/>
+    <box name="Obj" x="2.0" y="2.0" z="15.0" lunit="mm"/>
+    <box name="GlassPlate" x="2.0" y="2.0" z="2.0" lunit="mm"/>
     <opticalsurface name="ScintWrap" model="glisur" finish="0" type="0" value="1.0">
       <property name="EFFICIENCY" ref="EFFICIENCY"/>
       <property name="REFLECTIVITY" ref="REFLECTIVITY"/>
     </opticalsurface>
   </solids>
   <structure>
-    <volume name="Det001">
+    <volume name="Det">
       <materialref ref="Glass"/>
-      <solidref ref="GlassPlate001"/>
+      <solidref ref="GlassPlate"/>
       <auxiliary auxtype="Color" auxvalue="#ff000000"/>
+      <auxiliary auxtype="SensDet" auxvalue="PhotonDetector"/>
+      <auxiliary auxtype="SensDet" auxvalue="PhotonDetector"/>
     </volume>
-    <volume name="Obj001">
+    <volume name="Obj">
       <materialref ref="LYSO"/>
-      <solidref ref="Obj001"/>
+      <solidref ref="Obj"/>
       <auxiliary auxtype="Color" auxvalue="#0000ff00"/>
-      <physvol name="PV-Det001">
-        <volumeref ref="Det001"/>
-        <positionref ref="P-Det0011"/>
+      <auxiliary auxtype="SensDet" auxvalue="Radiator"/>
+      <physvol name="PV-Det-0" copynumber="0">
+        <volumeref ref="Det"/>
+        <positionref ref="P-Det1"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>
-    <assembly name="Det001001">
-      <physvol name="V-GlassPlate001">
-        <volumeref ref="V-GlassPlate001"/>
+    <assembly name="V-Array">
+      <physvol name="Obj-0-0-0">
+        <volumeref ref="Obj"/>
         <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Obj-1-0-0">
+        <volumeref ref="Obj"/>
+        <positionref ref="P-Obj2"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Obj-0-1-0">
+        <volumeref ref="Obj"/>
+        <positionref ref="P-Obj3"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol name="Obj-1-1-0">
+        <volumeref ref="Obj"/>
+        <positionref ref="P-Obj4"/>
         <rotationref ref="identity"/>
       </physvol>
     </assembly>
-    <volume name="Obj001001">
-      <materialref ref="LYSO"/>
-      <solidref ref="Obj001"/>
-      <auxiliary auxtype="Color" auxvalue="#0000ff00"/>
-      <physvol name="PV-Det001001">
-        <volumeref ref="Det001001"/>
-        <positionref ref="P-Det0010013"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </volume>
-    <assembly name="Det001002">
-      <physvol name="V-GlassPlate001">
-        <volumeref ref="V-GlassPlate001"/>
+    <assembly name="Part">
+      <physvol name="PV-Array">
+        <volumeref ref="V-Array"/>
         <positionref ref="center"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </assembly>
-    <volume name="Obj001002">
-      <materialref ref="LYSO"/>
-      <solidref ref="Obj001"/>
-      <auxiliary auxtype="Color" auxvalue="#0000ff00"/>
-      <physvol name="PV-Det001002">
-        <volumeref ref="Det001002"/>
-        <positionref ref="P-Det0010025"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </volume>
-    <assembly name="Det001003">
-      <physvol name="V-GlassPlate001">
-        <volumeref ref="V-GlassPlate001"/>
-        <positionref ref="center"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </assembly>
-    <volume name="Obj001003">
-      <materialref ref="LYSO"/>
-      <solidref ref="Obj001"/>
-      <auxiliary auxtype="Color" auxvalue="#0000ff00"/>
-      <physvol name="PV-Det001003">
-        <volumeref ref="Det001003"/>
-        <positionref ref="P-Det0010037"/>
-        <rotationref ref="identity"/>
-      </physvol>
-    </volume>
-    <assembly name="Array001">
-      <physvol name="PV-Obj001">
-        <volumeref ref="Obj001"/>
-        <positionref ref="center"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol name="PV-Obj001001-1" copynumber="1">
-        <volumeref ref="Obj001001"/>
-        <positionref ref="P-Obj0010012"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol name="PV-Obj001002-2" copynumber="2">
-        <volumeref ref="Obj001002"/>
-        <positionref ref="P-Obj0010024"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol name="PV-Obj001003-3" copynumber="3">
-        <volumeref ref="Obj001003"/>
-        <positionref ref="P-Obj0010036"/>
         <rotationref ref="identity"/>
       </physvol>
     </assembly>
     <volume name="World">
       <materialref ref="Air"/>
       <solidref ref="World"/>
-      <physvol name="PV-Array001">
-        <volumeref ref="Array001"/>
+      <physvol name="PV-Part">
+        <volumeref ref="Part"/>
         <positionref ref="center"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>
-    <bordersurface name="ScintWrap0011" surfaceproperty="ScintWrap">
-      <physvolref ref="PV-Obj001"/>
-      <physvolref ref="PV-Det001"/>
-    </bordersurface>
-    <bordersurface name="ScintWrap0021" surfaceproperty="ScintWrap">
-      <physvolref ref="PV-Obj001001"/>
-      <physvolref ref="av_2_impr_1_V-GlassPlate001_pv_0"/>
-    </bordersurface>
-    <bordersurface name="ScintWrap0022" surfaceproperty="ScintWrap">
-      <physvolref ref="av_2_impr_1_V-GlassPlate001_pv_0"/>
-      <physvolref ref="av_2_impr_1_V-GlassPlate001_pv_0"/>
-    </bordersurface>
-    <bordersurface name="ScintWrap0031" surfaceproperty="ScintWrap">
-      <physvolref ref="PV-Obj001002"/>
-      <physvolref ref="av_3_impr_1_V-GlassPlate001_pv_0"/>
-    </bordersurface>
-    <bordersurface name="ScintWrap0032" surfaceproperty="ScintWrap">
-      <physvolref ref="av_3_impr_1_V-GlassPlate001_pv_0"/>
-      <physvolref ref="av_3_impr_1_V-GlassPlate001_pv_0"/>
-    </bordersurface>
-    <bordersurface name="ScintWrap0041" surfaceproperty="ScintWrap">
-      <physvolref ref="PV-Obj001003"/>
-      <physvolref ref="av_4_impr_1_V-GlassPlate001_pv_0"/>
-    </bordersurface>
-    <bordersurface name="ScintWrap0042" surfaceproperty="ScintWrap">
-      <physvolref ref="av_4_impr_1_V-GlassPlate001_pv_0"/>
-      <physvolref ref="av_4_impr_1_V-GlassPlate001_pv_0"/>
+    <bordersurface name="ScintWrap01" surfaceproperty="ScintWrap">
+      <physvolref ref="PV-Obj"/>
+      <physvolref ref="PV-Det"/>
     </bordersurface>
   </structure>
   <setup name="Default" version="1.0">
