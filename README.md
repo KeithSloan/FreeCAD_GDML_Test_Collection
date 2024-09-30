@@ -18,7 +18,7 @@ The newsly exported gdml file can be checked against the original gdml file.
 
 ## For Geant4 COG
 
-  load_gdml_color -m batchFile.mac
+  load_gdml_color -m=batchFile.mac
 
   ( batchFile.mac same as initInit.mac minus /control/execture vis.mac )
 
