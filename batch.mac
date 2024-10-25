@@ -3,9 +3,9 @@
 /process/optical/verbose 1
 
 # save the commands executed in this file to a history...mac file
-#/control/maximumStoredHistory 10000
-#/control/shell echo "/control/saveHistory history_`date +%F-%H-%M-%S`.mac" >temp.mac
-#/control/execute temp.mac
+/control/maximumStoredHistory 10000
+/control/shell echo "/control/saveHistory history_`date +%F-%H-%M-%S`.mac" >temp.mac
+/control/execute temp.mac
 
 #/process/optical/processActivation Scintillation true
 #/process/optical/processActivation OpAbsorption  true
