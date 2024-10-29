@@ -1,3 +1,7 @@
+# Set geant4 environment
+sh
+source /Users/keithsloan/geant4-v11.2.2-install/bin/geant4.sh
+
 # Compile Instructions
 cd MH_G01
 mkdir build
