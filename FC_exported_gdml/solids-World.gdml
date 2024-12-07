@@ -1,47 +1,17 @@
-<?xml version='1.0' encoding='ASCII'?>
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
   <define>
-    <constant name="HALFPI" value="pi/2."/>
-    <constant name="PI" value="1.*pi"/>
-    <constant name="TWOPI" value="2.*pi"/>
     <position name="center" x="0" y="0" z="0" unit="mm"/>
     <rotation name="identity" x="0" y="0" z="0"/>
-    <position name="P-vol11" unit="mm" x="-250.0"/>
-    <position name="P-vol22" unit="mm" x="-125.0"/>
-    <position name="P-vol33" unit="mm" x="125.0"/>
-    <position name="P-vol44" unit="mm" x="250.0"/>
-    <position name="P-vol115" unit="mm" x="-250.0" y="125.0"/>
-    <position name="P-vol216" unit="mm" x="-125.0" y="125.0"/>
-    <position name="P-b5017" unit="mm" x="25.0"/>
-    <position name="P-b5028" unit="mm" x="-25.0"/>
-    <position name="P-vol319" unit="mm" x="125.0" y="125.0"/>
-    <position name="P-vol4110" unit="mm" x="250.0" y="125.0"/>
-    <position name="P-vol41211" unit="mm" x="250.0" y="225.0"/>
-    <position name="P-vol5112" unit="mm" x="550.0" y="125.0"/>
     <position name="testtetv1" unit="mm" x="10.0" y="-10.0" z="0.0"/>
     <position name="testtetv2" unit="mm" x="-10.0" y="-10.0" z="0.0"/>
     <position name="testtetv3" unit="mm" x="-10.0" y="10.0" z="0.0"/>
     <position name="testtetv4" unit="mm" x="0.0" y="0.0" z="20.0"/>
-    <position name="P-vol6113" unit="mm" x="550.0" y="-125.0"/>
-    <position name="P-vol7114" unit="mm" x="550.0"/>
-    <position name="P-vol8115" unit="mm" x="-550.0" y="125.0"/>
-    <position name="P-vol9116" unit="mm" x="-550.0" y="-125.0"/>
-    <position name="P-vol10117" unit="mm" x="-550.0"/>
     <position name="testtessel_0" unit="mm" x="-10.0" y="10.0" z="0.0"/>
     <position name="testtessel_1" unit="mm" x="10.0" y="-10.0" z="0.0"/>
     <position name="testtessel_2" unit="mm" x="10.0" y="10.0" z="0.0"/>
     <position name="testtessel_3" unit="mm" x="-10.0" y="-10.0" z="0.0"/>
     <position name="testtessel_4" unit="mm" x="0.0" y="0.0" z="20.0"/>
-    <position name="P-vol20118" unit="mm" x="750.0"/>
-    <position name="P-vol30119" unit="mm" x="750.0" y="125.0"/>
-    <position name="P-vol40120" unit="mm" x="750.0" y="-125.0"/>
-    <position name="P-vol50121" unit="mm" x="-750.0" y="-125.0"/>
-    <position name="P-vol50222" unit="mm" x="-750.0" y="-225.0"/>
-    <position name="P-vol60123" unit="mm" x="-750.0" y="125.0"/>
-    <position name="P-vol70124" unit="mm" x="-750.0"/>
-    <position name="P-vol100125" unit="mm" x="950.0"/>
-    <position name="P-vol100226" unit="mm" x="950.0" y="125.0"/>
-    <position name="P-vol100327" unit="mm" x="950.0" y="-125.0"/>
   </define>
   <materials>
     <element name="Hydrogen" Z="1" formula="H">
@@ -77,6 +47,7 @@
     <cone name="c1" rmin1="0.0" rmin2="0.0" rmax1="22.0" rmax2="33.0" startphi="0.0" deltaphi="6.283185307179586" aunit="rad" z="111.0" lunit="mm"/>
     <para name="pa1" x="10.0" y="10.0" z="10.0" alpha="30.0" theta="30.0" phi="30.0" aunit="deg" lunit="mm"/>
     <sphere name="s1" rmin="10.0" rmax="50.0" startphi="0.0" deltaphi="90.0" starttheta="20.0" deltatheta="140.0" aunit="deg" lunit="mm"/>
+    <trap name="trap1" z="100.0" theta="60.0" phi="60.0" x1="10.0" x2="10.0" x3="10.0" x4="10.0" y1="10.0" y2="10.0"/>
     <trap name="trap1" z="100.0" theta="60.0" phi="60.0" x1="10.0" x2="10.0" x3="10.0" x4="10.0" y1="10.0" y2="10.0" alpha1="30.0" alpha2="30.0" aunit="deg" lunit="mm"/>
     <trd name="trd1" z="30.0" x1="10.0" x2="10.0" y1="10.0" y2="20.0" lunit="mm"/>
     <tube name="t100" rmin="0.0" rmax="10.0" startphi="0.0" deltaphi="6.283185307179586" aunit="rad" z="100.0" lunit="mm"/>
@@ -86,13 +57,13 @@
     <union name="u1">
       <first ref="b500"/>
       <second ref="b501"/>
-      <positionref ref="P-b5017"/>
+      <position name="P-GDMLBox_b5017" unit="mm" x="25.0"/>
       <rotationref ref="identity"/>
     </union>
     <subtraction name="sub1">
       <first ref="u1"/>
       <second ref="b502"/>
-      <positionref ref="P-b5028"/>
+      <position name="P-GDMLBox_b5028" unit="mm" x="-25.0"/>
       <rotationref ref="identity"/>
     </subtraction>
     <polycone name="testpoly" startphi="0.0" deltaphi="360.0" aunit="deg" lunit="mm">
@@ -132,6 +103,8 @@
     <eltube name="testeltube" dx="30.0" dy="50.0" dz="40.0" lunit="mm"/>
     <elcone name="testelcone" dx="1.0" dy="1.5" zcut="1.5" zmax="2.0" lunit="mm"/>
     <arb8 name="arb81" v1x="-45.0" v1y="-45.0" v2x="-45.0" v2y="45.0" v3x="45.0" v3y="45.0" v4x="45.0" v4y="-45.0" v5x="-35.0" v5y="-35.0" v6x="-35.0" v6y="35.0" v7x="35.0" v7y="35.0" v8x="35.0" v8y="-35.0" dz="50.0" lunit="mm"/>
+    <arb8 name="arb81" v1x="-45.0" v1y="-45.0" v2x="-45.0" v2y="45.0" v3x="45.0" v3y="45.0" v4x="45.0" v4y="-45.0" v5x="-35.0" v5y="-35.0" v6x="-35.0" v6y="35.0" v7x="35.0" v7y="35.0" v8x="35.0" v8y="-35.0" dz="50.0" lunit="mm"/>
+    <arb8 name="arb82" v1x="-45.0" v1y="-45.0" v2x="-45.0" v2y="45.0" v3x="45.0" v3y="45.0" v4x="45.0" v4y="-45.0" v5x="-35.0" v5y="-35.0" v6x="-35.0" v6y="35.0" v7x="35.0" v7y="35.0" v8x="35.0" v8y="-15.0" dz="50.0" lunit="mm"/>
     <arb8 name="arb82" v1x="-45.0" v1y="-45.0" v2x="-45.0" v2y="45.0" v3x="45.0" v3y="45.0" v4x="45.0" v4y="-45.0" v5x="-35.0" v5y="-35.0" v6x="-35.0" v6y="35.0" v7x="35.0" v7y="35.0" v8x="35.0" v8y="-15.0" dz="50.0" lunit="mm"/>
   </solids>
   <structure>
@@ -173,7 +146,7 @@
     <volume name="vol31">
       <materialref ref="Water"/>
       <solidref ref="sub1"/>
-      <auxiliary auxtype="Color" auxvalue="#cccccc00"/>
+      <auxiliary auxtype="Color" auxvalue="#ff00ffff"/>
     </volume>
     <volume name="vol41">
       <materialref ref="Water"/>
@@ -268,134 +241,134 @@
     <volume name="World">
       <materialref ref="Air"/>
       <solidref ref="WorldBox"/>
-      <physvol name="PV-vol0">
+      <physvol name="PV_vol0">
         <volumeref ref="vol0"/>
         <positionref ref="center"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol1">
+      <physvol name="PV_vol1">
         <volumeref ref="vol1"/>
-        <positionref ref="P-vol11"/>
+        <position name="P-vol11" unit="mm" x="-250.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol2">
+      <physvol name="PV_vol2">
         <volumeref ref="vol2"/>
-        <positionref ref="P-vol22"/>
+        <position name="P-vol22" unit="mm" x="-125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol3">
+      <physvol name="PV_vol3">
         <volumeref ref="vol3"/>
-        <positionref ref="P-vol33"/>
+        <position name="P-vol33" unit="mm" x="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol4">
+      <physvol name="PV_vol4">
         <volumeref ref="vol4"/>
-        <positionref ref="P-vol44"/>
+        <position name="P-vol44" unit="mm" x="250.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol11">
+      <physvol name="PV_vol11">
         <volumeref ref="vol11"/>
-        <positionref ref="P-vol115"/>
+        <position name="P-vol115" unit="mm" x="-250.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol21">
+      <physvol name="PV_vol21">
         <volumeref ref="vol21"/>
-        <positionref ref="P-vol216"/>
+        <position name="P-vol216" unit="mm" x="-125.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol31">
+      <physvol name="PV_vol31">
         <volumeref ref="vol31"/>
-        <positionref ref="P-vol319"/>
+        <position name="P-vol319" unit="mm" x="125.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol41">
+      <physvol name="PV_vol41">
         <volumeref ref="vol41"/>
-        <positionref ref="P-vol4110"/>
+        <position name="P-vol4110" unit="mm" x="250.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol412">
+      <physvol name="PV_vol412">
         <volumeref ref="vol412"/>
-        <positionref ref="P-vol41211"/>
+        <position name="P-vol41211" unit="mm" x="250.0" y="225.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol51">
+      <physvol name="PV_vol51">
         <volumeref ref="vol51"/>
-        <positionref ref="P-vol5112"/>
+        <position name="P-vol5112" unit="mm" x="550.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol61">
+      <physvol name="PV_vol61">
         <volumeref ref="vol61"/>
-        <positionref ref="P-vol6113"/>
+        <position name="P-vol6113" unit="mm" x="550.0" y="-125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol71">
+      <physvol name="PV_vol71">
         <volumeref ref="vol71"/>
-        <positionref ref="P-vol7114"/>
+        <position name="P-vol7114" unit="mm" x="550.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol81">
+      <physvol name="PV_vol81">
         <volumeref ref="vol81"/>
-        <positionref ref="P-vol8115"/>
+        <position name="P-vol8115" unit="mm" x="-550.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol91">
+      <physvol name="PV_vol91">
         <volumeref ref="vol91"/>
-        <positionref ref="P-vol9116"/>
+        <position name="P-vol9116" unit="mm" x="-550.0" y="-125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol101">
+      <physvol name="PV_vol101">
         <volumeref ref="vol101"/>
-        <positionref ref="P-vol10117"/>
+        <position name="P-vol10117" unit="mm" x="-550.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol201">
+      <physvol name="PV_vol201">
         <volumeref ref="vol201"/>
-        <positionref ref="P-vol20118"/>
+        <position name="P-vol20118" unit="mm" x="750.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol301">
+      <physvol name="PV_vol301">
         <volumeref ref="vol301"/>
-        <positionref ref="P-vol30119"/>
+        <position name="P-vol30119" unit="mm" x="750.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol401">
+      <physvol name="PV_vol401">
         <volumeref ref="vol401"/>
-        <positionref ref="P-vol40120"/>
+        <position name="P-vol40120" unit="mm" x="750.0" y="-125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol501">
+      <physvol name="PV_vol501">
         <volumeref ref="vol501"/>
-        <positionref ref="P-vol50121"/>
+        <position name="P-vol50121" unit="mm" x="-750.0" y="-125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol502">
+      <physvol name="PV_vol502">
         <volumeref ref="vol502"/>
-        <positionref ref="P-vol50222"/>
+        <position name="P-vol50222" unit="mm" x="-750.0" y="-225.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol601">
+      <physvol name="PV_vol601">
         <volumeref ref="vol601"/>
-        <positionref ref="P-vol60123"/>
+        <position name="P-vol60123" unit="mm" x="-750.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol701">
+      <physvol name="PV_vol701">
         <volumeref ref="vol701"/>
-        <positionref ref="P-vol70124"/>
+        <position name="P-vol70124" unit="mm" x="-750.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol1001">
+      <physvol name="PV_vol1001">
         <volumeref ref="vol1001"/>
-        <positionref ref="P-vol100125"/>
+        <position name="P-vol100125" unit="mm" x="950.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol1002">
+      <physvol name="PV_vol1002">
         <volumeref ref="vol1002"/>
-        <positionref ref="P-vol100226"/>
+        <position name="P-vol100226" unit="mm" x="950.0" y="125.0"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-vol1003">
+      <physvol name="PV_vol1003">
         <volumeref ref="vol1003"/>
-        <positionref ref="P-vol100327"/>
+        <position name="P-vol100327" unit="mm" x="950.0" y="-125.0"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>

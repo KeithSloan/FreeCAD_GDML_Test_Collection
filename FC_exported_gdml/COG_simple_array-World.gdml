@@ -1,12 +1,8 @@
-<?xml version='1.0' encoding='ASCII'?>
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
   <define>
-    <position name="P-Det1" unit="mm" z="8.5"/>
     <rotation name="identity" x="0" y="0" z="0"/>
     <position name="center" x="0" y="0" z="0" unit="mm"/>
-    <position name="P-Obj2" unit="mm" x="3.0"/>
-    <position name="P-Obj3" unit="mm" y="3.0"/>
-    <position name="P-Obj4" unit="mm" x="3.0" y="3.0"/>
     <matrix name="SY" coldim="1" values="100000"/>
     <matrix name="RS" coldim="1" values="1.0"/>
     <matrix name="FTC" coldim="1" values="21.5*ns"/>
@@ -54,8 +50,8 @@
     </material>
   </materials>
   <solids>
-    <box name="World" x="50.0" y="50.0" z="50.0" lunit="mm"/>
-    <box name="Obj" x="2.0" y="2.0" z="15.0" lunit="mm"/>
+    <box name="World1" x="50.0" y="50.0" z="50.0" lunit="mm"/>
+    <box name="Obj1" x="2.0" y="2.0" z="15.0" lunit="mm"/>
     <box name="GlassPlate" x="2.0" y="2.0" z="2.0" lunit="mm"/>
     <opticalsurface name="ScintWrap" model="glisur" finish="0" type="0" value="1.0">
       <property name="EFFICIENCY" ref="EFFICIENCY"/>
@@ -68,20 +64,18 @@
       <solidref ref="GlassPlate"/>
       <auxiliary auxtype="Color" auxvalue="#ff000000"/>
       <auxiliary auxtype="SensDet" auxvalue="PhotonDetector"/>
-      <auxiliary auxtype="SensDet" auxvalue="PhotonDetector"/>
     </volume>
     <volume name="Obj">
       <materialref ref="LYSO"/>
-      <solidref ref="Obj"/>
+      <solidref ref="Obj1"/>
       <auxiliary auxtype="Color" auxvalue="#0000ff00"/>
-      <auxiliary auxtype="SensDet" auxvalue="Radiator"/>
-      <physvol name="PV-Det-0" copynumber="0">
+      <physvol name="PV_Det" copynumber="0">
         <volumeref ref="Det"/>
-        <positionref ref="P-Det1"/>
+        <position name="P-Det1" unit="mm" z="8.5"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>
-    <assembly name="V-Array">
+    <assembly name="Array">
       <physvol name="Obj-0-0-0">
         <volumeref ref="Obj"/>
         <positionref ref="center"/>
@@ -89,39 +83,39 @@
       </physvol>
       <physvol name="Obj-1-0-0">
         <volumeref ref="Obj"/>
-        <positionref ref="P-Obj2"/>
+        <position name="P-Obj2" unit="mm" x="3.0"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol name="Obj-0-1-0">
         <volumeref ref="Obj"/>
-        <positionref ref="P-Obj3"/>
+        <position name="P-Obj3" unit="mm" y="3.0"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol name="Obj-1-1-0">
         <volumeref ref="Obj"/>
-        <positionref ref="P-Obj4"/>
+        <position name="P-Obj4" unit="mm" x="3.0" y="3.0"/>
         <rotationref ref="identity"/>
       </physvol>
     </assembly>
     <assembly name="Part">
-      <physvol name="PV-Array">
-        <volumeref ref="V-Array"/>
+      <physvol name="av_1_impr_1_Array_pv_0">
+        <volumeref ref="Array"/>
         <positionref ref="center"/>
         <rotationref ref="identity"/>
       </physvol>
     </assembly>
     <volume name="World">
       <materialref ref="Air"/>
-      <solidref ref="World"/>
-      <physvol name="PV-Part">
+      <solidref ref="World1"/>
+      <physvol name="PV_Part">
         <volumeref ref="Part"/>
         <positionref ref="center"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>
     <bordersurface name="ScintWrap01" surfaceproperty="ScintWrap">
-      <physvolref ref="PV-Obj"/>
-      <physvolref ref="PV-Det"/>
+      <physvolref ref="PV_Obj"/>
+      <physvolref ref="PV_Det"/>
     </bordersurface>
   </structure>
   <setup name="Default" version="1.0">
