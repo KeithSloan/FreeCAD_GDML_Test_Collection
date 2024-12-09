@@ -1,0 +1,4 @@
+experiment           Volume:    16.00 cm^3 --> center of "mass": (   7.59,  10.33,  -0.00) cm, moments of inetria: ( 2.115,  1.332,  3.437) x10^3 cm^5
+LV_Sphere            Volume:   523.60 mm^3 --> center of "mass": (  53.00,  14.00,  -0.00) mm, moments of inetria: (0.1079,  1.476,  1.579) x10^1 cm^5
+
+Total                Volume:    16.52 cm^3 --> center of "mass": (   7.52,  10.05,  -0.00) cm, moments of inetria: ( 2.116,  1.347,  3.453) x10^3 cm^5

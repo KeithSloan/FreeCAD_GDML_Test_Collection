@@ -1,0 +1,3 @@
+Bool_Cut             Volume: 604619.10 cm^3 --> center of "mass": (  -0.00,  -0.00,   3.39)  m, moments of inetria: ( 8.739,  8.739, 0.1504) x10^10 cm^5
+
+Total                Volume: 604619.10 cm^3 --> center of "mass": (  -0.00,  -0.00,   3.39)  m, moments of inetria: ( 8.739,  8.739, 0.1504) x10^10 cm^5

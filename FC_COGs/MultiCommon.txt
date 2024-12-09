@@ -1,0 +1,4 @@
+MultiCommon          Volume:    15.06 mm^3 --> center of "mass": (   0.84,   0.84,   2.40) mm, moments of inetria: ( 1.297,  1.297, 0.2948) x10^2 mm^5
+Common002            Volume:    73.30 mm^3 --> center of "mass": (   9.36,   1.36,   6.07) mm, moments of inetria: ( 3.421,  9.712,  6.673) x10^3 mm^5
+
+Total                Volume:    88.37 mm^3 --> center of "mass": (   7.91,   1.28,   5.45) mm, moments of inetria: ( 3.551,  9.842,  6.703) x10^3 mm^5

@@ -1,0 +1,3 @@
+experiment           Volume:     5.00 cm^3 --> center of "mass": (  -0.00,   0.00,   0.00) mm, moments of inetria: (0.8333, 0.8333, 0.8333) cm^5
+
+Total                Volume:     5.00 cm^3 --> center of "mass": (  -0.00,   0.00,   0.00) mm, moments of inetria: (0.8333, 0.8333, 0.8333) cm^5
