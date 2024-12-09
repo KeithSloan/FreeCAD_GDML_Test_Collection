@@ -1,3 +1,0 @@
-Part                 Volume:    72.28 cm^3 --> center of "mass": (  -0.00,   0.00,   7.70) mm, moments of inetria: ( 4.677,  4.677,  8.115) x10^2 cm^5
-
-Total                Volume:    72.28 cm^3 --> center of "mass": (  -0.00,   0.00,   7.70) mm, moments of inetria: ( 4.677,  4.677,  8.115) x10^2 cm^5

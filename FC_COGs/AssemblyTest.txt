@@ -1,4 +1,0 @@
-DetectorAssembly     Volume:   325.94 cm^3 --> center of "mass": (   0.68,   0.00,   3.60) mm, moments of inetria: ( 2.627,  2.755,  2.271) x10^3 cm^5
-shieldAssembly       Volume:    30.00 cm^3 --> center of "mass": (  25.00,  10.00,  68.00) mm, moments of inetria: ( 1.555,  1.640, 0.4150) x10^3 cm^5
-
-Total                Volume:   355.94 cm^3 --> center of "mass": (   2.73,   0.84,   9.03) mm, moments of inetria: ( 4.181,  4.394,  2.686) x10^3 cm^5

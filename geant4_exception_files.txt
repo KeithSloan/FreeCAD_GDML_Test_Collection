@@ -1,7 +1,15 @@
 AssemblyTest-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
 COG_Expanded_simple_array-World.gdml.out:*** G4Exception: Aborting execution ***
+Chamfer_and_fillet-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+InvoluteGear-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+Loft-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+Polyhedra-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+Sweep-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
 arrayTest-1-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+duplicated_bolts-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+duplicated_nuts-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
 extrudeCircleTest-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
+fillet-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
 importObjTest-edited-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
 revolveTester-5-worldVOL.gdml.out:*** G4Exception: Aborting execution ***
 revolveTester-6-worldVOL.gdml.out:*** G4Exception: Aborting execution ***

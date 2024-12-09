@@ -1,3 +1,0 @@
-MRCP_AM_OBJ          Volume:     3.01 cm^3 --> center of "mass": (   0.05,   1.22,  47.68) mm, moments of inetria: ( 6.988,  7.096, 0.2138) x10^1 cm^5
-
-Total                Volume:     3.01 cm^3 --> center of "mass": (   0.05,   1.22,  47.68) mm, moments of inetria: ( 6.988,  7.096, 0.2138) x10^1 cm^5

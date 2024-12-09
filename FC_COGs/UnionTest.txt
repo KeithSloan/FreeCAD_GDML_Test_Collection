@@ -1,3 +1,0 @@
-Bool_Fuse            Volume:     1.46 cm^3 --> center of "mass": (  18.06,   0.30,   7.62) mm, moments of inetria: ( 1.476,  6.089,  5.293) cm^5
-
-Total                Volume:     1.46 cm^3 --> center of "mass": (  18.06,   0.30,   7.62) mm, moments of inetria: ( 1.476,  6.089,  5.293) cm^5

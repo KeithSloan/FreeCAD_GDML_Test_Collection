@@ -1,3 +1,0 @@
-Part                 Volume:   488.95 mm^3 --> center of "mass": (  -0.48,   2.27,   5.00) mm, moments of inetria: (0.2020, 0.2037, 0.07975) cm^5
-
-Total                Volume:   488.95 mm^3 --> center of "mass": (  -0.48,   2.27,   5.00) mm, moments of inetria: (0.2020, 0.2037, 0.07975) cm^5
