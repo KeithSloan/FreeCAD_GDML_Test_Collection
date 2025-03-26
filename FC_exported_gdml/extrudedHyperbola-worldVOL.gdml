@@ -4,57 +4,22 @@
     <position name="center" x="0" y="0" z="0" unit="mm"/>
     <rotation name="identity" x="0" y="0" z="0"/>
   </define>
-  <materials>
-    <element name="O_element" Z="8" formula="O">
-      <atom value="15.999"/>
-    </element>
-    <element name="Ni_element" Z="28" formula="Ni">
-      <atom value="58.6934"/>
-    </element>
-    <element name="Cr_element" Z="24" formula="Cr">
-      <atom value="51.9961"/>
-    </element>
-    <element name="C_element" Z="6" formula="C">
-      <atom value="12.011"/>
-    </element>
-    <element name="Ar_element" Z="18" formula="Ar">
-      <atom value="39.95"/>
-    </element>
-    <element name="N_element" Z="7" formula="N">
-      <atom value="14.007"/>
-    </element>
-    <element name="Fe_element" Z="26" formula="Fe">
-      <atom value="55.845"/>
-    </element>
-    <material name="G4_STAINLESS-STEEL" formula="G4_STAINLESS-STEEL">
-      <D unit="g/cm3" value="8.0"/>
-      <composite n="74" ref="Fe_element"/>
-      <composite n="18" ref="Cr_element"/>
-      <composite n="8" ref="Ni_element"/>
-    </material>
-    <material name="G4_AIR" formula="G4_AIR">
-      <D unit="g/cm3" value="0.00120479"/>
-      <fraction n="0.000124" ref="C_element"/>
-      <fraction n="0.755268" ref="N_element"/>
-      <fraction n="0.231781" ref="O_element"/>
-      <fraction n="0.012827" ref="Ar_element"/>
-    </material>
-  </materials>
+  <materials/>
   <solids>
     <box name="WorldBox" x="200.0" y="200.0" z="200.0" lunit="mm"/>
     <xtru name="Extrude00" lunit="mm">
-      <twoDimVertex x="16.902846999999984" y="-27.007455999999994"/>
-      <twoDimVertex x="6.257726003960382" y="-15.2957310653624"/>
-      <twoDimVertex x="0.6384001214663186" y="-7.981172971865591"/>
-      <twoDimVertex x="-2.260270987065198" y="-2.9061478825005436"/>
-      <twoDimVertex x="-3.5197144446199076" y="0.9789563178584499"/>
-      <twoDimVertex x="-3.6525755927356194" y="4.220010235675957"/>
-      <twoDimVertex x="-2.867036863366451" y="7.2033487034898815"/>
-      <twoDimVertex x="-1.0900146392190777" y="10.27292104495362"/>
-      <twoDimVertex x="2.0419286398826166" y="13.770401405429645"/>
-      <twoDimVertex x="7.263670633506344" y="18.14329092205848"/>
-      <twoDimVertex x="15.959885201992673" y="24.139919660859576"/>
-      <twoDimVertex x="23.342170363588448" y="28.738601999999997"/>
+      <twoDimVertex x="16.90284699999999" y="-27.007456"/>
+      <twoDimVertex x="6.257726003960446" y="-15.295731065362464"/>
+      <twoDimVertex x="0.6384001214663684" y="-7.981172971865663"/>
+      <twoDimVertex x="-2.2602709870651694" y="-2.906147882500595"/>
+      <twoDimVertex x="-3.519714444619897" y="0.9789563178584224"/>
+      <twoDimVertex x="-3.6525755927356087" y="4.220010235675932"/>
+      <twoDimVertex x="-2.867036863366458" y="7.203348703489858"/>
+      <twoDimVertex x="-1.090014639219092" y="10.272921044953595"/>
+      <twoDimVertex x="2.0419286398825918" y="13.770401405429617"/>
+      <twoDimVertex x="7.263670633506305" y="18.14329092205844"/>
+      <twoDimVertex x="15.959885201992602" y="24.139919660859512"/>
+      <twoDimVertex x="23.342170363588455" y="28.738601999999993"/>
       <section zOrder="0" zPosition="0.0" xOffset="0" yOffset="0" scalingFactor="1"/>
       <section zOrder="1" zPosition="10.0" xOffset="0" yOffset="0" scalingFactor="1"/>
     </xtru>
