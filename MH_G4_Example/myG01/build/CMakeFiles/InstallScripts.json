@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

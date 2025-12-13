@@ -1,8 +1,8 @@
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/load_gdml_color.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/myG01.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/edit_cache.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/rebuild_cache.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/list_install_components.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/install.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/install/local.dir
-/Users/keithsloan/MEGA/MEGAsync/CAD_Files/GDML/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/install/strip.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/load_gdml_color.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/myG01.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/edit_cache.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/rebuild_cache.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/list_install_components.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/install.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/install/local.dir
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/myG01/build/CMakeFiles/install/strip.dir

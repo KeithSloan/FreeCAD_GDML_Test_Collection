@@ -1,65 +1,49 @@
-#----------------------------------------------------------------------------
-# Setup the project
-cmake_minimum_required(VERSION 3.16...3.27)
-project(MH_G01)
+cmake_minimum_required(VERSION 3.16)
+project(MH_G01 LANGUAGES CXX)
 
-#----------------------------------------------------------------------------
-# Find Geant4 package, activating all available Vis drivers by default
-# You can set WITH_GEANT4_VIS to OFF via the command line or ccmake/cmake-gui
-# to build a batch mode only executable
-#
-option(WITH_GEANT4_VIS "Build example with Geant4 Vis drivers" ON)
-if(WITH_GEANT4_VIS)
-  find_package(Geant4 REQUIRED gdml vis_all)
-else()
-  find_package(Geant4 REQUIRED gdml)
-endif()
-
-#----------------------------------------------------------------------------
-# Setup Geant4 include directories and compile definitions
-#
+# --------------------------------------------------
+# Find Geant4 (GDML only)
+# --------------------------------------------------
+find_package(Geant4 REQUIRED gdml)
 include(${Geant4_USE_FILE})
 
-#----------------------------------------------------------------------------
-# Locate sources and headers for this project
-#
-include_directories(${PROJECT_SOURCE_DIR}/include 
-                    ${Geant4_INCLUDE_DIR})
-file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
-file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
+# --------------------------------------------------
+# Include directories
+# --------------------------------------------------
+include_directories(
+    ${PROJECT_SOURCE_DIR}/include
+    ${Geant4_INCLUDE_DIRS}
+)
 
-#----------------------------------------------------------------------------
-# Add the executable, and link it to the Geant4 libraries
-#
-#add_executable(load_gdml_color load_gdml_color.cc ${sources} ${headers})
-add_executable(load_gdml_color load_gdml_color.cc ${sources} ${headers})
-target_link_libraries(load_gdml_color ${Geant4_LIBRARIES} )
+# --------------------------------------------------
+# Common sources (everything in src/)
+# --------------------------------------------------
+file(GLOB COMMON_SOURCES
+    "${PROJECT_SOURCE_DIR}/src/*.cc"
+)
 
-#----------------------------------------------------------------------------
-# Copy all scripts to the build directory, i.e. the directory in which we
-# build G01. This is so that we can run the executable directly because it
-# relies on these scripts being in the current working directory.
-#
-set(MH_G01_SCRIPTS
-    assembly.gdml auxiliary.gdml axes.gdml block.gdml divisionvol.gdml entity.gdml g01.in g01.out loop.gdml materials.xml mat_nist.gdml matricesandloops.gdml multiUnion.gdml opticalsurfaces.gdml parameterized.gdml pTube.gdml replicated.gdml scale.gdml scaledTube.gdml solids.gdml tess.gdml vis.mac
-  )
+# --------------------------------------------------
+# Shared library
+# --------------------------------------------------
+add_library(MH_G01_lib ${COMMON_SOURCES})
+target_link_libraries(MH_G01_lib ${Geant4_LIBRARIES})
 
-foreach(_script ${MH_G01_SCRIPTS})
-  configure_file(
-    ${PROJECT_SOURCE_DIR}/${_script}
-    ${PROJECT_BINARY_DIR}/${_script}
-    COPYONLY
-    )
-endforeach()
+# --------------------------------------------------
+# Executables (these contain main())
+# --------------------------------------------------
+add_executable(load_gdml load_gdml.cc)
+add_executable(load_gdml_color load_gdml_color.cc)
 
-#----------------------------------------------------------------------------
-# Add program to the project targets
-# (this avoids the need of typing the program name after make)
-#
-add_custom_target(MH_G01 DEPENDS load_gdml_color)
+target_link_libraries(load_gdml
+    MH_G01_lib
+    ${Geant4_LIBRARIES}
+)
 
-#----------------------------------------------------------------------------
-# Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
-#
-install(TARGETS load_gdml_color  DESTINATION bin)
+target_link_libraries(load_gdml_color
+    MH_G01_lib
+    ${Geant4_LIBRARIES}
+)
+
+install(TARGETS load_gdml load_gdml_color
+        RUNTIME DESTINATION bin)
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMH_G01_lib.a CMakeFiles/MH_G01_lib.dir/src/ActionInitialization.cc.o CMakeFiles/MH_G01_lib.dir/src/G01ActionInitialization.cc.o CMakeFiles/MH_G01_lib.dir/src/G01PrimaryGeneratorAction.cc.o CMakeFiles/MH_G01_lib.dir/src/GeometryMoments.cc.o CMakeFiles/MH_G01_lib.dir/src/InertiaMatrix.cc.o CMakeFiles/MH_G01_lib.dir/src/Moments.cc.o CMakeFiles/MH_G01_lib.dir/src/MomentsEstimator.cc.o CMakeFiles/MH_G01_lib.dir/src/MultiUnionMomentsEstimator.cc.o CMakeFiles/MH_G01_lib.dir/src/PrimaryGeneratorAction.cc.o
+/usr/bin/ranlib libMH_G01_lib.a

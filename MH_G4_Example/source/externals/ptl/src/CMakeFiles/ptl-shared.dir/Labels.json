@@ -1,0 +1,100 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/AutoLock.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ConsumeParameters.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/GetEnv.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/JoinFunction.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Macros.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/PTL.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ScopeDestructor.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Task.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskGroup.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskManager.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskRunManager.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskSubQueue.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ThreadData.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ThreadPool.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Threading.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Types.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/UserTaskQueue.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/VTask.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/VUserTaskQueue.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/detail/CxxBackports.hh"
+		},
+		{
+			"file" : "/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/source/externals/ptl/src/PTL/Config.hh"
+		},
+		{
+			"file" : "/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/source/externals/ptl/src/PTL/Version.hh"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/TaskGroup.cc"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/TaskRunManager.cc"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/ThreadData.cc"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/ThreadPool.cc"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/Threading.cc"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/UserTaskQueue.cc"
+		},
+		{
+			"file" : "/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/VUserTaskQueue.cc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PTL"
+		],
+		"name" : "ptl-shared"
+	}
+}

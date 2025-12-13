@@ -1,0 +1,32 @@
+# Directory labels
+ PTL
+# Source files and their labels
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/AutoLock.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ConsumeParameters.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/GetEnv.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/JoinFunction.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Macros.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/PTL.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ScopeDestructor.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Task.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskGroup.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskManager.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskRunManager.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/TaskSubQueue.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ThreadData.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/ThreadPool.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Threading.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/Types.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/UserTaskQueue.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/VTask.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/VUserTaskQueue.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/include/PTL/detail/CxxBackports.hh
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/source/externals/ptl/src/PTL/Config.hh
+/Users/ksloan/github/FreeCAD_GDML_Test_Collection/MH_G4_Example/source/externals/ptl/src/PTL/Version.hh
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/TaskGroup.cc
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/TaskRunManager.cc
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/ThreadData.cc
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/ThreadPool.cc
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/Threading.cc
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/UserTaskQueue.cc
+/Users/ksloan/geant4-v11.3.2/source/externals/ptl/src/VUserTaskQueue.cc
