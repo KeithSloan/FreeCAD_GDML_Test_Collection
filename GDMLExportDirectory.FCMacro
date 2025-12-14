@@ -1,8 +1,5 @@
 # **************************************************************************
-# *                                                                        *
-# *   Copyright (c) 2024 Keith Sloan <keith@sloan-home.co.uk>              *
-# *                      Munther Hindi                                      *
-# *                                                                        *
+# *   Batch GDML Export – Safe, Robust, Production Version                 *
 # ***************************************************************************
 
 import os
@@ -21,8 +18,7 @@ from PySide import QtGui, QtCore, QtWidgets
 
 class Directory(QtGui.QWidget):
     def __init__(self, label):
-        super(Directory, self).__init__()
-
+        super().__init__()
         layout = QtGui.QHBoxLayout(self)
 
         layout.addWidget(QtGui.QLabel(label))
@@ -51,7 +47,7 @@ class Directory(QtGui.QWidget):
 class GDMLExportDialog(QtGui.QDialog):
 
     def __init__(self):
-        super(GDMLExportDialog, self).__init__()
+        super().__init__()
         self.initUI()
 
     def initUI(self):
@@ -61,7 +57,6 @@ class GDMLExportDialog(QtGui.QDialog):
 
         self.mainLayout = QtGui.QVBoxLayout(self)
 
-        # --- Selection panel ---
         self.sourceDir = Directory("Source")
         self.targetDir = Directory("Target")
         self.failureDir = Directory("Failure")
@@ -79,17 +74,26 @@ class GDMLExportDialog(QtGui.QDialog):
     def clearLayout(self):
         while self.mainLayout.count():
             item = self.mainLayout.takeAt(0)
-            widget = item.widget()
-            if widget:
-                widget.deleteLater()
+            w = item.widget()
+            if w:
+                w.deleteLater()
 
     # ---------------------------------------------------------------------
 
     def logFailure(self, failurePath, text):
         logFile = os.path.join(failurePath, "failure.log")
         with open(logFile, "a", encoding="utf-8") as f:
-            f.write(text)
-            f.write("\n")
+            f.write(text + "\n")
+
+    # ---------------------------------------------------------------------
+
+    def cleanupBackups(self, srcDir):
+        for pattern in ("*.FCBak", "*.FCStd1", "*.FCStd2"):
+            for bak in glob.glob(os.path.join(srcDir, pattern)):
+                try:
+                    os.remove(bak)
+                except Exception:
+                    pass
 
     # ---------------------------------------------------------------------
 
@@ -98,6 +102,8 @@ class GDMLExportDialog(QtGui.QDialog):
 
         doc = FreeCAD.openDocument(fcFile)
         fileName = os.path.basename(fcFile)
+
+        exportPath = None
 
         for obj in doc.RootObjects:
             if obj.TypeId == "App::Part":
@@ -109,6 +115,8 @@ class GDMLExportDialog(QtGui.QDialog):
 
                 freecad.gdml.exportGDML.export([obj], exportPath)
                 break
+
+        return exportPath
 
     # ---------------------------------------------------------------------
 
@@ -128,59 +136,82 @@ class GDMLExportDialog(QtGui.QDialog):
 
         processed = 0
         failures = 0
+        warnings = 0
 
-        print("\n=== GDML Batch Export ===")
+        QtWidgets.QApplication.processEvents()
 
         for fcFile in glob.glob(os.path.join(src, "*.FCStd")):
             processed += 1
-            print(f"\nProcessing: {fcFile}")
+
+            exportPath = None
+            hadException = False
+            tb = ""
 
             try:
-                self.processFile(fcFile, tgt)
-                print("  ✓ Exported")
+                exportPath = self.processFile(fcFile, tgt)
 
             except BaseException:
-                failures += 1
-                print("  ✗ FAILED")
-
+                hadException = True
                 tb = traceback.format_exc()
 
-                self.logFailure(
-                    fail,
-                    f"\nFAILED FILE: {fcFile}\n{tb}\n"
+            # --------------------------------------------------
+            # Decide outcome based on GDML file existence
+            # --------------------------------------------------
+
+            if exportPath and os.path.isfile(exportPath) and os.path.getsize(exportPath) > 0:
+                # Success
+                if hadException:
+                    warnings += 1
+                    self.logFailure(
+                        fail,
+                        f"\nWARNING (export completed): {fcFile}\n{tb}"
+                    )
+            else:
+                # Real failure
+                failures += 1
+
+                failedName = os.path.basename(fcFile).replace(
+                    ".FCStd", ".FAILED.FCStd"
                 )
 
                 try:
-                    shutil.move(
+                    shutil.copy2(
                         fcFile,
-                        os.path.join(fail, os.path.basename(fcFile))
+                        os.path.join(fail, failedName)
                     )
-                except Exception:
-                    self.logFailure(
-                        fail,
-                        "WARNING: Failed to move FCStd file\n"
-                    )
-
-            finally:
-                try:
-                    if FreeCAD.ActiveDocument:
-                        FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
                 except Exception:
                     pass
 
+                self.logFailure(
+                    fail,
+                    f"\nFAILED FILE: {fcFile}\n{tb}"
+                )
+
+            # Always close document
+            try:
+                if FreeCAD.ActiveDocument:
+                    FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
+            except Exception:
+                pass
+
+            QtWidgets.QApplication.processEvents()
+
+        self.cleanupBackups(src)
+
         # -----------------------------------------------------------------
-        # Replace panel with summary
+        # Replace UI with summary
         # -----------------------------------------------------------------
 
         self.clearLayout()
 
         title = QtGui.QLabel("GDML Export Complete")
-        title.setStyleSheet("font-size: 16pt; font-weight: bold;")
         title.setAlignment(QtCore.Qt.AlignCenter)
+        title.setStyleSheet("font-size: 16pt; font-weight: bold;")
 
         info = QtGui.QLabel(
             f"Files processed : {processed}\n"
-            f"Files failed    : {failures}"
+            f"Warnings        : {warnings}\n"
+            f"Failures        : {failures}"
         )
         info.setAlignment(QtCore.Qt.AlignCenter)
         info.setStyleSheet("font-size: 12pt;")
@@ -195,6 +226,9 @@ class GDMLExportDialog(QtGui.QDialog):
         self.mainLayout.addSpacing(20)
         self.mainLayout.addWidget(closeBtn)
         self.mainLayout.addStretch()
+
+        QtWidgets.QApplication.processEvents()
+        self.repaint()
 
 
 # -------------------------------------------------------------------------
