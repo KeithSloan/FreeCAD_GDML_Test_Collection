@@ -3,135 +3,207 @@
 # *   Copyright (c) 2024 Keith Sloan <keith@sloan-home.co.uk>              *
 # *                      Munther Hindi                                      *
 # *                                                                        *
-# *   This program is free software; you can redistribute it and/or modify *
-# *   it under the terms of the GNU Lesser General Public License (LGPL)   *
-# *   as published by the Free Software Foundation; either version 2 of    *
-# *   the License, or (at your option) any later version.                  *
-# *   for detail see the LICENCE text file.                                *
-# *                                                                        *
-# *   This program is distributed in the hope that it will be useful,      *
-# *   but WITHOUT ANY WARRANTY; without even the implied warranty of       *
-# *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        *
-# *   GNU Library General Public License for more details.                 *
-# *                                                                        *
-# *   You should have received a copy of the GNU Library General Public    *
-# *   License along with this program; if not, write to the Free Software  *
-# *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 *
-# *   USA                                                                  *
-# *                                                                        *
-# *   Acknowledgements :                                                   *
-#                                                                          *
-#     Select source and target directories
-#                      Opens any FC file in source directory
-#                      Selects any GDML root Part
-#                      Exports GDML to file in target directory
-#
 # ***************************************************************************
 
-import sys, os
+import os
+import glob
+import shutil
+import traceback
 
+import FreeCAD
+import FreeCADGui
 from PySide import QtGui, QtCore, QtWidgets
 
 
-class directory(QtGui.QWidget):
+# -------------------------------------------------------------------------
+# Directory selector widget
+# -------------------------------------------------------------------------
+
+class Directory(QtGui.QWidget):
     def __init__(self, label):
-        super(directory, self).__init__()
-        print(f"Directory {label}")
-        self.layout = QtGui.QHBoxLayout()
-        self.label = QtGui.QLabel(label)
-        self.layout.addWidget(self.label)
-        self.directoryPath = QtGui.QLineEdit("Path Not Set")
-        self.directoryPath.setReadOnly(True)
-        self.layout.addWidget(self.directoryPath)
-        self.selectButton = QtGui.QPushButton('Select')
-        self.layout.addWidget(self.selectButton)
-        self.setLayout(self.layout)
-        self.selectButton.clicked.connect(self.onSelect)
+        super(Directory, self).__init__()
 
-    def onSelect(self):
-        Path = QtWidgets.QFileDialog.getExistingDirectory(self, "Select Directory")
-        print(f"Directory Path {Path}")
-        self.directoryPath.setText(Path)
+        layout = QtGui.QHBoxLayout(self)
 
-    def getPath(self):
-        return self.directoryPath.text()
+        layout.addWidget(QtGui.QLabel(label))
+
+        self.pathEdit = QtGui.QLineEdit("Path Not Set")
+        self.pathEdit.setReadOnly(True)
+        layout.addWidget(self.pathEdit)
+
+        btn = QtGui.QPushButton("Select")
+        btn.clicked.connect(self.selectDir)
+        layout.addWidget(btn)
+
+    def selectDir(self):
+        path = QtWidgets.QFileDialog.getExistingDirectory(self, "Select Directory")
+        if path:
+            self.pathEdit.setText(path)
+
+    def path(self):
+        return self.pathEdit.text()
 
 
-class importPrompt(QtGui.QDialog):
+# -------------------------------------------------------------------------
+# Main dialog
+# -------------------------------------------------------------------------
 
-    def __init__(self, *args):
-        # from PySide2 import QtGui, QtCore, QtWidgets
-        super(importPrompt, self).__init__()
+class GDMLExportDialog(QtGui.QDialog):
+
+    def __init__(self):
+        super(GDMLExportDialog, self).__init__()
         self.initUI()
 
     def initUI(self):
-        print(f"Init Prompt")
-        mainLayout = QtGui.QVBoxLayout()
-        self.setLayout(mainLayout)
-        self.setGeometry(650, 650, 600, 200)
-        self.setWindowTitle("Create GDML exports - Choose directories    ")
+        self.setWindowTitle("Batch GDML Export")
+        self.setGeometry(600, 600, 700, 260)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
-        self.sourcePath = directory("Source")
-        mainLayout.addWidget(self.sourcePath)
-        self.targetPath = directory("Target")
-        mainLayout.addWidget(self.targetPath)
-        exportButton = QtGui.QPushButton('Perform Export of GDMLs')
-        exportButton.clicked.connect(self.onExport)
-        mainLayout.addWidget(exportButton)
-        self.show()
 
-    def join(self, path, name):
-        import os
-        return(os.path.join(path, name))
+        self.mainLayout = QtGui.QVBoxLayout(self)
 
-    def processFile(self,filePath, targetPath):
-        import freecad.gdml.exportGDML, FreeCADGui, os
-        fileName = os.path.basename(filePath)
-        FreeCAD.openDocument(filePath)
-        print(f"RootObjects len(FreeCAD.ActiveDocument.RootObjects:")
-        for obj in FreeCAD.ActiveDocument.RootObjects:
+        # --- Selection panel ---
+        self.sourceDir = Directory("Source")
+        self.targetDir = Directory("Target")
+        self.failureDir = Directory("Failure")
+
+        self.mainLayout.addWidget(self.sourceDir)
+        self.mainLayout.addWidget(self.targetDir)
+        self.mainLayout.addWidget(self.failureDir)
+
+        self.exportBtn = QtGui.QPushButton("Export GDML")
+        self.exportBtn.clicked.connect(self.onExport)
+        self.mainLayout.addWidget(self.exportBtn)
+
+    # ---------------------------------------------------------------------
+
+    def clearLayout(self):
+        while self.mainLayout.count():
+            item = self.mainLayout.takeAt(0)
+            widget = item.widget()
+            if widget:
+                widget.deleteLater()
+
+    # ---------------------------------------------------------------------
+
+    def logFailure(self, failurePath, text):
+        logFile = os.path.join(failurePath, "failure.log")
+        with open(logFile, "a", encoding="utf-8") as f:
+            f.write(text)
+            f.write("\n")
+
+    # ---------------------------------------------------------------------
+
+    def processFile(self, fcFile, targetPath):
+        import freecad.gdml.exportGDML
+
+        doc = FreeCAD.openDocument(fcFile)
+        fileName = os.path.basename(fcFile)
+
+        for obj in doc.RootObjects:
             if obj.TypeId == "App::Part":
-                print(f"Found Root Part : {obj.Label}")
-		# Add seelction for Munthers Export
+                FreeCADGui.Selection.clearSelection()
                 FreeCADGui.Selection.addSelection(obj)
-                exportName = fileName[:-6] + f"-{obj.Label}" + '.gdml' 
-                exportPath = self.join(targetPath, exportName)
-                print(
-                    f"Process FC filename {fileName} filepath {filePath} targetPath {targetPath} exportPath {exportPath}")
-                if hasattr(freecad.gdml.exportGDML, "exportOptions"):
-                    options = freecad.gdml.exportGDML.exportOptions(exportPath)
-                    # pass list of selected obj
-                    freecad.gdml.exportGDML.export([obj], exportPath)
-                else:
-                    freecad.gdml.exportGDML.export([obj], exportPath)
 
+                exportName = fileName[:-6] + f"-{obj.Label}.gdml"
+                exportPath = os.path.join(targetPath, exportName)
+
+                freecad.gdml.exportGDML.export([obj], exportPath)
                 break
 
-        FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
-
+    # ---------------------------------------------------------------------
 
     def onExport(self):
-        import os, glob
+        src = self.sourceDir.path()
+        tgt = self.targetDir.path()
+        fail = self.failureDir.path()
 
-        print(f"\nProcessing - creating GDML files for directory : {self.sourcePath.getPath()} to {self.targetPath.getPath()}")
-        # Assign directory
-        inputPath = self.sourcePath.getPath()
-        targetPath = self.targetPath.getPath()
-        currentPath = self.join(targetPath, "currentFile")
-        # Iterate over files in directory
-        for filepath in glob.glob(f"{inputPath}/*.FCStd"):
-            # save current file as info if FC crashed
-            currentFile = open(currentPath,"w")
-            currentFile.write(filepath)
-            currentFile.close()		
-            print(f"Process FC file {filepath}")
-            self.processFile(filepath, targetPath)
-        self.close()
+        if not all([src, tgt, fail]):
+            QtWidgets.QMessageBox.warning(
+                self, "Missing Paths",
+                "Please select Source, Target and Failure directories"
+            )
+            return
 
+        os.makedirs(fail, exist_ok=True)
+
+        processed = 0
+        failures = 0
+
+        print("\n=== GDML Batch Export ===")
+
+        for fcFile in glob.glob(os.path.join(src, "*.FCStd")):
+            processed += 1
+            print(f"\nProcessing: {fcFile}")
+
+            try:
+                self.processFile(fcFile, tgt)
+                print("  ✓ Exported")
+
+            except BaseException:
+                failures += 1
+                print("  ✗ FAILED")
+
+                tb = traceback.format_exc()
+
+                self.logFailure(
+                    fail,
+                    f"\nFAILED FILE: {fcFile}\n{tb}\n"
+                )
+
+                try:
+                    shutil.move(
+                        fcFile,
+                        os.path.join(fail, os.path.basename(fcFile))
+                    )
+                except Exception:
+                    self.logFailure(
+                        fail,
+                        "WARNING: Failed to move FCStd file\n"
+                    )
+
+            finally:
+                try:
+                    if FreeCAD.ActiveDocument:
+                        FreeCAD.closeDocument(FreeCAD.ActiveDocument.Name)
+                except Exception:
+                    pass
+
+        # -----------------------------------------------------------------
+        # Replace panel with summary
+        # -----------------------------------------------------------------
+
+        self.clearLayout()
+
+        title = QtGui.QLabel("GDML Export Complete")
+        title.setStyleSheet("font-size: 16pt; font-weight: bold;")
+        title.setAlignment(QtCore.Qt.AlignCenter)
+
+        info = QtGui.QLabel(
+            f"Files processed : {processed}\n"
+            f"Files failed    : {failures}"
+        )
+        info.setAlignment(QtCore.Qt.AlignCenter)
+        info.setStyleSheet("font-size: 12pt;")
+
+        closeBtn = QtGui.QPushButton("Close")
+        closeBtn.clicked.connect(self.close)
+
+        self.mainLayout.addStretch()
+        self.mainLayout.addWidget(title)
+        self.mainLayout.addSpacing(10)
+        self.mainLayout.addWidget(info)
+        self.mainLayout.addSpacing(20)
+        self.mainLayout.addWidget(closeBtn)
+        self.mainLayout.addStretch()
+
+
+# -------------------------------------------------------------------------
+# Run
+# -------------------------------------------------------------------------
 
 if FreeCAD.GuiUp:
-    prompt = importPrompt()
-    prompt.exec_()
+    dlg = GDMLExportDialog()
+    dlg.exec_()
 else:
-    print("No FreeCAD GUI") 
+    print("FreeCAD GUI not available")
 
