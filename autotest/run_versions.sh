@@ -17,6 +17,9 @@
 #   AT_ONLY             glob restricting files, e.g. 'Loft*'
 #   AT_GEANT4=1         also run autotest/run_geant4.sh on the exports
 #   AT_HEADLESS_X=1     Linux only: run FreeCAD under xvfb-run
+#   AT_SHARED_SESSION=1 test all files in one FreeCAD (faster; by default each
+#                       file gets a fresh FreeCAD so results can't depend on
+#                       which files were opened before it)
 set -u
 . "$(dirname "$0")/fclib.sh"
 
@@ -95,8 +98,18 @@ run_one() {
         done
         wait "$pid" 2>/dev/null
         rc=$?
+        # Each launch rewrites console.log and report_view.txt: keep them all.
+        [ -f "$out/console.log" ] && cat "$out/console.log" >> "$out/console_all.log"
+        [ -f "$out/report_view.txt" ] && cat "$out/report_view.txt" >> "$out/report_view_all.txt"
+        rm -f "$out/report_view.txt"
 
         if [ -f "$out/DONE" ]; then say "$label: finished"; break; fi
+        if [ -f "$out/NEXT" ] && [ -z "$reason" ]; then
+            # Runner tested one file and asked for a fresh FreeCAD
+            # (default: one file per process). Not a crash.
+            rm -f "$out/NEXT"
+            continue
+        fi
         if [ -f "$out/runner_error.txt" ]; then
             say "$label: runner aborted - see $out/runner_error.txt"; break
         fi

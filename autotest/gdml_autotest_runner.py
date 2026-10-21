@@ -44,6 +44,13 @@ GDML_SRC = os.environ.get("AT_GDML_SRC") or os.path.join(TC, "test_gdml_files")
 STAGES = set(s.strip() for s in os.environ.get("AT_STAGES", "open,export,cog,import").split(",") if s.strip())
 ONLY = os.environ.get("AT_ONLY", "")
 CONSOLE_LOG = os.environ.get("AT_CONSOLE_LOG", "")
+# By default each FreeCAD process tests ONE file and exits; run_versions.sh
+# relaunches it for the next. Results then can't depend on what an earlier
+# file left behind in the session (seen with arrayTest-7_scaled, whose
+# non-uniformly scaled clone gave a different COG depending on run order).
+# AT_SHARED_SESSION=1 tests every file in one process (faster).
+ONE_FILE = os.environ.get("AT_SHARED_SESSION", "0") != "1"
+NEXT = os.path.join(OUT, "NEXT")
 
 RESULTS = os.path.join(OUT, "results.jsonl")
 CURRENT = os.path.join(OUT, "current.json")
@@ -544,17 +551,29 @@ def main():
         done = doneKeys()
         cogMod = loadCOGModule() if "cog" in STAGES else None
 
+        todo = []
         if "open" in STAGES:
-            for p in selected(glob.glob(os.path.join(FC_SRC, "*.FCStd"))):
-                if "fc:" + os.path.basename(p) in done:
-                    continue
-                testFCFile(p, cogMod)
-
+            todo += [("fc", p) for p in selected(glob.glob(os.path.join(FC_SRC, "*.FCStd")))
+                     if "fc:" + os.path.basename(p) not in done]
         if "import" in STAGES:
-            for p in selected(glob.glob(os.path.join(GDML_SRC, "*.gdml"))):
-                if "gdml:" + os.path.basename(p) in done:
-                    continue
+            todo += [("gdml", p) for p in selected(glob.glob(os.path.join(GDML_SRC, "*.gdml")))
+                     if "gdml:" + os.path.basename(p) not in done]
+        if os.path.exists(NEXT):
+            os.remove(NEXT)
+
+        for i, (kind, p) in enumerate(todo):
+            if kind == "fc":
+                testFCFile(p, cogMod)
+            else:
                 testGDMLFile(p)
+            if ONE_FILE and i + 1 < len(todo):
+                # More to do: ask run_versions.sh for a fresh FreeCAD.
+                if os.path.exists(CURRENT):
+                    os.remove(CURRENT)
+                with open(NEXT, "w") as f:
+                    f.write(f"{len(todo) - i - 1}\n")
+                log(f"{len(todo) - i - 1} file(s) left - exiting for a fresh FreeCAD")
+                return
 
         with open(os.path.join(OUT, "DONE"), "w") as f:
             f.write(time.strftime("%Y-%m-%d %H:%M:%S\n"))
