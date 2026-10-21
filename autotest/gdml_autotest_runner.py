@@ -307,6 +307,34 @@ def consoleErrors(mark):
     return errs[:20]
 
 
+def dumpReportView():
+    """Save the Report view as shown, one line per entry with its colour
+    (red = error, orange/yellow = warning), to report_view.txt."""
+    try:
+        rv = _reportView()
+        if rv is None:
+            return
+        out = []
+        blk = rv.document().begin()
+        while blk.isValid():
+            text = blk.text()
+            colour = ""
+            # The Report view colours lines with a syntax highlighter, so the
+            # colour is in the block layout's formats, not the text itself.
+            layout = blk.layout()
+            for fr in (layout.formats() if layout is not None else []):
+                if fr.format.foreground().style():
+                    colour = fr.format.foreground().color().name()
+                    break
+            if text.strip():
+                out.append(f"{colour or '-'}\t{text}")
+            blk = blk.next()
+        with open(os.path.join(OUT, "report_view.txt"), "w", encoding="utf-8") as f:
+            f.write("\n".join(out) + "\n")
+    except Exception as e:
+        log(f"could not save Report view: {e}")
+
+
 def stopOwnMCPServer():
     """Keep test instances off the FreeCAD MCP port: if the FreeCADMCP addon
     auto-started its server in this process, stop it."""
@@ -543,6 +571,8 @@ def main():
         except Exception:
             pass
     finally:
+        processEvents()
+        dumpReportView()
         sys.stdout.flush()
         sys.stderr.flush()
         os._exit(exitCode)   # skip "save changes?" prompts on quit
