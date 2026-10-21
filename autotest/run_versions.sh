@@ -63,11 +63,12 @@ run_one() {
         say "$label: launching FreeCAD (restart $restarts)"
         rm -f "$out/runner_error.txt" "$out/env.json"
         if [ "${AT_HEADLESS_X:-0}" = 1 ]; then
-            AT_OUT="$out" AT_TC="$AT_TC" xvfb-run -a -s "-screen 0 1600x1200x24" \
-                "$gui" "$AT_DIR/gdml_autotest_runner.py" </dev/null >>"$log" 2>&1 &
+            AT_OUT="$out" AT_TC="$AT_TC" AT_CONSOLE_LOG="$out/console.log" \
+                xvfb-run -a -s "-screen 0 1600x1200x24" \
+                "$gui" --log-file "$out/console.log" "$AT_DIR/gdml_autotest_runner.py" </dev/null >>"$log" 2>&1 &
         else
-            AT_OUT="$out" AT_TC="$AT_TC" \
-                "$gui" "$AT_DIR/gdml_autotest_runner.py" </dev/null >>"$log" 2>&1 &
+            AT_OUT="$out" AT_TC="$AT_TC" AT_CONSOLE_LOG="$out/console.log" \
+                "$gui" --log-file "$out/console.log" "$AT_DIR/gdml_autotest_runner.py" </dev/null >>"$log" 2>&1 &
         fi
         pid=$!
         launched=$(date +%s)

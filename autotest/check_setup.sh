@@ -40,6 +40,12 @@ except Exception:
     print("AT_LXML=NO - GDML export falls back to xml.etree")
 names = sorted(os.listdir(mod)) if os.path.isdir(mod) else []
 print("AT_FASTENERS=" + ("yes" if any(n.lower().startswith("fasteners") for n in names) else "no"))
+for _label, _mod in (("FASTENERS_IMPORT", "FastenersCmd"), ("GEARS_IMPORT", "freecad.gears")):
+    try:
+        __import__(_mod)
+        print("AT_" + _label + "=yes")
+    except Exception as e:
+        print("AT_" + _label + "=NO: " + str(e)[:120])
 print("AT_MODS=" + ",".join(names))
 EOF
 
@@ -65,7 +71,8 @@ at_versions | while IFS='|' read -r label path; do
             echo "    GDML git: $(git -C "$gdml" rev-parse --abbrev-ref HEAD 2>/dev/null)@$(git -C "$gdml" rev-parse --short HEAD 2>/dev/null)" ;;
     esac
     echo "    lxml    : $(get AT_LXML)"
-    echo "    Fasteners: $(get AT_FASTENERS)"
+    echo "    Fasteners: $(get AT_FASTENERS)  import: $(get AT_FASTENERS_IMPORT)"
+    echo "    Gears   : $(get AT_GEARS_IMPORT)"
     echo "    Mods    : $(get AT_MODS)"
     case "$gdml" in
         NOT*|"")

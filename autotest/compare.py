@@ -155,6 +155,10 @@ def baselineFor(fcName):
 
 
 def firstErrorLine(rec):
+    if rec.get("missing_addons"):
+        msgs = rec.get("missing_addon_messages") or []
+        return ("[open] needs addon(s) not importable here: " + ", ".join(rec["missing_addons"])
+                + (f" ({msgs[0][:150]})" if msgs else ""))
     for st in ("open", "export", "cog", "import", "roundtrip"):
         e = rec.get(st, {}).get("error")
         if e:

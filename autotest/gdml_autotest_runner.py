@@ -26,6 +26,7 @@ import importlib.util
 import json
 import os
 import platform
+import re
 import subprocess
 import sys
 import time
@@ -42,6 +43,7 @@ FC_SRC = os.environ.get("AT_FC_SRC") or os.path.join(TC, "FC_test_files")
 GDML_SRC = os.environ.get("AT_GDML_SRC") or os.path.join(TC, "test_gdml_files")
 STAGES = set(s.strip() for s in os.environ.get("AT_STAGES", "open,export,cog,import").split(",") if s.strip())
 ONLY = os.environ.get("AT_ONLY", "")
+CONSOLE_LOG = os.environ.get("AT_CONSOLE_LOG", "")
 
 RESULTS = os.path.join(OUT, "results.jsonl")
 CURRENT = os.path.join(OUT, "current.json")
@@ -209,6 +211,81 @@ def nonEmpty(path):
     return bool(path) and os.path.isfile(path) and os.path.getsize(path) > 0
 
 
+# -------------------------------------------------------------------------
+# Console capture: a file that needs an addon this FreeCAD can't import
+# (Fasteners, Gears, ...) still opens, using the shapes stored in it, so it
+# would look like a pass. FreeCAD reports the failed import on the console,
+# so scan what was printed while the file was opened.
+# GDML's own groups have no proxy, so a proxy check can't be used instead.
+# -------------------------------------------------------------------------
+
+_MISSING_RE = re.compile(r"no module named|blocked import", re.IGNORECASE)
+_MODNAME_RE = re.compile(r"""(?:no module named|blocked import(?: of)?(?: module)?)\W*([A-Za-z_][\w.]*)""",
+                         re.IGNORECASE)
+
+
+def _reportView():
+    try:
+        mw = FreeCADGui.getMainWindow()
+        dock = mw.findChild(QtWidgets.QDockWidget, "Report view")
+        w = dock.widget() if dock else None
+        return w if w is not None and hasattr(w, "toPlainText") else None
+    except Exception:
+        return None
+
+
+def consoleMark():
+    logSize = os.path.getsize(CONSOLE_LOG) if CONSOLE_LOG and os.path.isfile(CONSOLE_LOG) else 0
+    rv = _reportView()
+    return (logSize, len(rv.toPlainText()) if rv is not None else 0)
+
+
+def consoleSince(mark):
+    text = ""
+    if CONSOLE_LOG and os.path.isfile(CONSOLE_LOG):
+        try:
+            with open(CONSOLE_LOG, "rb") as f:
+                f.seek(mark[0])
+                text += f.read().decode("utf-8", "replace")
+        except Exception:
+            pass
+    rv = _reportView()
+    if rv is not None:
+        try:
+            text += "\n" + rv.toPlainText()[mark[1]:]
+        except Exception:
+            pass
+    return text
+
+
+def missingAddons(text):
+    """(module names, matching console lines) for failed imports in text."""
+    lines, mods = [], []
+    for line in text.splitlines():
+        if _MISSING_RE.search(line):
+            line = line.strip()
+            if line not in lines:
+                lines.append(line[:300])
+            m = _MODNAME_RE.search(line)
+            if m:
+                name = m.group(1).strip(".")
+                if name and name not in mods:
+                    mods.append(name)
+    return mods, lines
+
+
+def stopOwnMCPServer():
+    """Keep test instances off the FreeCAD MCP port: if the FreeCADMCP addon
+    auto-started its server in this process, stop it."""
+    try:
+        mod = sys.modules.get("rpc_server.rpc_server")
+        if mod is not None and getattr(mod, "rpc_server_instance", None) is not None:
+            mod.stop_rpc_server()
+            log("stopped FreeCAD MCP server in this test instance")
+    except Exception as e:
+        log(f"could not stop MCP server: {e}")
+
+
 def runStage(rec, stage, fn):
     """Run one stage, record ok/error/time; never raises."""
     heartbeat(stage=stage)
@@ -238,6 +315,7 @@ def testFCFile(fcPath, cogMod):
     ctx = {}
 
     def stOpen():
+        mark = consoleMark()
         doc = FreeCAD.openDocument(fcPath)
         processEvents()
         ctx["doc"] = doc
@@ -247,6 +325,9 @@ def testFCFile(fcPath, cogMod):
         after = invalidObjects(doc)
         part = rootPart(doc)
         ctx["part"] = part
+        mods, lines = missingAddons(consoleSince(mark))
+        rec["missing_addons"] = mods or (["?"] if lines else [])
+        rec["missing_addon_messages"] = lines
         return {
             "objects": len(doc.Objects),
             "invalid_before_recompute": before,
@@ -348,6 +429,9 @@ def testGDMLFile(gdmlPath):
 
 
 def summarise(rec, stages):
+    # Not a real test: FreeCAD fell back to the shapes stored in the file.
+    if rec.get("missing_addons"):
+        return "MISSING_ADDON"
     for st in stages:
         if st in rec and not rec[st].get("ok"):
             return f"FAIL_{st.upper()}"
@@ -387,6 +471,7 @@ def main():
 
         # Workbench must be importable for document proxies to restore.
         import freecad.gdml  # noqa: F401
+        stopOwnMCPServer()
         writeEnv()
         done = doneKeys()
         cogMod = loadCOGModule() if "cog" in STAGES else None

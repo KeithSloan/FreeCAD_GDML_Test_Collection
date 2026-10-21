@@ -5,3 +5,4 @@ history*.mac
 # autotest output
 autotest_results/
 __pycache__/
+autotest_results*.log
