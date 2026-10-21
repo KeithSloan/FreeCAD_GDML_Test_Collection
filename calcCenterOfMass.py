@@ -45,6 +45,24 @@ class Moments:
         return rot*self.M*rinv
 
 
+def documentTree(doc):
+    ''' Return the main window's document tree widget.
+    FreeCAD 26.x has more than one QTreeWidget in the main window, and the
+    document tree is no longer guaranteed to be the first, so pick the one
+    whose top-level items include this document's label.
+    '''
+    trees = FreeCADGui.getMainWindow().findChildren(QtGui.QTreeWidget)
+    for tree in trees:
+        for i in range(tree.topLevelItemCount()):
+            top = tree.topLevelItem(i)
+            if top.text(0) == doc.Label:
+                return tree
+            for j in range(top.childCount()):
+                if top.child(j).text(0) == doc.Label:
+                    return tree
+    return trees[0]
+
+
 def buildDocTree():
 
     global childObjects
@@ -74,9 +92,9 @@ def buildDocTree():
 
     # Get world volume from document tree widget
     worldObj = FreeCADGui.Selection.getSelection()[0]
-    tree = FreeCADGui.getMainWindow().findChildren(QtGui.QTreeWidget)[0]
-    it = QtGui.QTreeWidgetItemIterator(tree)
     doc = FreeCAD.ActiveDocument
+    tree = documentTree(doc)
+    it = QtGui.QTreeWidgetItemIterator(tree)
     found = False
 
     for nextObject in it:
