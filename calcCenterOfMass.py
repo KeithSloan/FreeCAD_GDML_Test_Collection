@@ -87,7 +87,7 @@ def buildDocTree():
                     # print(f"added {treeLabel}")
                     addDaughters(childItem)
             except Exception as e:
-                print(e)
+                report(f"tree item '{treeLabel}' under '{objectLabel}' skipped: {e}")
         return
 
     # Get world volume from document tree widget
@@ -117,8 +117,7 @@ def buildDocTree():
                 addDaughters(item)
                 break
         except Exception as e:
-            print(e)
-            FreeCADobject = None
+            report(f"tree item '{treeLabel}' skipped: {e}")
 
 
 def MonteCarloMoments(shape, nsim: int) -> Moments:
@@ -184,6 +183,78 @@ def MonteCarloMoments(shape, nsim: int) -> Moments:
     return moments
 
 
+problems: list = []
+
+
+def report(msg):
+    ''' Record a problem that may make the result wrong. It goes to FreeCAD's
+    error output (red in the Report view), so an automated run flags it
+    instead of silently producing a wrong centre of mass.
+    '''
+    problems.append(msg)
+    try:
+        FreeCAD.Console.PrintError(f"COG: {msg}\n")
+    except Exception:
+        print(f"ERROR - COG: {msg}")
+
+
+def isArrayOfParts(obj) -> bool:
+    ''' A Draft array whose base is an App::Part. In FreeCAD 1.1 its Shape is
+    null once recomputed (Draft only builds shapes from shape-bearing bases),
+    so its geometry has to be rebuilt from the base Part and PlacementList.
+    '''
+    base = getattr(obj, 'Base', None)
+    return (base is not None and getattr(base, 'TypeId', '') == 'App::Part'
+            and hasattr(obj, 'PlacementList') and hasattr(obj, 'Shape')
+            and (obj.Shape.isNull() or not obj.Shape.isValid()))
+
+
+def localShape(obj):
+    ''' Shape of obj in its parent's coordinates (i.e. including
+    obj.Placement), built from the document tree for App::Parts and for
+    arrays of Parts.
+    '''
+    if obj.TypeId == 'App::Part':
+        shapes = [localShape(child) for child in topObjects(obj)]
+        comp = Part.makeCompound([sh for sh in shapes if sh is not None and not sh.isNull()])
+        comp.Placement = obj.Placement
+        return comp
+    if isArrayOfParts(obj):
+        base = localShape(obj.Base)
+        copies = []
+        for pla in obj.PlacementList:   # as Draft does: each copy placed at pla
+            copy = base.copy()
+            copy.Placement = pla
+            copies.append(copy)
+        comp = Part.makeCompound(copies)
+        comp.Placement = obj.Placement
+        return comp
+    if hasattr(obj, 'Shape'):
+        if obj.Shape.isNull() or not obj.Shape.isValid():
+            raise RuntimeError(f"'{obj.Label}' has no valid shape")
+        return obj.Shape.copy()
+    return None
+
+
+def shapeMoments(shape, label) -> tuple:
+    ''' (volume, volume-weighted centre, inertia about the origin) summed over
+    the solids of a shape that is already in world coordinates.
+    '''
+    vol: float = 0
+    cmSum: Vector = Vector(0, 0, 0)
+    II: Matrix = Matrix(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+    solids = shape.Solids
+    if not solids:
+        report(f"'{label}' contains no solids")
+    for solid in solids:
+        v = solid.Volume
+        mom = Moments(v, solid.CenterOfMass, solid.MatrixOfInertia)
+        II += mom.inertiaAboutOrigin()
+        cmSum += v * solid.CenterOfMass
+        vol += v
+    return (vol, cmSum, II)
+
+
 def topObjects(part) -> list:
     ''' return a list containing the top shapes contained in part
     a top shape may contain other shapes, but cannot be contained in
@@ -211,7 +282,20 @@ def partCM(part) -> tuple:
     II: Matrix = Matrix(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
     for obj in outerObjects:
-        if hasattr(obj, 'Shape'):
+        if isArrayOfParts(obj):
+            # Rebuild from the base Part: world placement of the array's parent
+            # times the array's shape in parent coordinates.
+            parentPl = obj.getGlobalPlacement().multiply(obj.Placement.inverse())
+            shape = localShape(obj)
+            shape.Placement = parentPl.multiply(shape.Placement)
+            vol, cmSum, IIorigin = shapeMoments(shape, obj.Label)
+            II += IIorigin
+            cm += cmSum
+            totVol += vol
+
+        elif hasattr(obj, 'Shape'):
+            if obj.Shape.isNull() or not obj.Shape.isValid():
+                raise RuntimeError(f"'{obj.Label}' ({obj.TypeId}) has no valid shape")
             vol = obj.Shape.Volume
             shape = obj.Shape
             cm0 = obj.Shape.CenterOfGravity
@@ -294,8 +378,10 @@ def partCM(part) -> tuple:
             cm += partVol * cm0
             totVol += partVol
             II += II0
-            prettyPrint(obj.Label, partVol, cm0, II0)
+            prettyPrint(obj.Label, partVol, cm0, II0, sys.stdout)
 
+    if totVol == 0:
+        raise RuntimeError(f"'{part.Label}': no volume found")
     cm /= totVol
 
     return (totVol, cm, II)
@@ -367,7 +453,10 @@ def calcCenterOfMass(outfile=sys.stdout):
     totVol = 0
     II: Matrix = Matrix(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
     childObjects = {}
+    problems.clear()
     buildDocTree()
+    if wv not in childObjects:
+        raise RuntimeError(f"'{wv.Label}' not found in the document tree")
 
     # for debugging doc tree
     for obj in childObjects:
@@ -385,10 +474,14 @@ def calcCenterOfMass(outfile=sys.stdout):
             totVol += vol
             II += II0
 
+    if totVol == 0:
+        raise RuntimeError(f"'{wv.Label}': no volume found")
     cm = cm / totVol
 
     print(file=outfile)
     prettyPrint("Total ", totVol, cm, II, outfile)
+    if outfile is not sys.stdout:
+        outfile.close()
 
 if __name__ == '__main__':
     calcCenterOfMass()
