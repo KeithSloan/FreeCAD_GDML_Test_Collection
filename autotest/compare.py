@@ -159,6 +159,9 @@ def firstErrorLine(rec):
         msgs = rec.get("missing_addon_messages") or []
         return ("[open] needs addon(s) not importable here: " + ", ".join(rec["missing_addons"])
                 + (f" ({msgs[0][:150]})" if msgs else ""))
+    if rec.get("status") == "CONSOLE_ERRORS" and rec.get("console_errors"):
+        n = len(rec["console_errors"])
+        return f"[console] {rec['console_errors'][0][:200]}" + (f" (+{n - 1} more)" if n > 1 else "")
     for st in ("open", "export", "cog", "import", "roundtrip"):
         e = rec.get(st, {}).get("error")
         if e:

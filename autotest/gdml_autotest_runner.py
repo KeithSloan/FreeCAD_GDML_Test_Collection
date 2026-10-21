@@ -274,6 +274,39 @@ def missingAddons(text):
     return mods, lines
 
 
+# Errors FreeCAD printed while a file was processed. A file can pass every
+# stage and still log errors (e.g. an undefined material), so record them.
+# Startup noise from other addons happens before the first file and is not
+# attributed to any file.
+_LOG_ENTRY_RE = re.compile(r"(Msg|Err|Wrn|Log): ")
+_IGNORE_ERR_RE = re.compile(r"3DconnexionNavlib|^-+$|^\s*$")
+
+
+def consoleErrors(mark):
+    """Error lines from the console log since mark: FreeCAD 'Err:' entries
+    and printed messages starting with ERROR."""
+    if not (CONSOLE_LOG and os.path.isfile(CONSOLE_LOG)):
+        return []
+    try:
+        with open(CONSOLE_LOG, "rb") as f:
+            f.seek(mark[0])
+            text = f.read().decode("utf-8", "replace")
+    except Exception:
+        return []
+    parts = _LOG_ENTRY_RE.split(text)
+    errs = []
+    # parts: [pre, kind, body, kind, body, ...]
+    for kind, body in zip(parts[1::2], parts[2::2]):
+        body = body.strip()
+        first = body.splitlines()[0].strip() if body else ""
+        if kind == "Err" or (kind == "Msg" and first.upper().startswith("ERROR")):
+            if first and not _IGNORE_ERR_RE.search(first) and not first.startswith("Traceback"):
+                line = first[:300]
+                if line not in errs:
+                    errs.append(line)
+    return errs[:20]
+
+
 def stopOwnMCPServer():
     """Keep test instances off the FreeCAD MCP port: if the FreeCADMCP addon
     auto-started its server in this process, stop it."""
@@ -313,6 +346,7 @@ def testFCFile(fcPath, cogMod):
     _state["dialogs"] = []
     heartbeat(file=name, stage="start")
     ctx = {}
+    fileMark = consoleMark()
 
     def stOpen():
         mark = consoleMark()
@@ -370,6 +404,7 @@ def testFCFile(fcPath, cogMod):
         closeAll()
 
     rec["dialogs"] = list(_state["dialogs"])
+    rec["console_errors"] = consoleErrors(fileMark)
     rec["status"] = summarise(rec, ["open", "export", "cog"])
     appendResult(rec)
     log(f"{name}: {rec['status']}")
@@ -389,6 +424,7 @@ def testGDMLFile(gdmlPath):
     _state["dialogs"] = []
     heartbeat(file=name, stage="start")
     ctx = {}
+    fileMark = consoleMark()
 
     def stImport():
         doc = FreeCAD.newDocument(stem.replace("-", "_").replace(".", "_"))
@@ -423,6 +459,7 @@ def testGDMLFile(gdmlPath):
         closeAll()
 
     rec["dialogs"] = list(_state["dialogs"])
+    rec["console_errors"] = consoleErrors(fileMark)
     rec["status"] = summarise(rec, ["import", "roundtrip"])
     appendResult(rec)
     log(f"{name}: {rec['status']}")
@@ -435,6 +472,8 @@ def summarise(rec, stages):
     for st in stages:
         if st in rec and not rec[st].get("ok"):
             return f"FAIL_{st.upper()}"
+    if rec.get("console_errors"):
+        return "CONSOLE_ERRORS"
     if rec.get("dialogs"):
         return "OK_WITH_DIALOGS"
     return "OK"
