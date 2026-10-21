@@ -322,6 +322,7 @@ def stopOwnMCPServer():
 def runStage(rec, stage, fn):
     """Run one stage, record ok/error/time; never raises."""
     heartbeat(stage=stage)
+    log(f"--- {_state['file']}: stage {stage}")
     t0 = time.time()
     try:
         rec[stage] = fn() or {}
