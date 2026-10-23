@@ -417,7 +417,8 @@ def testFCFile(fcPath, cogMod):
         exportGDML.export([part], path)
         ok = nonEmpty(path)
         return {"path": os.path.relpath(path, OUT), "bytes": os.path.getsize(path) if ok else 0,
-                "ok": ok, "error": None if ok else "export produced no file"}
+                "ok": ok, "error": None if ok else "export produced no file",
+                "log": exportLog(path)}
 
     def stCOG():
         part = ctx["part"]
@@ -485,7 +486,8 @@ def testGDMLFile(gdmlPath):
         exportGDML.export([part], path)
         ok = nonEmpty(path)
         return {"path": os.path.relpath(path, OUT), "bytes": os.path.getsize(path) if ok else 0,
-                "ok": ok, "error": None if ok else "re-export produced no file"}
+                "ok": ok, "error": None if ok else "re-export produced no file",
+                "log": exportLog(path)}
 
     try:
         if runStage(rec, "import", stImport):
@@ -501,6 +503,20 @@ def testGDMLFile(gdmlPath):
     log(f"{name}: {rec['status']}")
 
 
+def exportLog(gdmlPath):
+    """Warnings/errors the GDML exporter wrote to <file>.gdml.log
+    (GDMLLog, in workbenches that have it).  None if there is no log."""
+    logPath = gdmlPath + ".log"
+    if not os.path.isfile(logPath):
+        return None
+    found = []
+    with open(logPath, encoding="utf-8", errors="replace") as f:
+        for line in f:
+            if line.startswith(("WARNING:", "ERROR:", "CRITICAL:")):
+                found.append(line.rstrip("\r\n"))
+    return {"path": os.path.relpath(logPath, OUT), "messages": found}
+
+
 def summarise(rec, stages):
     # Not a real test: FreeCAD fell back to the shapes stored in the file.
     if rec.get("missing_addons"):
@@ -512,6 +528,9 @@ def summarise(rec, stages):
         return "CONSOLE_ERRORS"
     if rec.get("dialogs"):
         return "OK_WITH_DIALOGS"
+    for st in ("export", "roundtrip"):
+        if ((rec.get(st) or {}).get("log") or {}).get("messages"):
+            return "OK_WITH_WARNINGS"
     return "OK"
 
 

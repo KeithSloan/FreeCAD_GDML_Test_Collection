@@ -76,8 +76,13 @@ autotest_results/<run>/
   <version>/dialogs.log  freecad.log  geant4.jsonl
 ```
 
-Statuses: `OK`, `OK_WITH_DIALOGS`, `FAIL_OPEN`, `FAIL_EXPORT`, `FAIL_COG`,
-`FAIL_IMPORT`, `FAIL_ROUNDTRIP`, `CRASH`, `TIMEOUT`.
+Statuses: `OK`, `OK_WITH_DIALOGS`, `OK_WITH_WARNINGS`, `FAIL_OPEN`,
+`FAIL_EXPORT`, `FAIL_COG`, `FAIL_IMPORT`, `FAIL_ROUNDTRIP`, `CRASH`, `TIMEOUT`.
+
+`OK_WITH_WARNINGS`: the export worked but the GDML exporter logged warnings
+or errors in `<export>.gdml.log` (written beside each exported file by
+workbenches with `GDMLLog`; the same lines appear in the Report View).
+The report lists the first message per file.
 
 COG tolerances (in `compare.py`): volume 0.1 %, centre of mass 0.1 % or
 0.02 mm, inertia 1 % (printed to 4 significant figures, may be Monte Carlo).

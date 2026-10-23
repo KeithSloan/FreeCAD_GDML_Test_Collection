@@ -206,6 +206,11 @@ def main(runDir):
                 e["invalid_after_recompute"] = r["open"]["invalid_after_recompute"]
             if r.get("dialogs"):
                 e["dialogs"] = [f"{d.get('title')}: {d.get('text')}" for d in r["dialogs"]]
+            logMsgs = []
+            for st in ("export", "roundtrip"):
+                logMsgs += ((r.get(st) or {}).get("log") or {}).get("messages") or []
+            if logMsgs:
+                e["export_log"] = logMsgs
             cogText = r.get("cog", {}).get("text")
             if cogText:
                 cogs[lab] = parseCOG(cogText)
@@ -235,6 +240,10 @@ def main(runDir):
                 entry["flags"].append(f"GDML structure differs from baseline in {lab}")
             if e.get("invalid_after_recompute"):
                 entry["flags"].append(f"invalid objects after recompute in {lab}")
+            if e.get("export_log"):
+                n = len(e["export_log"])
+                entry["flags"].append(f"export log in {lab}: {e['export_log'][0][:200]}"
+                                      + (f" (+{n - 1} more)" if n > 1 else ""))
             if e.get("geant4") and e["geant4"] != "OK":
                 entry["flags"].append(f"Geant4 {e['geant4']} in {lab}")
         if len(cogs) > 1:
