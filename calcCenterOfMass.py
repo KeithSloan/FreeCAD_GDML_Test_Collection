@@ -255,6 +255,13 @@ def shapeMoments(shape, label) -> tuple:
     return (vol, cmSum, II)
 
 
+def exported(obj) -> bool:
+    ''' False for objects the GDML exporter skips (exportFlag = False),
+    e.g. the hidden original of an expanded array, so the COG covers
+    exactly what is exported (same test as exportGDML.checkExportFlag) '''
+    return getattr(obj, "exportFlag", True) is not False
+
+
 def topObjects(part) -> list:
     ''' return a list containing the top shapes contained in part
     a top shape may contain other shapes, but cannot be contained in
@@ -282,6 +289,8 @@ def partCM(part) -> tuple:
     II: Matrix = Matrix(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
     for obj in outerObjects:
+        if not exported(obj):
+            continue
         if isArrayOfParts(obj):
             # Rebuild from the base Part: world placement of the array's parent
             # times the array's shape in parent coordinates.
@@ -466,7 +475,7 @@ def calcCenterOfMass(outfile=sys.stdout):
         print(f"{obj.Label} [{s}]")
 
     for part in childObjects[wv]:
-        if part.TypeId == 'App::Part':
+        if part.TypeId == 'App::Part' and exported(part):
             vol, cm0, II0 = partCM(part)
             prettyPrint(part.Label, vol, cm0, II0, outfile)
 
