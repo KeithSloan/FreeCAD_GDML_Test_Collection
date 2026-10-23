@@ -57,7 +57,7 @@ was on is recorded as `CRASH`/`TIMEOUT` and FreeCAD is relaunched for the rest.
 | `AT_STARTUP_TIMEOUT` | 300 | seconds for FreeCAD to start the runner |
 | `AT_MAX_RESTARTS` | 25 | relaunches per version after crashes |
 | `AT_STAGES` | `open,export,cog,import` | stages to run |
-| `AT_ONLY` | | glob restricting file names |
+| `AT_ONLY` | | glob(s) restricting file names, comma-separated |
 | `AT_GEANT4` | 0 | `1` = also load every export with `load_gdml_color` |
 | `AT_VERSIONS_CONF` | `autotest/versions.conf` | alternative version list |
 | `AT_HEADLESS_X` | 0 | Linux only: run under `xvfb-run` |

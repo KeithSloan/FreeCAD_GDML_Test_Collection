@@ -12,7 +12,7 @@
 # *     AT_FC_SRC    FC files dir     (default $AT_TC/FC_test_files)        *
 # *     AT_GDML_SRC  GDML files dir   (default $AT_TC/test_gdml_files)      *
 # *     AT_STAGES    comma list: open,export,cog,import (default all)       *
-# *     AT_ONLY      optional glob to restrict files, e.g. "Loft*"          *
+# *     AT_ONLY      optional glob(s), comma-separated, e.g. "Loft*,Sweep*" *
 # *                                                                         *
 # *   Results: $AT_OUT/results.jsonl (one JSON line per file), env.json,    *
 # *   exported_gdml/, cogs/, roundtrip_gdml/, dialogs.log, DONE marker.     *
@@ -522,7 +522,9 @@ def summarise(rec, stages):
 def selected(paths):
     paths = sorted(paths)
     if ONLY:
-        paths = [p for p in paths if fnmatch.fnmatch(os.path.basename(p), ONLY)]
+        pats = [x.strip() for x in ONLY.split(",") if x.strip()]
+        paths = [p for p in paths
+                 if any(fnmatch.fnmatch(os.path.basename(p), x) for x in pats)]
     return paths
 
 

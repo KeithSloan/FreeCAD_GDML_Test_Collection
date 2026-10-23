@@ -14,7 +14,7 @@
 #   AT_STARTUP_TIMEOUT  secs for FreeCAD to start the runner              (default 300)
 #   AT_MAX_RESTARTS     relaunches per version after crashes/hangs        (default 25)
 #   AT_STAGES           open,export,cog,import                            (default all)
-#   AT_ONLY             glob restricting files, e.g. 'Loft*'
+#   AT_ONLY             glob(s) restricting files, comma-separated, e.g. 'Loft*,Sweep*'
 #   AT_GEANT4=1         also run autotest/run_geant4.sh on the exports
 #   AT_HEADLESS_X=1     Linux only: run FreeCAD under xvfb-run
 #   AT_SHARED_SESSION=1 test all files in one FreeCAD (faster; by default each
