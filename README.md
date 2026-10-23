@@ -68,7 +68,7 @@ see directory MH_G4_Examples / MH_G01
     runs Munther's `load_gdml_color -printCM` on every export of an
     autotest run and compares volume, centre of mass and inertia with
     FreeCAD's (`geant4_cog.md`). See `autotest/README.md`, and
-    [TESTING.md](https://github.com/KeithSloan/GDML/blob/fix-export-refs/TESTING.md)
+    [TESTING.md](https://github.com/KeithSloan/GDML/blob/Main/TESTING.md)
     in the GDML repo for setup and the FreeCAD 1.1.3 results.
                                 
 
