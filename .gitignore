@@ -6,3 +6,5 @@ history*.mac
 autotest_results/
 __pycache__/
 autotest_results*.log
+# local conda Geant4 build of load_gdml_color (see GDML TESTING.md)
+MH_G4_Example/MH_G01/build-conda/
