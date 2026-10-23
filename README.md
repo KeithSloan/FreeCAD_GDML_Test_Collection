@@ -61,9 +61,15 @@ see directory MH_G4_Examples / MH_G01
 
         run script geant4COG.sh
 
-  * TODO run comparison script
+  * compare FreeCAD and Geant4 COGs
 
-            Sources : FC_COGs and Geant4_COGs
+        autotest/run_geant4.sh autotest_results/<run>
+
+    runs Munther's `load_gdml_color -printCM` on every export of an
+    autotest run and compares volume, centre of mass and inertia with
+    FreeCAD's (`geant4_cog.md`). See `autotest/README.md`, and
+    [TESTING.md](https://github.com/KeithSloan/GDML/blob/fix-export-refs/TESTING.md)
+    in the GDML repo for setup and the FreeCAD 1.1.3 results.
                                 
 
 
