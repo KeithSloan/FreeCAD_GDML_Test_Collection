@@ -1,0 +1,36 @@
+G4GDML: Reading 'COG_Expanded_simple_array-World.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+Checking overlaps for volume Det001_PV:1 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_Obj001_pv_0:1 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_Obj001_pv_1:2 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume av_2_impr_2_Obj001_pv_1:2 (G4Box)
+          apparently fully encapsulating volume av_2_impr_2_Obj001_pv_0:1 (G4Box) at the same level!
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW ------- G4Exception-END -------- WWWW -------
+
+Checking overlaps for volume av_2_impr_2_Obj001_pv_2:3 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_Obj001_pv_3:4 (G4Box) ... OK! 
+Checking overlaps for volume av_2_impr_2_Obj001_pv_4:5 (G4Box) ... OK! 
+
+-------- EEEE ------- G4Exception-START -------- EEEE -------
+
+*** ExceptionHandler is not defined ***
+*** G4Exception : ReadError
+      issued by : G4GDMLReadStructure::GetPhysvol()
+Referenced physvol 'PV_Obj' was not found!
+*** Fatal Exception ***
+-------- EEEE ------- G4Exception-END -------- EEEE -------
+
+
+*** G4Exception: Aborting execution ***
+_: line 1: 24798 Abort trap: 6           perl -e 'alarm shift; exec @ARGV or die' "$G4_TIMEOUT" "$G4_BIN" "$f" -printCM $NSIM_ARG -m=batch.mac
