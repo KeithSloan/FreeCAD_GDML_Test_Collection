@@ -20,6 +20,11 @@
 #   AT_SHARED_SESSION=1 test all files in one FreeCAD (faster; by default each
 #                       file gets a fresh FreeCAD so results can't depend on
 #                       which files were opened before it)
+#   AT_ALLOW_RUNNING_FREECAD=1  run even though another FreeCAD is open
+#                       (not recommended - see the check below)
+#
+# Quit every FreeCAD before running this script: it stops if one is open.
+# (autotest/run_geant4.sh does not need FreeCAD closed.)
 set -u
 . "$(dirname "$0")/fclib.sh"
 
@@ -29,6 +34,20 @@ MAX_RESTARTS="${AT_MAX_RESTARTS:-25}"
 RUN_ID="${AT_RUN_ID:-$(date +%Y%m%d-%H%M%S)}"
 RUN_DIR="${AT_RESULTS:-$AT_TC/autotest_results}/$RUN_ID"
 PY="$(at_python)"
+
+# Another FreeCAD must not be open during the run: with its "single instance"
+# option on it can be handed the test script, and its session data makes each
+# freshly launched test FreeCAD show the Document Recovery dialog (files then
+# come out OK_WITH_DIALOGS). Checked before the run directory is created.
+RUNNING_FC="$(pgrep -x FreeCAD 2>/dev/null; pgrep -x freecad 2>/dev/null)"
+RUNNING_FC="$(echo $RUNNING_FC)"   # one line: "pid pid ..."
+if [ -n "$RUNNING_FC" ] && [ "${AT_ALLOW_RUNNING_FREECAD:-0}" != 1 ]; then
+    echo "run_versions: FreeCAD is already running (pid $RUNNING_FC) - quit it first." >&2
+    echo "  An open FreeCAD can be handed the test script ('single instance') and makes" >&2
+    echo "  each test FreeCAD show the Document Recovery dialog." >&2
+    echo "  To run anyway: AT_ALLOW_RUNNING_FREECAD=1 autotest/run_versions.sh ..." >&2
+    exit 1
+fi
 mkdir -p "$RUN_DIR"
 
 if [ "$(uname)" = Darwin ]; then
@@ -38,9 +57,10 @@ else
 fi
 say() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$RUN_DIR/run.log"; }
 
-if pgrep -x FreeCAD >/dev/null 2>&1 || pgrep -x freecad >/dev/null 2>&1; then
-    say "WARNING: a FreeCAD is already running. If its 'single instance' option is on,"
-    say "         the test script may be handed to it instead. Quit it if results look empty."
+if [ -n "$RUNNING_FC" ]; then
+    say "WARNING: FreeCAD already running (pid $RUNNING_FC), AT_ALLOW_RUNNING_FREECAD=1 set."
+    say "         Expect Document Recovery dialogs (OK_WITH_DIALOGS), or an empty run if"
+    say "         its 'single instance' option is on."
 fi
 
 VLIST="$RUN_DIR/versions.txt"

@@ -27,7 +27,14 @@ AT_ONLY='Loft*' autotest/run_versions.sh     # a subset of files
 ```
 
 Before the first run, open each new FreeCAD once by hand and dismiss any
-first-run / Gatekeeper dialogs. Quit other FreeCAD instances while it runs.
+first-run / Gatekeeper dialogs.
+
+Quit every FreeCAD before `run_versions.sh`: it stops with an error if one is
+open, because an open FreeCAD can be handed the test script (its "single
+instance" option) and makes each test FreeCAD show the Document Recovery
+dialog, so files come out `OK_WITH_DIALOGS`. `AT_ALLOW_RUNNING_FREECAD=1`
+overrides this. The Geant4 stage (`run_geant4.sh`) does not start FreeCAD
+and can run with it open.
 
 ## Why the GUI, not freecadcmd
 
@@ -61,6 +68,7 @@ was on is recorded as `CRASH`/`TIMEOUT` and FreeCAD is relaunched for the rest.
 | `AT_GEANT4` | 0 | `1` = also load every export with `load_gdml_color` |
 | `AT_VERSIONS_CONF` | `autotest/versions.conf` | alternative version list |
 | `AT_HEADLESS_X` | 0 | Linux only: run under `xvfb-run` |
+| `AT_ALLOW_RUNNING_FREECAD` | 0 | `1` = run even though another FreeCAD is open (not recommended) |
 | `GDML_REPO` | `~/Workbenches/GDML` | used by `check_setup.sh --link` |
 
 ## Output
